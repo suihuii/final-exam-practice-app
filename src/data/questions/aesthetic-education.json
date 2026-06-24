@@ -1,0 +1,5847 @@
+[
+  {
+    "id": "AE-P1-Q0001",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 1,
+    "paperIndex": 1,
+    "type": "single",
+    "stem": "鲁迅《狂人日记》的主题是揭露( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "封建礼教的吃人本质"
+      },
+      {
+        "label": "B",
+        "text": "社会贫富差距"
+      },
+      {
+        "label": "C",
+        "text": "知识分子的软弱性"
+      },
+      {
+        "label": "D",
+        "text": "底层人民的苦难"
+      }
+    ],
+    "answer": "A",
+    "analysis": "文档指出《狂人日记》借狂人之口揭露了“家族制度和礼教的弊害”，核心主题是批判封建礼教的“吃人”本质。"
+  },
+  {
+    "id": "AE-P1-Q0002",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 2,
+    "paperIndex": 2,
+    "type": "single",
+    "stem": "民歌《寄生草》通过 “山水相依” 表达( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "自然风光"
+      },
+      {
+        "label": "B",
+        "text": "爱情坚贞"
+      },
+      {
+        "label": "C",
+        "text": "社会矛盾"
+      },
+      {
+        "label": "D",
+        "text": "离别愁绪"
+      }
+    ],
+    "answer": "B",
+    "analysis": "词中 “山靠水来水靠山，山要离别，除非山崩水流断” 以山水比喻爱情不可分割。"
+  },
+  {
+    "id": "AE-P1-Q0003",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 3,
+    "paperIndex": 3,
+    "type": "single",
+    "stem": "20 世纪西方绘画中，波普艺术的代表人物是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "波洛克"
+      },
+      {
+        "label": "B",
+        "text": "沃霍尔"
+      },
+      {
+        "label": "C",
+        "text": "康定斯基"
+      },
+      {
+        "label": "D",
+        "text": "蒙德里安"
+      }
+    ],
+    "answer": "B",
+    "analysis": "文档中提到波普艺术以沃霍尔为代表，大量利用商品招贴、报刊图片等进行拼贴组合。"
+  },
+  {
+    "id": "AE-P1-Q0004",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 4,
+    "paperIndex": 4,
+    "type": "single",
+    "stem": "中国古典美学思想的核心不包括( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "儒家"
+      },
+      {
+        "label": "B",
+        "text": "道家"
+      },
+      {
+        "label": "C",
+        "text": "法家"
+      },
+      {
+        "label": "D",
+        "text": "释家"
+      }
+    ],
+    "answer": "C",
+    "analysis": "中国古典美学依托儒、道、释三家思想，法家强调法治与功利，未形成系统的美学理论。"
+  },
+  {
+    "id": "AE-P1-Q0005",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 5,
+    "paperIndex": 5,
+    "type": "single",
+    "stem": "中国传统建筑以木材为主要材质的缺点是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "抗震性差"
+      },
+      {
+        "label": "B",
+        "text": "易受火灾和虫蛀"
+      },
+      {
+        "label": "C",
+        "text": "施工复杂"
+      },
+      {
+        "label": "D",
+        "text": "成本高昂"
+      }
+    ],
+    "answer": "B",
+    "analysis": "文档列出木材缺点包括易火灾、白蚁侵蚀、雨水腐蚀，相比砖石维持时间短。"
+  },
+  {
+    "id": "AE-P1-Q0006",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 6,
+    "paperIndex": 6,
+    "type": "single",
+    "stem": "提出 “兴于诗，立于礼，成于乐” 教育观点的思想家是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "孔子"
+      },
+      {
+        "label": "B",
+        "text": "孟子"
+      },
+      {
+        "label": "C",
+        "text": "老子"
+      },
+      {
+        "label": "D",
+        "text": "庄子"
+      }
+    ],
+    "answer": "A",
+    "analysis": "孔子强调艺术教育的道德功能，认为“乐教”是完成人格修养的最终手段，开创了儒家重视美育的传统。"
+  },
+  {
+    "id": "AE-P1-Q0007",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 7,
+    "paperIndex": 7,
+    "type": "single",
+    "stem": "女士正装搭配中，必须穿着( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "运动鞋"
+      },
+      {
+        "label": "B",
+        "text": "高跟鞋"
+      },
+      {
+        "label": "C",
+        "text": "平底鞋"
+      },
+      {
+        "label": "D",
+        "text": "拖鞋"
+      }
+    ],
+    "answer": "B",
+    "analysis": "文档明确 “所有女士正装搭配中，必须穿高跟鞋”。"
+  },
+  {
+    "id": "AE-P1-Q0008",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 8,
+    "paperIndex": 8,
+    "type": "single",
+    "stem": "《地驱乐歌》属于中国传统音乐中的( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "北歌南曲"
+      },
+      {
+        "label": "B",
+        "text": "戏曲杂剧"
+      },
+      {
+        "label": "C",
+        "text": "民歌小曲"
+      },
+      {
+        "label": "D",
+        "text": "雅乐"
+      }
+    ],
+    "answer": "A",
+    "analysis": "文档第二节 “俗乐” 部分将《地驱乐歌》归类于 “北歌南曲”。"
+  },
+  {
+    "id": "AE-P1-Q0009",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 9,
+    "paperIndex": 9,
+    "type": "single",
+    "stem": "后现代主义建筑思潮始于( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "19 世纪中叶"
+      },
+      {
+        "label": "B",
+        "text": "20 世纪初"
+      },
+      {
+        "label": "C",
+        "text": "20 世纪 70 年代"
+      },
+      {
+        "label": "D",
+        "text": "21 世纪初"
+      }
+    ],
+    "answer": "C",
+    "analysis": "文档明确 “20 世纪 70 年代至今是后现代主义时期”。"
+  },
+  {
+    "id": "AE-P1-Q0010",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 10,
+    "paperIndex": 10,
+    "type": "single",
+    "stem": "物联网的应用不包括( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "智能物流"
+      },
+      {
+        "label": "B",
+        "text": "环境监测"
+      },
+      {
+        "label": "C",
+        "text": "人工降雨"
+      },
+      {
+        "label": "D",
+        "text": "智能交通"
+      }
+    ],
+    "answer": "C",
+    "analysis": "物联网应用包括智能物流、交通、环境监测等，人工降雨属气象技术。"
+  },
+  {
+    "id": "AE-P1-Q0011",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 11,
+    "paperIndex": 11,
+    "type": "single",
+    "stem": "马克思主义美学分析审美现象的核心方法是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "历史哲学与社会批评"
+      },
+      {
+        "label": "B",
+        "text": "心理分析"
+      },
+      {
+        "label": "C",
+        "text": "形式分析"
+      },
+      {
+        "label": "D",
+        "text": "宗教阐释"
+      }
+    ],
+    "answer": "A",
+    "analysis": "马克思主义美学从生产实践出发，通过历史唯物主义和社会结构理论(经济基础-上层建筑)分析审美现象的社会属性。"
+  },
+  {
+    "id": "AE-P1-Q0012",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 12,
+    "paperIndex": 12,
+    "type": "single",
+    "stem": "现代流行音乐的特性不包括( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "通俗性"
+      },
+      {
+        "label": "B",
+        "text": "古典性"
+      },
+      {
+        "label": "C",
+        "text": "大众性"
+      },
+      {
+        "label": "D",
+        "text": "商品性"
+      }
+    ],
+    "answer": "B",
+    "analysis": "文档第四节列出流行音乐特性为通俗性、大众性、时尚性、新奇性、娱乐性、商品性，无 “古典性”。"
+  },
+  {
+    "id": "AE-P1-Q0013",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 13,
+    "paperIndex": 13,
+    "type": "single",
+    "stem": "宋代服饰的风格是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "华丽繁复"
+      },
+      {
+        "label": "B",
+        "text": "朴素实用、内敛风雅"
+      },
+      {
+        "label": "C",
+        "text": "开放大胆"
+      },
+      {
+        "label": "D",
+        "text": "厚重庄严"
+      }
+    ],
+    "answer": "B",
+    "analysis": "文档提到 “宋代服饰注重朴素实用、修身适体，显出内敛风雅的气质”。"
+  },
+  {
+    "id": "AE-P1-Q0014",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 14,
+    "paperIndex": 14,
+    "type": "single",
+    "stem": "影响生物多样性的原因不包括( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "栖息地丧失"
+      },
+      {
+        "label": "B",
+        "text": "物种进化"
+      },
+      {
+        "label": "C",
+        "text": "外来物种入侵"
+      },
+      {
+        "label": "D",
+        "text": "环境污染"
+      }
+    ],
+    "answer": "B",
+    "analysis": "物种进化是自然过程，非生物多样性减少的原因;栖息地丧失、入侵、污染均为文档提及的影响因素。"
+  },
+  {
+    "id": "AE-P1-Q0015",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 15,
+    "paperIndex": 15,
+    "type": "single",
+    "stem": "下列属于新古典主义画家的是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "德拉克洛瓦"
+      },
+      {
+        "label": "B",
+        "text": "安格尔"
+      },
+      {
+        "label": "C",
+        "text": "库尔贝"
+      },
+      {
+        "label": "D",
+        "text": "莫奈"
+      }
+    ],
+    "answer": "B",
+    "analysis": "文档中提到19世纪法国绘画中的新古典主义以安格尔为代表，注重理性和造型的严谨。"
+  },
+  {
+    "id": "AE-P1-Q0016",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 16,
+    "paperIndex": 16,
+    "type": "single",
+    "stem": "饮食美不包括( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "食物美"
+      },
+      {
+        "label": "B",
+        "text": "食具美"
+      },
+      {
+        "label": "C",
+        "text": "饮食环境美"
+      },
+      {
+        "label": "D",
+        "text": "烹饪速度美"
+      }
+    ],
+    "answer": "D",
+    "analysis": "饮食美包括食物、食具、饮食环境与过程美，不涉及烹饪速度。"
+  },
+  {
+    "id": "AE-P1-Q0017",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 17,
+    "paperIndex": 17,
+    "type": "single",
+    "stem": "女士日间礼服的特点是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "露出肩膀"
+      },
+      {
+        "label": "B",
+        "text": "不露出肩膀和上臂"
+      },
+      {
+        "label": "C",
+        "text": "长度及脚"
+      },
+      {
+        "label": "D",
+        "text": "带拖尾"
+      }
+    ],
+    "answer": "B",
+    "analysis": "文档说明 “日间礼服不露出肩膀和上臂，更显端庄优雅”。"
+  },
+  {
+    "id": "AE-P1-Q0018",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 18,
+    "paperIndex": 18,
+    "type": "single",
+    "stem": "草书发展的三个阶段依次是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "章草、今草、狂草"
+      },
+      {
+        "label": "B",
+        "text": "早期草书、章草、今草"
+      },
+      {
+        "label": "C",
+        "text": "隶草、章草、今草"
+      },
+      {
+        "label": "D",
+        "text": "狂草、今草、章草"
+      }
+    ],
+    "answer": "B",
+    "analysis": "草书形成于汉代，发展阶段为早期草书、章草、今草。章草保留隶书笔法，今草则更趋流畅连贯，符号化特征明显。"
+  },
+  {
+    "id": "AE-P1-Q0019",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 19,
+    "paperIndex": 19,
+    "type": "single",
+    "stem": "内在美比外在美( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "更浅显"
+      },
+      {
+        "label": "B",
+        "text": "更深刻持久"
+      },
+      {
+        "label": "C",
+        "text": "更易察觉"
+      },
+      {
+        "label": "D",
+        "text": "更短暂"
+      }
+    ],
+    "answer": "B",
+    "analysis": "文档提到内在美 “比外在美丰富、深刻，可以长存不灭”。"
+  },
+  {
+    "id": "AE-P1-Q0020",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 20,
+    "paperIndex": 20,
+    "type": "single",
+    "stem": "服饰美的 “适度” 原则指( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "装饰有所节制"
+      },
+      {
+        "label": "B",
+        "text": "适应时尚"
+      },
+      {
+        "label": "C",
+        "text": "适合场合"
+      },
+      {
+        "label": "D",
+        "text": "符合身材"
+      }
+    ],
+    "answer": "A",
+    "analysis": "“适度” 指 “装饰和饰品穿戴要有所节制，适可而止”。"
+  },
+  {
+    "id": "AE-P1-Q0021",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 21,
+    "paperIndex": 21,
+    "type": "single",
+    "stem": "瓷器按用途命名的是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "梅瓶"
+      },
+      {
+        "label": "B",
+        "text": "渣斗"
+      },
+      {
+        "label": "C",
+        "text": "天字罐"
+      },
+      {
+        "label": "D",
+        "text": "莲花尊"
+      }
+    ],
+    "answer": "B",
+    "analysis": "渣斗因用途(盛放兽骨鱼刺)命名，梅瓶按口型，天字罐按文字，莲花尊按图案。"
+  },
+  {
+    "id": "AE-P1-Q0022",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 22,
+    "paperIndex": 22,
+    "type": "single",
+    "stem": "社会生活美的最基本内容是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "变革美"
+      },
+      {
+        "label": "B",
+        "text": "生产劳动美"
+      },
+      {
+        "label": "C",
+        "text": "人情美"
+      },
+      {
+        "label": "D",
+        "text": "环境美"
+      }
+    ],
+    "answer": "B",
+    "analysis": "文档第二节提到 “生产劳动美是社会生活美的最基本的内容”。"
+  },
+  {
+    "id": "AE-P1-Q0023",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 23,
+    "paperIndex": 23,
+    "type": "single",
+    "stem": "居室美的原则不包括( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "适用性"
+      },
+      {
+        "label": "B",
+        "text": "奢华性"
+      },
+      {
+        "label": "C",
+        "text": "和谐性"
+      },
+      {
+        "label": "D",
+        "text": "情趣性"
+      }
+    ],
+    "answer": "B",
+    "analysis": "居室美强调适用、和谐、情趣，未提及奢华性。"
+  },
+  {
+    "id": "AE-P1-Q0024",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 24,
+    "paperIndex": 24,
+    "type": "single",
+    "stem": "《寒江独钓图》的作者是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "马远"
+      },
+      {
+        "label": "B",
+        "text": "夏圭"
+      },
+      {
+        "label": "C",
+        "text": "范宽"
+      },
+      {
+        "label": "D",
+        "text": "米芾"
+      }
+    ],
+    "answer": "A",
+    "analysis": "文档中展示了宋代马远的《寒江独钓图》，以大面积留白表现江雪的孤寂意境。"
+  },
+  {
+    "id": "AE-P1-Q0025",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 25,
+    "paperIndex": 25,
+    "type": "single",
+    "stem": "地壳中含量最多的元素是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "氧和铁"
+      },
+      {
+        "label": "B",
+        "text": "氧和硅"
+      },
+      {
+        "label": "C",
+        "text": "硅和铝"
+      },
+      {
+        "label": "D",
+        "text": "铝和铁"
+      }
+    ],
+    "answer": "B",
+    "analysis": "文档指出 “地壳中最丰富的氧和硅占地壳总重量的 74% 多”。"
+  },
+  {
+    "id": "AE-P1-Q0026",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 26,
+    "paperIndex": 26,
+    "type": "single",
+    "stem": "西方雕塑中属于巴洛克风格的代表人物是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "贝尼尼"
+      },
+      {
+        "label": "B",
+        "text": "法尔孔奈"
+      },
+      {
+        "label": "C",
+        "text": "罗丹"
+      },
+      {
+        "label": "D",
+        "text": "亨利・摩尔"
+      }
+    ],
+    "answer": "A",
+    "analysis": "课件指出，17世纪巴洛克风格的代表人物是贝尼尼，其作品线条夸张、富有动感，如《阿波罗与达芙妮》。"
+  },
+  {
+    "id": "AE-P1-Q0027",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 27,
+    "paperIndex": 27,
+    "type": "single",
+    "stem": "春秋战国青铜器的新工艺是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "陶范铸造"
+      },
+      {
+        "label": "B",
+        "text": "失蜡法"
+      },
+      {
+        "label": "C",
+        "text": "石范工艺"
+      },
+      {
+        "label": "D",
+        "text": "素面无纹"
+      }
+    ],
+    "answer": "B",
+    "analysis": "春秋战国时期发明失蜡法，陶范铸造为商周主要工艺。"
+  },
+  {
+    "id": "AE-P1-Q0028",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 28,
+    "paperIndex": 28,
+    "type": "single",
+    "stem": "《米洛斯的维纳斯》属于西方雕塑发展历程中的哪个时期?( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "古风时期"
+      },
+      {
+        "label": "B",
+        "text": "古典时期"
+      },
+      {
+        "label": "C",
+        "text": "希腊化时期"
+      },
+      {
+        "label": "D",
+        "text": "罗马时期"
+      }
+    ],
+    "answer": "C",
+    "analysis": "课件提到，希腊化时期的雕塑通过写实技法表现人物内心，《米洛斯的维纳斯》是这一时期的代表作，注重姿态与衣纹处理。"
+  },
+  {
+    "id": "AE-P1-Q0029",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 29,
+    "paperIndex": 29,
+    "type": "single",
+    "stem": "《清明上河图》描绘的是哪个城市的景象?( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "长安"
+      },
+      {
+        "label": "B",
+        "text": "洛阳"
+      },
+      {
+        "label": "C",
+        "text": "开封"
+      },
+      {
+        "label": "D",
+        "text": "杭州"
+      }
+    ],
+    "answer": "C",
+    "analysis": "文档中提到张择端的《清明上河图》描绘了北宋都城汴京(今开封)的市井生活，是中国古代风俗画的巅峰之作。"
+  },
+  {
+    "id": "AE-P1-Q0030",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 30,
+    "paperIndex": 30,
+    "type": "single",
+    "stem": "造成大气污染的人为原因不包括( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "工业生产"
+      },
+      {
+        "label": "B",
+        "text": "火山爆发"
+      },
+      {
+        "label": "C",
+        "text": "冬烧秸秆"
+      },
+      {
+        "label": "D",
+        "text": "交通工具排放废气"
+      }
+    ],
+    "answer": "B",
+    "analysis": "火山爆发和海水蒸发属于自然原因，工业生产和交通废气属于人为原因。"
+  },
+  {
+    "id": "AE-P1-Q0031",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 31,
+    "paperIndex": 31,
+    "type": "single",
+    "stem": "下列属于徐志摩《再别康桥》中运用的表现手法是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "夸张"
+      },
+      {
+        "label": "B",
+        "text": "借代"
+      },
+      {
+        "label": "C",
+        "text": "拟人化"
+      },
+      {
+        "label": "D",
+        "text": "白描"
+      }
+    ],
+    "answer": "C",
+    "analysis": "文档中提到《再别康桥》中“那河畔的金柳，是夕阳中的新娘”将金柳拟人化为新娘，属于拟人化的表现手法，是比拟的一种。"
+  },
+  {
+    "id": "AE-P1-Q0032",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 32,
+    "paperIndex": 32,
+    "type": "single",
+    "stem": "流行音乐《喜欢你》的原唱乐队是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "黑豹乐队"
+      },
+      {
+        "label": "B",
+        "text": "Beyond"
+      },
+      {
+        "label": "C",
+        "text": "唐朝乐队"
+      },
+      {
+        "label": "D",
+        "text": "零点乐队"
+      }
+    ],
+    "answer": "B",
+    "analysis": "文档第四节明确标注《喜欢你》原唱为 Beyond 乐队。"
+  },
+  {
+    "id": "AE-P1-Q0033",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 33,
+    "paperIndex": 33,
+    "type": "single",
+    "stem": "古典舞动作技巧不包括( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "旋转"
+      },
+      {
+        "label": "B",
+        "text": "翻身"
+      },
+      {
+        "label": "C",
+        "text": "踢腿"
+      },
+      {
+        "label": "D",
+        "text": "弹跳"
+      }
+    ],
+    "answer": "C",
+    "analysis": "文档列出古典舞技巧为旋转、翻身、弹跳、节奏，未提及 “踢腿”。"
+  },
+  {
+    "id": "AE-P1-Q0034",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 34,
+    "paperIndex": 34,
+    "type": "single",
+    "stem": "提出 “自下而上” 心理学美学研究模式的学者是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "费希纳"
+      },
+      {
+        "label": "B",
+        "text": "弗洛伊德"
+      },
+      {
+        "label": "C",
+        "text": "荣格"
+      },
+      {
+        "label": "D",
+        "text": "阿恩海姆"
+      }
+    ],
+    "answer": "A",
+    "analysis": "19世纪末，费希纳倡导以心理学经验方法取代哲学思辨，开创了“自下而上”的美学研究范式，影响了移情说、心理距离说等理论。"
+  },
+  {
+    "id": "AE-P1-Q0035",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 35,
+    "paperIndex": 35,
+    "type": "single",
+    "stem": "哥特式建筑的典型特征是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "圆顶结构"
+      },
+      {
+        "label": "B",
+        "text": "尖券和飞扶壁"
+      },
+      {
+        "label": "C",
+        "text": "平顶厚墙"
+      },
+      {
+        "label": "D",
+        "text": "木质框架"
+      }
+    ],
+    "answer": "B",
+    "analysis": "文档指出哥特式建筑使用 “尖券、尖拱和飞扶壁”，减轻拱顶重量，传递侧推力。"
+  },
+  {
+    "id": "AE-P1-Q0036",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 36,
+    "paperIndex": 36,
+    "type": "single",
+    "stem": "书法艺术中 “永字八法” 体现的是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "用笔技巧"
+      },
+      {
+        "label": "B",
+        "text": "用墨方法"
+      },
+      {
+        "label": "C",
+        "text": "结构原则"
+      },
+      {
+        "label": "D",
+        "text": "章法布局"
+      }
+    ],
+    "answer": "A",
+    "analysis": "“永字八法”通过“永”字的八种笔画(点、横、竖、撇等)概括楷书用笔技巧，是传统书法用笔的基础理论。"
+  },
+  {
+    "id": "AE-P1-Q0037",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 37,
+    "paperIndex": 37,
+    "type": "single",
+    "stem": "教学目标中 “能够听辨不同情绪的音乐” 属于( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "知识目标"
+      },
+      {
+        "label": "B",
+        "text": "能力目标"
+      },
+      {
+        "label": "C",
+        "text": "素质目标"
+      },
+      {
+        "label": "D",
+        "text": "实践目标"
+      }
+    ],
+    "answer": "B",
+    "analysis": "文档 “教学目的” 中 “能力目标” 明确包含听辨音乐情绪的要求。"
+  },
+  {
+    "id": "AE-P1-Q0038",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 38,
+    "paperIndex": 38,
+    "type": "single",
+    "stem": "服饰最原始的雏形是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "丝绸衣物"
+      },
+      {
+        "label": "B",
+        "text": "兽皮树叶"
+      },
+      {
+        "label": "C",
+        "text": "麻布衣裳"
+      },
+      {
+        "label": "D",
+        "text": "针织服装"
+      }
+    ],
+    "answer": "B",
+    "analysis": "文档第二节提到 “人类诞生时以兽皮树叶遮身御寒，是服饰最原始的雏形”。"
+  },
+  {
+    "id": "AE-P1-Q0039",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 39,
+    "paperIndex": 39,
+    "type": "single",
+    "stem": "下列属于印象派画家的是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "库尔贝"
+      },
+      {
+        "label": "B",
+        "text": "凡・高"
+      },
+      {
+        "label": "C",
+        "text": "莫奈"
+      },
+      {
+        "label": "D",
+        "text": "毕加索"
+      }
+    ],
+    "answer": "C",
+    "analysis": "文档中提到莫奈的《日出·印象》是印象派的代表作，库尔贝属于现实主义，凡·高属于后印象派，毕加索属于立体派。"
+  },
+  {
+    "id": "AE-P1-Q0040",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 40,
+    "paperIndex": 40,
+    "type": "single",
+    "stem": "印度古典舞的主要特征不包括( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "节奏鲜明"
+      },
+      {
+        "label": "B",
+        "text": "强调即兴"
+      },
+      {
+        "label": "C",
+        "text": "造型性强"
+      },
+      {
+        "label": "D",
+        "text": "手式丰富"
+      }
+    ],
+    "answer": "B",
+    "analysis": "文档提到印度古典舞 “节奏、韵律鲜明，造型性强，手式和面部表情丰富”，未提及 “即兴”。"
+  },
+  {
+    "id": "AE-P1-Q0041",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 41,
+    "paperIndex": 41,
+    "type": "single",
+    "stem": "中国近代提出 “以美育代宗教” 的教育家是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "王国维"
+      },
+      {
+        "label": "B",
+        "text": "蔡元培"
+      },
+      {
+        "label": "C",
+        "text": "朱光潜"
+      },
+      {
+        "label": "D",
+        "text": "梁启超"
+      }
+    ],
+    "answer": "B",
+    "analysis": "蔡元培作为近代美育思想集大成者，主张美育独立于德育，提出“以美育代宗教”，推动美育纳入中国教育体系。"
+  },
+  {
+    "id": "AE-P1-Q0042",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 42,
+    "paperIndex": 42,
+    "type": "single",
+    "stem": "量子通信的发展方向不包括( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "纠缠"
+      },
+      {
+        "label": "B",
+        "text": "纯量子通信"
+      },
+      {
+        "label": "C",
+        "text": "经典通信"
+      },
+      {
+        "label": "D",
+        "text": "量子密码技术"
+      }
+    ],
+    "answer": "C",
+    "analysis": "量子通信方向包括纠缠、纯量子通信、量子密码等，经典通信属传统领域。"
+  },
+  {
+    "id": "AE-P1-Q0043",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 43,
+    "paperIndex": 43,
+    "type": "single",
+    "stem": "量子力学的产生背景是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "19 世纪经典力学的困境"
+      },
+      {
+        "label": "B",
+        "text": "20 世纪相对论的发展"
+      },
+      {
+        "label": "C",
+        "text": "航天技术的需求"
+      },
+      {
+        "label": "D",
+        "text": "人工智能的兴起"
+      }
+    ],
+    "answer": "A",
+    "analysis": "文档指出量子力学 “在 19 世纪末经典力学的困境中形成”。"
+  },
+  {
+    "id": "AE-P1-Q0044",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 44,
+    "paperIndex": 44,
+    "type": "single",
+    "stem": "普希金《假如生活欺骗了你》的创作背景是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "流放期间"
+      },
+      {
+        "label": "B",
+        "text": "革命失败后"
+      },
+      {
+        "label": "C",
+        "text": "幽禁时期"
+      },
+      {
+        "label": "D",
+        "text": "晚年病榻"
+      }
+    ],
+    "answer": "C",
+    "analysis": "文档提到该诗创作于1825年普希金被幽禁在父亲领地期间，是题写给邻居女孩的劝慰之作，充满乐观主义精神。"
+  },
+  {
+    "id": "AE-P1-Q0045",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 45,
+    "paperIndex": 45,
+    "type": "single",
+    "stem": "汉乐府诗《有所思》主要表达的情感是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "喜悦"
+      },
+      {
+        "label": "B",
+        "text": "愤怒"
+      },
+      {
+        "label": "C",
+        "text": "离别与决绝"
+      },
+      {
+        "label": "D",
+        "text": "思念"
+      }
+    ],
+    "answer": "C",
+    "analysis": "诗中 “从今以往，勿复相思，相思与君绝” 体现失恋后的决绝与痛苦。"
+  },
+  {
+    "id": "AE-P1-Q0046",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 46,
+    "paperIndex": 46,
+    "type": "single",
+    "stem": "被称为 “汉隶唐楷” 中 “汉隶” 代表的字体阶段是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "秦朝隶书"
+      },
+      {
+        "label": "B",
+        "text": "西汉隶书"
+      },
+      {
+        "label": "C",
+        "text": "东汉隶书"
+      },
+      {
+        "label": "D",
+        "text": "魏晋隶书"
+      }
+    ],
+    "answer": "C",
+    "analysis": "隶书在东汉时期达到艺术顶峰，笔画美化、风格多样，如《石门颂》《曹全碑》等，故有“汉隶唐楷”的美誉。"
+  },
+  {
+    "id": "AE-P1-Q0047",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 47,
+    "paperIndex": 47,
+    "type": "single",
+    "stem": "郑板桥的《墨竹图》属于哪种绘画类型?( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "人物画"
+      },
+      {
+        "label": "B",
+        "text": "花鸟画"
+      },
+      {
+        "label": "C",
+        "text": "山水画"
+      },
+      {
+        "label": "D",
+        "text": "风俗画"
+      }
+    ],
+    "answer": "B",
+    "analysis": "文档中展示的郑板桥《墨竹图》属于花鸟画中的文人写意画，通过墨竹表达文人风骨。"
+  },
+  {
+    "id": "AE-P1-Q0048",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 48,
+    "paperIndex": 48,
+    "type": "single",
+    "stem": "风尚美包括( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "理想、品德、智慧"
+      },
+      {
+        "label": "B",
+        "text": "劳动、变革、环境"
+      },
+      {
+        "label": "C",
+        "text": "风气、习俗、礼仪"
+      },
+      {
+        "label": "D",
+        "text": "服饰、饮食、居室"
+      }
+    ],
+    "answer": "C",
+    "analysis": "风尚美包含风气美、习俗美、礼仪美。"
+  },
+  {
+    "id": "AE-P1-Q0049",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 49,
+    "paperIndex": 49,
+    "type": "single",
+    "stem": "变革美的表现形式包括( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "突变与渐变"
+      },
+      {
+        "label": "B",
+        "text": "风气与习俗"
+      },
+      {
+        "label": "C",
+        "text": "生态与人文"
+      },
+      {
+        "label": "D",
+        "text": "适体与适时"
+      }
+    ],
+    "answer": "A",
+    "analysis": "变革美分为 “激荡的突变美” 和 “平和的渐变美”。"
+  },
+  {
+    "id": "AE-P1-Q0050",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 50,
+    "paperIndex": 50,
+    "type": "single",
+    "stem": "下列属于书法艺术 “章法” 要素的是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "刚柔、急缓"
+      },
+      {
+        "label": "B",
+        "text": "大小、宽窄"
+      },
+      {
+        "label": "C",
+        "text": "“一笔书”“计白当黑”"
+      },
+      {
+        "label": "D",
+        "text": "浓淡、枯润"
+      }
+    ],
+    "answer": "C",
+    "analysis": "章法指书法作品的整体布局，“一笔书”强调字与字的连贯，“计白当黑”注重空白与墨色的平衡，均属于章法范畴;A属于用笔，B属于结构，D属于用墨。"
+  },
+  {
+    "id": "AE-P1-Q0051",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 51,
+    "paperIndex": 51,
+    "type": "multiple",
+    "stem": "下列属于书法艺术审美特征的有( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "笔墨之美"
+      },
+      {
+        "label": "B",
+        "text": "结构之美"
+      },
+      {
+        "label": "C",
+        "text": "章法之美"
+      },
+      {
+        "label": "D",
+        "text": "形式之美"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "analysis": "书法的审美特征包括笔墨之美(墨色层次)、结构之美(字形和谐)、章法之美(整体布局)、形式之美(作品形制)。"
+  },
+  {
+    "id": "AE-P1-Q0052",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 52,
+    "paperIndex": 52,
+    "type": "multiple",
+    "stem": "隋唐世俗服饰的特点有( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "外来元素多"
+      },
+      {
+        "label": "B",
+        "text": "色彩单调"
+      },
+      {
+        "label": "C",
+        "text": "款式新颖"
+      },
+      {
+        "label": "D",
+        "text": "图案丰富"
+      }
+    ],
+    "answer": [
+      "A",
+      "C",
+      "D"
+    ],
+    "analysis": "文档描述隋唐世俗服饰 “款式、色彩、图案朝气蓬勃”，排除 “色彩单调”。"
+  },
+  {
+    "id": "AE-P1-Q0053",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 53,
+    "paperIndex": 53,
+    "type": "multiple",
+    "stem": "研究美的起源的主要角度包括( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "工具的演进"
+      },
+      {
+        "label": "B",
+        "text": "彩陶造型与纹饰"
+      },
+      {
+        "label": "C",
+        "text": "原始舞蹈"
+      },
+      {
+        "label": "D",
+        "text": "现代建筑"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "analysis": "文档从新石器时代工具演进(实用性到装饰性)、彩陶纹饰(抽象图案)、原始舞蹈(仪式性审美)三方面探讨美的起源，现代建筑不属于原始美学范畴。"
+  },
+  {
+    "id": "AE-P1-Q0054",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 54,
+    "paperIndex": 54,
+    "type": "multiple",
+    "stem": "外在美与内在美的关系是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "内在美决定外在美"
+      },
+      {
+        "label": "B",
+        "text": "外在美独立于内在美"
+      },
+      {
+        "label": "C",
+        "text": "内在美比外在美更持久"
+      },
+      {
+        "label": "D",
+        "text": "外在美影响内在美"
+      }
+    ],
+    "answer": [
+      "A",
+      "C"
+    ],
+    "analysis": "内在美决定外在美且更持久，二者相互关联，非独立。"
+  },
+  {
+    "id": "AE-P1-Q0055",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 55,
+    "paperIndex": 55,
+    "type": "multiple",
+    "stem": "中国古代服饰的等级制度体现在( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "先秦礼法至上"
+      },
+      {
+        "label": "B",
+        "text": "商代等级分明"
+      },
+      {
+        "label": "C",
+        "text": "隋唐双轨制"
+      },
+      {
+        "label": "D",
+        "text": "宋代朴素实用"
+      }
+    ],
+    "answer": [
+      "A",
+      "B"
+    ],
+    "analysis": "隋唐双轨制与宋代风格未直接体现等级制度，先秦和商代明确提及等级。"
+  },
+  {
+    "id": "AE-P1-Q0056",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 56,
+    "paperIndex": 56,
+    "type": "multiple",
+    "stem": "现当代西方美学的主要流派有( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "心理学经验美学"
+      },
+      {
+        "label": "B",
+        "text": "分析美学"
+      },
+      {
+        "label": "C",
+        "text": "文化学转向美学"
+      },
+      {
+        "label": "D",
+        "text": "古典主义美学"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "analysis": "19世纪末以来，西方美学经历了费希纳的心理学美学、20世纪的分析美学，以及20世纪末的文化学转向，古典主义美学属于传统范畴。"
+  },
+  {
+    "id": "AE-P1-Q0057",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 57,
+    "paperIndex": 57,
+    "type": "multiple",
+    "stem": "下列属于行书名作的有( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "《兰亭序》"
+      },
+      {
+        "label": "B",
+        "text": "《祭侄文稿》"
+      },
+      {
+        "label": "C",
+        "text": "《自叙帖》"
+      },
+      {
+        "label": "D",
+        "text": "《寒食帖》"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "analysis": "《兰亭序》(王羲之)、《祭侄文稿》(颜真卿)、《寒食帖》(苏轼)均为行书名作;《自叙帖》是怀素的草书名作。"
+  },
+  {
+    "id": "AE-P1-Q0058",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 58,
+    "paperIndex": 58,
+    "type": "multiple",
+    "stem": "中国传统建筑与西方传统建筑的差异在于( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "材质:木 vs 砖石"
+      },
+      {
+        "label": "B",
+        "text": "结构:框架 vs 拱券"
+      },
+      {
+        "label": "C",
+        "text": "布局:中轴对称 vs 自由布局"
+      },
+      {
+        "label": "D",
+        "text": "理念:礼制 vs 几何比例"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "analysis": "中西方在材质、结构、布局、理念上均有明显差异，文档内容可对应。"
+  },
+  {
+    "id": "AE-P1-Q0059",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 59,
+    "paperIndex": 59,
+    "type": "multiple",
+    "stem": "西方美育的发展阶段包括( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "古希腊雅典的艺术教育"
+      },
+      {
+        "label": "B",
+        "text": "18 世纪席勒的美育理论"
+      },
+      {
+        "label": "C",
+        "text": "现代发达国家的美育体系"
+      },
+      {
+        "label": "D",
+        "text": "中世纪宗教美育"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "analysis": "西方美育起源于古希腊雅典的和谐教育，经席勒理论化，在现代形成完善体系;中世纪美育从属于宗教，文档未将其列为独立阶段。"
+  },
+  {
+    "id": "AE-P1-Q0060",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 60,
+    "paperIndex": 60,
+    "type": "multiple",
+    "stem": "中国绘画的发展历程包括以下哪些时期?( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "秦汉时期"
+      },
+      {
+        "label": "B",
+        "text": "魏晋南北朝"
+      },
+      {
+        "label": "C",
+        "text": "唐代"
+      },
+      {
+        "label": "D",
+        "text": "元代"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "analysis": "文档中详细梳理了中国绘画从秦汉、魏晋南北朝、唐代、宋代、元代、明代到新中国时期的发展历程，四个选项均正确。"
+  },
+  {
+    "id": "AE-P1-Q0061",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 61,
+    "paperIndex": 61,
+    "type": "multiple",
+    "stem": "商代前期青铜器的纹饰有( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "饕餮纹"
+      },
+      {
+        "label": "B",
+        "text": "连珠纹"
+      },
+      {
+        "label": "C",
+        "text": "云雷纹"
+      },
+      {
+        "label": "D",
+        "text": "窃曲纹"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "analysis": "窃曲纹为西周后期纹饰，商代前期有饕餮纹、连珠纹、云雷纹。"
+  },
+  {
+    "id": "AE-P1-Q0062",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 62,
+    "paperIndex": 62,
+    "type": "multiple",
+    "stem": "影响生态平衡的因素包括( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "能量输入输出平衡"
+      },
+      {
+        "label": "B",
+        "text": "物种比例稳定"
+      },
+      {
+        "label": "C",
+        "text": "环境污染"
+      },
+      {
+        "label": "D",
+        "text": "外来物种入侵"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "analysis": "生态平衡依赖能量物质平衡和物种稳定，环境污染和入侵会破坏平衡。"
+  },
+  {
+    "id": "AE-P1-Q0063",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 63,
+    "paperIndex": 63,
+    "type": "multiple",
+    "stem": "生态系统的组成成分包括( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "非生物成分"
+      },
+      {
+        "label": "B",
+        "text": "生产者"
+      },
+      {
+        "label": "C",
+        "text": "消费者"
+      },
+      {
+        "label": "D",
+        "text": "分解者"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "analysis": "文档明确生态系统由非生物成分、生产者、消费者、分解者四类成分构成。"
+  },
+  {
+    "id": "AE-P1-Q0064",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 64,
+    "paperIndex": 64,
+    "type": "multiple",
+    "stem": "植物的器官包括( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "根"
+      },
+      {
+        "label": "B",
+        "text": "茎"
+      },
+      {
+        "label": "C",
+        "text": "花"
+      },
+      {
+        "label": "D",
+        "text": "细胞"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "analysis": "植物器官包括根、茎、叶、花、果实、种子，细胞属于微观结构，非器官。"
+  },
+  {
+    "id": "AE-P1-Q0065",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 65,
+    "paperIndex": 65,
+    "type": "multiple",
+    "stem": "下列属于超现实主义的画家有( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "达利"
+      },
+      {
+        "label": "B",
+        "text": "马格利特"
+      },
+      {
+        "label": "C",
+        "text": "米罗"
+      },
+      {
+        "label": "D",
+        "text": "毕加索"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "analysis": "达利、马格利特、米罗均为超现实主义代表画家，毕加索属于立体派。"
+  },
+  {
+    "id": "AE-P1-Q0066",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 66,
+    "paperIndex": 66,
+    "type": "multiple",
+    "stem": "蒙古族服饰、藏族服装属于( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "民族服饰"
+      },
+      {
+        "label": "B",
+        "text": "古代服饰"
+      },
+      {
+        "label": "C",
+        "text": "现代服饰"
+      },
+      {
+        "label": "D",
+        "text": "地方服饰"
+      }
+    ],
+    "answer": [
+      "A",
+      "D"
+    ],
+    "analysis": "属于现代民族服饰，也是地方服饰，非单纯古代或现代服饰分类。"
+  },
+  {
+    "id": "AE-P1-Q0067",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 67,
+    "paperIndex": 67,
+    "type": "multiple",
+    "stem": "我国 21 世纪航天成就包括( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "北斗卫星导航系统"
+      },
+      {
+        "label": "B",
+        "text": "神舟载人飞船"
+      },
+      {
+        "label": "C",
+        "text": "月球探测工程"
+      },
+      {
+        "label": "D",
+        "text": "东方红一号"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "analysis": "东方红一号属 20 世纪成就，其余为 21 世纪代表性成果。"
+  },
+  {
+    "id": "AE-P1-Q0068",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 68,
+    "paperIndex": 68,
+    "type": "multiple",
+    "stem": "人类种族的三分法包括( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "蒙古人种"
+      },
+      {
+        "label": "B",
+        "text": "欧罗巴人种"
+      },
+      {
+        "label": "C",
+        "text": "尼格罗人种"
+      },
+      {
+        "label": "D",
+        "text": "印第安人种"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "analysis": "三分法分为蒙古人种(黄种)、欧罗巴人种(白种)、澳大利亚 — 尼格罗人种(黑种)。"
+  },
+  {
+    "id": "AE-P1-Q0069",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 69,
+    "paperIndex": 69,
+    "type": "multiple",
+    "stem": "高速列车的组成系统包括( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "牵引系统"
+      },
+      {
+        "label": "B",
+        "text": "制动系统"
+      },
+      {
+        "label": "C",
+        "text": "车内环境控制系统"
+      },
+      {
+        "label": "D",
+        "text": "餐饮服务系统"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "analysis": "文档列出的组成系统包括牵引、制动、环境控制等，未提及餐饮服务系统。"
+  },
+  {
+    "id": "AE-P1-Q0070",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 70,
+    "paperIndex": 70,
+    "type": "multiple",
+    "stem": "女士正装包括( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "套裙"
+      },
+      {
+        "label": "B",
+        "text": "礼服"
+      },
+      {
+        "label": "C",
+        "text": "休闲装"
+      },
+      {
+        "label": "D",
+        "text": "运动装"
+      }
+    ],
+    "answer": [
+      "A",
+      "B"
+    ],
+    "analysis": "套裙和礼服属于女士正装，休闲装、运动装不属于。"
+  },
+  {
+    "id": "AE-P1-Q0071",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 71,
+    "paperIndex": 71,
+    "type": "multiple",
+    "stem": "巴洛克与洛可可风格的区别在于( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "巴洛克追求动感，洛可可注重细腻"
+      },
+      {
+        "label": "B",
+        "text": "巴洛克色彩浓烈，洛可可色彩柔和"
+      },
+      {
+        "label": "C",
+        "text": "巴洛克用于宗教建筑，洛可可用于世俗"
+      },
+      {
+        "label": "D",
+        "text": "巴洛克有曲面空间，洛可可强调对称"
+      }
+    ],
+    "answer": [
+      "A",
+      "B"
+    ],
+    "analysis": "洛可可风格更纤巧细腻、色彩柔和，用于世俗建筑，排除 C;巴洛克有曲面，洛可可不对称，排除 D。"
+  },
+  {
+    "id": "AE-P1-Q0072",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 72,
+    "paperIndex": 72,
+    "type": "multiple",
+    "stem": "古瓷的典型纹饰包括( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "婴戏纹"
+      },
+      {
+        "label": "B",
+        "text": "花鸟纹"
+      },
+      {
+        "label": "C",
+        "text": "吉祥纹饰"
+      },
+      {
+        "label": "D",
+        "text": "几何纹"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "analysis": "几何纹未作为典型纹饰列举，其余均为文档提到的常见纹饰。"
+  },
+  {
+    "id": "AE-P1-Q0073",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 73,
+    "paperIndex": 73,
+    "type": "multiple",
+    "stem": "汉字演变的主要阶段包括( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "甲骨文、篆书"
+      },
+      {
+        "label": "B",
+        "text": "隶书、楷书"
+      },
+      {
+        "label": "C",
+        "text": "行书、草书"
+      },
+      {
+        "label": "D",
+        "text": "简帛书、印刷体"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "analysis": "汉字演变的主要阶段为甲骨文→篆书(大篆、小篆)→隶书→楷书→行书→草书，简帛书是书写材料，印刷体不属于字体演变阶段。"
+  },
+  {
+    "id": "AE-P1-Q0074",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 74,
+    "paperIndex": 74,
+    "type": "multiple",
+    "stem": "风尚美的内容有( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "风气美"
+      },
+      {
+        "label": "B",
+        "text": "习俗美"
+      },
+      {
+        "label": "C",
+        "text": "礼仪美"
+      },
+      {
+        "label": "D",
+        "text": "环境美"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "analysis": "环境美与风尚美并列，不属其内容。"
+  },
+  {
+    "id": "AE-P1-Q0075",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 75,
+    "paperIndex": 75,
+    "type": "multiple",
+    "stem": "男士正装搭配细节包括( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "领带颜色"
+      },
+      {
+        "label": "B",
+        "text": "皮鞋款式"
+      },
+      {
+        "label": "C",
+        "text": "背包选择"
+      },
+      {
+        "label": "D",
+        "text": "手套佩戴"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "analysis": "文档规定 “穿西装不应背包，只能用手包”，故排除 C。"
+  },
+  {
+    "id": "AE-P1-Q0076",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 76,
+    "paperIndex": 76,
+    "type": "multiple",
+    "stem": "现代建筑思潮包括( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "芝加哥学派"
+      },
+      {
+        "label": "B",
+        "text": "包豪斯学派"
+      },
+      {
+        "label": "C",
+        "text": "后现代主义"
+      },
+      {
+        "label": "D",
+        "text": "古典主义复兴"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "analysis": "文档提及芝加哥学派、包豪斯、古典主义复兴、后现代主义等思潮。"
+  },
+  {
+    "id": "AE-P1-Q0077",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 77,
+    "paperIndex": 77,
+    "type": "multiple",
+    "stem": "人情美包括( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "爱情美"
+      },
+      {
+        "label": "B",
+        "text": "亲情美"
+      },
+      {
+        "label": "C",
+        "text": "友情美"
+      },
+      {
+        "label": "D",
+        "text": "劳动美"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "analysis": "劳动美属社会生活美，人情美不包含劳动美。"
+  },
+  {
+    "id": "AE-P1-Q0078",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 78,
+    "paperIndex": 78,
+    "type": "multiple",
+    "stem": "西方古代雕塑的代表作品有( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "《掷铁饼者》"
+      },
+      {
+        "label": "B",
+        "text": "《米洛斯的维纳斯》"
+      },
+      {
+        "label": "C",
+        "text": "《奥古斯都全身像》"
+      },
+      {
+        "label": "D",
+        "text": "《大卫》"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "analysis": "《掷铁饼者》(希腊古典时期)、《米洛斯的维纳斯》(希腊化时期)、《奥古斯都全身像》(罗马时期)属于古代雕塑;《大卫》为文艺复兴时期作品。"
+  },
+  {
+    "id": "AE-P1-Q0079",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 79,
+    "paperIndex": 79,
+    "type": "multiple",
+    "stem": "哥特式建筑的代表有( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "巴黎圣母院"
+      },
+      {
+        "label": "B",
+        "text": "圣索菲亚大教堂"
+      },
+      {
+        "label": "C",
+        "text": "兰斯圣母院"
+      },
+      {
+        "label": "D",
+        "text": "帕特农神庙"
+      }
+    ],
+    "answer": [
+      "A",
+      "C"
+    ],
+    "analysis": "圣索菲亚大教堂为拜占庭建筑，帕特农神庙为古希腊建筑，排除 BD。"
+  },
+  {
+    "id": "AE-P1-Q0080",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 80,
+    "paperIndex": 80,
+    "type": "multiple",
+    "stem": "变革美的形式有( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "激烈的突变"
+      },
+      {
+        "label": "B",
+        "text": "平和的渐变"
+      },
+      {
+        "label": "C",
+        "text": "缓慢的演化"
+      },
+      {
+        "label": "D",
+        "text": "突发的灾难"
+      }
+    ],
+    "answer": [
+      "A",
+      "B"
+    ],
+    "analysis": "变革美包括激荡的突变美和平和的渐变美。"
+  },
+  {
+    "id": "AE-P1-Q0081",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 81,
+    "paperIndex": 81,
+    "type": "judge",
+    "stem": "蒙田《热爱生命》主张及时行乐，忽视社会责任。( )",
+    "options": [],
+    "answer": "错误",
+    "analysis": "文档中蒙田强调“靠时间的有效利用去弥补匆匆流逝的光阴”，主张充实生命而非享乐，其核心是积极对待人生，而非逃避责任。"
+  },
+  {
+    "id": "AE-P1-Q0082",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 82,
+    "paperIndex": 82,
+    "type": "judge",
+    "stem": "芭蕾舞的 “立” 要求躯干与地面呈垂直状态。( )",
+    "options": [],
+    "answer": "正确",
+    "analysis": "文档描述 “‘立’指躯干必须同地面呈垂直状态”，与题干一致。"
+  },
+  {
+    "id": "AE-P1-Q0083",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 83,
+    "paperIndex": 83,
+    "type": "judge",
+    "stem": "席勒的《美育书简》首次系统阐述了美育理论。( )",
+    "options": [],
+    "answer": "正确",
+    "analysis": "1795年席勒在《美育书简》中首次提出“美育”概念，并论证了美育对人性完善的作用，奠定了西方美育理论基础。"
+  },
+  {
+    "id": "AE-P1-Q0084",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 84,
+    "paperIndex": 84,
+    "type": "judge",
+    "stem": "《韩熙载夜宴图》是一幅表现宫廷生活的工笔重彩画。( )",
+    "options": [],
+    "answer": "正确",
+    "analysis": "文档中提到顾闳中的《韩熙载夜宴图》是工笔重彩人物画，描绘了南唐官员韩熙载的夜宴场景。"
+  },
+  {
+    "id": "AE-P1-Q0085",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 85,
+    "paperIndex": 85,
+    "type": "judge",
+    "stem": "康德将美学纳入哲学体系，使其成为独立的学科分支。( )",
+    "options": [],
+    "answer": "正确",
+    "analysis": "康德在《判断力批判》中系统阐述审美判断的哲学基础，将美学与认识论、伦理学并列为哲学的三大组成部分。"
+  },
+  {
+    "id": "AE-P1-Q0086",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 86,
+    "paperIndex": 86,
+    "type": "judge",
+    "stem": "内在美比外在美更易察觉。( )",
+    "options": [],
+    "answer": "错误",
+    "analysis": "文档指出内在美 “不像外在美那样一目了然，易于发现”。"
+  },
+  {
+    "id": "AE-P1-Q0087",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 87,
+    "paperIndex": 87,
+    "type": "judge",
+    "stem": "古希腊建筑崇尚人体美与数的和谐。( )",
+    "options": [],
+    "answer": "正确",
+    "analysis": "文档提到古希腊建筑 “崇尚人体美与数的和谐”，如黄金分割比例。"
+  },
+  {
+    "id": "AE-P1-Q0088",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 88,
+    "paperIndex": 88,
+    "type": "judge",
+    "stem": "民间舞的人类文化性体现在其传承中的文化积淀。( )",
+    "options": [],
+    "answer": "正确",
+    "analysis": "文档提到民间舞 “在传承过程中积淀下深厚的文化”，符合 “人类文化性” 定义。"
+  },
+  {
+    "id": "AE-P1-Q0089",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 89,
+    "paperIndex": 89,
+    "type": "judge",
+    "stem": "人工智能的历史可追溯至 20 世纪中叶。( )",
+    "options": [],
+    "answer": "正确",
+    "analysis": "人工智能起源于 20 世纪中叶，文档虽未详述，但属常识内容。"
+  },
+  {
+    "id": "AE-P1-Q0090",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 90,
+    "paperIndex": 90,
+    "type": "judge",
+    "stem": "古希腊服饰风格受基督教影响。( )",
+    "options": [],
+    "answer": "错误",
+    "analysis": "古希腊早于基督教，其服饰风格受古希腊艺术影响，非基督教。"
+  },
+  {
+    "id": "AE-P1-Q0091",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 91,
+    "paperIndex": 91,
+    "type": "judge",
+    "stem": "书法艺术中 “用笔” 指行笔的方式，包括刚柔、急缓、轻重等。( )",
+    "options": [],
+    "answer": "正确",
+    "analysis": "用笔是书法艺术的核心要素之一，指行笔的技巧，包括刚柔、急缓、轻重、藏露、提按等表现手法。"
+  },
+  {
+    "id": "AE-P1-Q0092",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 92,
+    "paperIndex": 92,
+    "type": "judge",
+    "stem": "中国传统建筑的礼制等级体现在屋顶形制上。( )",
+    "options": [],
+    "answer": "正确",
+    "analysis": "文档提到礼制限定 “屋顶做法”，如庑殿顶、歇山顶的等级差异。"
+  },
+  {
+    "id": "AE-P1-Q0093",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 93,
+    "paperIndex": 93,
+    "type": "judge",
+    "stem": "苗族服饰属于民族服饰，具有丰富文化内涵。( )",
+    "options": [],
+    "answer": "正确",
+    "analysis": "文档将苗族服饰列入民族服饰，强调其文化内涵。"
+  },
+  {
+    "id": "AE-P1-Q0094",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 94,
+    "paperIndex": 94,
+    "type": "judge",
+    "stem": "古典舞《千手观音》体现了 “形神兼备” 的特点。( )",
+    "options": [],
+    "answer": "正确",
+    "analysis": "《千手观音》通过肢体动作与内在韵律结合，符合古典舞 “形神兼备” 特征。"
+  },
+  {
+    "id": "AE-P1-Q0095",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 95,
+    "paperIndex": 95,
+    "type": "judge",
+    "stem": "清代服饰完全排斥汉装元素。( )",
+    "options": [],
+    "answer": "错误",
+    "analysis": "文档提到 “清朝吸收汉装元素，满汉服饰融合”。"
+  },
+  {
+    "id": "AE-P1-Q0096",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 96,
+    "paperIndex": 96,
+    "type": "judge",
+    "stem": "人工智能具备人类情感是当前发展目标。( )",
+    "options": [],
+    "answer": "错误",
+    "analysis": "文档定义人工智能侧重理性行动与思考，未提及情感模拟是当前目标。"
+  },
+  {
+    "id": "AE-P1-Q0097",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 97,
+    "paperIndex": 97,
+    "type": "judge",
+    "stem": "女士日间礼服可露出脚趾。( )",
+    "options": [],
+    "answer": "错误",
+    "analysis": "文档规定 “日间高跟鞋必须不露脚趾，晚间可露”。"
+  },
+  {
+    "id": "AE-P1-Q0098",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 98,
+    "paperIndex": 98,
+    "type": "judge",
+    "stem": "辽金元服饰完全模仿宋代风格。( )",
+    "options": [],
+    "answer": "错误",
+    "analysis": "文档指出 “辽金元服饰没有宋代繁荣，但各有特色”，非完全模仿。"
+  },
+  {
+    "id": "AE-P1-Q0099",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 99,
+    "paperIndex": 99,
+    "type": "judge",
+    "stem": "物种形成是生物进化的结果。( )",
+    "options": [],
+    "answer": "正确",
+    "analysis": "生物进化导致物种形成，文档提及 “物种和物种形成” 是进化的重要环节。"
+  },
+  {
+    "id": "AE-P1-Q0100",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 100,
+    "paperIndex": 100,
+    "type": "judge",
+    "stem": "“枕郎左臂，随郎转侧” 出自《地驱乐歌》。( )",
+    "options": [],
+    "answer": "正确",
+    "analysis": "词句出自文档第二节 “北歌南曲” 中的《地驱乐歌》其三。"
+  },
+  {
+    "id": "AE-P1-Q0101",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 101,
+    "paperIndex": 101,
+    "type": "judge",
+    "stem": "舞蹈的直觉性指通过视觉直接感知动作。( )",
+    "options": [],
+    "answer": "正确",
+    "analysis": "直觉性指舞蹈通过肢体动作直接传递信息，观众可直观感知。"
+  },
+  {
+    "id": "AE-P1-Q0102",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 102,
+    "paperIndex": 102,
+    "type": "judge",
+    "stem": "文艺复兴时期的绘画关注现实与人文精神。( )",
+    "options": [],
+    "answer": "正确",
+    "analysis": "文档中指出文艺复兴时期绘画“关注现实与人文，在追溯古希腊、古罗马的精神旗帜下创造了最符合现实人性的崭新艺术”。"
+  },
+  {
+    "id": "AE-P1-Q0103",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 103,
+    "paperIndex": 103,
+    "type": "judge",
+    "stem": "人类发展经历了南方古猿、直立人、能人阶段。( )",
+    "options": [],
+    "answer": "错误",
+    "analysis": "正确顺序为南方古猿→能人→直立人，题干顺序错误。"
+  },
+  {
+    "id": "AE-P1-Q0104",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 104,
+    "paperIndex": 104,
+    "type": "judge",
+    "stem": "食物链中能量流动是单向的。( )",
+    "options": [],
+    "answer": "正确",
+    "analysis": "生态系统能量流单向流动、逐级递减，文档虽未直接说明，但为基础常识。"
+  },
+  {
+    "id": "AE-P1-Q0105",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 105,
+    "paperIndex": 105,
+    "type": "judge",
+    "stem": "人民英雄纪念碑浮雕属于中国古代雕塑作品。( )",
+    "options": [],
+    "answer": "错误",
+    "analysis": "课件中“中国雕塑名作欣赏”将人民英雄纪念碑浮雕列为现代作品，创作于新中国成立后。"
+  },
+  {
+    "id": "AE-P1-Q0106",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 106,
+    "paperIndex": 106,
+    "type": "judge",
+    "stem": "《牡丹亭》中的杜丽娘因爱情而死，又因爱情而复生。( )",
+    "options": [],
+    "answer": "正确",
+    "analysis": "文档详细叙述《牡丹亭》情节:杜丽娘因梦生情，相思而死，后与柳梦梅魂遇，最终还魂复生，体现“情超越生死”的主题。"
+  },
+  {
+    "id": "AE-P1-Q0107",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 107,
+    "paperIndex": 107,
+    "type": "judge",
+    "stem": "教学目标中 “背唱歌曲” 属于知识目标。( )",
+    "options": [],
+    "answer": "错误",
+    "analysis": "文档中 “背唱歌曲” 属于 “能力目标”，而非知识目标。"
+  },
+  {
+    "id": "AE-P1-Q0108",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 108,
+    "paperIndex": 108,
+    "type": "judge",
+    "stem": "草书的主要特征是笔画带勾连，包括上下勾连和左右勾连。( )",
+    "options": [],
+    "answer": "正确",
+    "analysis": "草书为追求书写速度，笔画产生勾连，形成符号化特征，分为早期草书、章草、今草三个发展阶段。"
+  },
+  {
+    "id": "AE-P1-Q0109",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 109,
+    "paperIndex": 109,
+    "type": "judge",
+    "stem": "诗歌鉴赏只需关注语言技巧，无需理解情感内涵。( )",
+    "options": [],
+    "answer": "错误",
+    "analysis": "文档中对《将进酒》《江城子》等诗歌的赏析均强调“情感饱满”“真挚情怀”，情感内涵是诗歌鉴赏的核心，语言技巧服务于情感表达。"
+  },
+  {
+    "id": "AE-P1-Q0110",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 110,
+    "paperIndex": 110,
+    "type": "judge",
+    "stem": "马克思主义美学认为审美活动具有社会历史性。( )",
+    "options": [],
+    "answer": "正确",
+    "analysis": "马克思主义从生产实践出发，认为审美意识受社会经济基础制约，具有历史阶段性和阶级属性。"
+  },
+  {
+    "id": "AE-P1-Q0111",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 111,
+    "paperIndex": 111,
+    "type": "judge",
+    "stem": "小篆是西周晚期普遍采用的字体，由伯益所创。( )",
+    "options": [],
+    "answer": "错误",
+    "analysis": "大篆是西周晚期字体，相传为伯益所创;小篆是秦始皇统一六国后由李斯简化大篆而成，并非西周字体。"
+  },
+  {
+    "id": "AE-P1-Q0112",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 112,
+    "paperIndex": 112,
+    "type": "judge",
+    "stem": "《梁山伯与祝英台》是二胡协奏曲。( )",
+    "options": [],
+    "answer": "错误",
+    "analysis": "文档明确标注为 “小提琴协奏曲”，非二胡。"
+  },
+  {
+    "id": "AE-P1-Q0113",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 113,
+    "paperIndex": 113,
+    "type": "judge",
+    "stem": "散文的 “形散神不散” 指结构松散但主题统一。( )",
+    "options": [],
+    "answer": "正确",
+    "analysis": "文档“散文概述”中解释“文神不散”指散文“主旨、主题”和“内在韵致意趣”统一，即便取材自由(形散)，也有核心主题贯穿。"
+  },
+  {
+    "id": "AE-P1-Q0114",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 114,
+    "paperIndex": 114,
+    "type": "judge",
+    "stem": "孔子认为 “乐教” 是道德教育的最终环节。( )",
+    "options": [],
+    "answer": "正确",
+    "analysis": "孔子提出“兴于诗，立于礼，成于乐”，认为艺术教育是完成道德修养的必要手段。"
+  },
+  {
+    "id": "AE-P1-Q0115",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 115,
+    "paperIndex": 115,
+    "type": "judge",
+    "stem": "洛可可风格常用于宗教建筑。( )",
+    "options": [],
+    "answer": "错误",
+    "analysis": "洛可可为世俗风格，多用于宫殿、住宅，文档以凡尔赛宫为例。"
+  },
+  {
+    "id": "AE-P1-Q0116",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 116,
+    "paperIndex": 116,
+    "type": "judge",
+    "stem": "宋代玉器以礼仪用玉为主。( )",
+    "options": [],
+    "answer": "错误",
+    "analysis": "宋代玉器以生活和装饰用玉为主，礼仪用玉为早期功能。"
+  },
+  {
+    "id": "AE-P1-Q0117",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 117,
+    "paperIndex": 117,
+    "type": "judge",
+    "stem": "老舍的《茶馆》采用了 “三一律” 结构。( )",
+    "options": [],
+    "answer": "错误",
+    "analysis": "文档明确《雷雨》采用“三一律”，而《茶馆》采用“多人多事、人像展览式”结构，通过70多个人物串联起50年社会变迁，属于“老舍式戏剧结构”。"
+  },
+  {
+    "id": "AE-P1-Q0118",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 118,
+    "paperIndex": 118,
+    "type": "judge",
+    "stem": "魏晋书法的代表人物是钟繇和王羲之，推动了楷书和行书的发展。( )",
+    "options": [],
+    "answer": "正确",
+    "analysis": "魏晋时期，钟繇是楷书的奠基者，王羲之革新行书艺术，二者共同推动了书法从实用向艺术的转变，是魏晋书法的代表人物。"
+  },
+  {
+    "id": "AE-P1-Q0119",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 119,
+    "paperIndex": 119,
+    "type": "judge",
+    "stem": "中国绘画中的 “写意” 注重形似而非神似。( )",
+    "options": [],
+    "answer": "错误",
+    "analysis": "文档中提到顾恺之的“传神写照”理论影响深远，中国写意画注重“神似”而非单纯“形似”，强调意境和情感表达。"
+  },
+  {
+    "id": "AE-P1-Q0120",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P1",
+    "index": 120,
+    "paperIndex": 120,
+    "type": "judge",
+    "stem": "地球的赤道半径小于极半径。( )",
+    "options": [],
+    "answer": "错误",
+    "analysis": "地球是赤道突出的椭球体，赤道半径大于极半径。"
+  },
+  {
+    "id": "AE-P2-Q0001",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 121,
+    "paperIndex": 1,
+    "type": "single",
+    "stem": "内在美对人的美起( )作用",
+    "options": [
+      {
+        "label": "A",
+        "text": "次要"
+      },
+      {
+        "label": "B",
+        "text": "决定"
+      },
+      {
+        "label": "C",
+        "text": "辅助"
+      },
+      {
+        "label": "D",
+        "text": "无影响"
+      }
+    ],
+    "answer": "B",
+    "analysis": "文档指出 “内在美是人的美的主要的决定的方面”。"
+  },
+  {
+    "id": "AE-P2-Q0002",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 122,
+    "paperIndex": 2,
+    "type": "single",
+    "stem": "动物进化的正确顺序是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "单细胞生物→原核细胞→真核细胞"
+      },
+      {
+        "label": "B",
+        "text": "原核细胞→真核细胞→多细胞生物"
+      },
+      {
+        "label": "C",
+        "text": "真核细胞→原核细胞→单细胞生物"
+      },
+      {
+        "label": "D",
+        "text": "多细胞生物→单细胞生物→真核细胞"
+      }
+    ],
+    "answer": "B",
+    "analysis": "生命起源从原核细胞发展到真核细胞，再进化为多细胞生物，文档明确该顺序。"
+  },
+  {
+    "id": "AE-P2-Q0003",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 123,
+    "paperIndex": 3,
+    "type": "single",
+    "stem": "中国传统建筑中，“间” 的构成单位是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "单根立柱"
+      },
+      {
+        "label": "B",
+        "text": "两副梁架与顺檩"
+      },
+      {
+        "label": "C",
+        "text": "砖石墙体"
+      },
+      {
+        "label": "D",
+        "text": "屋顶结构"
+      }
+    ],
+    "answer": "B",
+    "analysis": "文档说明 “两副梁架之间用顺檩牵搭，构成‘间’的主要构架”。"
+  },
+  {
+    "id": "AE-P2-Q0004",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 124,
+    "paperIndex": 4,
+    "type": "single",
+    "stem": "“富阳江之富，富阳江之茶” 出自民歌( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "《闯王》"
+      },
+      {
+        "label": "B",
+        "text": "《富春谣》"
+      },
+      {
+        "label": "C",
+        "text": "《寄生草》"
+      },
+      {
+        "label": "D",
+        "text": "《有所思》"
+      }
+    ],
+    "answer": "B",
+    "analysis": "词句出自文档第二节 “民歌小曲” 中的《富春谣》。"
+  },
+  {
+    "id": "AE-P2-Q0005",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 125,
+    "paperIndex": 5,
+    "type": "single",
+    "stem": "下列属于野兽派特点的是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "强调形的单纯化和平面化"
+      },
+      {
+        "label": "B",
+        "text": "分解物象为几何块面"
+      },
+      {
+        "label": "C",
+        "text": "注重表现内在情感"
+      },
+      {
+        "label": "D",
+        "text": "利用废弃物拼贴"
+      }
+    ],
+    "answer": "A",
+    "analysis": "文档中明确提到野兽派以马蒂斯为代表，强调形的单纯化和平面化，追求画面的装饰性。"
+  },
+  {
+    "id": "AE-P2-Q0006",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 126,
+    "paperIndex": 6,
+    "type": "single",
+    "stem": "被称为 “天下第一行书” 的作品是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "《祭侄文稿》"
+      },
+      {
+        "label": "B",
+        "text": "《兰亭序》"
+      },
+      {
+        "label": "C",
+        "text": "《自叙帖》"
+      },
+      {
+        "label": "D",
+        "text": "《寒食帖》"
+      }
+    ],
+    "answer": "B",
+    "analysis": "王羲之的《兰亭序》被誉为“天下第一行书”，其笔法流畅、结构自然，兼具艺术美感与文化内涵，是行书艺术的巅峰之作。"
+  },
+  {
+    "id": "AE-P2-Q0007",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 127,
+    "paperIndex": 7,
+    "type": "single",
+    "stem": "塞缪尔・乌尔曼《青春》中认为 “青春” 的本质是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "年龄阶段"
+      },
+      {
+        "label": "B",
+        "text": "生理状态"
+      },
+      {
+        "label": "C",
+        "text": "心态与意志"
+      },
+      {
+        "label": "D",
+        "text": "社会角色"
+      }
+    ],
+    "answer": "C",
+    "analysis": "文档中《青春》开篇即点明“青春不是年华，而是一种心态”，强调“坚韧的意志、丰富的想象力”是青春的核心，与年龄无关。"
+  },
+  {
+    "id": "AE-P2-Q0008",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 128,
+    "paperIndex": 8,
+    "type": "single",
+    "stem": "提出 “兴于诗，立于礼，成于乐” 教育观点的思想家是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "孔子"
+      },
+      {
+        "label": "B",
+        "text": "孟子"
+      },
+      {
+        "label": "C",
+        "text": "老子"
+      },
+      {
+        "label": "D",
+        "text": "庄子"
+      }
+    ],
+    "answer": "A",
+    "analysis": "孔子强调艺术教育的道德功能，认为“乐教”是完成人格修养的最终手段，开创了儒家重视美育的传统。"
+  },
+  {
+    "id": "AE-P2-Q0009",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 129,
+    "paperIndex": 9,
+    "type": "single",
+    "stem": "下列属于宋代画家赵佶的作品是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "《韩熙载夜宴图》"
+      },
+      {
+        "label": "B",
+        "text": "《瑞鹤图》"
+      },
+      {
+        "label": "C",
+        "text": "《清明上河图》"
+      },
+      {
+        "label": "D",
+        "text": "《墨竹图》"
+      }
+    ],
+    "answer": "B",
+    "analysis": "文档中展示了赵佶的《瑞鹤图》，该作品体现了宋代绘画注重写生的特点，而《韩熙载夜宴图》为顾闳中所作，《清明上河图》为张择端所作，《墨竹图》为郑板桥所作。"
+  },
+  {
+    "id": "AE-P2-Q0010",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 130,
+    "paperIndex": 10,
+    "type": "single",
+    "stem": "地球的形状更接近( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "正球体"
+      },
+      {
+        "label": "B",
+        "text": "赤道突出的椭球体"
+      },
+      {
+        "label": "C",
+        "text": "立方体"
+      },
+      {
+        "label": "D",
+        "text": "梨状体"
+      }
+    ],
+    "answer": "B",
+    "analysis": "文档提到 “地球是赤道突出、两极扁平的椭球体”，梨状体是近年少数观点，主流仍为椭球体。"
+  },
+  {
+    "id": "AE-P2-Q0011",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 131,
+    "paperIndex": 11,
+    "type": "single",
+    "stem": "绘画的审美特征不包括( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "色彩之美"
+      },
+      {
+        "label": "B",
+        "text": "线条之美"
+      },
+      {
+        "label": "C",
+        "text": "构图之美"
+      },
+      {
+        "label": "D",
+        "text": "材质之美"
+      }
+    ],
+    "answer": "D",
+    "analysis": "文档中明确将绘画的审美特征归纳为色彩之美、线条之美、构图之美，未提及材质之美。"
+  },
+  {
+    "id": "AE-P2-Q0012",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 132,
+    "paperIndex": 12,
+    "type": "single",
+    "stem": "马克思主义美学分析审美现象的核心方法是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "历史哲学与社会批评"
+      },
+      {
+        "label": "B",
+        "text": "心理分析"
+      },
+      {
+        "label": "C",
+        "text": "形式分析"
+      },
+      {
+        "label": "D",
+        "text": "宗教阐释"
+      }
+    ],
+    "answer": "A",
+    "analysis": "马克思主义美学从生产实践出发，通过历史唯物主义和社会结构理论(经济基础-上层建筑)分析审美现象的社会属性。"
+  },
+  {
+    "id": "AE-P2-Q0013",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 133,
+    "paperIndex": 13,
+    "type": "single",
+    "stem": "宋代服饰的风格是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "华丽繁复"
+      },
+      {
+        "label": "B",
+        "text": "朴素实用、内敛风雅"
+      },
+      {
+        "label": "C",
+        "text": "开放大胆"
+      },
+      {
+        "label": "D",
+        "text": "厚重庄严"
+      }
+    ],
+    "answer": "B",
+    "analysis": "文档提到 “宋代服饰注重朴素实用、修身适体，显出内敛风雅的气质”。"
+  },
+  {
+    "id": "AE-P2-Q0014",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 134,
+    "paperIndex": 14,
+    "type": "single",
+    "stem": "下列属于老舍的散文作品是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "《湖心亭看雪》"
+      },
+      {
+        "label": "B",
+        "text": "《济南的冬天》"
+      },
+      {
+        "label": "C",
+        "text": "《热爱生命》"
+      },
+      {
+        "label": "D",
+        "text": "《青春》"
+      }
+    ],
+    "answer": "B",
+    "analysis": "《济南的冬天》是老舍的散文代表作，通过温情的笔调描绘济南冬季的温晴之景，文档中对其有详细赏析。"
+  },
+  {
+    "id": "AE-P2-Q0015",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 135,
+    "paperIndex": 15,
+    "type": "single",
+    "stem": "下列哪项不属于美育实践的内容?( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "赏析自然美"
+      },
+      {
+        "label": "B",
+        "text": "学习美学理论"
+      },
+      {
+        "label": "C",
+        "text": "创作艺术作品"
+      },
+      {
+        "label": "D",
+        "text": "训练数学思维"
+      }
+    ],
+    "answer": "D",
+    "analysis": "美育实践包括审美理论学习、艺术/自然/社会美赏析、美的创作(如摄影、阅读交流)，数学思维训练属于智育范畴。"
+  },
+  {
+    "id": "AE-P2-Q0016",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 136,
+    "paperIndex": 16,
+    "type": "single",
+    "stem": "影响生物多样性的原因不包括( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "栖息地丧失"
+      },
+      {
+        "label": "B",
+        "text": "物种进化"
+      },
+      {
+        "label": "C",
+        "text": "外来物种入侵"
+      },
+      {
+        "label": "D",
+        "text": "环境污染"
+      }
+    ],
+    "answer": "B",
+    "analysis": "物种进化是自然过程，非生物多样性减少的原因;栖息地丧失、入侵、污染均为文档提及的影响因素。"
+  },
+  {
+    "id": "AE-P2-Q0017",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 137,
+    "paperIndex": 17,
+    "type": "single",
+    "stem": "舞台调度构图的作用是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "决定舞蹈意境与创作意图"
+      },
+      {
+        "label": "B",
+        "text": "规范舞者方位"
+      },
+      {
+        "label": "C",
+        "text": "划分舞台区域"
+      },
+      {
+        "label": "D",
+        "text": "展示舞者技巧"
+      }
+    ],
+    "answer": "A",
+    "analysis": "文档强调 “舞台调度构图对舞蹈意境和编导意图起关键性决定作用”。"
+  },
+  {
+    "id": "AE-P2-Q0018",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 138,
+    "paperIndex": 18,
+    "type": "single",
+    "stem": "人情美不包括( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "爱情美"
+      },
+      {
+        "label": "B",
+        "text": "亲情美"
+      },
+      {
+        "label": "C",
+        "text": "环境美"
+      },
+      {
+        "label": "D",
+        "text": "友情美"
+      }
+    ],
+    "answer": "C",
+    "analysis": "环境美与人情美并列，属社会生活美，人情美包括爱情、亲情、友情。"
+  },
+  {
+    "id": "AE-P2-Q0019",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 139,
+    "paperIndex": 19,
+    "type": "single",
+    "stem": "自身会发热发光的天体是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "行星"
+      },
+      {
+        "label": "B",
+        "text": "恒星"
+      },
+      {
+        "label": "C",
+        "text": "卫星"
+      },
+      {
+        "label": "D",
+        "text": "彗星"
+      }
+    ],
+    "answer": "B",
+    "analysis": "文档定义恒星为 “由炽热气体组成，自身会发热发光的天体”。"
+  },
+  {
+    "id": "AE-P2-Q0020",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 140,
+    "paperIndex": 20,
+    "type": "single",
+    "stem": "舞蹈的特征不包括( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "直觉性"
+      },
+      {
+        "label": "B",
+        "text": "动作性"
+      },
+      {
+        "label": "C",
+        "text": "文学性"
+      },
+      {
+        "label": "D",
+        "text": "抒情性"
+      }
+    ],
+    "answer": "C",
+    "analysis": "文档列出舞蹈特征为直觉性、动作性、造型性、抒情性、综合性，未提及 “文学性”。"
+  },
+  {
+    "id": "AE-P2-Q0021",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 141,
+    "paperIndex": 21,
+    "type": "single",
+    "stem": "内在美比外在美( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "更浅显"
+      },
+      {
+        "label": "B",
+        "text": "更深刻持久"
+      },
+      {
+        "label": "C",
+        "text": "更易察觉"
+      },
+      {
+        "label": "D",
+        "text": "更短暂"
+      }
+    ],
+    "answer": "B",
+    "analysis": "文档提到内在美 “比外在美丰富、深刻，可以长存不灭”。"
+  },
+  {
+    "id": "AE-P2-Q0022",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 142,
+    "paperIndex": 22,
+    "type": "single",
+    "stem": "文艺复兴三杰不包括( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "达・芬奇"
+      },
+      {
+        "label": "B",
+        "text": "米开朗琪罗"
+      },
+      {
+        "label": "C",
+        "text": "拉斐尔"
+      },
+      {
+        "label": "D",
+        "text": "提香"
+      }
+    ],
+    "answer": "D",
+    "analysis": "文档中明确指出文艺复兴三杰为达·芬奇、米开朗琪罗、拉斐尔，提香是文艺复兴时期威尼斯画派的代表人物，但不属于三杰。"
+  },
+  {
+    "id": "AE-P2-Q0023",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 143,
+    "paperIndex": 23,
+    "type": "single",
+    "stem": "小提琴协奏曲《梁山伯与祝英台》属于( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "管弦乐"
+      },
+      {
+        "label": "B",
+        "text": "交响乐"
+      },
+      {
+        "label": "C",
+        "text": "协奏曲"
+      },
+      {
+        "label": "D",
+        "text": "流行音乐"
+      }
+    ],
+    "answer": "C",
+    "analysis": "文档第三节 “协奏曲” 明确标注该作品为小提琴协奏曲。"
+  },
+  {
+    "id": "AE-P2-Q0024",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 144,
+    "paperIndex": 24,
+    "type": "single",
+    "stem": "瓷器按用途命名的是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "梅瓶"
+      },
+      {
+        "label": "B",
+        "text": "渣斗"
+      },
+      {
+        "label": "C",
+        "text": "天字罐"
+      },
+      {
+        "label": "D",
+        "text": "莲花尊"
+      }
+    ],
+    "answer": "B",
+    "analysis": "渣斗因用途(盛放兽骨鱼刺)命名，梅瓶按口型，天字罐按文字，莲花尊按图案。"
+  },
+  {
+    "id": "AE-P2-Q0025",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 145,
+    "paperIndex": 25,
+    "type": "single",
+    "stem": "以下属于无人航天器的是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "载人飞船"
+      },
+      {
+        "label": "B",
+        "text": "空间探测器"
+      },
+      {
+        "label": "C",
+        "text": "航天站"
+      },
+      {
+        "label": "D",
+        "text": "航天飞机"
+      }
+    ],
+    "answer": "B",
+    "analysis": "空间探测器属无人航天器，其余选项为载人航天器。"
+  },
+  {
+    "id": "AE-P2-Q0026",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 146,
+    "paperIndex": 26,
+    "type": "single",
+    "stem": "地壳中含量最多的元素是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "氧和铁"
+      },
+      {
+        "label": "B",
+        "text": "氧和硅"
+      },
+      {
+        "label": "C",
+        "text": "硅和铝"
+      },
+      {
+        "label": "D",
+        "text": "铝和铁"
+      }
+    ],
+    "answer": "B",
+    "analysis": "文档指出 “地壳中最丰富的氧和硅占地壳总重量的 74% 多”。"
+  },
+  {
+    "id": "AE-P2-Q0027",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 147,
+    "paperIndex": 27,
+    "type": "single",
+    "stem": "下列哪项属于现当代西方美学的发展趋势?( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "向文化学转向"
+      },
+      {
+        "label": "B",
+        "text": "回归古典美学"
+      },
+      {
+        "label": "C",
+        "text": "排斥审美经验"
+      },
+      {
+        "label": "D",
+        "text": "强化宗教美学"
+      }
+    ],
+    "answer": "A",
+    "analysis": "20世纪末，西方美学逐渐摆脱分析美学的形式主义，转向文化学视角，强调审美与生活实践的联系。"
+  },
+  {
+    "id": "AE-P2-Q0028",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 148,
+    "paperIndex": 28,
+    "type": "single",
+    "stem": "下列属于意识流小说的是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "《红楼梦》"
+      },
+      {
+        "label": "B",
+        "text": "《变形记》"
+      },
+      {
+        "label": "C",
+        "text": "《罪与罚》"
+      },
+      {
+        "label": "D",
+        "text": "《狂人日记》"
+      }
+    ],
+    "answer": "B",
+    "analysis": "文档分析《变形记》时提到格里高尔变形后的心理活动体现了“个体性被社会性侵蚀”，其内心独白符合意识流文学特征，注重内心世界描写。"
+  },
+  {
+    "id": "AE-P2-Q0029",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 149,
+    "paperIndex": 29,
+    "type": "single",
+    "stem": "《清明上河图》描绘的是哪个城市的景象?( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "长安"
+      },
+      {
+        "label": "B",
+        "text": "洛阳"
+      },
+      {
+        "label": "C",
+        "text": "开封"
+      },
+      {
+        "label": "D",
+        "text": "杭州"
+      }
+    ],
+    "answer": "C",
+    "analysis": "文档中提到张择端的《清明上河图》描绘了北宋都城汴京(今开封)的市井生活，是中国古代风俗画的巅峰之作。"
+  },
+  {
+    "id": "AE-P2-Q0030",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 150,
+    "paperIndex": 30,
+    "type": "single",
+    "stem": "气候是指某地区的( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "某一时刻天气状况"
+      },
+      {
+        "label": "B",
+        "text": "多年平均大气状况"
+      },
+      {
+        "label": "C",
+        "text": "极端天气事件"
+      },
+      {
+        "label": "D",
+        "text": "短期气象变化"
+      }
+    ],
+    "answer": "B",
+    "analysis": "文档定义气候为 “多年常见的和特有的天气状况的综合”，区别于某一时刻的天气。"
+  },
+  {
+    "id": "AE-P2-Q0031",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 151,
+    "paperIndex": 31,
+    "type": "single",
+    "stem": "古典舞动作技巧不包括( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "旋转"
+      },
+      {
+        "label": "B",
+        "text": "翻身"
+      },
+      {
+        "label": "C",
+        "text": "踢腿"
+      },
+      {
+        "label": "D",
+        "text": "弹跳"
+      }
+    ],
+    "answer": "C",
+    "analysis": "文档列出古典舞技巧为旋转、翻身、弹跳、节奏，未提及 “踢腿”。"
+  },
+  {
+    "id": "AE-P2-Q0032",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 152,
+    "paperIndex": 32,
+    "type": "single",
+    "stem": "明代玉器制作中心是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "北京和南京"
+      },
+      {
+        "label": "B",
+        "text": "北京和苏州"
+      },
+      {
+        "label": "C",
+        "text": "苏州和杭州"
+      },
+      {
+        "label": "D",
+        "text": "南京和杭州"
+      }
+    ],
+    "answer": "B",
+    "analysis": "文档提到明代玉器中心为北京和苏州，苏州以工细著称。"
+  },
+  {
+    "id": "AE-P2-Q0033",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 153,
+    "paperIndex": 33,
+    "type": "single",
+    "stem": "汤显祖《牡丹亭》的核心主题是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "生死爱情与个性解放"
+      },
+      {
+        "label": "B",
+        "text": "政治讽刺"
+      },
+      {
+        "label": "C",
+        "text": "历史悲剧"
+      },
+      {
+        "label": "D",
+        "text": "社会批判"
+      }
+    ],
+    "answer": "A",
+    "analysis": "《牡丹亭》通过杜丽娘“生而复死、死而复生”的爱情故事，宣扬“情”超越生死、打破礼教束缚的主题，文档强调其浪漫主义对人性解放的追求。"
+  },
+  {
+    "id": "AE-P2-Q0034",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 154,
+    "paperIndex": 34,
+    "type": "single",
+    "stem": "《诗经・蒹葭》的主要艺术特色是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "直抒胸臆"
+      },
+      {
+        "label": "B",
+        "text": "意境朦胧"
+      },
+      {
+        "label": "C",
+        "text": "豪迈奔放"
+      },
+      {
+        "label": "D",
+        "text": "荒诞离奇"
+      }
+    ],
+    "answer": "B",
+    "analysis": "文档赏析《蒹葭》时强调其“意境朦胧”，通过“苍茫的秋水、迷蒙的雾霭”等意象营造出扑朔迷离的美感，给读者广阔想象空间。"
+  },
+  {
+    "id": "AE-P2-Q0035",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 155,
+    "paperIndex": 35,
+    "type": "single",
+    "stem": "中国传统建筑理念中，“天人合一” 指( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "建筑与自然和谐共生"
+      },
+      {
+        "label": "B",
+        "text": "建筑等级区分明确"
+      },
+      {
+        "label": "C",
+        "text": "建筑装饰华丽"
+      },
+      {
+        "label": "D",
+        "text": "建筑材料环保"
+      }
+    ],
+    "answer": "A",
+    "analysis": "文档第二节提到 “天人合一” 是 “自然环境和人居环境相互交流、和谐共生”。"
+  },
+  {
+    "id": "AE-P2-Q0036",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 156,
+    "paperIndex": 36,
+    "type": "single",
+    "stem": "文艺复兴时期建筑的代表是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "圣索菲亚大教堂"
+      },
+      {
+        "label": "B",
+        "text": "帕特农神庙"
+      },
+      {
+        "label": "C",
+        "text": "佛罗伦萨主教堂穹顶"
+      },
+      {
+        "label": "D",
+        "text": "凡尔赛宫"
+      }
+    ],
+    "answer": "C",
+    "analysis": "文档提到佛罗伦萨主教堂穹顶标志着意大利文艺复兴建筑的开始。"
+  },
+  {
+    "id": "AE-P2-Q0037",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 157,
+    "paperIndex": 37,
+    "type": "single",
+    "stem": "音乐依赖于( )才能被感知",
+    "options": [
+      {
+        "label": "A",
+        "text": "视觉"
+      },
+      {
+        "label": "B",
+        "text": "听觉"
+      },
+      {
+        "label": "C",
+        "text": "触觉"
+      },
+      {
+        "label": "D",
+        "text": "嗅觉"
+      }
+    ],
+    "answer": "B",
+    "analysis": "文档第一节 “音乐具有依赖性” 指依赖听觉传播和感知。"
+  },
+  {
+    "id": "AE-P2-Q0038",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 158,
+    "paperIndex": 38,
+    "type": "single",
+    "stem": "秦始皇陵兵马俑的艺术特点是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "夸张写意"
+      },
+      {
+        "label": "B",
+        "text": "注重写实"
+      },
+      {
+        "label": "C",
+        "text": "抽象表现"
+      },
+      {
+        "label": "D",
+        "text": "装饰性强"
+      }
+    ],
+    "answer": "B",
+    "analysis": "课件明确指出，秦代雕塑艺术注重写实，追求逼真，秦始皇陵兵马俑是这一特点的典范。"
+  },
+  {
+    "id": "AE-P2-Q0039",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 159,
+    "paperIndex": 39,
+    "type": "single",
+    "stem": "商代后期青铜器的纹饰特点是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "简朴单调"
+      },
+      {
+        "label": "B",
+        "text": "华丽威严、布满器身"
+      },
+      {
+        "label": "C",
+        "text": "抽象几何纹"
+      },
+      {
+        "label": "D",
+        "text": "素色无装饰"
+      }
+    ],
+    "answer": "B",
+    "analysis": "商代后期青铜器纹饰 “丰富、华丽、威严，多层叠出，布满器身”。"
+  },
+  {
+    "id": "AE-P2-Q0040",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 160,
+    "paperIndex": 40,
+    "type": "single",
+    "stem": "现代建筑中，传统与现代融合的代表是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "故宫"
+      },
+      {
+        "label": "B",
+        "text": "埃菲尔铁塔"
+      },
+      {
+        "label": "C",
+        "text": "苏州博物馆新馆"
+      },
+      {
+        "label": "D",
+        "text": "金字塔"
+      }
+    ],
+    "answer": "C",
+    "analysis": "文档作业布置提到苏州博物馆新馆需分析 “传统艺术与现代风格融合”。"
+  },
+  {
+    "id": "AE-P2-Q0041",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 161,
+    "paperIndex": 41,
+    "type": "single",
+    "stem": "古希腊戏剧《俄狄浦斯王》的悲剧核心是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "性格缺陷"
+      },
+      {
+        "label": "B",
+        "text": "命运不可抗拒"
+      },
+      {
+        "label": "C",
+        "text": "社会不公"
+      },
+      {
+        "label": "D",
+        "text": "神权压迫"
+      }
+    ],
+    "answer": "B",
+    "analysis": "文档分析《俄狄浦斯王》时指出，其悲剧之美在于“人与命运抗争却仍被裹挟”，体现了古希腊文学中宿命论的深刻影响。"
+  },
+  {
+    "id": "AE-P2-Q0042",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 162,
+    "paperIndex": 42,
+    "type": "single",
+    "stem": "下列属于印象派画家的是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "库尔贝"
+      },
+      {
+        "label": "B",
+        "text": "凡・高"
+      },
+      {
+        "label": "C",
+        "text": "莫奈"
+      },
+      {
+        "label": "D",
+        "text": "毕加索"
+      }
+    ],
+    "answer": "C",
+    "analysis": "文档中提到莫奈的《日出·印象》是印象派的代表作，库尔贝属于现实主义，凡·高属于后印象派，毕加索属于立体派。"
+  },
+  {
+    "id": "AE-P2-Q0043",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 163,
+    "paperIndex": 43,
+    "type": "single",
+    "stem": "下列属于洛可可风格的雕塑是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "《浴女》"
+      },
+      {
+        "label": "B",
+        "text": "《大卫》"
+      },
+      {
+        "label": "C",
+        "text": "《马赛曲》"
+      },
+      {
+        "label": "D",
+        "text": "《思想者》"
+      }
+    ],
+    "answer": "A",
+    "analysis": "课件提到，18世纪洛可可风格的代表人物法尔孔奈的代表作《浴女》《吓唬人的爱神》，体现了纤巧柔美的风格。"
+  },
+  {
+    "id": "AE-P2-Q0044",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 164,
+    "paperIndex": 44,
+    "type": "single",
+    "stem": "高层建筑发展的第二阶段(19 世纪中叶 - 20 世纪中叶)的关键技术是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "电梯发明"
+      },
+      {
+        "label": "B",
+        "text": "计算机辅助设计"
+      },
+      {
+        "label": "C",
+        "text": "钢结构普及"
+      },
+      {
+        "label": "D",
+        "text": "玻璃幕墙应用"
+      }
+    ],
+    "answer": "A",
+    "analysis": "文档指出第二阶段因 “电梯发明与建筑新技术” 推动高层建筑发展。"
+  },
+  {
+    "id": "AE-P2-Q0045",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 165,
+    "paperIndex": 45,
+    "type": "single",
+    "stem": "中国传统建筑的中轴对称布局体现了( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "礼制等级制度"
+      },
+      {
+        "label": "B",
+        "text": "自由浪漫风格"
+      },
+      {
+        "label": "C",
+        "text": "西方建筑影响"
+      },
+      {
+        "label": "D",
+        "text": "自然崇拜"
+      }
+    ],
+    "answer": "A",
+    "analysis": "文档提到 “遵循礼制的建筑形制” 通过中轴对称区分等级，维护社会秩序。"
+  },
+  {
+    "id": "AE-P2-Q0046",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 166,
+    "paperIndex": 46,
+    "type": "single",
+    "stem": "下列哪项属于新石器时代体现美的起源的文物?( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "司母戊鼎"
+      },
+      {
+        "label": "B",
+        "text": "舞蹈纹彩陶罐"
+      },
+      {
+        "label": "C",
+        "text": "四羊方尊"
+      },
+      {
+        "label": "D",
+        "text": "秦始皇陵兵马俑"
+      }
+    ],
+    "answer": "B",
+    "analysis": "文档中以“舞蹈纹彩陶罐”为例，说明原始舞蹈中的审美意识，该文物属于新石器时代，体现了早期人类对美的创造。"
+  },
+  {
+    "id": "AE-P2-Q0047",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 167,
+    "paperIndex": 47,
+    "type": "single",
+    "stem": "瓷器的欣赏角度不包括( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "造型美"
+      },
+      {
+        "label": "B",
+        "text": "价格美"
+      },
+      {
+        "label": "C",
+        "text": "胎装饰美"
+      },
+      {
+        "label": "D",
+        "text": "釉装饰美"
+      }
+    ],
+    "answer": "B",
+    "analysis": "文档提到瓷器欣赏包括造型、胎、釉、彩装饰美，未提及 “价格美”。"
+  },
+  {
+    "id": "AE-P2-Q0048",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 168,
+    "paperIndex": 48,
+    "type": "single",
+    "stem": "秦始皇统一六国后推行的标准文字是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "大篆"
+      },
+      {
+        "label": "B",
+        "text": "小篆"
+      },
+      {
+        "label": "C",
+        "text": "隶书"
+      },
+      {
+        "label": "D",
+        "text": "楷书"
+      }
+    ],
+    "answer": "B",
+    "analysis": "秦始皇推行“书同文”政策，由李斯负责将大篆简化为小篆，成为全国统一的标准文字，这是中国历史上首次用行政手段规范文字。"
+  },
+  {
+    "id": "AE-P2-Q0049",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 169,
+    "paperIndex": 49,
+    "type": "single",
+    "stem": "中国雕塑史上第一个高峰出现在( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "史前时期"
+      },
+      {
+        "label": "B",
+        "text": "秦代"
+      },
+      {
+        "label": "C",
+        "text": "汉代"
+      },
+      {
+        "label": "D",
+        "text": "唐代"
+      }
+    ],
+    "answer": "B",
+    "analysis": "课件指出，秦代由于政权统一、国力强盛，雕塑艺术注重写实，成就了中国雕塑史上的第一个高峰，代表作为秦始皇陵兵马俑。"
+  },
+  {
+    "id": "AE-P2-Q0050",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 170,
+    "paperIndex": 50,
+    "type": "single",
+    "stem": "首次在著作中提出 “感性认识的完善就是美” 观点的哲学家是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "莱布尼茨"
+      },
+      {
+        "label": "B",
+        "text": "沃尔夫"
+      },
+      {
+        "label": "C",
+        "text": "鲍姆嘉通"
+      },
+      {
+        "label": "D",
+        "text": "费希纳"
+      }
+    ],
+    "answer": "C",
+    "analysis": "18世纪德国唯理主义哲学家鲍姆嘉通在研究“诗”时，提出“感性认识的完善就是美”，这一观点为美学学科的建立奠定了理论基础。"
+  },
+  {
+    "id": "AE-P2-Q0051",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 171,
+    "paperIndex": 51,
+    "type": "multiple",
+    "stem": "中国传统俗乐包括( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "先秦国风"
+      },
+      {
+        "label": "B",
+        "text": "乐府诗歌"
+      },
+      {
+        "label": "C",
+        "text": "戏曲杂剧"
+      },
+      {
+        "label": "D",
+        "text": "民歌小曲"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "analysis": "文档第二节 “俗乐” 包含先秦国风、乐府诗歌、北歌南曲、民间曲子、戏曲杂剧、民歌小曲。"
+  },
+  {
+    "id": "AE-P2-Q0052",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 172,
+    "paperIndex": 52,
+    "type": "multiple",
+    "stem": "人的本质力量体现在( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "理想美"
+      },
+      {
+        "label": "B",
+        "text": "品德美"
+      },
+      {
+        "label": "C",
+        "text": "智慧美"
+      },
+      {
+        "label": "D",
+        "text": "相貌美"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "analysis": "本质力量通过内在美(理想、品德、智慧)体现，相貌美属外在。"
+  },
+  {
+    "id": "AE-P2-Q0053",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 173,
+    "paperIndex": 53,
+    "type": "multiple",
+    "stem": "人工智能的定义类型包括( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "像人一样行动"
+      },
+      {
+        "label": "B",
+        "text": "像人一样思考"
+      },
+      {
+        "label": "C",
+        "text": "理性地思考"
+      },
+      {
+        "label": "D",
+        "text": "理性地行动"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "analysis": "文档分四类定义人工智能，均包含在选项中。"
+  },
+  {
+    "id": "AE-P2-Q0054",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 174,
+    "paperIndex": 54,
+    "type": "multiple",
+    "stem": "中国传统建筑的特点包括( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "木材为主材质"
+      },
+      {
+        "label": "B",
+        "text": "框架式结构"
+      },
+      {
+        "label": "C",
+        "text": "中轴对称布局"
+      },
+      {
+        "label": "D",
+        "text": "穹顶结构"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "analysis": "穹顶为西方建筑特征，中国传统建筑以木框架和中轴对称为主。"
+  },
+  {
+    "id": "AE-P2-Q0055",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 175,
+    "paperIndex": 55,
+    "type": "multiple",
+    "stem": "中国芭蕾舞作品包括( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "《仙女》"
+      },
+      {
+        "label": "B",
+        "text": "《天鹅湖》"
+      },
+      {
+        "label": "C",
+        "text": "《红色娘子军》"
+      },
+      {
+        "label": "D",
+        "text": "《敦煌》"
+      }
+    ],
+    "answer": [
+      "C",
+      "D"
+    ],
+    "analysis": "《红色娘子军》《敦煌》为中国芭蕾舞作品，《仙女》《天鹅湖》为外国作品。"
+  },
+  {
+    "id": "AE-P2-Q0056",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 176,
+    "paperIndex": 56,
+    "type": "multiple",
+    "stem": "中国古典戏曲的代表佳作有( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "汤显祖《牡丹亭》"
+      },
+      {
+        "label": "B",
+        "text": "洪昇《长生殿》"
+      },
+      {
+        "label": "C",
+        "text": "孔尚任《桃花扇》"
+      },
+      {
+        "label": "D",
+        "text": "关汉卿《窦娥冤》"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "analysis": "文档详细赏析了《牡丹亭》《长生殿》，并提及中国戏曲的代表佳作通常包括元明经典，如《窦娥冤》《桃花扇》等。"
+  },
+  {
+    "id": "AE-P2-Q0057",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 177,
+    "paperIndex": 57,
+    "type": "multiple",
+    "stem": "物联网的特点包括( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "感知识别普适化"
+      },
+      {
+        "label": "B",
+        "text": "异构设备互联化"
+      },
+      {
+        "label": "C",
+        "text": "管理调控智能化"
+      },
+      {
+        "label": "D",
+        "text": "应用服务单一化"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "analysis": "物联网特点包括普适化、互联化、智能化等，应用服务链条化而非单一化。"
+  },
+  {
+    "id": "AE-P2-Q0058",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 178,
+    "paperIndex": 58,
+    "type": "multiple",
+    "stem": "流行音乐《喜欢你》的情感基调是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "伤感"
+      },
+      {
+        "label": "B",
+        "text": "怀念"
+      },
+      {
+        "label": "C",
+        "text": "愤怒"
+      },
+      {
+        "label": "D",
+        "text": "欢快"
+      }
+    ],
+    "answer": [
+      "A",
+      "B"
+    ],
+    "analysis": "歌词中 “伤感的记忆”“心里无数的思念” 体现伤感与怀念。"
+  },
+  {
+    "id": "AE-P2-Q0059",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 179,
+    "paperIndex": 59,
+    "type": "multiple",
+    "stem": "汉字起源的六种学说包括( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "仓颉造字说、结绳记事说"
+      },
+      {
+        "label": "B",
+        "text": "伏羲画卦说、起一成文说"
+      },
+      {
+        "label": "C",
+        "text": "契刻说、图画说"
+      },
+      {
+        "label": "D",
+        "text": "结网捕鱼说、龟甲占卜说"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "analysis": "文档中明确列出汉字起源的六种学说为:仓颉造字说、结绳记事说、伏羲画卦说、起一成文说、契刻说、图画说，不包括D选项。"
+  },
+  {
+    "id": "AE-P2-Q0060",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 180,
+    "paperIndex": 60,
+    "type": "multiple",
+    "stem": "明代服饰的改革包括( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "恢复汉装"
+      },
+      {
+        "label": "B",
+        "text": "采纳元代款式"
+      },
+      {
+        "label": "C",
+        "text": "使用立领"
+      },
+      {
+        "label": "D",
+        "text": "废除纽扣"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "analysis": "文档提到明代 “使用立领及纽扣”，故排除 D。"
+  },
+  {
+    "id": "AE-P2-Q0061",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 181,
+    "paperIndex": 61,
+    "type": "multiple",
+    "stem": "下列属于罗丹的雕塑作品有( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "《思想者》"
+      },
+      {
+        "label": "B",
+        "text": "《巴尔扎克》"
+      },
+      {
+        "label": "C",
+        "text": "《青铜时代》"
+      },
+      {
+        "label": "D",
+        "text": "《加莱义民》"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "analysis": "课件明确列出罗丹的主要作品包括《思想者》《巴尔扎克》《青铜时代》《加莱义民》，四个选项均正确。"
+  },
+  {
+    "id": "AE-P2-Q0062",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 182,
+    "paperIndex": 62,
+    "type": "multiple",
+    "stem": "西方雕塑的发展历程包括( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "古希腊时期"
+      },
+      {
+        "label": "B",
+        "text": "文艺复兴时期"
+      },
+      {
+        "label": "C",
+        "text": "巴洛克时期"
+      },
+      {
+        "label": "D",
+        "text": "现代时期"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "analysis": "课件中西方雕塑历程涵盖古希腊、文艺复兴、巴洛克、现代等时期，四个选项均正确。"
+  },
+  {
+    "id": "AE-P2-Q0063",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 183,
+    "paperIndex": 63,
+    "type": "multiple",
+    "stem": "商代前期青铜器的纹饰有( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "饕餮纹"
+      },
+      {
+        "label": "B",
+        "text": "连珠纹"
+      },
+      {
+        "label": "C",
+        "text": "云雷纹"
+      },
+      {
+        "label": "D",
+        "text": "窃曲纹"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "analysis": "窃曲纹为西周后期纹饰，商代前期有饕餮纹、连珠纹、云雷纹。"
+  },
+  {
+    "id": "AE-P2-Q0064",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 184,
+    "paperIndex": 64,
+    "type": "multiple",
+    "stem": "西方绘画中的现实主义代表作品有( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "库尔贝《石工》"
+      },
+      {
+        "label": "B",
+        "text": "米勒《拾穗者》"
+      },
+      {
+        "label": "C",
+        "text": "凡・高《星空》"
+      },
+      {
+        "label": "D",
+        "text": "莫奈《日出・印象》"
+      }
+    ],
+    "answer": [
+      "A",
+      "B"
+    ],
+    "analysis": "库尔贝和米勒是现实主义代表，《石工》《拾穗者》为代表作;《星空》属于后印象派，《日出·印象》属于印象派。"
+  },
+  {
+    "id": "AE-P2-Q0065",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 185,
+    "paperIndex": 65,
+    "type": "multiple",
+    "stem": "生态系统的组成成分包括( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "非生物成分"
+      },
+      {
+        "label": "B",
+        "text": "生产者"
+      },
+      {
+        "label": "C",
+        "text": "消费者"
+      },
+      {
+        "label": "D",
+        "text": "分解者"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "analysis": "文档明确生态系统由非生物成分、生产者、消费者、分解者四类成分构成。"
+  },
+  {
+    "id": "AE-P2-Q0066",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 186,
+    "paperIndex": 66,
+    "type": "multiple",
+    "stem": "散文的特点包括( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "文思散淡"
+      },
+      {
+        "label": "B",
+        "text": "文法散漫"
+      },
+      {
+        "label": "C",
+        "text": "文神不散"
+      },
+      {
+        "label": "D",
+        "text": "韵律工整"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "analysis": "文档“散文概述”中提出散文的三大特点:文思散淡(取材自由)、文法散漫(章法散而有序)、文神不散(主旨统一)，散文不要求韵律工整。"
+  },
+  {
+    "id": "AE-P2-Q0067",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 187,
+    "paperIndex": 67,
+    "type": "multiple",
+    "stem": "元代瓷器款识包括( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "“枢府” 款"
+      },
+      {
+        "label": "B",
+        "text": "“至正十一年” 铭"
+      },
+      {
+        "label": "C",
+        "text": "“官” 字款"
+      },
+      {
+        "label": "D",
+        "text": "“大定二年” 款"
+      }
+    ],
+    "answer": [
+      "A",
+      "B"
+    ],
+    "analysis": "“官” 字款为唐宋，“大定二年” 为金代，元代有 “枢府” 款和 “至正十一年” 铭。"
+  },
+  {
+    "id": "AE-P2-Q0068",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 188,
+    "paperIndex": 68,
+    "type": "multiple",
+    "stem": "高层建筑发展的阶段包括( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "砖石结构阶段(19 世纪中叶前)"
+      },
+      {
+        "label": "B",
+        "text": "电梯应用阶段(19 世纪中叶 - 20 世纪中叶)"
+      },
+      {
+        "label": "C",
+        "text": "钢结构阶段(20 世纪 60 年代后)"
+      },
+      {
+        "label": "D",
+        "text": "木结构阶段(古代)"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "analysis": "文档分三个阶段，未提及古代木结构阶段，排除 D。"
+  },
+  {
+    "id": "AE-P2-Q0069",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 189,
+    "paperIndex": 69,
+    "type": "multiple",
+    "stem": "流行服饰的特点包括( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "新鲜"
+      },
+      {
+        "label": "B",
+        "text": "美丽"
+      },
+      {
+        "label": "C",
+        "text": "小众"
+      },
+      {
+        "label": "D",
+        "text": "受众人热捧"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "analysis": "流行服饰具有大众性，排除 “小众”。"
+  },
+  {
+    "id": "AE-P2-Q0070",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 190,
+    "paperIndex": 70,
+    "type": "multiple",
+    "stem": "服饰的产生与发展受( )影响",
+    "options": [
+      {
+        "label": "A",
+        "text": "纺织技术"
+      },
+      {
+        "label": "B",
+        "text": "宗教信仰"
+      },
+      {
+        "label": "C",
+        "text": "政治制度"
+      },
+      {
+        "label": "D",
+        "text": "审美倾向"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "analysis": "文档涉及纺织技术、宗教、政治(如等级制度)、审美对服饰的影响。"
+  },
+  {
+    "id": "AE-P2-Q0071",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 191,
+    "paperIndex": 71,
+    "type": "multiple",
+    "stem": "西方传统服饰包括( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "古希腊服饰"
+      },
+      {
+        "label": "B",
+        "text": "中世纪服饰"
+      },
+      {
+        "label": "C",
+        "text": "唐代服饰"
+      },
+      {
+        "label": "D",
+        "text": "近代前期服饰"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "analysis": "唐代服饰属于中国，其余为西方传统服饰。"
+  },
+  {
+    "id": "AE-P2-Q0072",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 192,
+    "paperIndex": 72,
+    "type": "multiple",
+    "stem": "中国现代雕塑的代表作包括( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "人民英雄纪念碑浮雕"
+      },
+      {
+        "label": "B",
+        "text": "潘鹤《艰苦岁月》"
+      },
+      {
+        "label": "C",
+        "text": "钱绍武《李大钊纪念像》"
+      },
+      {
+        "label": "D",
+        "text": "陈云冈《大江东去》"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "analysis": "课件中“中国雕塑名作欣赏”部分详细介绍了这四件作品，均属于中国现代雕塑的代表。"
+  },
+  {
+    "id": "AE-P2-Q0073",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 193,
+    "paperIndex": 73,
+    "type": "multiple",
+    "stem": "量子力学的经典理论包括( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "普朗克能量子假说"
+      },
+      {
+        "label": "B",
+        "text": "爱因斯坦光量子理论"
+      },
+      {
+        "label": "C",
+        "text": "玻尔旧量子论"
+      },
+      {
+        "label": "D",
+        "text": "德・布罗意物质波"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "analysis": "文档提及量子力学经典理论包括选项中全部内容。"
+  },
+  {
+    "id": "AE-P2-Q0074",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 194,
+    "paperIndex": 74,
+    "type": "multiple",
+    "stem": "地球的物理特性包括( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "形状"
+      },
+      {
+        "label": "B",
+        "text": "大小"
+      },
+      {
+        "label": "C",
+        "text": "圈层构造"
+      },
+      {
+        "label": "D",
+        "text": "天气变化"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "analysis": "天气变化属于大气圈现象，非地球物理特性;形状、大小、圈层构造为地球基本特性。"
+  },
+  {
+    "id": "AE-P2-Q0075",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 195,
+    "paperIndex": 75,
+    "type": "multiple",
+    "stem": "器物鉴赏应具备的文化修养包括( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "历史学知识"
+      },
+      {
+        "label": "B",
+        "text": "考古学知识"
+      },
+      {
+        "label": "C",
+        "text": "古汉语知识"
+      },
+      {
+        "label": "D",
+        "text": "数学知识"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "analysis": "文档明确要求 “广博的历史学、深厚的考古学、扎实的古汉语知识”。"
+  },
+  {
+    "id": "AE-P2-Q0076",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 196,
+    "paperIndex": 76,
+    "type": "multiple",
+    "stem": "西方绘画中的 19 世纪流派包括( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "新古典主义"
+      },
+      {
+        "label": "B",
+        "text": "浪漫主义"
+      },
+      {
+        "label": "C",
+        "text": "现实主义"
+      },
+      {
+        "label": "D",
+        "text": "印象主义"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "analysis": "文档中指出19世纪法国绘画主导流派包括新古典主义、浪漫主义、现实主义、印象主义、新印象主义和后印象主义，前四项均正确。"
+  },
+  {
+    "id": "AE-P2-Q0077",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 197,
+    "paperIndex": 77,
+    "type": "multiple",
+    "stem": "中国传统建筑的抗震优势在于( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "木材弹性好"
+      },
+      {
+        "label": "B",
+        "text": "框架结构分离承重"
+      },
+      {
+        "label": "C",
+        "text": "卯榫连接灵活"
+      },
+      {
+        "label": "D",
+        "text": "墙体厚重"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "analysis": "文档提到木材抗震性高，框架结构和卯榫连接提升抗震能力，墙体不承重，排除 D。"
+  },
+  {
+    "id": "AE-P2-Q0078",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 198,
+    "paperIndex": 78,
+    "type": "multiple",
+    "stem": "男士正装搭配细节包括( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "领带颜色"
+      },
+      {
+        "label": "B",
+        "text": "皮鞋款式"
+      },
+      {
+        "label": "C",
+        "text": "背包选择"
+      },
+      {
+        "label": "D",
+        "text": "手套佩戴"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "analysis": "文档规定 “穿西装不应背包，只能用手包”，故排除 C。"
+  },
+  {
+    "id": "AE-P2-Q0079",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 199,
+    "paperIndex": 79,
+    "type": "multiple",
+    "stem": "人的内在美包括( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "理想美"
+      },
+      {
+        "label": "B",
+        "text": "品德美"
+      },
+      {
+        "label": "C",
+        "text": "智慧美"
+      },
+      {
+        "label": "D",
+        "text": "风度美"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "analysis": "内在美包括理想、品德、智慧美，风度美属外在美。"
+  },
+  {
+    "id": "AE-P2-Q0080",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 200,
+    "paperIndex": 80,
+    "type": "multiple",
+    "stem": "隶书的艺术特点包括( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "由篆书简化而来"
+      },
+      {
+        "label": "B",
+        "text": "笔画平直方正"
+      },
+      {
+        "label": "C",
+        "text": "东汉时期达到顶峰"
+      },
+      {
+        "label": "D",
+        "text": "横平竖直如 “方块字”"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "analysis": "隶书由篆书简化，笔画平直方正，东汉时撇、捺等笔画美化，风格多样;D属于楷书特点，隶书字形多呈宽扁状。"
+  },
+  {
+    "id": "AE-P2-Q0081",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 201,
+    "paperIndex": 81,
+    "type": "judge",
+    "stem": "贝多芬是古典主义时期作曲家。( )",
+    "options": [],
+    "answer": "正确",
+    "analysis": "常识性知识，文档虽未明确，但《命运交响曲》属于古典主义代表作。"
+  },
+  {
+    "id": "AE-P2-Q0082",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 202,
+    "paperIndex": 82,
+    "type": "judge",
+    "stem": "蒙田《热爱生命》主张及时行乐，忽视社会责任。( )",
+    "options": [],
+    "answer": "错误",
+    "analysis": "文档中蒙田强调“靠时间的有效利用去弥补匆匆流逝的光阴”，主张充实生命而非享乐，其核心是积极对待人生，而非逃避责任。"
+  },
+  {
+    "id": "AE-P2-Q0083",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 203,
+    "paperIndex": 83,
+    "type": "judge",
+    "stem": "小说必须完全基于现实生活，不能虚构。( )",
+    "options": [],
+    "answer": "错误",
+    "analysis": "文档“小说概述”中明确指出小说的基本属性包括“虚构性”，王安忆认为小说是“以语言为材料的故事形态，建设心灵的世界”，虚构是其本质特征。"
+  },
+  {
+    "id": "AE-P2-Q0084",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 204,
+    "paperIndex": 84,
+    "type": "judge",
+    "stem": "中国山水画在唐代完全成熟。( )",
+    "options": [],
+    "answer": "错误",
+    "analysis": "文档中提到唐代山水画开始发展，如吴道子的《嘉陵江山水三百里图》，但山水画的完全成熟是在宋代及以后。"
+  },
+  {
+    "id": "AE-P2-Q0085",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 205,
+    "paperIndex": 85,
+    "type": "judge",
+    "stem": "服饰美的 “适用” 指适应穿戴者的身材。( )",
+    "options": [],
+    "answer": "错误",
+    "analysis": "“适用” 指适应使用目的和场合，“适体” 指适合身材容貌。"
+  },
+  {
+    "id": "AE-P2-Q0086",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 206,
+    "paperIndex": 86,
+    "type": "judge",
+    "stem": "席勒的《美育书简》首次系统阐述了美育理论。( )",
+    "options": [],
+    "answer": "正确",
+    "analysis": "1795年席勒在《美育书简》中首次提出“美育”概念，并论证了美育对人性完善的作用，奠定了西方美育理论基础。"
+  },
+  {
+    "id": "AE-P2-Q0087",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 207,
+    "paperIndex": 87,
+    "type": "judge",
+    "stem": "内在美比外在美更易察觉。( )",
+    "options": [],
+    "answer": "错误",
+    "analysis": "文档指出内在美 “不像外在美那样一目了然，易于发现”。"
+  },
+  {
+    "id": "AE-P2-Q0088",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 208,
+    "paperIndex": 88,
+    "type": "judge",
+    "stem": "量子通信完全依赖经典通信技术。( )",
+    "options": [],
+    "answer": "错误",
+    "analysis": "量子通信包含经典与量子混合通信，但也发展纯量子通信，非完全依赖经典。"
+  },
+  {
+    "id": "AE-P2-Q0089",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 209,
+    "paperIndex": 89,
+    "type": "judge",
+    "stem": "秦始皇陵兵马俑体现了秦代雕塑夸张写意的艺术风格。( )",
+    "options": [],
+    "answer": "错误",
+    "analysis": "课件明确说明，秦代雕塑注重写实，追求逼真，兵马俑的细节刻画体现了这一特点，而非夸张写意。"
+  },
+  {
+    "id": "AE-P2-Q0090",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 210,
+    "paperIndex": 90,
+    "type": "judge",
+    "stem": "书法艺术中 “用笔” 指行笔的方式，包括刚柔、急缓、轻重等。( )",
+    "options": [],
+    "answer": "正确",
+    "analysis": "用笔是书法艺术的核心要素之一，指行笔的技巧，包括刚柔、急缓、轻重、藏露、提按等表现手法。"
+  },
+  {
+    "id": "AE-P2-Q0091",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 211,
+    "paperIndex": 91,
+    "type": "judge",
+    "stem": "中国传统建筑的礼制等级体现在屋顶形制上。( )",
+    "options": [],
+    "answer": "正确",
+    "analysis": "文档提到礼制限定 “屋顶做法”，如庑殿顶、歇山顶的等级差异。"
+  },
+  {
+    "id": "AE-P2-Q0092",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 212,
+    "paperIndex": 92,
+    "type": "judge",
+    "stem": "古瓷的 “天目瓷” 属于青瓷的一种。( )",
+    "options": [],
+    "answer": "正确",
+    "analysis": "天目瓷属黑瓷类，但部分属于青瓷体系，文档将其列为瓷器品类之一。"
+  },
+  {
+    "id": "AE-P2-Q0093",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 213,
+    "paperIndex": 93,
+    "type": "judge",
+    "stem": "书法艺术的 “墨分五色” 指焦、浓、中、淡、清五种墨色层次。( )",
+    "options": [],
+    "answer": "正确",
+    "analysis": "“墨分五色”是书法用墨的传统理论，通过控制水分使墨色呈现焦、浓、中、淡、清的层次变化，增强作品的艺术效果。"
+  },
+  {
+    "id": "AE-P2-Q0094",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 214,
+    "paperIndex": 94,
+    "type": "judge",
+    "stem": "器物的 “鉴” 侧重于文物价值鉴定，“赏” 侧重于文化内涵诠释。( )",
+    "options": [],
+    "answer": "正确",
+    "analysis": "文档明确 “鉴” 是鉴定文物价值，“赏” 是挖掘文化信息。"
+  },
+  {
+    "id": "AE-P2-Q0095",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 215,
+    "paperIndex": 95,
+    "type": "judge",
+    "stem": "物联网的感知识别层负责设备互联。( )",
+    "options": [],
+    "answer": "错误",
+    "analysis": "感知识别层负责数据采集，网络构建层负责设备互联，题干混淆层次功能。"
+  },
+  {
+    "id": "AE-P2-Q0096",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 216,
+    "paperIndex": 96,
+    "type": "judge",
+    "stem": "西周青铜器的饕餮纹在后期依然盛行。( )",
+    "options": [],
+    "answer": "错误",
+    "analysis": "西周后期饕餮纹式微，夔纹和新纹饰(如窃曲纹)盛行。"
+  },
+  {
+    "id": "AE-P2-Q0097",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 217,
+    "paperIndex": 97,
+    "type": "judge",
+    "stem": "汉乐府诗《东门行》反映了百姓的贫困生活。( )",
+    "options": [],
+    "answer": "正确",
+    "analysis": "诗中 “盎中无斗米储，还视架上无悬衣” 直接描写贫困处境。"
+  },
+  {
+    "id": "AE-P2-Q0098",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 218,
+    "paperIndex": 98,
+    "type": "judge",
+    "stem": "男士穿西装时可随意背包。( )",
+    "options": [],
+    "answer": "错误",
+    "analysis": "文档规定 “穿西装不应背包，只能用手包”。"
+  },
+  {
+    "id": "AE-P2-Q0099",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 219,
+    "paperIndex": 99,
+    "type": "judge",
+    "stem": "“复兴号” 是中国自主研发的标准动车组。( )",
+    "options": [],
+    "answer": "正确",
+    "analysis": "2017 年 “复兴号” 研发成功，标志中国高铁全面创新，属自主标准。"
+  },
+  {
+    "id": "AE-P2-Q0100",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 220,
+    "paperIndex": 100,
+    "type": "judge",
+    "stem": "女士日间礼服可露出脚趾。( )",
+    "options": [],
+    "answer": "错误",
+    "analysis": "文档规定 “日间高跟鞋必须不露脚趾，晚间可露”。"
+  },
+  {
+    "id": "AE-P2-Q0101",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 221,
+    "paperIndex": 101,
+    "type": "judge",
+    "stem": "民歌《富春谣》表达了对官府压迫的控诉。( )",
+    "options": [],
+    "answer": "正确",
+    "analysis": "诗中 “官府拷掠无完肤”“我民不可苏” 直接控诉官府剥削。"
+  },
+  {
+    "id": "AE-P2-Q0102",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 222,
+    "paperIndex": 102,
+    "type": "judge",
+    "stem": "米开朗琪罗的《大卫》是文艺复兴时期的雕塑代表作。( )",
+    "options": [],
+    "answer": "正确",
+    "analysis": "课件中“西方雕塑的发展历程”明确将《大卫》列为文艺复兴时期米开朗琪罗的代表作。"
+  },
+  {
+    "id": "AE-P2-Q0103",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 223,
+    "paperIndex": 103,
+    "type": "judge",
+    "stem": "失蜡法工艺发明于汉代。( )",
+    "options": [],
+    "answer": "错误",
+    "analysis": "失蜡法发明于春秋战国时期，汉代继承发展。"
+  },
+  {
+    "id": "AE-P2-Q0104",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 224,
+    "paperIndex": 104,
+    "type": "judge",
+    "stem": "哥特式建筑的飞扶壁主要用于装饰。( )",
+    "options": [],
+    "answer": "错误",
+    "analysis": "飞扶壁是结构构件，用于传递拱顶侧推力，非装饰作用。"
+  },
+  {
+    "id": "AE-P2-Q0105",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 225,
+    "paperIndex": 105,
+    "type": "judge",
+    "stem": "宋代绘画以文人画为主导，忽视写生。( )",
+    "options": [],
+    "answer": "错误",
+    "analysis": "文档中明确提到“宋代画家不拘成法，以写生为基础，创造出了大量生动多样的艺术精品”，否定了“忽视写生”的说法。"
+  },
+  {
+    "id": "AE-P2-Q0106",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 226,
+    "paperIndex": 106,
+    "type": "judge",
+    "stem": "吴道子的《嘉陵江山水三百里图》属于人物画。( )",
+    "options": [],
+    "answer": "错误",
+    "analysis": "文档中提到吴道子的《嘉陵江山水三百里图》属于山水画，而非人物画，体现了盛唐时期山水画的发展。"
+  },
+  {
+    "id": "AE-P2-Q0107",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 227,
+    "paperIndex": 107,
+    "type": "judge",
+    "stem": "秦汉时期服饰沿用深衣，装饰华丽考究。( )",
+    "options": [],
+    "answer": "正确",
+    "analysis": "文档提到 “秦汉时期沿用先秦深衣，桑蚕业发展使衣袍装饰华丽考究”。"
+  },
+  {
+    "id": "AE-P2-Q0108",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 228,
+    "paperIndex": 108,
+    "type": "judge",
+    "stem": "乐山大佛是中国宋代佛教雕塑的代表作。( )",
+    "options": [],
+    "answer": "错误",
+    "analysis": "课件明确说明，乐山大佛是唐代雕塑作品，体现了隋唐时期雕塑融合异域艺术的特点。"
+  },
+  {
+    "id": "AE-P2-Q0109",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 229,
+    "paperIndex": 109,
+    "type": "judge",
+    "stem": "人民英雄纪念碑浮雕属于中国古代雕塑作品。( )",
+    "options": [],
+    "answer": "错误",
+    "analysis": "课件中“中国雕塑名作欣赏”将人民英雄纪念碑浮雕列为现代作品，创作于新中国成立后。"
+  },
+  {
+    "id": "AE-P2-Q0110",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 230,
+    "paperIndex": 110,
+    "type": "judge",
+    "stem": "包豪斯学院体现了现代建筑思潮中的功能主义。( )",
+    "options": [],
+    "answer": "正确",
+    "analysis": "文档提到包豪斯代表人物主张建筑改革，强调功能与形式统一，属现代主义。"
+  },
+  {
+    "id": "AE-P2-Q0111",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 231,
+    "paperIndex": 111,
+    "type": "judge",
+    "stem": "自由劳动美属于乐生的形式。( )",
+    "options": [],
+    "answer": "正确",
+    "analysis": "文档提到 “乐生的形式 —— 自由劳动美”，属于劳动美范畴。"
+  },
+  {
+    "id": "AE-P2-Q0112",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 232,
+    "paperIndex": 112,
+    "type": "judge",
+    "stem": "现当代西方美学完全否定了传统美学的价值。( )",
+    "options": [],
+    "answer": "错误",
+    "analysis": "现当代西方美学(如分析美学、文化学转向)是对传统美学的批判继承，而非彻底否定，例如康德美学仍影响现代审美理论。"
+  },
+  {
+    "id": "AE-P2-Q0113",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 233,
+    "paperIndex": 113,
+    "type": "judge",
+    "stem": "行星自身会发可见光。( )",
+    "options": [],
+    "answer": "错误",
+    "analysis": "文档定义行星 “自身不会发可见光，反射恒星光发亮”。"
+  },
+  {
+    "id": "AE-P2-Q0114",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 234,
+    "paperIndex": 114,
+    "type": "judge",
+    "stem": "小篆是西周晚期普遍采用的字体，由伯益所创。( )",
+    "options": [],
+    "answer": "错误",
+    "analysis": "大篆是西周晚期字体，相传为伯益所创;小篆是秦始皇统一六国后由李斯简化大篆而成，并非西周字体。"
+  },
+  {
+    "id": "AE-P2-Q0115",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 235,
+    "paperIndex": 115,
+    "type": "judge",
+    "stem": "《梁山伯与祝英台》是二胡协奏曲。( )",
+    "options": [],
+    "answer": "错误",
+    "analysis": "文档明确标注为 “小提琴协奏曲”，非二胡。"
+  },
+  {
+    "id": "AE-P2-Q0116",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 236,
+    "paperIndex": 116,
+    "type": "judge",
+    "stem": "散文的 “形散神不散” 指结构松散但主题统一。( )",
+    "options": [],
+    "answer": "正确",
+    "analysis": "文档“散文概述”中解释“文神不散”指散文“主旨、主题”和“内在韵致意趣”统一，即便取材自由(形散)，也有核心主题贯穿。"
+  },
+  {
+    "id": "AE-P2-Q0117",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 237,
+    "paperIndex": 117,
+    "type": "judge",
+    "stem": "秦汉青铜器铭文多记载容积、重量及工匠信息。( )",
+    "options": [],
+    "answer": "正确",
+    "analysis": "秦汉铭文 “物勒工名”，记载容量、重量、职官及工匠，书体为汉隶。"
+  },
+  {
+    "id": "AE-P2-Q0118",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 238,
+    "paperIndex": 118,
+    "type": "judge",
+    "stem": "地球的赤道半径小于极半径。( )",
+    "options": [],
+    "answer": "错误",
+    "analysis": "地球是赤道突出的椭球体，赤道半径大于极半径。"
+  },
+  {
+    "id": "AE-P2-Q0119",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 239,
+    "paperIndex": 119,
+    "type": "judge",
+    "stem": "《掷铁饼者》是古希腊古风时期的代表作。( )",
+    "options": [],
+    "answer": "错误",
+    "analysis": "课件指出，《掷铁饼者》属于古希腊古典时期的作品，古风时期的特点是“古风的微笑”，而非古典时期的个性塑造。"
+  },
+  {
+    "id": "AE-P2-Q0120",
+    "courseId": "aesthetic-education",
+    "paperId": "AE-P2",
+    "index": 240,
+    "paperIndex": 120,
+    "type": "judge",
+    "stem": "21 世纪以来，美育成为中国教育的基本方针之一。( )",
+    "options": [],
+    "answer": "正确",
+    "analysis": "文档指出，21世纪美育在党代会上被确立为教育基本方针，体现了国家对美育的重视。"
+  }
+]

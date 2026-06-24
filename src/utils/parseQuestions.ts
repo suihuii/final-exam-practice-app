@@ -1,4 +1,4 @@
-import type { Question, QuestionType } from "../types";
+﻿import type { Question, QuestionType } from "../types";
 import { QUESTION_TYPES } from "../types";
 
 export function buildQuestionMap(questions: Question[]): Map<string, Question> {
@@ -48,6 +48,7 @@ function isQuestion(value: unknown): value is Question {
   const candidate = value as Question;
   return (
     typeof candidate.id === "string" &&
+    typeof candidate.courseId === "string" &&
     Number.isFinite(candidate.index) &&
     QUESTION_TYPES.includes(candidate.type) &&
     typeof candidate.stem === "string" &&
@@ -55,3 +56,4 @@ function isQuestion(value: unknown): value is Question {
     typeof candidate.analysis === "string"
   );
 }
+

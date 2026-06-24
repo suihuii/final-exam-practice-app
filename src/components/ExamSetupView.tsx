@@ -1,13 +1,14 @@
 ﻿import { useMemo, useState } from "react";
 import type { Dispatch, SetStateAction } from "react";
-import type { ExamOrder, ProgressData, Question, QuestionType, ViewKey } from "../types";
+import type { ExamOrder, CourseProgress,
+  ProgressData, Question, QuestionType, ViewKey } from "../types";
 import { QUESTION_TYPE_LABEL, QUESTION_TYPES } from "../types";
 import { createExamSession, filterQuestions, pickQuestionIds } from "../utils/exam";
 import { abandonActiveExam, setExamSession } from "../utils/storage";
 
 interface ExamSetupViewProps {
   openExamSession: () => void;
-  progress: ProgressData;
+  progress: CourseProgress;
   questions: Question[];
   setProgress: Dispatch<SetStateAction<ProgressData>>;
   setView: Dispatch<SetStateAction<ViewKey>>;
@@ -206,3 +207,5 @@ function resolveCount(choice: CountChoice, customCount: number, availableCount: 
   }
   return Math.min(Number(choice), availableCount);
 }
+
+

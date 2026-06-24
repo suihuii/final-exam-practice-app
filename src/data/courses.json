@@ -1,0 +1,16 @@
+﻿[
+  {
+    "id": "power-supply",
+    "name": "供配电系统",
+    "shortName": "供配电",
+    "description": "供电2401-2405班供配电系统期末机考题库",
+    "questionFile": "questions/power-supply.json"
+  },
+  {
+    "id": "aesthetic-education",
+    "name": "大学美育",
+    "shortName": "美育",
+    "description": "2025-2026-2《大学美育》期末模拟考查卷(1)(2)",
+    "questionFile": "questions/aesthetic-education.json"
+  }
+]

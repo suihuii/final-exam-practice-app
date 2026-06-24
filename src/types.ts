@@ -1,3 +1,5 @@
+﻿export type CourseId = "power-supply" | "aesthetic-education" | string;
+
 export type QuestionType = "single" | "multiple" | "judge" | "blank";
 
 export type PracticeMode = "normal" | "wrong" | "favorite";
@@ -14,6 +16,14 @@ export type ViewKey =
   | "stats"
   | "settings";
 
+export interface Course {
+  id: CourseId;
+  name: string;
+  shortName: string;
+  description: string;
+  questionFile: string;
+}
+
 export interface QuestionOption {
   label: string;
   text: string;
@@ -21,6 +31,9 @@ export interface QuestionOption {
 
 export interface Question {
   id: string;
+  courseId: CourseId;
+  paperId?: string;
+  paperIndex?: number;
   index: number;
   type: QuestionType;
   stem: string;
@@ -63,7 +76,23 @@ export interface ExamSession {
   settings: ExamSettings;
 }
 
+export interface CourseProgress {
+  wrong: Record<string, WrongRecord>;
+  favorites: string[];
+  practice: PracticeState;
+  exams: {
+    activeSessionId: string | null;
+    sessions: Record<string, ExamSession>;
+  };
+}
+
 export interface ProgressData {
+  version: 2;
+  activeCourseId: CourseId;
+  courses: Record<string, CourseProgress>;
+}
+
+export interface LegacyProgressData {
   version: 1;
   wrong: Record<string, WrongRecord>;
   favorites: string[];

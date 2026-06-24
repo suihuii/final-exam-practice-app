@@ -1,7 +1,8 @@
-import { useEffect, useMemo, useState } from "react";
+﻿import { useEffect, useMemo, useState } from "react";
 import type {
   AnswerValue,
   PracticeMode,
+  CourseProgress,
   ProgressData,
   Question,
   QuestionType,
@@ -22,7 +23,7 @@ import {
 } from "../utils/storage";
 
 interface PracticeViewProps {
-  progress: ProgressData;
+  progress: CourseProgress;
   questions: Question[];
   setProgress: React.Dispatch<React.SetStateAction<ProgressData>>;
 }
@@ -376,3 +377,5 @@ function AnswerEditor({
     </div>
   );
 }
+
+

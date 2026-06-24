@@ -1,6 +1,7 @@
 ﻿import { useEffect, useMemo, useState } from "react";
 import type { Dispatch, SetStateAction } from "react";
-import type { AnswerValue, ExamSession, ProgressData, Question, ViewKey } from "../types";
+import type { AnswerValue, ExamSession, CourseProgress,
+  ProgressData, Question, ViewKey } from "../types";
 import { QUESTION_TYPE_LABEL } from "../types";
 import {
   emptyAnswerFor,
@@ -21,7 +22,7 @@ import {
 
 interface ExamViewProps {
   leaveExamSession: () => void;
-  progress: ProgressData;
+  progress: CourseProgress;
   questionsById: Map<string, Question>;
   setProgress: Dispatch<SetStateAction<ProgressData>>;
   setView: Dispatch<SetStateAction<ViewKey>>;
@@ -412,4 +413,6 @@ function ExamAnswerEditor({
     </div>
   );
 }
+
+
 

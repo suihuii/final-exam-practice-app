@@ -1,15 +1,25 @@
-import type { Dispatch, SetStateAction } from "react";
-import type { ProgressData, Question, ViewKey } from "../types";
+﻿import type { Dispatch, SetStateAction } from "react";
+import type { Course, CourseProgress, Question, ViewKey } from "../types";
 import { QUESTION_TYPE_LABEL, QUESTION_TYPES } from "../types";
 import { countQuestionTypes } from "../utils/parseQuestions";
 
 interface HomeViewProps {
-  progress: ProgressData;
+  activeCourseId: string;
+  courses: Course[];
+  onCourseSelect: (courseId: string) => void;
+  progress: CourseProgress;
   questions: Question[];
   setView: Dispatch<SetStateAction<ViewKey>>;
 }
 
-export function HomeView({ progress, questions, setView }: HomeViewProps) {
+export function HomeView({
+  activeCourseId,
+  courses,
+  onCourseSelect,
+  progress,
+  questions,
+  setView,
+}: HomeViewProps) {
   const typeCounts = countQuestionTypes(questions);
   const wrongCount = Object.values(progress.wrong).filter((item) => item.count > 0).length;
   const activeSession = progress.exams.activeSessionId
@@ -18,9 +28,29 @@ export function HomeView({ progress, questions, setView }: HomeViewProps) {
 
   return (
     <div className="view-stack">
+      <section className="panel course-panel">
+        <div className="panel-heading">
+          <h2>选择课程</h2>
+          <span>{courses.length} 门课</span>
+        </div>
+        <div className="course-grid">
+          {courses.map((course) => (
+            <button
+              className={course.id === activeCourseId ? "course-card active-course" : "course-card"}
+              key={course.id}
+              onClick={() => onCourseSelect(course.id)}
+              type="button"
+            >
+              <strong>{course.name}</strong>
+              <span>{course.description}</span>
+            </button>
+          ))}
+        </div>
+      </section>
+
       <section className="dashboard-grid">
         <article className="metric-card accent">
-          <span>总题数</span>
+          <span>当前课程题数</span>
           <strong>{questions.length}</strong>
         </article>
         <article className="metric-card">

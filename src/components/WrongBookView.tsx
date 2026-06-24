@@ -1,13 +1,14 @@
-import { useMemo, useState } from "react";
+﻿import { useMemo, useState } from "react";
 import type { Dispatch, SetStateAction } from "react";
-import type { ProgressData, Question, QuestionType } from "../types";
+import type { CourseProgress,
+  ProgressData, Question, QuestionType } from "../types";
 import { QUESTION_TYPE_LABEL, QUESTION_TYPES } from "../types";
 import { buildWrongBookCsv, downloadTextFile } from "../utils/csv";
 import { normalizeAnswerForDisplay } from "../utils/exam";
 import { markWrongMastered, updateWrongNote } from "../utils/storage";
 
 interface WrongBookViewProps {
-  progress: ProgressData;
+  progress: CourseProgress;
   questions: Question[];
   setProgress: Dispatch<SetStateAction<ProgressData>>;
 }
@@ -175,3 +176,5 @@ export function WrongBookView({
     </div>
   );
 }
+
+

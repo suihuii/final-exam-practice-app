@@ -1,10 +1,11 @@
 ﻿import type { Dispatch, ReactNode, SetStateAction } from "react";
-import type { ProgressData, ViewKey } from "../types";
+import type { Course, CourseProgress, ViewKey } from "../types";
 
 interface LayoutProps {
+  activeCourse: Course;
   activeView: ViewKey;
   children: ReactNode;
-  progress: ProgressData;
+  progress: CourseProgress;
   questionCount: number;
   setView: Dispatch<SetStateAction<ViewKey>>;
 }
@@ -19,6 +20,7 @@ const navItems: Array<{ key: ViewKey; label: string }> = [
 ];
 
 export function Layout({
+  activeCourse,
   activeView,
   children,
   progress,
@@ -34,8 +36,10 @@ export function Layout({
     <div className="app-shell">
       <header className="app-header">
         <div>
-          <h1>供配电系统期末机考练习工具</h1>
-          <p>{questionCount} 题 · 本机进度</p>
+          <h1>多科目期末刷题工具</h1>
+          <p>
+            当前课程：{activeCourse.name} · {questionCount} 题 · 本机进度
+          </p>
         </div>
         {hasActiveExam && (
           <button className="ghost-button compact" onClick={() => setView("exam")}>
