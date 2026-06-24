@@ -1,0 +1,2330 @@
+[
+  {
+    "id": "PP-Q0001",
+    "courseId": "power-plant",
+    "index": 1,
+    "type": "single",
+    "stem": "GW5-35系列隔离开关适用于（ ）电压等级的电力系统。",
+    "options": [
+      {
+        "label": "A",
+        "text": "5KV"
+      },
+      {
+        "label": "B",
+        "text": "35KV"
+      },
+      {
+        "label": "C",
+        "text": "110KV"
+      },
+      {
+        "label": "D",
+        "text": "220KV"
+      }
+    ],
+    "answer": "B",
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0002",
+    "courseId": "power-plant",
+    "index": 2,
+    "type": "single",
+    "stem": "隔离开关按刀闸运动方式分类可分为（ ）、垂直旋转式和插入式。",
+    "options": [
+      {
+        "label": "A",
+        "text": "360°旋转式"
+      },
+      {
+        "label": "B",
+        "text": "捆绑式"
+      },
+      {
+        "label": "C",
+        "text": "水平旋转式"
+      },
+      {
+        "label": "D",
+        "text": "120°旋转式"
+      }
+    ],
+    "answer": "C",
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0003",
+    "courseId": "power-plant",
+    "index": 3,
+    "type": "single",
+    "stem": "在接通、分断电路时，隔离开关与断路器配合，操作隔离开关必须执行（ ）的原则。",
+    "options": [
+      {
+        "label": "A",
+        "text": "先合后断"
+      },
+      {
+        "label": "B",
+        "text": "先合先断"
+      },
+      {
+        "label": "C",
+        "text": "先断先合"
+      },
+      {
+        "label": "D",
+        "text": "先合先合"
+      }
+    ],
+    "answer": "A",
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0004",
+    "courseId": "power-plant",
+    "index": 4,
+    "type": "single",
+    "stem": "隔离开关分闸时，必须在（ ）才能再拉隔离开关。",
+    "options": [
+      {
+        "label": "A",
+        "text": "断路器切断电路之后"
+      },
+      {
+        "label": "B",
+        "text": "有负荷电流时"
+      },
+      {
+        "label": "C",
+        "text": "断路器操作电源切断后"
+      },
+      {
+        "label": "D",
+        "text": "断路器合闸位置"
+      }
+    ],
+    "answer": "A",
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0005",
+    "courseId": "power-plant",
+    "index": 5,
+    "type": "single",
+    "stem": "真空断路器开断感性负载或容性负载时容易产生过电压，其主要原因是（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "触头间隙绝缘强度恢复过慢"
+      },
+      {
+        "label": "B",
+        "text": "出现截流现象"
+      },
+      {
+        "label": "C",
+        "text": "操动机构动作不稳定"
+      },
+      {
+        "label": "D",
+        "text": "灭弧室真空度不足"
+      }
+    ],
+    "answer": "B",
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0006",
+    "courseId": "power-plant",
+    "index": 6,
+    "type": "single",
+    "stem": "少油断路器不同相的导电部分之间及导体与地之间的绝缘依靠（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "绝缘油"
+      },
+      {
+        "label": "B",
+        "text": "空气、陶瓷和有机绝缘材料"
+      },
+      {
+        "label": "C",
+        "text": "SF₆气体"
+      },
+      {
+        "label": "D",
+        "text": "真空"
+      }
+    ],
+    "answer": "B",
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0007",
+    "courseId": "power-plant",
+    "index": 7,
+    "type": "single",
+    "stem": "高压断路器在电网中主要起哪两个作用?（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "灭弧作用和绝缘作用"
+      },
+      {
+        "label": "B",
+        "text": "控制作用和保护作用"
+      },
+      {
+        "label": "C",
+        "text": "承载作用和开断作用"
+      },
+      {
+        "label": "D",
+        "text": "户内作用和户外作用"
+      }
+    ],
+    "answer": "B",
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0008",
+    "courseId": "power-plant",
+    "index": 8,
+    "type": "single",
+    "stem": "“开断元件放在绝缘支柱上，绝缘支柱安装在接地基座上”的断路器类型被称为?（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "落地罐式断路器"
+      },
+      {
+        "label": "B",
+        "text": "外壳接地断路器"
+      },
+      {
+        "label": "C",
+        "text": "绝缘支柱式断路器(外壳带电断路器)"
+      },
+      {
+        "label": "D",
+        "text": "户内断路器"
+      }
+    ],
+    "answer": "C",
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0009",
+    "courseId": "power-plant",
+    "index": 9,
+    "type": "single",
+    "stem": "型号 LW10B-252(H)/4000-50 中的数字“50”表示什么含义?（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "额定电压为50kV"
+      },
+      {
+        "label": "B",
+        "text": "额定电流为50kA"
+      },
+      {
+        "label": "C",
+        "text": "额定短路开断电流为50kA"
+      },
+      {
+        "label": "D",
+        "text": "设计序号为50"
+      }
+    ],
+    "answer": "C",
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0010",
+    "courseId": "power-plant",
+    "index": 10,
+    "type": "single",
+    "stem": "KYN28-10型高压开关柜在操纵断路器小车移动，摇把顺时针方向转动时，小车（ ）移动。",
+    "options": [
+      {
+        "label": "A",
+        "text": "向前"
+      },
+      {
+        "label": "B",
+        "text": "向左"
+      },
+      {
+        "label": "C",
+        "text": "向后"
+      },
+      {
+        "label": "D",
+        "text": "向右"
+      }
+    ],
+    "answer": "A",
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0011",
+    "courseId": "power-plant",
+    "index": 11,
+    "type": "single",
+    "stem": "高压成套装置的“五防”联锁功能之一是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "防带接地线（或接地刀闸）打开柜门"
+      },
+      {
+        "label": "B",
+        "text": "防误入带电间隔"
+      },
+      {
+        "label": "C",
+        "text": "防接地线接触不良"
+      },
+      {
+        "label": "D",
+        "text": "防接地线发热"
+      }
+    ],
+    "answer": "B",
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0012",
+    "courseId": "power-plant",
+    "index": 12,
+    "type": "single",
+    "stem": "各类安全距离在国家颁布的有关规程中均有规定。当实际距离大于安全距离时，人体及设备才安全。220kV和110kV设备的安全距离分别是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "3米和1.5米"
+      },
+      {
+        "label": "B",
+        "text": "6米和3米"
+      },
+      {
+        "label": "C",
+        "text": "1米和1.5米"
+      },
+      {
+        "label": "D",
+        "text": "5米和1米"
+      }
+    ],
+    "answer": "A",
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0013",
+    "courseId": "power-plant",
+    "index": 13,
+    "type": "single",
+    "stem": "户外配电装置，35kV以上的软母线采用（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "多股铜线"
+      },
+      {
+        "label": "B",
+        "text": "多股铝线"
+      },
+      {
+        "label": "C",
+        "text": "钢芯铝绞线"
+      },
+      {
+        "label": "D",
+        "text": "钢芯铜线"
+      }
+    ],
+    "answer": "C",
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0014",
+    "courseId": "power-plant",
+    "index": 14,
+    "type": "single",
+    "stem": "断路器手车只有在何种位置时才允许插拔二次插头（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "工作位置"
+      },
+      {
+        "label": "B",
+        "text": "试验/隔离位置"
+      },
+      {
+        "label": "C",
+        "text": "任何位置"
+      },
+      {
+        "label": "D",
+        "text": "接地位置"
+      }
+    ],
+    "answer": "B",
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0015",
+    "courseId": "power-plant",
+    "index": 15,
+    "type": "single",
+    "stem": "电流互感器（ ）与电压互感器二次侧互相连接，以免造成电流互感器近似开路，出现高电压的危险。",
+    "options": [
+      {
+        "label": "A",
+        "text": "不能"
+      },
+      {
+        "label": "B",
+        "text": "必须"
+      },
+      {
+        "label": "C",
+        "text": "可以"
+      },
+      {
+        "label": "D",
+        "text": "应该"
+      }
+    ],
+    "answer": "A",
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0016",
+    "courseId": "power-plant",
+    "index": 16,
+    "type": "single",
+    "stem": "为了防止电压互感器高压侧的电压串入低压侧，危害人员和仪表，应将低电压侧（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "接地"
+      },
+      {
+        "label": "B",
+        "text": "屏蔽"
+      },
+      {
+        "label": "C",
+        "text": "设围栏"
+      },
+      {
+        "label": "D",
+        "text": "加防护罩"
+      }
+    ],
+    "answer": "A",
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0017",
+    "courseId": "power-plant",
+    "index": 17,
+    "type": "single",
+    "stem": "电压互感器二次短路会使一次（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "电压升高"
+      },
+      {
+        "label": "B",
+        "text": "电压降低"
+      },
+      {
+        "label": "C",
+        "text": "熔断器熔断"
+      },
+      {
+        "label": "D",
+        "text": "电压不变"
+      }
+    ],
+    "answer": "C",
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0018",
+    "courseId": "power-plant",
+    "index": 18,
+    "type": "single",
+    "stem": "高压电容器应在额定电流下运行，其最大电流超过额定电流的（ ）时，应立即停运。",
+    "options": [
+      {
+        "label": "A",
+        "text": "1.1"
+      },
+      {
+        "label": "B",
+        "text": "1.2"
+      },
+      {
+        "label": "C",
+        "text": "1.3"
+      },
+      {
+        "label": "D",
+        "text": "1.4"
+      }
+    ],
+    "answer": "C",
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0019",
+    "courseId": "power-plant",
+    "index": 19,
+    "type": "single",
+    "stem": "为保证供电质量，一般要求正常工作时限流电抗器的电压损失百分值小于（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "0.05"
+      },
+      {
+        "label": "B",
+        "text": "0.06"
+      },
+      {
+        "label": "C",
+        "text": "0.07"
+      },
+      {
+        "label": "D",
+        "text": "0.08"
+      }
+    ],
+    "answer": "A",
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0020",
+    "courseId": "power-plant",
+    "index": 20,
+    "type": "single",
+    "stem": "电力系统安装电力电容器的主要目的是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "提高功率因数"
+      },
+      {
+        "label": "B",
+        "text": "提高系统稳定性"
+      },
+      {
+        "label": "C",
+        "text": "增加变压器容量"
+      },
+      {
+        "label": "D",
+        "text": "减少负荷对无功功率的需求"
+      }
+    ],
+    "answer": "A",
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0021",
+    "courseId": "power-plant",
+    "index": 21,
+    "type": "single",
+    "stem": "一般隔离开关没有灭弧装置，不允许它（ ）分、合闸操作。",
+    "options": [
+      {
+        "label": "A",
+        "text": "空载时进行"
+      },
+      {
+        "label": "B",
+        "text": "母线切换"
+      },
+      {
+        "label": "C",
+        "text": "带负荷进行"
+      },
+      {
+        "label": "D",
+        "text": "带电压进行"
+      }
+    ],
+    "answer": "C",
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0022",
+    "courseId": "power-plant",
+    "index": 22,
+    "type": "single",
+    "stem": "弹簧储能操作机构在断路器处于运行状态时，储能电动机的电源隔离开关应在（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "断开位置"
+      },
+      {
+        "label": "B",
+        "text": "闭合位置"
+      },
+      {
+        "label": "C",
+        "text": "断开或闭合位置"
+      },
+      {
+        "label": "D",
+        "text": "闭锁位置"
+      }
+    ],
+    "answer": "B",
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0023",
+    "courseId": "power-plant",
+    "index": 23,
+    "type": "single",
+    "stem": "隔离开关的用途之一是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "切断负荷电流"
+      },
+      {
+        "label": "B",
+        "text": "切断短路电流"
+      },
+      {
+        "label": "C",
+        "text": "拉合小电流回路"
+      },
+      {
+        "label": "D",
+        "text": "拉合大电流回路"
+      }
+    ],
+    "answer": "C",
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0024",
+    "courseId": "power-plant",
+    "index": 24,
+    "type": "single",
+    "stem": "隔离开关的控制可分为（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "就地控制与远方控制"
+      },
+      {
+        "label": "B",
+        "text": "远方控制与电动控制"
+      },
+      {
+        "label": "C",
+        "text": "就地控制与液压控制"
+      },
+      {
+        "label": "D",
+        "text": "集中控制与电气控制"
+      }
+    ],
+    "answer": "A",
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0025",
+    "courseId": "power-plant",
+    "index": 25,
+    "type": "single",
+    "stem": "SF₆气体在标准条件下的状态为（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "无色无味液体"
+      },
+      {
+        "label": "B",
+        "text": "无色无味气体"
+      },
+      {
+        "label": "C",
+        "text": "淡黄色气体"
+      },
+      {
+        "label": "D",
+        "text": "淡蓝色液体"
+      }
+    ],
+    "answer": "B",
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0026",
+    "courseId": "power-plant",
+    "index": 26,
+    "type": "single",
+    "stem": "多油断路器的绝缘油主要作用是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "仅作灭弧介质"
+      },
+      {
+        "label": "B",
+        "text": "仅作绝缘介质"
+      },
+      {
+        "label": "C",
+        "text": "既作灭弧介质，又作主要绝缘介质"
+      },
+      {
+        "label": "D",
+        "text": "作冷却介质"
+      }
+    ],
+    "answer": "C",
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0027",
+    "courseId": "power-plant",
+    "index": 27,
+    "type": "single",
+    "stem": "油断路器大修周期一般为( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "1~2年"
+      },
+      {
+        "label": "B",
+        "text": "3~4年"
+      },
+      {
+        "label": "C",
+        "text": "5~6年"
+      },
+      {
+        "label": "D",
+        "text": "7~8年"
+      }
+    ],
+    "answer": "B",
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0028",
+    "courseId": "power-plant",
+    "index": 28,
+    "type": "single",
+    "stem": "目前应用较多的高压断路器按灭弧介质划分主要是哪两种?",
+    "options": [
+      {
+        "label": "A",
+        "text": "油断路器和压缩空气断路器"
+      },
+      {
+        "label": "B",
+        "text": "真空断路器和六氟化硫(SF6)断路器"
+      },
+      {
+        "label": "C",
+        "text": "磁吹断路器和产气断路器"
+      },
+      {
+        "label": "D",
+        "text": "多油断路器和少油断路器"
+      }
+    ],
+    "answer": "B",
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0029",
+    "courseId": "power-plant",
+    "index": 29,
+    "type": "single",
+    "stem": "高压断路器中，用来操动断路器分、合闸的部分是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "开断元件"
+      },
+      {
+        "label": "B",
+        "text": "支持元件"
+      },
+      {
+        "label": "C",
+        "text": "底座"
+      },
+      {
+        "label": "D",
+        "text": "操动机构"
+      }
+    ],
+    "answer": "D",
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0030",
+    "courseId": "power-plant",
+    "index": 30,
+    "type": "single",
+    "stem": "KYN28-10型高压开关柜是（ ）开关柜。",
+    "options": [
+      {
+        "label": "A",
+        "text": "中置式金属铠装"
+      },
+      {
+        "label": "B",
+        "text": "金属封闭单元组合"
+      },
+      {
+        "label": "C",
+        "text": "环网"
+      },
+      {
+        "label": "D",
+        "text": "组合柜"
+      }
+    ],
+    "answer": "A",
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0031",
+    "courseId": "power-plant",
+    "index": 31,
+    "type": "single",
+    "stem": "高压成套装置根据（ ），选择所需的功能单元。",
+    "options": [
+      {
+        "label": "A",
+        "text": "现场布置条件"
+      },
+      {
+        "label": "B",
+        "text": "用电负荷性质"
+      },
+      {
+        "label": "C",
+        "text": "电气主接线的要求"
+      },
+      {
+        "label": "D",
+        "text": "变电所管理要求"
+      }
+    ],
+    "answer": "C",
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0032",
+    "courseId": "power-plant",
+    "index": 32,
+    "type": "single",
+    "stem": "220kV中性点直接接地系统中，其屋外配电装置的带电部分至接地部分之间的安全净距不应小于（ ）米。",
+    "options": [
+      {
+        "label": "A",
+        "text": "1.5"
+      },
+      {
+        "label": "B",
+        "text": "1.8"
+      },
+      {
+        "label": "C",
+        "text": "1.9"
+      },
+      {
+        "label": "D",
+        "text": "2"
+      }
+    ],
+    "answer": "B",
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0033",
+    "courseId": "power-plant",
+    "index": 33,
+    "type": "single",
+    "stem": "KYN28A-12型高压开关柜主要用于以下哪个场所?",
+    "options": [
+      {
+        "label": "A",
+        "text": "户外输电线路"
+      },
+      {
+        "label": "B",
+        "text": "发电厂、变电站及工矿企业配电系统"
+      },
+      {
+        "label": "C",
+        "text": "低压配电箱"
+      },
+      {
+        "label": "D",
+        "text": "家庭用电系统"
+      }
+    ],
+    "answer": "B",
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0034",
+    "courseId": "power-plant",
+    "index": 34,
+    "type": "single",
+    "stem": "辅助回路和控制回路交流耐压试验电压为",
+    "options": [
+      {
+        "label": "A",
+        "text": "500 V"
+      },
+      {
+        "label": "B",
+        "text": "1 kV"
+      },
+      {
+        "label": "C",
+        "text": "2 kV"
+      },
+      {
+        "label": "D",
+        "text": "42 kV"
+      }
+    ],
+    "answer": "C",
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0035",
+    "courseId": "power-plant",
+    "index": 35,
+    "type": "single",
+    "stem": "电流互感器的一次线圈（ ）接入被测电路，二次线圈与测量仪表连接，一、二次线圈极性应正确。",
+    "options": [
+      {
+        "label": "A",
+        "text": "串联"
+      },
+      {
+        "label": "B",
+        "text": "并联"
+      },
+      {
+        "label": "C",
+        "text": "混联"
+      },
+      {
+        "label": "D",
+        "text": "互联"
+      }
+    ],
+    "answer": "A",
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0036",
+    "courseId": "power-plant",
+    "index": 36,
+    "type": "single",
+    "stem": "电流互感器在运行中必须使（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "铁芯及二次绕组牢固接地"
+      },
+      {
+        "label": "B",
+        "text": "铁芯两点接地"
+      },
+      {
+        "label": "C",
+        "text": "二次绕组不接地"
+      },
+      {
+        "label": "D",
+        "text": "铁芯多点接地"
+      }
+    ],
+    "answer": "A",
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0037",
+    "courseId": "power-plant",
+    "index": 37,
+    "type": "single",
+    "stem": "电流互感器二次侧不允许（ )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "开路"
+      },
+      {
+        "label": "B",
+        "text": "短路"
+      },
+      {
+        "label": "C",
+        "text": "接仪表"
+      },
+      {
+        "label": "D",
+        "text": "接保护"
+      }
+    ],
+    "answer": "A",
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0038",
+    "courseId": "power-plant",
+    "index": 38,
+    "type": "single",
+    "stem": "电压为10KV及以下的高压电容器，一般在外壳内每个电容元件上都（ ），作为电容器内部保护",
+    "options": [
+      {
+        "label": "A",
+        "text": "串接一只热继电器"
+      },
+      {
+        "label": "B",
+        "text": "串接一只电阻"
+      },
+      {
+        "label": "C",
+        "text": "串接一只熔丝"
+      },
+      {
+        "label": "D",
+        "text": "串接一只“压敏”元件"
+      }
+    ],
+    "answer": "C",
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0039",
+    "courseId": "power-plant",
+    "index": 39,
+    "type": "single",
+    "stem": "断路器均压电容的作用是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "使电压分布均匀"
+      },
+      {
+        "label": "B",
+        "text": "提高恢复电压速度"
+      },
+      {
+        "label": "C",
+        "text": "提高QF开断能力"
+      },
+      {
+        "label": "D",
+        "text": "减小断开电流"
+      }
+    ],
+    "answer": "A",
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0040",
+    "courseId": "power-plant",
+    "index": 40,
+    "type": "single",
+    "stem": "装设分段电抗器的作用是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "限制母线回路中的短路电流"
+      },
+      {
+        "label": "B",
+        "text": "吸收多余的无功功率"
+      },
+      {
+        "label": "C",
+        "text": "改善母线的电压质量"
+      },
+      {
+        "label": "D",
+        "text": "改进用户的功率因数"
+      }
+    ],
+    "answer": "A",
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0041",
+    "courseId": "power-plant",
+    "index": 41,
+    "type": "multiple",
+    "stem": "用作导电材料的金属材料应具备（ ）条件。",
+    "options": [
+      {
+        "label": "A",
+        "text": "导电性能好"
+      },
+      {
+        "label": "B",
+        "text": "机械强度高"
+      },
+      {
+        "label": "C",
+        "text": "不易氧化和腐蚀"
+      },
+      {
+        "label": "D",
+        "text": "易于加工和价格便宜"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0042",
+    "courseId": "power-plant",
+    "index": 42,
+    "type": "multiple",
+    "stem": "对一次设备起保护作用的二次设备，包括（ ）部分。",
+    "options": [
+      {
+        "label": "A",
+        "text": "监视"
+      },
+      {
+        "label": "B",
+        "text": "测量"
+      },
+      {
+        "label": "C",
+        "text": "控制"
+      },
+      {
+        "label": "D",
+        "text": "操作电源系统"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0043",
+    "courseId": "power-plant",
+    "index": 43,
+    "type": "multiple",
+    "stem": "隔离开关按每相支柱绝缘子的数目分类可分为（ ）等。",
+    "options": [
+      {
+        "label": "A",
+        "text": "三柱式"
+      },
+      {
+        "label": "B",
+        "text": "双柱式"
+      },
+      {
+        "label": "C",
+        "text": "单柱式"
+      },
+      {
+        "label": "D",
+        "text": "五柱式"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0044",
+    "courseId": "power-plant",
+    "index": 44,
+    "type": "multiple",
+    "stem": "隔离开关在电气设备检修时，应将停电检修设备（ ），以保证检修时工作人员和设备安全。",
+    "options": [
+      {
+        "label": "A",
+        "text": "与电源隔离"
+      },
+      {
+        "label": "B",
+        "text": "形成明显可见断开点"
+      },
+      {
+        "label": "C",
+        "text": "与磁场隔离"
+      },
+      {
+        "label": "D",
+        "text": "与电弧隔离"
+      }
+    ],
+    "answer": [
+      "A",
+      "B"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0045",
+    "courseId": "power-plant",
+    "index": 45,
+    "type": "multiple",
+    "stem": "电弧与固体介质接触，固体介质能（ ），从而达到加速电弧熄灭的目的。",
+    "options": [
+      {
+        "label": "A",
+        "text": "使电弧迅速冷却"
+      },
+      {
+        "label": "B",
+        "text": "金属蒸气大量在固体介质表明凝结"
+      },
+      {
+        "label": "C",
+        "text": "使电弧与空气隔绝"
+      },
+      {
+        "label": "D",
+        "text": "拉长电弧"
+      }
+    ],
+    "answer": [
+      "A",
+      "B"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0046",
+    "courseId": "power-plant",
+    "index": 46,
+    "type": "multiple",
+    "stem": "高压开关柜的“五防”联锁常采用的闭锁方式有（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "强制性机械闭锁"
+      },
+      {
+        "label": "B",
+        "text": "电磁闭锁"
+      },
+      {
+        "label": "C",
+        "text": "压力闭锁"
+      },
+      {
+        "label": "D",
+        "text": "温度闭锁"
+      }
+    ],
+    "answer": [
+      "A",
+      "B"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0047",
+    "courseId": "power-plant",
+    "index": 47,
+    "type": "multiple",
+    "stem": "以下哪些属于KYN28A-12型开关柜的主要组成部分?",
+    "options": [
+      {
+        "label": "A",
+        "text": "母线室"
+      },
+      {
+        "label": "B",
+        "text": "断路器室"
+      },
+      {
+        "label": "C",
+        "text": "电缆室"
+      },
+      {
+        "label": "D",
+        "text": "变压器室"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0048",
+    "courseId": "power-plant",
+    "index": 48,
+    "type": "multiple",
+    "stem": "以下哪些属于按柜体结构分类的高压开关柜?",
+    "options": [
+      {
+        "label": "A",
+        "text": "金属封闭铠装式"
+      },
+      {
+        "label": "B",
+        "text": "金属封闭间隔式"
+      },
+      {
+        "label": "C",
+        "text": "金属封闭箱式"
+      },
+      {
+        "label": "D",
+        "text": "敞开式"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0049",
+    "courseId": "power-plant",
+    "index": 49,
+    "type": "multiple",
+    "stem": "以下哪些现象属于真空断路器本体故障?",
+    "options": [
+      {
+        "label": "A",
+        "text": "灭弧室漏气"
+      },
+      {
+        "label": "B",
+        "text": "真空度降低"
+      },
+      {
+        "label": "C",
+        "text": "切电容重燃"
+      },
+      {
+        "label": "D",
+        "text": "提升杆闪络"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0050",
+    "courseId": "power-plant",
+    "index": 50,
+    "type": "multiple",
+    "stem": "绝缘故障可能表现为",
+    "options": [
+      {
+        "label": "A",
+        "text": "外绝缘对地闪络击穿"
+      },
+      {
+        "label": "B",
+        "text": "相间绝缘击穿"
+      },
+      {
+        "label": "C",
+        "text": "电流互感器闪络"
+      },
+      {
+        "label": "D",
+        "text": "隔离插头烧熔"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0051",
+    "courseId": "power-plant",
+    "index": 51,
+    "type": "multiple",
+    "stem": "哪几项属于开关柜“五防”连锁功能检修应验证的内容？（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "防止带负荷推拉手车"
+      },
+      {
+        "label": "B",
+        "text": "防止带电合接地开关"
+      },
+      {
+        "label": "C",
+        "text": "防止接地开关合闸时送电"
+      },
+      {
+        "label": "D",
+        "text": "防止误入带电间隔"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0052",
+    "courseId": "power-plant",
+    "index": 52,
+    "type": "multiple",
+    "stem": "弹簧操动机构储能电机运行后不能自动停止的原因是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "行程开关电机启动触点烧粘"
+      },
+      {
+        "label": "B",
+        "text": "储能电机电源电压太高"
+      },
+      {
+        "label": "C",
+        "text": "储能保持锁扣失灵"
+      },
+      {
+        "label": "D",
+        "text": "开关在合闸位置"
+      }
+    ],
+    "answer": [
+      "A",
+      "C"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0053",
+    "courseId": "power-plant",
+    "index": 53,
+    "type": "multiple",
+    "stem": "互感器可以与继电器配合，对系统和电气设备进行（ ）等保护。",
+    "options": [
+      {
+        "label": "A",
+        "text": "过电压"
+      },
+      {
+        "label": "B",
+        "text": "过电流"
+      },
+      {
+        "label": "C",
+        "text": "单相接地"
+      },
+      {
+        "label": "D",
+        "text": "瓦斯"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0054",
+    "courseId": "power-plant",
+    "index": 54,
+    "type": "multiple",
+    "stem": "电容式电压互感器由（ ）组成。",
+    "options": [
+      {
+        "label": "A",
+        "text": "电容线圈"
+      },
+      {
+        "label": "B",
+        "text": "电容分压器"
+      },
+      {
+        "label": "C",
+        "text": "稳压器"
+      },
+      {
+        "label": "D",
+        "text": "电磁元件"
+      }
+    ],
+    "answer": [
+      "B",
+      "D"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0055",
+    "courseId": "power-plant",
+    "index": 55,
+    "type": "multiple",
+    "stem": "高压电容器按其功能可分为（ ）等。",
+    "options": [
+      {
+        "label": "A",
+        "text": "移相（并联）电容器"
+      },
+      {
+        "label": "B",
+        "text": "串联电容器"
+      },
+      {
+        "label": "C",
+        "text": "耦合电容器"
+      },
+      {
+        "label": "D",
+        "text": "脉冲电容器"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0056",
+    "courseId": "power-plant",
+    "index": 56,
+    "type": "multiple",
+    "stem": "隔离开关的主要作用包括（ ）等。",
+    "options": [
+      {
+        "label": "A",
+        "text": "隔离电源"
+      },
+      {
+        "label": "B",
+        "text": "倒闸操作"
+      },
+      {
+        "label": "C",
+        "text": "拉合小电流电路"
+      },
+      {
+        "label": "D",
+        "text": "拉合负荷电流"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0057",
+    "courseId": "power-plant",
+    "index": 57,
+    "type": "multiple",
+    "stem": "隔离开关在合闸操作完成后应（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "检查是否已经合上"
+      },
+      {
+        "label": "B",
+        "text": "动静触头是否接触紧密"
+      },
+      {
+        "label": "C",
+        "text": "接触是否牢靠"
+      },
+      {
+        "label": "D",
+        "text": "分闸操作是否灵活"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0058",
+    "courseId": "power-plant",
+    "index": 58,
+    "type": "multiple",
+    "stem": "检修隔离开关时，减少触头接触电阻的方法有（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "打磨接触面"
+      },
+      {
+        "label": "B",
+        "text": "保证可靠接触"
+      },
+      {
+        "label": "C",
+        "text": "减少接触部分压力"
+      },
+      {
+        "label": "D",
+        "text": "增大接触压力"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0059",
+    "courseId": "power-plant",
+    "index": 59,
+    "type": "multiple",
+    "stem": "在开关电器中，气体吹动电弧的方法为横吹时，能（ ），其灭弧效果较好。",
+    "options": [
+      {
+        "label": "A",
+        "text": "拉长电弧"
+      },
+      {
+        "label": "B",
+        "text": "增大电弧冷却面积"
+      },
+      {
+        "label": "C",
+        "text": "带走大量带电粒子"
+      },
+      {
+        "label": "D",
+        "text": "使电流减少"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0060",
+    "courseId": "power-plant",
+    "index": 60,
+    "type": "multiple",
+    "stem": "电弧与固体介质接触，固体介质能（ ），从而达到加速电弧熄灭的目的。",
+    "options": [
+      {
+        "label": "A",
+        "text": "使电弧迅速冷却"
+      },
+      {
+        "label": "B",
+        "text": "金属蒸气大量在固体介质表明凝结"
+      },
+      {
+        "label": "C",
+        "text": "使电弧与空气隔绝"
+      },
+      {
+        "label": "D",
+        "text": "拉长电弧"
+      }
+    ],
+    "answer": [
+      "A",
+      "B"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0061",
+    "courseId": "power-plant",
+    "index": 61,
+    "type": "multiple",
+    "stem": "六氟化硫气体分解的某些成分，如低氟化合物和低氟氧化物有严重（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "腐蚀性"
+      },
+      {
+        "label": "B",
+        "text": "毒性"
+      },
+      {
+        "label": "C",
+        "text": "可燃性"
+      },
+      {
+        "label": "D",
+        "text": "惰性"
+      }
+    ],
+    "answer": [
+      "A",
+      "B"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0062",
+    "courseId": "power-plant",
+    "index": 62,
+    "type": "multiple",
+    "stem": "高压成套配电装置按额定工作电压可分为（ ）成套配电装置",
+    "options": [
+      {
+        "label": "A",
+        "text": "高压"
+      },
+      {
+        "label": "B",
+        "text": "低压"
+      },
+      {
+        "label": "C",
+        "text": "特高电压"
+      },
+      {
+        "label": "D",
+        "text": "中压"
+      }
+    ],
+    "answer": [
+      "A",
+      "B"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0063",
+    "courseId": "power-plant",
+    "index": 63,
+    "type": "multiple",
+    "stem": "高压成套配电装置电气主接线的要求：将各个单元的（ ）等一次及保护控制、测量等设备装配在一个整体内。",
+    "options": [
+      {
+        "label": "A",
+        "text": "断路器"
+      },
+      {
+        "label": "B",
+        "text": "隔离开关"
+      },
+      {
+        "label": "C",
+        "text": "电流互感器"
+      },
+      {
+        "label": "D",
+        "text": "电压互感器"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0064",
+    "courseId": "power-plant",
+    "index": 64,
+    "type": "multiple",
+    "stem": "以下哪些属于高压开关柜的“五防”功能?",
+    "options": [
+      {
+        "label": "A",
+        "text": "防止误分合断路器"
+      },
+      {
+        "label": "B",
+        "text": "防止带负荷拉合隔离开关"
+      },
+      {
+        "label": "C",
+        "text": "防止设备老化"
+      },
+      {
+        "label": "D",
+        "text": "防止接地开关合上时送电"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0065",
+    "courseId": "power-plant",
+    "index": 65,
+    "type": "multiple",
+    "stem": "日常巡视真空断路器应检查",
+    "options": [
+      {
+        "label": "A",
+        "text": "分合指示器与指示灯"
+      },
+      {
+        "label": "B",
+        "text": "支持绝缘子有无裂纹"
+      },
+      {
+        "label": "C",
+        "text": "真空灭弧室有无异常声响"
+      },
+      {
+        "label": "D",
+        "text": "接地是否完好"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0066",
+    "courseId": "power-plant",
+    "index": 66,
+    "type": "multiple",
+    "stem": "真空断路器已成为（ ）3~35KV电压等级中广泛使用的断路器。",
+    "options": [
+      {
+        "label": "A",
+        "text": "发电厂"
+      },
+      {
+        "label": "B",
+        "text": "变电所"
+      },
+      {
+        "label": "C",
+        "text": "高压用户变电所"
+      },
+      {
+        "label": "D",
+        "text": "居民用户"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0067",
+    "courseId": "power-plant",
+    "index": 67,
+    "type": "multiple",
+    "stem": "真空灭弧室的绝缘外壳采用玻璃外壳制作时，它的主要优点有（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "容易加工、易于与金属封接"
+      },
+      {
+        "label": "B",
+        "text": "有一定的机械强度"
+      },
+      {
+        "label": "C",
+        "text": "透明性好"
+      },
+      {
+        "label": "D",
+        "text": "抗冲击机械强度高"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0068",
+    "courseId": "power-plant",
+    "index": 68,
+    "type": "multiple",
+    "stem": "互感器是供电系统中（ ）用的重要设备。",
+    "options": [
+      {
+        "label": "A",
+        "text": "测量"
+      },
+      {
+        "label": "B",
+        "text": "保护"
+      },
+      {
+        "label": "C",
+        "text": "监控"
+      },
+      {
+        "label": "D",
+        "text": "操作"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0069",
+    "courseId": "power-plant",
+    "index": 69,
+    "type": "multiple",
+    "stem": "互感器可以与测量仪表配合，对线路的（ ）进行测量。",
+    "options": [
+      {
+        "label": "A",
+        "text": "电压"
+      },
+      {
+        "label": "B",
+        "text": "电流"
+      },
+      {
+        "label": "C",
+        "text": "电能"
+      },
+      {
+        "label": "D",
+        "text": "频率"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0070",
+    "courseId": "power-plant",
+    "index": 70,
+    "type": "multiple",
+    "stem": "电容式电压互感器由（ ）组成。",
+    "options": [
+      {
+        "label": "A",
+        "text": "电容线圈"
+      },
+      {
+        "label": "B",
+        "text": "电容分压器"
+      },
+      {
+        "label": "C",
+        "text": "稳压器"
+      },
+      {
+        "label": "D",
+        "text": "电磁元件"
+      }
+    ],
+    "answer": [
+      "B",
+      "D"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0071",
+    "courseId": "power-plant",
+    "index": 71,
+    "type": "judge",
+    "stem": "隔离开关可拉、合带电压的电路。",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0072",
+    "courseId": "power-plant",
+    "index": 72,
+    "type": "judge",
+    "stem": "隔离开关按安装地点分类可分为山地式和户外式。",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0073",
+    "courseId": "power-plant",
+    "index": 73,
+    "type": "judge",
+    "stem": "SF₆气体分解物遇水后可形成强腐蚀性电解质。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0074",
+    "courseId": "power-plant",
+    "index": 74,
+    "type": "judge",
+    "stem": "真空灭弧室真空度越高，击穿电压越低。",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0075",
+    "courseId": "power-plant",
+    "index": 75,
+    "type": "judge",
+    "stem": "断路器不仅能开断正常的负载电流，还能在规定时间内开断短路电流等异常电流。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0076",
+    "courseId": "power-plant",
+    "index": 76,
+    "type": "judge",
+    "stem": "KYN28A-12型高压开关柜属于户外型开关柜。",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0077",
+    "courseId": "power-plant",
+    "index": 77,
+    "type": "judge",
+    "stem": "高压开关柜可用于电力系统中接受和分配电能。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0078",
+    "courseId": "power-plant",
+    "index": 78,
+    "type": "judge",
+    "stem": "真空灭弧室内部零件颜色灰暗、开断时出现暗红色弧光，提示真空度可能严重降低。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0079",
+    "courseId": "power-plant",
+    "index": 79,
+    "type": "judge",
+    "stem": "电压互感器正常运行时二次侧不允许开路。",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0080",
+    "courseId": "power-plant",
+    "index": 80,
+    "type": "judge",
+    "stem": "电力系统无功补偿一般采用耦合电容器。",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0081",
+    "courseId": "power-plant",
+    "index": 81,
+    "type": "judge",
+    "stem": "隔离开关合闸操作时，必须先合上断路器后，再用隔离开关接通电路。",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0082",
+    "courseId": "power-plant",
+    "index": 82,
+    "type": "judge",
+    "stem": "GW4-220/1000型表示额定电流为1000A，额定电压为220KV，设计序号为4的户外式隔离开关。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0083",
+    "courseId": "power-plant",
+    "index": 83,
+    "type": "judge",
+    "stem": "高压断路器的开断元件主要包括灭弧装置和动、静触头。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0084",
+    "courseId": "power-plant",
+    "index": 84,
+    "type": "judge",
+    "stem": "对高压开关柜巡视检查时，必须检查所挂标示牌的内容是否与现场相符。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0085",
+    "courseId": "power-plant",
+    "index": 85,
+    "type": "judge",
+    "stem": "KYN28-10型高压开关柜是具有“五防”联锁功能的中置式金属铠装高压开关柜。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0086",
+    "courseId": "power-plant",
+    "index": 86,
+    "type": "judge",
+    "stem": "接地开关合闸时，手车无法移入工作位置，这是机械连锁的作用。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0087",
+    "courseId": "power-plant",
+    "index": 87,
+    "type": "judge",
+    "stem": "电流互感器和电压互感器二次绕组接地是保护接地。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0088",
+    "courseId": "power-plant",
+    "index": 88,
+    "type": "judge",
+    "stem": "将测量仪表、继电保护装置和线路的高电压隔开，以保证操作人员和设备的安全，是互感器的作用之一。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0089",
+    "courseId": "power-plant",
+    "index": 89,
+    "type": "judge",
+    "stem": "高压电容器外壳有异形膨胀时，一般不需要将电容器立即退出运行。",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0090",
+    "courseId": "power-plant",
+    "index": 90,
+    "type": "judge",
+    "stem": "与电容器串联的电抗器是起限制合闸涌流和高次谐波的作用。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0091",
+    "courseId": "power-plant",
+    "index": 91,
+    "type": "blank",
+    "stem": "什么是一次设备和二次设备？哪些设备属于一次设备？哪些设备属于二次设备？",
+    "options": [],
+    "answer": [
+      "p13-p14"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0092",
+    "courseId": "power-plant",
+    "index": 92,
+    "type": "blank",
+    "stem": "GN19-10/630是什么设备，并读出型号中字母和数字的含义。",
+    "options": [],
+    "answer": [
+      "p25"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0093",
+    "courseId": "power-plant",
+    "index": 93,
+    "type": "blank",
+    "stem": "高压开关柜的作用是什么？",
+    "options": [],
+    "answer": [
+      "p132"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0094",
+    "courseId": "power-plant",
+    "index": 94,
+    "type": "blank",
+    "stem": "电流互感器的特点是什么？运行中的电流互感器二次侧为什么不允许开路？",
+    "options": [],
+    "answer": [
+      "p170"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0095",
+    "courseId": "power-plant",
+    "index": 95,
+    "type": "blank",
+    "stem": "画出单母线分段接线的线路图，并简述其接线特点。",
+    "options": [],
+    "answer": [
+      "p270"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0096",
+    "courseId": "power-plant",
+    "index": 96,
+    "type": "blank",
+    "stem": "根据变电站在电力系统中的地位，变电站可分为哪几类？",
+    "options": [],
+    "answer": [
+      "p8"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0097",
+    "courseId": "power-plant",
+    "index": 97,
+    "type": "blank",
+    "stem": "高压开关柜的是如何分类的？",
+    "options": [],
+    "answer": [
+      "p132"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0098",
+    "courseId": "power-plant",
+    "index": 98,
+    "type": "blank",
+    "stem": "电流互感器和电压互感器的区别是什么？",
+    "options": [],
+    "answer": [
+      "p175"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0099",
+    "courseId": "power-plant",
+    "index": 99,
+    "type": "blank",
+    "stem": "并联电抗器的主要作用是什么？",
+    "options": [],
+    "answer": [
+      "p214"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "PP-Q0100",
+    "courseId": "power-plant",
+    "index": 100,
+    "type": "blank",
+    "stem": "画出一个半断路器接线的线路图，并简述其接线特点。",
+    "options": [],
+    "answer": [
+      "p275"
+    ],
+    "analysis": ""
+  }
+]

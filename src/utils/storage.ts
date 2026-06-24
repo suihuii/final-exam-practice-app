@@ -13,7 +13,7 @@
 export const PROGRESS_KEY = "progress_v2";
 export const LEGACY_PROGRESS_KEY = "progress_v1";
 export const DEFAULT_COURSE_ID = "power-supply";
-export const COURSE_IDS = ["power-supply", "aesthetic-education"];
+export const COURSE_IDS = ["power-supply", "aesthetic-education", "power-plant"];
 
 export const defaultCourseProgress: CourseProgress = {
   wrong: {},
@@ -517,7 +517,7 @@ function isRecord(value: unknown): value is Record<string, unknown> {
 }
 
 function isQuestionId(value: unknown): value is string {
-  return typeof value === "string" && /^(Q\d{4}|PS-Q\d{4}|AE-P\d+-Q\d{4})$/.test(value);
+  return typeof value === "string" && /^(Q\d{4}|PS-Q\d{4}|AE-P\d+-Q\d{4}|PP-Q\d{4})$/.test(value);
 }
 
 function mapPowerSupplyId(questionId: string): string {

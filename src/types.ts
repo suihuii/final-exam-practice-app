@@ -116,7 +116,7 @@ export const QUESTION_TYPE_LABEL: Record<QuestionType, string> = {
   single: "单选",
   multiple: "多选",
   judge: "判断",
-  blank: "填空",
+  blank: "填空/简答",
 };
 
 export const QUESTION_TYPES: QuestionType[] = [

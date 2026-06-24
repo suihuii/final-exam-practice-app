@@ -12,5 +12,12 @@
     "shortName": "美育",
     "description": "2025-2026-2《大学美育》期末模拟考查卷(1)(2)",
     "questionFile": "questions/aesthetic-education.json"
+  },
+  {
+    "id": "power-plant",
+    "name": "发电厂",
+    "shortName": "发电厂",
+    "description": "发电厂题库",
+    "questionFile": "questions/power-plant.json"
   }
 ]
