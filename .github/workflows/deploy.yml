@@ -1,4 +1,4 @@
-﻿name: Deploy GitHub Pages
+name: Deploy to GitHub Pages
 
 on:
   push:
@@ -20,21 +20,23 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: npm
+
       - name: Install dependencies
         run: npm ci
+
       - name: Build
         run: npm run build
-        env:
-          VITE_BASE: /${{ github.event.repository.name }}/
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: dist
+          path: ./dist
 
   deploy:
     environment:
@@ -43,6 +45,6 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
-      - name: Deploy to GitHub Pages
+      - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
