@@ -1,0 +1,8549 @@
+[
+  {
+    "id": "Q0001",
+    "index": 1,
+    "type": "single",
+    "stem": "与电容器组串联的电抗器起( )作用。",
+    "options": [
+      {
+        "label": "A",
+        "text": "限制短路电流"
+      },
+      {
+        "label": "B",
+        "text": "限制合闸涌流和吸收操作过电压"
+      },
+      {
+        "label": "C",
+        "text": "限制短路电流和合闸涌流"
+      },
+      {
+        "label": "D",
+        "text": "限制合闸涌流"
+      }
+    ],
+    "answer": "C",
+    "analysis": ""
+  },
+  {
+    "id": "Q0002",
+    "index": 2,
+    "type": "judge",
+    "stem": "中性点直接接地或经小电阻接地方式的系统称为有效接地系统或小接地电流系统。",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0003",
+    "index": 3,
+    "type": "single",
+    "stem": "（ ）不适合作为电压中枢点",
+    "options": [
+      {
+        "label": "A",
+        "text": "大型发电厂的高压母线"
+      },
+      {
+        "label": "B",
+        "text": "枢纽变电所的二次母线"
+      },
+      {
+        "label": "C",
+        "text": "地方变电所的二次母线"
+      },
+      {
+        "label": "D",
+        "text": "有大量地方性负荷的发电厂母线"
+      }
+    ],
+    "answer": "C",
+    "analysis": ""
+  },
+  {
+    "id": "Q0004",
+    "index": 4,
+    "type": "single",
+    "stem": "（ ）是唯一的对称性短路。",
+    "options": [
+      {
+        "label": "A",
+        "text": "三相短路"
+      },
+      {
+        "label": "B",
+        "text": "两相短路"
+      },
+      {
+        "label": "C",
+        "text": "两相接地短路"
+      },
+      {
+        "label": "D",
+        "text": "单相接地短路"
+      }
+    ],
+    "answer": "A",
+    "analysis": ""
+  },
+  {
+    "id": "Q0005",
+    "index": 5,
+    "type": "single",
+    "stem": "（ ）是指供电网络某指定点的实际电压与额定电压的代数差。",
+    "options": [
+      {
+        "label": "A",
+        "text": "电压调整"
+      },
+      {
+        "label": "B",
+        "text": "电压降落"
+      },
+      {
+        "label": "C",
+        "text": "电压损耗"
+      },
+      {
+        "label": "D",
+        "text": "电压偏移"
+      }
+    ],
+    "answer": "D",
+    "analysis": ""
+  },
+  {
+    "id": "Q0006",
+    "index": 6,
+    "type": "single",
+    "stem": "（ ）是指线路始末两端电压的数值差。",
+    "options": [
+      {
+        "label": "A",
+        "text": "电压调整"
+      },
+      {
+        "label": "B",
+        "text": "电压偏移"
+      },
+      {
+        "label": "C",
+        "text": "电压降落"
+      },
+      {
+        "label": "D",
+        "text": "电压损耗"
+      }
+    ],
+    "answer": "D",
+    "analysis": ""
+  },
+  {
+    "id": "Q0007",
+    "index": 7,
+    "type": "single",
+    "stem": "（ ）主要用来校验电气设备和载流导体的电动力稳定度。",
+    "options": [
+      {
+        "label": "A",
+        "text": "短路电流周期分量有效值"
+      },
+      {
+        "label": "B",
+        "text": "冲击电流"
+      },
+      {
+        "label": "C",
+        "text": "短路电流有效值"
+      },
+      {
+        "label": "D",
+        "text": "短路容量"
+      }
+    ],
+    "answer": "B",
+    "analysis": ""
+  },
+  {
+    "id": "Q0008",
+    "index": 8,
+    "type": "single",
+    "stem": "（ ）是用来接通和分断小容量的配电线路和负荷，它只有简单的灭弧装置。",
+    "options": [
+      {
+        "label": "A",
+        "text": "高压断路器"
+      },
+      {
+        "label": "B",
+        "text": "隔离开关"
+      },
+      {
+        "label": "C",
+        "text": "熔断器"
+      },
+      {
+        "label": "D",
+        "text": "负荷开关"
+      }
+    ],
+    "answer": "D",
+    "analysis": ""
+  },
+  {
+    "id": "Q0009",
+    "index": 9,
+    "type": "single",
+    "stem": "（ ）是指为了保证电气设备在系统正常运行或发生事故情况下能正常工作而进行的接地。",
+    "options": [
+      {
+        "label": "A",
+        "text": "工作接地;"
+      },
+      {
+        "label": "B",
+        "text": "防雷接地"
+      },
+      {
+        "label": "C",
+        "text": "保护接地"
+      },
+      {
+        "label": "D",
+        "text": "设备接地"
+      }
+    ],
+    "answer": "A",
+    "analysis": ""
+  },
+  {
+    "id": "Q0010",
+    "index": 10,
+    "type": "single",
+    "stem": "（）操动机构动作快、耗费功率小，失去电源仍可以操作一次，但结构复杂、冲击力大",
+    "options": [
+      {
+        "label": "A",
+        "text": "电磁"
+      },
+      {
+        "label": "B",
+        "text": "液压"
+      },
+      {
+        "label": "C",
+        "text": "弹簧"
+      },
+      {
+        "label": "D",
+        "text": "手动"
+      }
+    ],
+    "answer": "C",
+    "analysis": ""
+  },
+  {
+    "id": "Q0011",
+    "index": 11,
+    "type": "single",
+    "stem": "（）一般并联于断路器的断口上，使各断口间的电压在开断时分布均匀。",
+    "options": [
+      {
+        "label": "A",
+        "text": "串联电抗器"
+      },
+      {
+        "label": "B",
+        "text": "串联电容器"
+      },
+      {
+        "label": "C",
+        "text": "均压电容器"
+      },
+      {
+        "label": "D",
+        "text": "脉冲电容器"
+      }
+    ],
+    "answer": "C",
+    "analysis": ""
+  },
+  {
+    "id": "Q0012",
+    "index": 12,
+    "type": "single",
+    "stem": "10KV开关柜以（）为主体。",
+    "options": [
+      {
+        "label": "A",
+        "text": "少油断路器"
+      },
+      {
+        "label": "B",
+        "text": "真空断路器"
+      },
+      {
+        "label": "C",
+        "text": "保护熔断器"
+      },
+      {
+        "label": "D",
+        "text": "限流熔断器"
+      }
+    ],
+    "answer": "B",
+    "analysis": ""
+  },
+  {
+    "id": "Q0013",
+    "index": 13,
+    "type": "single",
+    "stem": "110kV及以上电力系统应采用的中性点运行方式为（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "不接地"
+      },
+      {
+        "label": "B",
+        "text": "直接接地"
+      },
+      {
+        "label": "C",
+        "text": "经消弧线圈接地"
+      },
+      {
+        "label": "D",
+        "text": "经高阻接地"
+      }
+    ],
+    "answer": "B",
+    "analysis": ""
+  },
+  {
+    "id": "Q0014",
+    "index": 14,
+    "type": "single",
+    "stem": "11OKV的地区变电所，出线回数为四回，其可能的主接线方式为（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "单母分段带旁路"
+      },
+      {
+        "label": "B",
+        "text": "桥式接线"
+      },
+      {
+        "label": "C",
+        "text": "双母分段"
+      },
+      {
+        "label": "D",
+        "text": "双母线分段带旁路"
+      }
+    ],
+    "answer": "A",
+    "analysis": ""
+  },
+  {
+    "id": "Q0015",
+    "index": 15,
+    "type": "single",
+    "stem": "35kV配电网串联电容的主要目的是（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "电压调整"
+      },
+      {
+        "label": "B",
+        "text": "频率调整"
+      },
+      {
+        "label": "C",
+        "text": "提高稳定性"
+      },
+      {
+        "label": "D",
+        "text": "经济调度"
+      }
+    ],
+    "answer": "A",
+    "analysis": ""
+  },
+  {
+    "id": "Q0016",
+    "index": 16,
+    "type": "single",
+    "stem": "GN30-12D型隔离开关是（ ）的高压电器。",
+    "options": [
+      {
+        "label": "A",
+        "text": "旋转触刀式"
+      },
+      {
+        "label": "B",
+        "text": "触刀插入式"
+      },
+      {
+        "label": "C",
+        "text": "触刀曲臂插入式"
+      },
+      {
+        "label": "D",
+        "text": "直接插入式"
+      }
+    ],
+    "answer": "A",
+    "analysis": ""
+  },
+  {
+    "id": "Q0017",
+    "index": 17,
+    "type": "single",
+    "stem": "GW4-35系列隔离开关在合闸操作时，两个支柱绝缘子各自转动的角度为（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "90"
+      },
+      {
+        "label": "B",
+        "text": "60"
+      },
+      {
+        "label": "C",
+        "text": "120"
+      },
+      {
+        "label": "D",
+        "text": "180"
+      }
+    ],
+    "answer": "A",
+    "analysis": ""
+  },
+  {
+    "id": "Q0018",
+    "index": 18,
+    "type": "single",
+    "stem": "SF6断路器不具有的特性是（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "灭弧能力强"
+      },
+      {
+        "label": "B",
+        "text": "使用寿命长"
+      },
+      {
+        "label": "C",
+        "text": "能做成成套设备"
+      },
+      {
+        "label": "D",
+        "text": "不具有气压"
+      }
+    ],
+    "answer": "D",
+    "analysis": ""
+  },
+  {
+    "id": "Q0019",
+    "index": 19,
+    "type": "single",
+    "stem": "SF6负荷开关一般不设置（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "气体吹弧装置"
+      },
+      {
+        "label": "B",
+        "text": "灭弧装置"
+      },
+      {
+        "label": "C",
+        "text": "磁吹灭弧装置;"
+      },
+      {
+        "label": "D",
+        "text": "固体介质灭弧装置"
+      }
+    ],
+    "answer": "A",
+    "analysis": ""
+  },
+  {
+    "id": "Q0020",
+    "index": 20,
+    "type": "single",
+    "stem": "SF6具有良好可复合性是指（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "大量SF6被电弧分解"
+      },
+      {
+        "label": "B",
+        "text": "少量SF6被电弧分解后能复合还原"
+      },
+      {
+        "label": "C",
+        "text": "大量SF6被电弧分解后能复合还原"
+      },
+      {
+        "label": "D",
+        "text": "SF6不能被电弧分解"
+      }
+    ],
+    "answer": "C",
+    "analysis": ""
+  },
+  {
+    "id": "Q0021",
+    "index": 21,
+    "type": "single",
+    "stem": "SF6气体的绝缘强度约为空气的（ ）倍。",
+    "options": [
+      {
+        "label": "A",
+        "text": "2"
+      },
+      {
+        "label": "B",
+        "text": "2.5"
+      },
+      {
+        "label": "C",
+        "text": "3"
+      },
+      {
+        "label": "D",
+        "text": "3.5"
+      }
+    ],
+    "answer": "B",
+    "analysis": ""
+  },
+  {
+    "id": "Q0022",
+    "index": 22,
+    "type": "single",
+    "stem": "SF6气体的热分解温度约为（）摄氏度。",
+    "options": [
+      {
+        "label": "A",
+        "text": "200"
+      },
+      {
+        "label": "B",
+        "text": "300"
+      },
+      {
+        "label": "C",
+        "text": "400"
+      },
+      {
+        "label": "D",
+        "text": "500"
+      }
+    ],
+    "answer": "D",
+    "analysis": ""
+  },
+  {
+    "id": "Q0023",
+    "index": 23,
+    "type": "single",
+    "stem": "SF6气体断路器经过解体后，原来的气体（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "可继续使用"
+      },
+      {
+        "label": "B",
+        "text": "进行净化后处理后使用"
+      },
+      {
+        "label": "C",
+        "text": "做毒性试验合格，并净化处理后使用"
+      },
+      {
+        "label": "D",
+        "text": "应排放掉"
+      }
+    ],
+    "answer": "C",
+    "analysis": ""
+  },
+  {
+    "id": "Q0024",
+    "index": 24,
+    "type": "single",
+    "stem": "SF6气体灭弧能力比空气大（）倍",
+    "options": [
+      {
+        "label": "A",
+        "text": "30"
+      },
+      {
+        "label": "B",
+        "text": "50"
+      },
+      {
+        "label": "C",
+        "text": "80"
+      },
+      {
+        "label": "D",
+        "text": "100"
+      }
+    ],
+    "answer": "D",
+    "analysis": ""
+  },
+  {
+    "id": "Q0025",
+    "index": 25,
+    "type": "single",
+    "stem": "变电所的电压等级是指（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "高压侧电压等级"
+      },
+      {
+        "label": "B",
+        "text": "中压侧电压等级"
+      },
+      {
+        "label": "C",
+        "text": "低压侧电压等级"
+      },
+      {
+        "label": "D",
+        "text": "平均电压等级"
+      }
+    ],
+    "answer": "A",
+    "analysis": ""
+  },
+  {
+    "id": "Q0026",
+    "index": 26,
+    "type": "single",
+    "stem": "变压器的电抗参数 主要决定于哪一个实验数据（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "短路损耗"
+      },
+      {
+        "label": "B",
+        "text": "空载损耗"
+      },
+      {
+        "label": "C",
+        "text": "短路电压百分数"
+      },
+      {
+        "label": "D",
+        "text": "空载电流百分数"
+      }
+    ],
+    "answer": "C",
+    "analysis": ""
+  },
+  {
+    "id": "Q0027",
+    "index": 27,
+    "type": "single",
+    "stem": "变压器的电阻参数 主要决定于哪一个实验数据（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "短路损耗"
+      },
+      {
+        "label": "B",
+        "text": "空载损耗"
+      },
+      {
+        "label": "C",
+        "text": "短路电压百分数"
+      },
+      {
+        "label": "D",
+        "text": "空载电流百分数"
+      }
+    ],
+    "answer": "A",
+    "analysis": ""
+  },
+  {
+    "id": "Q0028",
+    "index": 28,
+    "type": "single",
+    "stem": "标志断路器开合断路故障能力的数据是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "额定断路开合电流的峰值"
+      },
+      {
+        "label": "B",
+        "text": "最大单相断路电流"
+      },
+      {
+        "label": "C",
+        "text": "最大单相短路电流"
+      },
+      {
+        "label": "D",
+        "text": "最大运行负荷电流"
+      }
+    ],
+    "answer": "A",
+    "analysis": ""
+  },
+  {
+    "id": "Q0029",
+    "index": 29,
+    "type": "single",
+    "stem": "并联电力电容器的补偿方式按安装地点可分为( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "分散补偿"
+      },
+      {
+        "label": "B",
+        "text": "集中补偿"
+      },
+      {
+        "label": "C",
+        "text": "集中补偿、分散补偿"
+      },
+      {
+        "label": "D",
+        "text": "集中补偿、分散补偿、个别补偿"
+      }
+    ],
+    "answer": "D",
+    "analysis": ""
+  },
+  {
+    "id": "Q0030",
+    "index": 30,
+    "type": "single",
+    "stem": "并联电容器补偿装置的主要功能是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "增强稳定性，提高输电能力"
+      },
+      {
+        "label": "B",
+        "text": "减少线路电压降，降低受电端电压波动，提高供电电压"
+      },
+      {
+        "label": "C",
+        "text": "向电网提供可阶梯调节的容性无功，以补偿多余的感性无功，减少电网有功损耗和提高电网电压"
+      },
+      {
+        "label": "D",
+        "text": "向电网提供可阶梯调节的感性无功，保证电压稳定在允许范围内"
+      }
+    ],
+    "answer": "C",
+    "analysis": ""
+  },
+  {
+    "id": "Q0031",
+    "index": 31,
+    "type": "single",
+    "stem": "不属于低压配电电器设备的是（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "低压接触器"
+      },
+      {
+        "label": "B",
+        "text": "低压断路器"
+      },
+      {
+        "label": "C",
+        "text": "低压熔断器"
+      },
+      {
+        "label": "D",
+        "text": "低压刀开关"
+      }
+    ],
+    "answer": "A",
+    "analysis": ""
+  },
+  {
+    "id": "Q0032",
+    "index": 32,
+    "type": "single",
+    "stem": "不属于高压开关电器是（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "接触器"
+      },
+      {
+        "label": "B",
+        "text": "断路器"
+      },
+      {
+        "label": "C",
+        "text": "隔离开关"
+      },
+      {
+        "label": "D",
+        "text": "负荷开关"
+      }
+    ],
+    "answer": "A",
+    "analysis": ""
+  },
+  {
+    "id": "Q0033",
+    "index": 33,
+    "type": "single",
+    "stem": "不属于智能变电所特征的是（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "设备集成化"
+      },
+      {
+        "label": "B",
+        "text": "占地面积较大"
+      },
+      {
+        "label": "C",
+        "text": "可进行无人值守"
+      },
+      {
+        "label": "D",
+        "text": "二次设备工厂预制调试"
+      }
+    ],
+    "answer": "B",
+    "analysis": ""
+  },
+  {
+    "id": "Q0034",
+    "index": 34,
+    "type": "single",
+    "stem": "不许用（ )拉合负荷电流和接地故障电流。",
+    "options": [
+      {
+        "label": "A",
+        "text": "变压器"
+      },
+      {
+        "label": "B",
+        "text": "断路器"
+      },
+      {
+        "label": "C",
+        "text": "隔离开关"
+      },
+      {
+        "label": "D",
+        "text": "电抗器"
+      }
+    ],
+    "answer": "C",
+    "analysis": ""
+  },
+  {
+    "id": "Q0035",
+    "index": 35,
+    "type": "single",
+    "stem": "采用串联电容器的方法调压，实质上（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "改变了电力网的有功功率分布"
+      },
+      {
+        "label": "B",
+        "text": "变了负荷变化时次级电压的变化幅度"
+      },
+      {
+        "label": "C",
+        "text": "改变了电力网的无功功率分布"
+      },
+      {
+        "label": "D",
+        "text": "增加了整个电力系统的有功功率容量"
+      }
+    ],
+    "answer": "C",
+    "analysis": ""
+  },
+  {
+    "id": "Q0036",
+    "index": 36,
+    "type": "single",
+    "stem": "测量电流互感器极性的目的是为了（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "满足负载的要求"
+      },
+      {
+        "label": "B",
+        "text": "保证外部接线正确"
+      },
+      {
+        "label": "C",
+        "text": "满足计量和保护装置的要求"
+      },
+      {
+        "label": "D",
+        "text": "提高保护装置动作的灵敏度"
+      }
+    ],
+    "answer": "B",
+    "analysis": ""
+  },
+  {
+    "id": "Q0037",
+    "index": 37,
+    "type": "single",
+    "stem": "潮流计算的目的是求( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "电流"
+      },
+      {
+        "label": "B",
+        "text": "阻抗"
+      },
+      {
+        "label": "C",
+        "text": "电压"
+      },
+      {
+        "label": "D",
+        "text": "电压和功率"
+      }
+    ],
+    "answer": "D",
+    "analysis": ""
+  },
+  {
+    "id": "Q0038",
+    "index": 38,
+    "type": "single",
+    "stem": "潮流计算中，已知不同端电压和功率，可从（ ）着手开始计算。",
+    "options": [
+      {
+        "label": "A",
+        "text": "已知电压端"
+      },
+      {
+        "label": "B",
+        "text": "已知功率端"
+      },
+      {
+        "label": "C",
+        "text": "首端"
+      },
+      {
+        "label": "D",
+        "text": "末端"
+      }
+    ],
+    "answer": "B",
+    "analysis": ""
+  },
+  {
+    "id": "Q0039",
+    "index": 39,
+    "type": "single",
+    "stem": "成套配电装置是厂家成套供应的设备，预先按照（）要求制作。",
+    "options": [
+      {
+        "label": "A",
+        "text": "运行方式"
+      },
+      {
+        "label": "B",
+        "text": "开关设备"
+      },
+      {
+        "label": "C",
+        "text": "可靠性"
+      },
+      {
+        "label": "D",
+        "text": "主接线"
+      }
+    ],
+    "answer": "D",
+    "analysis": ""
+  },
+  {
+    "id": "Q0040",
+    "index": 40,
+    "type": "single",
+    "stem": "触头间的（ ）是指触头间电弧暂时熄灭后外电路施加在触头间的电压",
+    "options": [
+      {
+        "label": "A",
+        "text": "恢复电压"
+      },
+      {
+        "label": "B",
+        "text": "额定工作电压"
+      },
+      {
+        "label": "C",
+        "text": "介质击穿电压"
+      },
+      {
+        "label": "D",
+        "text": "平均电压"
+      }
+    ],
+    "answer": "A",
+    "analysis": ""
+  },
+  {
+    "id": "Q0041",
+    "index": 41,
+    "type": "single",
+    "stem": "串联电容补偿时，电容器的容抗大于线路感抗时，称为（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "过补偿"
+      },
+      {
+        "label": "B",
+        "text": "欠补偿"
+      },
+      {
+        "label": "C",
+        "text": "完全补偿"
+      },
+      {
+        "label": "D",
+        "text": "都不对"
+      }
+    ],
+    "answer": "A",
+    "analysis": ""
+  },
+  {
+    "id": "Q0042",
+    "index": 42,
+    "type": "single",
+    "stem": "串联电容器用来补偿线路的（），提高线路末端电压水平，提高系统的动、静态稳定性，改善线路的电压质量，增长输电距离和增大电力输送能力。",
+    "options": [
+      {
+        "label": "A",
+        "text": "感抗"
+      },
+      {
+        "label": "B",
+        "text": "电压"
+      },
+      {
+        "label": "C",
+        "text": "电流"
+      },
+      {
+        "label": "D",
+        "text": "有功功率"
+      }
+    ],
+    "answer": "A",
+    "analysis": ""
+  },
+  {
+    "id": "Q0043",
+    "index": 43,
+    "type": "single",
+    "stem": "纯净的SF6气体是（）的",
+    "options": [
+      {
+        "label": "A",
+        "text": "无毒"
+      },
+      {
+        "label": "B",
+        "text": "有毒"
+      },
+      {
+        "label": "C",
+        "text": "碱性"
+      },
+      {
+        "label": "D",
+        "text": "有益"
+      }
+    ],
+    "answer": "A",
+    "analysis": ""
+  },
+  {
+    "id": "Q0044",
+    "index": 44,
+    "type": "single",
+    "stem": "当电力变压器不与发电机相连，而是连接在线路上，则变压器一次侧的额定电压应（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "高于同级线路额定电压的5％"
+      },
+      {
+        "label": "B",
+        "text": "与同级线路额定电压相同"
+      },
+      {
+        "label": "C",
+        "text": "低于同级线路额定电压的5%"
+      },
+      {
+        "label": "D",
+        "text": "高于同级线路额定电压的10%"
+      }
+    ],
+    "answer": "B",
+    "analysis": ""
+  },
+  {
+    "id": "Q0045",
+    "index": 45,
+    "type": "single",
+    "stem": "当电路发生短路或过负荷时，（ ）能自动切断故障电路，从而使电气设备得到保护。",
+    "options": [
+      {
+        "label": "A",
+        "text": "高压断路器"
+      },
+      {
+        "label": "B",
+        "text": "隔离开关"
+      },
+      {
+        "label": "C",
+        "text": "电压互感器"
+      },
+      {
+        "label": "D",
+        "text": "熔断器"
+      }
+    ],
+    "answer": "D",
+    "analysis": ""
+  },
+  {
+    "id": "Q0046",
+    "index": 46,
+    "type": "single",
+    "stem": "当消弧线圈的电感电流大于接地电容电流时，接地处具有多余的电感性电流，这种补偿方式称为（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "欠补偿"
+      },
+      {
+        "label": "B",
+        "text": "过补偿"
+      },
+      {
+        "label": "C",
+        "text": "全补偿"
+      },
+      {
+        "label": "D",
+        "text": "适度补偿"
+      }
+    ],
+    "answer": "B",
+    "analysis": ""
+  },
+  {
+    "id": "Q0047",
+    "index": 47,
+    "type": "single",
+    "stem": "刀闸开关的作用是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "使电压分布均匀"
+      },
+      {
+        "label": "B",
+        "text": "提高恢复电压速度"
+      },
+      {
+        "label": "C",
+        "text": "提高QF开断能力"
+      },
+      {
+        "label": "D",
+        "text": "减小断开电流"
+      }
+    ],
+    "answer": "A",
+    "analysis": ""
+  },
+  {
+    "id": "Q0048",
+    "index": 48,
+    "type": "single",
+    "stem": "低压断路器不能完全取代低压熔断器的原因为（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "低压熔断器结构简单便宜适用广"
+      },
+      {
+        "label": "B",
+        "text": "断路器可靠性不高"
+      },
+      {
+        "label": "C",
+        "text": "熔断器恢复供电时间长"
+      },
+      {
+        "label": "D",
+        "text": "断路器需要低压刀开关配合使用"
+      }
+    ],
+    "answer": "A",
+    "analysis": ""
+  },
+  {
+    "id": "Q0049",
+    "index": 49,
+    "type": "single",
+    "stem": "电弧产生的温度可达（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "500℃"
+      },
+      {
+        "label": "B",
+        "text": "800℃"
+      },
+      {
+        "label": "C",
+        "text": "1000℃"
+      },
+      {
+        "label": "D",
+        "text": "3000-4000℃"
+      }
+    ],
+    "answer": "D",
+    "analysis": ""
+  },
+  {
+    "id": "Q0050",
+    "index": 50,
+    "type": "single",
+    "stem": "电弧的起因是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "表面发射"
+      },
+      {
+        "label": "B",
+        "text": "热游离"
+      },
+      {
+        "label": "C",
+        "text": "碰撞游离"
+      },
+      {
+        "label": "D",
+        "text": "去游离"
+      }
+    ],
+    "answer": "A",
+    "analysis": ""
+  },
+  {
+    "id": "Q0051",
+    "index": 51,
+    "type": "single",
+    "stem": "电弧电流的本质是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "分子导电"
+      },
+      {
+        "label": "B",
+        "text": "离子子导电"
+      },
+      {
+        "label": "C",
+        "text": "原子导电"
+      },
+      {
+        "label": "D",
+        "text": "以上都不对"
+      }
+    ],
+    "answer": "B",
+    "analysis": ""
+  },
+  {
+    "id": "Q0052",
+    "index": 52,
+    "type": "single",
+    "stem": "电力变压器二次侧的额定电压是一次側加额定电压时二次侧的（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "开路线电压"
+      },
+      {
+        "label": "B",
+        "text": "额定负载时的线电压"
+      },
+      {
+        "label": "C",
+        "text": "开路相电压"
+      },
+      {
+        "label": "D",
+        "text": "额定负载时的相电压"
+      }
+    ],
+    "answer": "A",
+    "analysis": ""
+  },
+  {
+    "id": "Q0053",
+    "index": 53,
+    "type": "single",
+    "stem": "电力系统发生短路时，短路点的（ ）可能烧毁电气设备的载流部分。",
+    "options": [
+      {
+        "label": "A",
+        "text": "电弧"
+      },
+      {
+        "label": "B",
+        "text": "电场"
+      },
+      {
+        "label": "C",
+        "text": "电磁"
+      },
+      {
+        "label": "D",
+        "text": "电炉"
+      }
+    ],
+    "answer": "A",
+    "analysis": ""
+  },
+  {
+    "id": "Q0054",
+    "index": 54,
+    "type": "single",
+    "stem": "电力系统有（ ）种调压措施。",
+    "options": [
+      {
+        "label": "A",
+        "text": "1"
+      },
+      {
+        "label": "B",
+        "text": "2"
+      },
+      {
+        "label": "C",
+        "text": "3"
+      },
+      {
+        "label": "D",
+        "text": "4"
+      }
+    ],
+    "answer": "D",
+    "analysis": ""
+  },
+  {
+    "id": "Q0055",
+    "index": 55,
+    "type": "single",
+    "stem": "电流互感器的二次侧应（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "没有接地点"
+      },
+      {
+        "label": "B",
+        "text": "有一个接地点"
+      },
+      {
+        "label": "C",
+        "text": "有两个接地点"
+      },
+      {
+        "label": "D",
+        "text": "按现场情况，接地点数目不确定"
+      }
+    ],
+    "answer": "B",
+    "analysis": ""
+  },
+  {
+    "id": "Q0056",
+    "index": 56,
+    "type": "single",
+    "stem": "电流互感器和电压互感器与电能表配合使用时其正确极性应为（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "加极性"
+      },
+      {
+        "label": "B",
+        "text": "减极性"
+      },
+      {
+        "label": "C",
+        "text": "同极性"
+      },
+      {
+        "label": "D",
+        "text": "都可以"
+      }
+    ],
+    "answer": "B",
+    "analysis": ""
+  },
+  {
+    "id": "Q0057",
+    "index": 57,
+    "type": "single",
+    "stem": "电流互感器铁芯内的交变主磁通是由（ ）产生的。",
+    "options": [
+      {
+        "label": "A",
+        "text": "一次绕组两端电压"
+      },
+      {
+        "label": "B",
+        "text": "二次绕组内通过的电流"
+      },
+      {
+        "label": "C",
+        "text": "一次绕组内通过的电流"
+      },
+      {
+        "label": "D",
+        "text": "一次和二次电流共同"
+      }
+    ],
+    "answer": "C",
+    "analysis": ""
+  },
+  {
+    "id": "Q0058",
+    "index": 58,
+    "type": "single",
+    "stem": "电气主接线首先应该满足（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "安全性"
+      },
+      {
+        "label": "B",
+        "text": "可靠性"
+      },
+      {
+        "label": "C",
+        "text": "经济性"
+      },
+      {
+        "label": "D",
+        "text": "灵活性"
+      }
+    ],
+    "answer": "B",
+    "analysis": ""
+  },
+  {
+    "id": "Q0059",
+    "index": 59,
+    "type": "single",
+    "stem": "电器设备的金属外壳接地属于( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "保护接地"
+      },
+      {
+        "label": "B",
+        "text": "防雷接地"
+      },
+      {
+        "label": "C",
+        "text": "工作接地"
+      },
+      {
+        "label": "D",
+        "text": "工作接零"
+      }
+    ],
+    "answer": "A",
+    "analysis": ""
+  },
+  {
+    "id": "Q0060",
+    "index": 60,
+    "type": "single",
+    "stem": "电容器并联在电网上用来补偿电力系统感性负载的无功功率，以提高系统的（），改善电能质量，降低线路损耗",
+    "options": [
+      {
+        "label": "A",
+        "text": "稳定性"
+      },
+      {
+        "label": "B",
+        "text": "功率因数"
+      },
+      {
+        "label": "C",
+        "text": "功率水平"
+      },
+      {
+        "label": "D",
+        "text": "电流值"
+      }
+    ],
+    "answer": "B",
+    "analysis": ""
+  },
+  {
+    "id": "Q0061",
+    "index": 61,
+    "type": "single",
+    "stem": "电容器的外壳有明显的异形膨胀时应（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "继续运行"
+      },
+      {
+        "label": "B",
+        "text": "向上报告后继续运行"
+      },
+      {
+        "label": "C",
+        "text": "退出运行"
+      },
+      {
+        "label": "D",
+        "text": "拉开断路器"
+      }
+    ],
+    "answer": "C",
+    "analysis": ""
+  },
+  {
+    "id": "Q0062",
+    "index": 62,
+    "type": "single",
+    "stem": "电容器芯子一般放于浸渍剂中，以提高电容元件的（），改善局部放电特性和散热条件。",
+    "options": [
+      {
+        "label": "A",
+        "text": "介质电流强度"
+      },
+      {
+        "label": "B",
+        "text": "介质耐压强度"
+      },
+      {
+        "label": "C",
+        "text": "介质防潮强度"
+      },
+      {
+        "label": "D",
+        "text": "介质抗老化强度"
+      }
+    ],
+    "answer": "B",
+    "analysis": ""
+  },
+  {
+    "id": "Q0063",
+    "index": 63,
+    "type": "single",
+    "stem": "电容元件由固体介质与（）电极卷制而成。固体介质可采用电容器纸、膜纸复合或纯薄膜作为介质。",
+    "options": [
+      {
+        "label": "A",
+        "text": "锌箔"
+      },
+      {
+        "label": "B",
+        "text": "铅箔"
+      },
+      {
+        "label": "C",
+        "text": "铜箔"
+      },
+      {
+        "label": "D",
+        "text": "铝箔"
+      }
+    ],
+    "answer": "D",
+    "analysis": ""
+  },
+  {
+    "id": "Q0064",
+    "index": 64,
+    "type": "single",
+    "stem": "电网是指（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "发电、输电、变电、配电和用电的整体"
+      },
+      {
+        "label": "B",
+        "text": "电力系统中各级电压的电力线路及其联系的变电所"
+      },
+      {
+        "label": "C",
+        "text": "电力系统中各级电压的电力线路及其联系的变配电所和用户"
+      },
+      {
+        "label": "D",
+        "text": "以上都不正确"
+      }
+    ],
+    "answer": "B",
+    "analysis": ""
+  },
+  {
+    "id": "Q0065",
+    "index": 65,
+    "type": "single",
+    "stem": "电压互感器的一、二次侧 中，（ ）需要接地",
+    "options": [
+      {
+        "label": "A",
+        "text": "保护次侧"
+      },
+      {
+        "label": "B",
+        "text": "一，二次侧"
+      },
+      {
+        "label": "C",
+        "text": "一次侧"
+      },
+      {
+        "label": "D",
+        "text": "二次侧"
+      }
+    ],
+    "answer": "D",
+    "analysis": ""
+  },
+  {
+    "id": "Q0066",
+    "index": 66,
+    "type": "single",
+    "stem": "电压互感器二次负载变大时，二次电压（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "变大"
+      },
+      {
+        "label": "B",
+        "text": "变小"
+      },
+      {
+        "label": "C",
+        "text": "基本不变"
+      },
+      {
+        "label": "D",
+        "text": "不一定"
+      }
+    ],
+    "answer": "C",
+    "analysis": ""
+  },
+  {
+    "id": "Q0067",
+    "index": 67,
+    "type": "single",
+    "stem": "电压互感器与电力变压器的区别在于（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "电压互感器有铁芯，变压器无铁芯"
+      },
+      {
+        "label": "B",
+        "text": "电压互感器无铁芯，变压器有铁芯"
+      },
+      {
+        "label": "C",
+        "text": "电压互感器主要用于测量和保护，变压器主要用于连接两电压等级的电网"
+      },
+      {
+        "label": "D",
+        "text": "变压器的额定电压比电压互感器的高"
+      }
+    ],
+    "answer": "C",
+    "analysis": ""
+  },
+  {
+    "id": "Q0068",
+    "index": 68,
+    "type": "single",
+    "stem": "短路时，系统电压大幅度（ ），对用户影响很大。",
+    "options": [
+      {
+        "label": "A",
+        "text": "上升"
+      },
+      {
+        "label": "B",
+        "text": "下降"
+      },
+      {
+        "label": "C",
+        "text": "不变"
+      },
+      {
+        "label": "D",
+        "text": "不确定"
+      }
+    ],
+    "answer": "B",
+    "analysis": ""
+  },
+  {
+    "id": "Q0069",
+    "index": 69,
+    "type": "single",
+    "stem": "断路器操动机构中的“T”表示（ ）操动方式的操支机构",
+    "options": [
+      {
+        "label": "A",
+        "text": "电磁型"
+      },
+      {
+        "label": "B",
+        "text": "液压型"
+      },
+      {
+        "label": "C",
+        "text": "动气型"
+      },
+      {
+        "label": "D",
+        "text": "弹簧型"
+      }
+    ],
+    "answer": "D",
+    "analysis": ""
+  },
+  {
+    "id": "Q0070",
+    "index": 70,
+    "type": "single",
+    "stem": "断路器的分闸时间是从断路器接受分闸命令瞬间起，到断路器( )的时间间隔。",
+    "options": [
+      {
+        "label": "A",
+        "text": "各极触头刚分离瞬间"
+      },
+      {
+        "label": "B",
+        "text": "各极触头间的电弧最终熄灭瞬间为止"
+      },
+      {
+        "label": "C",
+        "text": "主触头的电弧熄灭瞬间"
+      },
+      {
+        "label": "D",
+        "text": "某一相电弧的熄灭瞬间"
+      }
+    ],
+    "answer": "B",
+    "analysis": ""
+  },
+  {
+    "id": "Q0071",
+    "index": 71,
+    "type": "single",
+    "stem": "断路器额定电压指（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "断路器正常工作电压"
+      },
+      {
+        "label": "B",
+        "text": "正常工作相电压"
+      },
+      {
+        "label": "C",
+        "text": "正常工作线电压"
+      },
+      {
+        "label": "D",
+        "text": "正常工作线电压最大值"
+      }
+    ],
+    "answer": "C",
+    "analysis": ""
+  },
+  {
+    "id": "Q0072",
+    "index": 72,
+    "type": "single",
+    "stem": "断路器油用于（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "绝缘"
+      },
+      {
+        "label": "B",
+        "text": "灭弧"
+      },
+      {
+        "label": "C",
+        "text": "绝缘和灭弧"
+      },
+      {
+        "label": "D",
+        "text": "冷却"
+      }
+    ],
+    "answer": "C",
+    "analysis": ""
+  },
+  {
+    "id": "Q0073",
+    "index": 73,
+    "type": "single",
+    "stem": "对电力系统的基本要求是（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "保证对用户的供电可靠性和电能质量，提高电力系统运行的经济性，减少对环境的不良影响"
+      },
+      {
+        "label": "B",
+        "text": "保证对用户的供电可靠性和电能质量"
+      },
+      {
+        "label": "C",
+        "text": ";保证对用户的供电可靠性，提高系统运行的经济性;"
+      },
+      {
+        "label": "D",
+        "text": "保证对用户的供电可靠性"
+      }
+    ],
+    "answer": "A",
+    "analysis": ""
+  },
+  {
+    "id": "Q0074",
+    "index": 74,
+    "type": "single",
+    "stem": "对于低电压用电系统为了获得380/220V两种供电电压，习惯上采用中性点（ ）构成三相四线制供电方式。",
+    "options": [
+      {
+        "label": "A",
+        "text": "直接接地"
+      },
+      {
+        "label": "B",
+        "text": "不接地"
+      },
+      {
+        "label": "C",
+        "text": "经消弧线圈接地"
+      },
+      {
+        "label": "D",
+        "text": "经高阻抗接地"
+      }
+    ],
+    "answer": "A",
+    "analysis": ""
+  },
+  {
+    "id": "Q0075",
+    "index": 75,
+    "type": "single",
+    "stem": "多油断路器的油量多，其油作为（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "灭弧介质"
+      },
+      {
+        "label": "B",
+        "text": "相对地甚至相与相之间的绝缘介质"
+      },
+      {
+        "label": "C",
+        "text": "A和B"
+      },
+      {
+        "label": "D",
+        "text": "以上都不正确"
+      }
+    ],
+    "answer": "C",
+    "analysis": ""
+  },
+  {
+    "id": "Q0076",
+    "index": 76,
+    "type": "single",
+    "stem": "负荷开关可以开断（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "短路电流"
+      },
+      {
+        "label": "B",
+        "text": "限制电流"
+      },
+      {
+        "label": "C",
+        "text": "工作电流"
+      },
+      {
+        "label": "D",
+        "text": "泄漏电流"
+      }
+    ],
+    "answer": "C",
+    "analysis": ""
+  },
+  {
+    "id": "Q0077",
+    "index": 77,
+    "type": "single",
+    "stem": "高压断路器：额定电压为（）及以上，能够关合、承载和开断运行状态的正常电流，并能在规定时间内关合、承载和开断规定的异常电流（短路电流、过负荷电流）的开关电器。",
+    "options": [
+      {
+        "label": "A",
+        "text": "3KV"
+      },
+      {
+        "label": "B",
+        "text": "23KV"
+      },
+      {
+        "label": "C",
+        "text": "45KV"
+      },
+      {
+        "label": "D",
+        "text": "60KV"
+      }
+    ],
+    "answer": "A",
+    "analysis": ""
+  },
+  {
+    "id": "Q0078",
+    "index": 78,
+    "type": "single",
+    "stem": "高压断路器的保护作用是指（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "保护互感器"
+      },
+      {
+        "label": "B",
+        "text": "跳开故障部分，保证非故障部分正常运行"
+      },
+      {
+        "label": "C",
+        "text": "保护变压器和母线"
+      },
+      {
+        "label": "D",
+        "text": "保护发电机"
+      }
+    ],
+    "answer": "B",
+    "analysis": ""
+  },
+  {
+    "id": "Q0079",
+    "index": 79,
+    "type": "single",
+    "stem": "高压断路器的底座、框架和外壳（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "必须接地"
+      },
+      {
+        "label": "B",
+        "text": "可接可不接"
+      },
+      {
+        "label": "C",
+        "text": "10KV以下可不接地"
+      },
+      {
+        "label": "D",
+        "text": "35KV以上必须接地"
+      }
+    ],
+    "answer": "A",
+    "analysis": ""
+  },
+  {
+    "id": "Q0080",
+    "index": 80,
+    "type": "single",
+    "stem": "高压断路器的工作特点是：（）的从导电状态变为绝缘状态，或者瞬时地从绝缘状态变为导电状态。",
+    "options": [
+      {
+        "label": "A",
+        "text": "瞬时"
+      },
+      {
+        "label": "B",
+        "text": "延时"
+      },
+      {
+        "label": "C",
+        "text": "延地"
+      },
+      {
+        "label": "D",
+        "text": "保障"
+      }
+    ],
+    "answer": "A",
+    "analysis": ""
+  },
+  {
+    "id": "Q0081",
+    "index": 81,
+    "type": "single",
+    "stem": "高压断路器的控制作用是指（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "故障时跳开"
+      },
+      {
+        "label": "B",
+        "text": "改变设备运行状态"
+      },
+      {
+        "label": "C",
+        "text": "热备用转冷备用"
+      },
+      {
+        "label": "D",
+        "text": "开断短路电流"
+      }
+    ],
+    "answer": "B",
+    "analysis": ""
+  },
+  {
+    "id": "Q0082",
+    "index": 82,
+    "type": "single",
+    "stem": "高压负荷开关只能断开负荷电流，因此它常常配合（）实现短路保护。",
+    "options": [
+      {
+        "label": "A",
+        "text": "断路器"
+      },
+      {
+        "label": "B",
+        "text": "隔离开关"
+      },
+      {
+        "label": "C",
+        "text": "另一组负荷开关"
+      },
+      {
+        "label": "D",
+        "text": "熔断器"
+      }
+    ],
+    "answer": "D",
+    "analysis": ""
+  },
+  {
+    "id": "Q0083",
+    "index": 83,
+    "type": "single",
+    "stem": "高压熔断器可以用于（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "中间变电所"
+      },
+      {
+        "label": "B",
+        "text": "枢纽变电站"
+      },
+      {
+        "label": "C",
+        "text": "小型配电变压器"
+      },
+      {
+        "label": "D",
+        "text": "大型主变压器"
+      }
+    ],
+    "answer": "C",
+    "analysis": ""
+  },
+  {
+    "id": "Q0084",
+    "index": 84,
+    "type": "single",
+    "stem": "高压熔断器熔体中间焊有（ ）的小锡（铅）球。",
+    "options": [
+      {
+        "label": "A",
+        "text": "降低熔点"
+      },
+      {
+        "label": "B",
+        "text": "升高熔点"
+      },
+      {
+        "label": "C",
+        "text": "保持熔体材料熔点"
+      },
+      {
+        "label": "D",
+        "text": "使熔体延时熔断"
+      }
+    ],
+    "answer": "A",
+    "analysis": ""
+  },
+  {
+    "id": "Q0085",
+    "index": 85,
+    "type": "single",
+    "stem": "隔离开关采用操作机构进行操作，便于在隔离开关与（ ）安装防误操作闭锁机构。",
+    "options": [
+      {
+        "label": "A",
+        "text": "母线之间"
+      },
+      {
+        "label": "B",
+        "text": "断路器之间"
+      },
+      {
+        "label": "C",
+        "text": "与测量仪表之间"
+      },
+      {
+        "label": "D",
+        "text": "母线与断路器之间"
+      }
+    ],
+    "answer": "B",
+    "analysis": ""
+  },
+  {
+    "id": "Q0086",
+    "index": 86,
+    "type": "single",
+    "stem": "隔离开关可拉开（ ）的变压器。",
+    "options": [
+      {
+        "label": "A",
+        "text": "负荷电流"
+      },
+      {
+        "label": "B",
+        "text": "空载电流不超过2A"
+      },
+      {
+        "label": "C",
+        "text": "5A"
+      },
+      {
+        "label": "D",
+        "text": ";断路电流"
+      }
+    ],
+    "answer": "B",
+    "analysis": ""
+  },
+  {
+    "id": "Q0087",
+    "index": 87,
+    "type": "single",
+    "stem": "更换高压熔断器时应戴（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "绝缘手套;"
+      },
+      {
+        "label": "B",
+        "text": "手套"
+      },
+      {
+        "label": "C",
+        "text": "一般手套;"
+      },
+      {
+        "label": "D",
+        "text": "医用手套"
+      }
+    ],
+    "answer": "A",
+    "analysis": ""
+  },
+  {
+    "id": "Q0088",
+    "index": 88,
+    "type": "single",
+    "stem": "更换熔断器应由（ ）操作",
+    "options": [
+      {
+        "label": "A",
+        "text": "1"
+      },
+      {
+        "label": "B",
+        "text": "2"
+      },
+      {
+        "label": "C",
+        "text": "3"
+      },
+      {
+        "label": "D",
+        "text": "4"
+      }
+    ],
+    "answer": "B",
+    "analysis": ""
+  },
+  {
+    "id": "Q0089",
+    "index": 89,
+    "type": "single",
+    "stem": "工厂供电系统是指工厂所需的电力电源（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "从供电局起到所有用电设备入端止的整个电路。"
+      },
+      {
+        "label": "B",
+        "text": "从进厂起到所有开关入端止的整个电路。"
+      },
+      {
+        "label": "C",
+        "text": "从进厂起到所有用电设备入端止的整个电路。"
+      },
+      {
+        "label": "D",
+        "text": "从供电局起到所有开关入端止的整个电路。"
+      }
+    ],
+    "answer": "C",
+    "analysis": ""
+  },
+  {
+    "id": "Q0090",
+    "index": 90,
+    "type": "single",
+    "stem": "供配电系统中同一地点的两相短路电流为三相短路电流的（）倍。",
+    "options": [
+      {
+        "label": "A",
+        "text": "0.5"
+      },
+      {
+        "label": "B",
+        "text": "0.866"
+      },
+      {
+        "label": "C",
+        "text": "1"
+      },
+      {
+        "label": "D",
+        "text": "0.9"
+      }
+    ],
+    "answer": "D",
+    "analysis": ""
+  },
+  {
+    "id": "Q0091",
+    "index": 91,
+    "type": "single",
+    "stem": "将升压变压器作降压变压器使用时会使低压侧的电压（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "升高"
+      },
+      {
+        "label": "B",
+        "text": "降低"
+      },
+      {
+        "label": "C",
+        "text": "不变"
+      },
+      {
+        "label": "D",
+        "text": "为零"
+      }
+    ],
+    "answer": "B",
+    "analysis": ""
+  },
+  {
+    "id": "Q0092",
+    "index": 92,
+    "type": "single",
+    "stem": "开断电路时，触头间电压高于（），可产生电弧。",
+    "options": [
+      {
+        "label": "A",
+        "text": "1000V"
+      },
+      {
+        "label": "B",
+        "text": "10KV"
+      },
+      {
+        "label": "C",
+        "text": "220V"
+      },
+      {
+        "label": "D",
+        "text": "10-20V"
+      }
+    ],
+    "answer": "D",
+    "analysis": ""
+  },
+  {
+    "id": "Q0093",
+    "index": 93,
+    "type": "single",
+    "stem": "可以作为枢纽变电所的电压等级为（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "35KV"
+      },
+      {
+        "label": "B",
+        "text": "10KV"
+      },
+      {
+        "label": "C",
+        "text": "110KV"
+      },
+      {
+        "label": "D",
+        "text": "500KV"
+      }
+    ],
+    "answer": "D",
+    "analysis": ""
+  },
+  {
+    "id": "Q0094",
+    "index": 94,
+    "type": "single",
+    "stem": "拉开跌落式熔断器时，应先拉开（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "左边第一相"
+      },
+      {
+        "label": "B",
+        "text": "右边第一相"
+      },
+      {
+        "label": "C",
+        "text": "中间相"
+      },
+      {
+        "label": "D",
+        "text": "没有区别"
+      }
+    ],
+    "answer": "C",
+    "analysis": ""
+  },
+  {
+    "id": "Q0095",
+    "index": 95,
+    "type": "single",
+    "stem": "两台单相电压互感器，接成V/V接线，该方式能进行（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "相对地电压的测量"
+      },
+      {
+        "label": "B",
+        "text": "相间电压的测量"
+      },
+      {
+        "label": "C",
+        "text": "铁芯之间绝缘损坏"
+      },
+      {
+        "label": "D",
+        "text": "绝缘测量"
+      }
+    ],
+    "answer": "B",
+    "analysis": ""
+  },
+  {
+    "id": "Q0096",
+    "index": 96,
+    "type": "single",
+    "stem": "灭弧室的作用是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "储存电弧"
+      },
+      {
+        "label": "B",
+        "text": "进行灭弧"
+      },
+      {
+        "label": "C",
+        "text": "缓冲冲击力"
+      },
+      {
+        "label": "D",
+        "text": "加大电弧"
+      }
+    ],
+    "answer": "B",
+    "analysis": ""
+  },
+  {
+    "id": "Q0097",
+    "index": 97,
+    "type": "single",
+    "stem": "某10KV变电所只有一台主变，且其出线数只有3回，那么其可以考虑（）主接线方式。",
+    "options": [
+      {
+        "label": "A",
+        "text": "单母线"
+      },
+      {
+        "label": "B",
+        "text": "双母线"
+      },
+      {
+        "label": "C",
+        "text": "内桥接线"
+      },
+      {
+        "label": "D",
+        "text": "外桥接线"
+      }
+    ],
+    "answer": "A",
+    "analysis": ""
+  },
+  {
+    "id": "Q0098",
+    "index": 98,
+    "type": "single",
+    "stem": "某变电所的电压等级为110KV,则它最不可能是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "中间变电所"
+      },
+      {
+        "label": "B",
+        "text": "地区变电所"
+      },
+      {
+        "label": "C",
+        "text": "终端变电所"
+      },
+      {
+        "label": "D",
+        "text": "用户变电所"
+      }
+    ],
+    "answer": "A",
+    "analysis": ""
+  },
+  {
+    "id": "Q0099",
+    "index": 99,
+    "type": "single",
+    "stem": "某一35KV电网发生单相接地时，接地电流为Ic=20A此系统中性点应取什么运行方式？（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "不接地"
+      },
+      {
+        "label": "B",
+        "text": "经消弧线圈接地"
+      },
+      {
+        "label": "C",
+        "text": "直接接地"
+      },
+      {
+        "label": "D",
+        "text": "采用保护接地"
+      }
+    ],
+    "answer": "B",
+    "analysis": ""
+  },
+  {
+    "id": "Q0100",
+    "index": 100,
+    "type": "single",
+    "stem": "目前我国110KV电压级的有载调压变压器有（ ）档分接头。",
+    "options": [
+      {
+        "label": "A",
+        "text": "3"
+      },
+      {
+        "label": "B",
+        "text": "5"
+      },
+      {
+        "label": "C",
+        "text": "6"
+      },
+      {
+        "label": "D",
+        "text": "7"
+      }
+    ],
+    "answer": "D",
+    "analysis": ""
+  },
+  {
+    "id": "Q0101",
+    "index": 101,
+    "type": "single",
+    "stem": "耦合电容用于高压及超高压输电线路的（），同时也可作为测量、控制、保护装置中的部件。",
+    "options": [
+      {
+        "label": "A",
+        "text": "互感装置系统"
+      },
+      {
+        "label": "B",
+        "text": "高压开关系统"
+      },
+      {
+        "label": "C",
+        "text": "熔断保护系统"
+      },
+      {
+        "label": "D",
+        "text": "载波通信系统"
+      }
+    ],
+    "answer": "D",
+    "analysis": ""
+  },
+  {
+    "id": "Q0102",
+    "index": 102,
+    "type": "single",
+    "stem": "切断高压熔断器时，第（）次操作，弧光最大。",
+    "options": [
+      {
+        "label": "A",
+        "text": "1"
+      },
+      {
+        "label": "B",
+        "text": "2"
+      },
+      {
+        "label": "C",
+        "text": "3"
+      },
+      {
+        "label": "D",
+        "text": "4"
+      }
+    ],
+    "answer": "B",
+    "analysis": ""
+  },
+  {
+    "id": "Q0103",
+    "index": 103,
+    "type": "single",
+    "stem": "热稳定是指电器通过短路电流时，电器的导体和绝缘部分不因短路电流的热效应使其温度超过它的（ ）而造成损坏妨碍继续工作的性能。",
+    "options": [
+      {
+        "label": "A",
+        "text": "长期工作时的最高允许温度"
+      },
+      {
+        "label": "B",
+        "text": "长期工作时的最高允许温升"
+      },
+      {
+        "label": "C",
+        "text": "短路时的最高允许温度"
+      },
+      {
+        "label": "D",
+        "text": "短路时的最高允许温升"
+      }
+    ],
+    "answer": "C",
+    "analysis": ""
+  },
+  {
+    "id": "Q0104",
+    "index": 104,
+    "type": "single",
+    "stem": "容量小于等于6300KVA的无励磁调节变压器一般附有（ ）个分接头。",
+    "options": [
+      {
+        "label": "A",
+        "text": "1"
+      },
+      {
+        "label": "B",
+        "text": "2"
+      },
+      {
+        "label": "C",
+        "text": "4"
+      },
+      {
+        "label": "D",
+        "text": "5"
+      }
+    ],
+    "answer": "D",
+    "analysis": ""
+  },
+  {
+    "id": "Q0105",
+    "index": 105,
+    "type": "single",
+    "stem": "熔断器的作用是（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "漏电保护"
+      },
+      {
+        "label": "B",
+        "text": "短路保护"
+      },
+      {
+        "label": "C",
+        "text": "低压保护"
+      },
+      {
+        "label": "D",
+        "text": "高电压保护"
+      }
+    ],
+    "answer": "B",
+    "analysis": ""
+  },
+  {
+    "id": "Q0106",
+    "index": 106,
+    "type": "single",
+    "stem": "熔断器具有（）的作用",
+    "options": [
+      {
+        "label": "A",
+        "text": "存储电弧"
+      },
+      {
+        "label": "B",
+        "text": "灭弧作用"
+      },
+      {
+        "label": "C",
+        "text": "加大电弧"
+      },
+      {
+        "label": "D",
+        "text": "缓冲冲击力"
+      }
+    ],
+    "answer": "B",
+    "analysis": ""
+  },
+  {
+    "id": "Q0107",
+    "index": 107,
+    "type": "single",
+    "stem": "熔断器熔体应具有( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "熔点低，导电性能不良"
+      },
+      {
+        "label": "B",
+        "text": "导电性能好，熔点高"
+      },
+      {
+        "label": "C",
+        "text": "易氧化，熔点低"
+      },
+      {
+        "label": "D",
+        "text": "熔点低，导电性能好，不易氧化"
+      }
+    ],
+    "answer": "D",
+    "analysis": ""
+  },
+  {
+    "id": "Q0108",
+    "index": 108,
+    "type": "single",
+    "stem": "熔断器熔体应有（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "熔点低，导电性能差"
+      },
+      {
+        "label": "B",
+        "text": "导电性能好，熔点低，不易氧化"
+      },
+      {
+        "label": "C",
+        "text": "导电性能好，熔点高"
+      },
+      {
+        "label": "D",
+        "text": "熔点低就能满足要求"
+      }
+    ],
+    "answer": "B",
+    "analysis": ""
+  },
+  {
+    "id": "Q0109",
+    "index": 109,
+    "type": "single",
+    "stem": "如操作人员带负荷手动误拉隔离开关，则（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "负荷开关动作"
+      },
+      {
+        "label": "B",
+        "text": "熔断器动作"
+      },
+      {
+        "label": "C",
+        "text": "变压器过负荷"
+      },
+      {
+        "label": "D",
+        "text": "操作人员可能被弧光烧伤"
+      }
+    ],
+    "answer": "D",
+    "analysis": ""
+  },
+  {
+    "id": "Q0110",
+    "index": 110,
+    "type": "single",
+    "stem": "如果空载变压器励磁电流为5A,那可以用（）来开断",
+    "options": [
+      {
+        "label": "A",
+        "text": "隔离开关"
+      },
+      {
+        "label": "B",
+        "text": "断路器"
+      },
+      {
+        "label": "C",
+        "text": "熔断器"
+      },
+      {
+        "label": "D",
+        "text": "负荷开关"
+      }
+    ],
+    "answer": "D",
+    "analysis": ""
+  },
+  {
+    "id": "Q0111",
+    "index": 111,
+    "type": "single",
+    "stem": "三相导线的几何均距越大,则导线的电抗( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "越大"
+      },
+      {
+        "label": "B",
+        "text": "越小"
+      },
+      {
+        "label": "C",
+        "text": "不变"
+      },
+      {
+        "label": "D",
+        "text": "无法确定"
+      }
+    ],
+    "answer": "A",
+    "analysis": ""
+  },
+  {
+    "id": "Q0112",
+    "index": 112,
+    "type": "single",
+    "stem": "三相五柱式电压互感器的二次侧辅助副绕组接成开口三角形接线，其作用是监测系统的（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "相电压"
+      },
+      {
+        "label": "B",
+        "text": "线电压"
+      },
+      {
+        "label": "C",
+        "text": "零序电压"
+      },
+      {
+        "label": "D",
+        "text": "相电压和线电压"
+      }
+    ],
+    "answer": "C",
+    "analysis": ""
+  },
+  {
+    "id": "Q0113",
+    "index": 113,
+    "type": "single",
+    "stem": "实际运行电流互感器的一次匝数（ ）二次匝数。",
+    "options": [
+      {
+        "label": "A",
+        "text": "远大于"
+      },
+      {
+        "label": "B",
+        "text": "远小于"
+      },
+      {
+        "label": "C",
+        "text": "等于"
+      },
+      {
+        "label": "D",
+        "text": "不大于"
+      }
+    ],
+    "answer": "B",
+    "analysis": ""
+  },
+  {
+    "id": "Q0114",
+    "index": 114,
+    "type": "single",
+    "stem": "使用互感器的目的是：使测量仪表与高压电路（）以保证工作安全。",
+    "options": [
+      {
+        "label": "A",
+        "text": "短接"
+      },
+      {
+        "label": "B",
+        "text": "连接"
+      },
+      {
+        "label": "C",
+        "text": "接地"
+      },
+      {
+        "label": "D",
+        "text": "隔开"
+      }
+    ],
+    "answer": "D",
+    "analysis": ""
+  },
+  {
+    "id": "Q0115",
+    "index": 115,
+    "type": "single",
+    "stem": "通常绘制电气主接线图时，一般断路器，隔离开关画为（）状态。",
+    "options": [
+      {
+        "label": "A",
+        "text": "运行"
+      },
+      {
+        "label": "B",
+        "text": "故障"
+      },
+      {
+        "label": "C",
+        "text": "不带电"
+      },
+      {
+        "label": "D",
+        "text": "合上"
+      }
+    ],
+    "answer": "C",
+    "analysis": ""
+  },
+  {
+    "id": "Q0116",
+    "index": 116,
+    "type": "single",
+    "stem": "维持电弧稳定燃烧的因素是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "强电场发射"
+      },
+      {
+        "label": "B",
+        "text": "碰撞游离"
+      },
+      {
+        "label": "C",
+        "text": "热游离"
+      },
+      {
+        "label": "D",
+        "text": "强磁场发射"
+      }
+    ],
+    "answer": "C",
+    "analysis": ""
+  },
+  {
+    "id": "Q0117",
+    "index": 117,
+    "type": "single",
+    "stem": "为了保证用户电压质量，系统必须保证有足够的( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "有功容量"
+      },
+      {
+        "label": "B",
+        "text": "电压"
+      },
+      {
+        "label": "C",
+        "text": "无功容量"
+      },
+      {
+        "label": "D",
+        "text": "电流"
+      }
+    ],
+    "answer": "C",
+    "analysis": ""
+  },
+  {
+    "id": "Q0118",
+    "index": 118,
+    "type": "single",
+    "stem": "为了提高供电的可靠性，变电所通常安装（ ）台同容量的变压器。",
+    "options": [
+      {
+        "label": "A",
+        "text": "1"
+      },
+      {
+        "label": "B",
+        "text": "2"
+      },
+      {
+        "label": "C",
+        "text": "3"
+      },
+      {
+        "label": "D",
+        "text": "4"
+      }
+    ],
+    "answer": "B",
+    "analysis": ""
+  },
+  {
+    "id": "Q0119",
+    "index": 119,
+    "type": "single",
+    "stem": "我国规定的安全电流是（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "50mAs"
+      },
+      {
+        "label": "B",
+        "text": "50mA"
+      },
+      {
+        "label": "C",
+        "text": "30mAs"
+      },
+      {
+        "label": "D",
+        "text": "30mA"
+      }
+    ],
+    "answer": "C",
+    "analysis": ""
+  },
+  {
+    "id": "Q0120",
+    "index": 120,
+    "type": "single",
+    "stem": "我国目前电力系统的最高电压等级是（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "交流500kv，直流500kv"
+      },
+      {
+        "label": "B",
+        "text": "交流750kv，直流500kv"
+      },
+      {
+        "label": "C",
+        "text": "交流500kv，直流800kv;"
+      },
+      {
+        "label": "D",
+        "text": "交流1000kv，直流800kv"
+      }
+    ],
+    "answer": "D",
+    "analysis": ""
+  },
+  {
+    "id": "Q0121",
+    "index": 121,
+    "type": "single",
+    "stem": "无限大容量电源指的是（ ）的电源。",
+    "options": [
+      {
+        "label": "A",
+        "text": "容量为零、内部阻抗为无穷大"
+      },
+      {
+        "label": "B",
+        "text": "容量为无穷大、内部阻抗为零"
+      },
+      {
+        "label": "C",
+        "text": "容量为无穷大、内部阻抗无穷大"
+      },
+      {
+        "label": "D",
+        "text": "内部阻抗无穷大;容量为零、内部阻抗为零"
+      }
+    ],
+    "answer": "B",
+    "analysis": ""
+  },
+  {
+    "id": "Q0122",
+    "index": 122,
+    "type": "single",
+    "stem": "下列哪种接线的电压互感器可测对地电压（ )",
+    "options": [
+      {
+        "label": "A",
+        "text": "Y,y"
+      },
+      {
+        "label": "B",
+        "text": "Y,y0"
+      },
+      {
+        "label": "C",
+        "text": "Y0,y0"
+      },
+      {
+        "label": "D",
+        "text": "y0"
+      }
+    ],
+    "answer": "C",
+    "analysis": ""
+  },
+  {
+    "id": "Q0123",
+    "index": 123,
+    "type": "single",
+    "stem": "下面说法正确的是（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "由于系统运行方式改变及负荷缓慢变化产生的电压变化叫电压偏差。"
+      },
+      {
+        "label": "B",
+        "text": "由于负荷急剧变化产生的电压变化叫电压偏差。"
+      },
+      {
+        "label": "C",
+        "text": "由于系统运行方式改变及负荷缓慢变化产生的电压变化叫电压波动。"
+      },
+      {
+        "label": "D",
+        "text": "由于系统运行方式改变产生的电压变化叫电压偏差。"
+      }
+    ],
+    "answer": "A",
+    "analysis": ""
+  },
+  {
+    "id": "Q0124",
+    "index": 124,
+    "type": "single",
+    "stem": "限流电抗器主要装在出线端或母线间，其主要目的是：当线路或母线发生故障时（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "限制负载电流"
+      },
+      {
+        "label": "B",
+        "text": "限制无功电流"
+      },
+      {
+        "label": "C",
+        "text": "限制短路电流"
+      },
+      {
+        "label": "D",
+        "text": "限制有功电流"
+      }
+    ],
+    "answer": "C",
+    "analysis": ""
+  },
+  {
+    "id": "Q0125",
+    "index": 125,
+    "type": "single",
+    "stem": "小电流接地系统单相金属性接地时，其他两相对地电压升高( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "1.732倍"
+      },
+      {
+        "label": "B",
+        "text": "2倍"
+      },
+      {
+        "label": "C",
+        "text": "1.414倍"
+      },
+      {
+        "label": "D",
+        "text": "3倍"
+      }
+    ],
+    "answer": "A",
+    "analysis": ""
+  },
+  {
+    "id": "Q0126",
+    "index": 126,
+    "type": "single",
+    "stem": "新装电容器投运前,应检查电容器及（ ）外观良好，电容器不渗漏油。",
+    "options": [
+      {
+        "label": "A",
+        "text": "放电设备"
+      },
+      {
+        "label": "B",
+        "text": "电容器室室外景观"
+      },
+      {
+        "label": "C",
+        "text": "电容器室室内装饰程度"
+      },
+      {
+        "label": "D",
+        "text": "充电设备"
+      }
+    ],
+    "answer": "A",
+    "analysis": ""
+  },
+  {
+    "id": "Q0127",
+    "index": 127,
+    "type": "single",
+    "stem": "新装电容器投运前应按（ ）试验合格。",
+    "options": [
+      {
+        "label": "A",
+        "text": "预防性试验项目"
+      },
+      {
+        "label": "B",
+        "text": "交接试验项目"
+      },
+      {
+        "label": "C",
+        "text": "企业自行制订的试验项目"
+      },
+      {
+        "label": "D",
+        "text": "安装单位自检项目"
+      }
+    ],
+    "answer": "B",
+    "analysis": ""
+  },
+  {
+    "id": "Q0128",
+    "index": 128,
+    "type": "single",
+    "stem": "液压操动机构多用于（ ）系统。",
+    "options": [
+      {
+        "label": "A",
+        "text": "2-10kV"
+      },
+      {
+        "label": "B",
+        "text": "10-35kV"
+      },
+      {
+        "label": "C",
+        "text": "35-110kV"
+      },
+      {
+        "label": "D",
+        "text": "110-220kV"
+      }
+    ],
+    "answer": "D",
+    "analysis": ""
+  },
+  {
+    "id": "Q0129",
+    "index": 129,
+    "type": "single",
+    "stem": "以下变电所电压等级最高的是（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "枢纽变电所"
+      },
+      {
+        "label": "B",
+        "text": "中间变电所"
+      },
+      {
+        "label": "C",
+        "text": "地区变电所"
+      },
+      {
+        "label": "D",
+        "text": "企业变电所"
+      }
+    ],
+    "answer": "A",
+    "analysis": ""
+  },
+  {
+    "id": "Q0130",
+    "index": 130,
+    "type": "single",
+    "stem": "用电设备的额定电压应（）同级电力线路的额定电压。",
+    "options": [
+      {
+        "label": "A",
+        "text": "等于"
+      },
+      {
+        "label": "B",
+        "text": "高于"
+      },
+      {
+        "label": "C",
+        "text": "低于"
+      },
+      {
+        "label": "D",
+        "text": "1±5%"
+      }
+    ],
+    "answer": "A",
+    "analysis": ""
+  },
+  {
+    "id": "Q0131",
+    "index": 131,
+    "type": "single",
+    "stem": "油浸式电力变压器（ ）的过负荷将影响变压器的寿命。",
+    "options": [
+      {
+        "label": "A",
+        "text": "因昼夜不均衡而允许"
+      },
+      {
+        "label": "B",
+        "text": "因季节性负荷差异而允许"
+      },
+      {
+        "label": "C",
+        "text": "因事故而引起"
+      },
+      {
+        "label": "D",
+        "text": "因励磁涌流而引起"
+      }
+    ],
+    "answer": "A",
+    "analysis": ""
+  },
+  {
+    "id": "Q0132",
+    "index": 132,
+    "type": "single",
+    "stem": "有的熔断器的熔管内充填石英砂，这是利用（ ）原理。",
+    "options": [
+      {
+        "label": "A",
+        "text": "粗弧分细灭弧法"
+      },
+      {
+        "label": "B",
+        "text": "长弧切断灭弧法"
+      },
+      {
+        "label": "C",
+        "text": "冷却灭弧法"
+      },
+      {
+        "label": "D",
+        "text": "狭沟灭弧法"
+      }
+    ],
+    "answer": "D",
+    "analysis": ""
+  },
+  {
+    "id": "Q0133",
+    "index": 133,
+    "type": "single",
+    "stem": "有的熔断器在装有熔丝的熔管内充填石英砂，是为了（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "绝缘"
+      },
+      {
+        "label": "B",
+        "text": "防护"
+      },
+      {
+        "label": "C",
+        "text": "灭弧"
+      },
+      {
+        "label": "D",
+        "text": "防止气体进入"
+      }
+    ],
+    "answer": "C",
+    "analysis": ""
+  },
+  {
+    "id": "Q0134",
+    "index": 134,
+    "type": "single",
+    "stem": "有填料封闭管式低压熔断器适用于（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "电流不大的变电所"
+      },
+      {
+        "label": "B",
+        "text": "半导体装置"
+      },
+      {
+        "label": "C",
+        "text": "电流比较大的电路"
+      },
+      {
+        "label": "D",
+        "text": "整流电路"
+      }
+    ],
+    "answer": "C",
+    "analysis": ""
+  },
+  {
+    "id": "Q0135",
+    "index": 135,
+    "type": "single",
+    "stem": "有一台穿芯一匝500/5A的电流互感器，若穿芯4匝，则倍率变为（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "400"
+      },
+      {
+        "label": "B",
+        "text": "125"
+      },
+      {
+        "label": "C",
+        "text": "100"
+      },
+      {
+        "label": "D",
+        "text": "25"
+      }
+    ],
+    "answer": "D",
+    "analysis": ""
+  },
+  {
+    "id": "Q0136",
+    "index": 136,
+    "type": "single",
+    "stem": "运行的配电线路上的高压熔断器可以用（）分相操作。",
+    "options": [
+      {
+        "label": "A",
+        "text": "绝缘钳"
+      },
+      {
+        "label": "B",
+        "text": "手持验电器"
+      },
+      {
+        "label": "C",
+        "text": "绝缘套管"
+      },
+      {
+        "label": "D",
+        "text": "绝缘操作杆"
+      }
+    ],
+    "answer": "D",
+    "analysis": ""
+  },
+  {
+    "id": "Q0137",
+    "index": 137,
+    "type": "single",
+    "stem": "运行中变压器的两部分损耗是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "铜损耗和线损耗"
+      },
+      {
+        "label": "B",
+        "text": "铁损耗和线损耗"
+      },
+      {
+        "label": "C",
+        "text": "铜损耗和铁损耗"
+      },
+      {
+        "label": "D",
+        "text": "线损耗和网损耗"
+      }
+    ],
+    "answer": "C",
+    "analysis": ""
+  },
+  {
+    "id": "Q0138",
+    "index": 138,
+    "type": "single",
+    "stem": "运行中的电压互感器，为避免产生很大的短路电流而烧坏互感器，要求互感器（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "必须一点接地"
+      },
+      {
+        "label": "B",
+        "text": "严禁过负荷"
+      },
+      {
+        "label": "C",
+        "text": "要求两点接地"
+      },
+      {
+        "label": "D",
+        "text": "严禁二次短路"
+      }
+    ],
+    "answer": "D",
+    "analysis": ""
+  },
+  {
+    "id": "Q0139",
+    "index": 139,
+    "type": "single",
+    "stem": "运行中的电压互感器高压侧熔断器熔断应立即（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "更换新的熔断器"
+      },
+      {
+        "label": "B",
+        "text": "停止运行"
+      },
+      {
+        "label": "C",
+        "text": "继续运行"
+      },
+      {
+        "label": "D",
+        "text": "取下二次熔丝"
+      }
+    ],
+    "answer": "B",
+    "analysis": ""
+  },
+  {
+    "id": "Q0140",
+    "index": 140,
+    "type": "single",
+    "stem": "运行中的电压互感器引线端子过热应（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "加强监视"
+      },
+      {
+        "label": "B",
+        "text": "加装跨引"
+      },
+      {
+        "label": "C",
+        "text": "停止运行"
+      },
+      {
+        "label": "D",
+        "text": "继续运行"
+      }
+    ],
+    "answer": "C",
+    "analysis": ""
+  },
+  {
+    "id": "Q0141",
+    "index": 141,
+    "type": "single",
+    "stem": "在110kV及以上的电力系统，一般采用中性点直接接地的运行方式，以（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "降低设备的绝缘水平"
+      },
+      {
+        "label": "B",
+        "text": "保障人身安全"
+      },
+      {
+        "label": "C",
+        "text": "保障人身设备安全"
+      },
+      {
+        "label": "D",
+        "text": "提高供电可靠性"
+      }
+    ],
+    "answer": "A",
+    "analysis": ""
+  },
+  {
+    "id": "Q0142",
+    "index": 142,
+    "type": "single",
+    "stem": "在6~10KV中性点不接地系统中发生接地时，非故障相的相电压将（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "不升高"
+      },
+      {
+        "label": "B",
+        "text": "同时降低"
+      },
+      {
+        "label": "C",
+        "text": "升高1.732倍"
+      },
+      {
+        "label": "D",
+        "text": "升高1倍"
+      }
+    ],
+    "answer": "C",
+    "analysis": ""
+  },
+  {
+    "id": "Q0143",
+    "index": 143,
+    "type": "single",
+    "stem": "在大电流系统中。发生单相接地故障时，零序电流和通过故障点的电流在相位上是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "同相位"
+      },
+      {
+        "label": "B",
+        "text": "相差90度"
+      },
+      {
+        "label": "C",
+        "text": "相差60度"
+      },
+      {
+        "label": "D",
+        "text": "相差120度"
+      }
+    ],
+    "answer": "A",
+    "analysis": ""
+  },
+  {
+    "id": "Q0144",
+    "index": 144,
+    "type": "single",
+    "stem": "在电源中性点直接接地的电力系统发生单相接地时,其他完好姐的对地电压（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "升高2倍"
+      },
+      {
+        "label": "B",
+        "text": "升高3倍"
+      },
+      {
+        "label": "C",
+        "text": "升高✓3倍"
+      },
+      {
+        "label": "D",
+        "text": "不会升高"
+      }
+    ],
+    "answer": "D",
+    "analysis": ""
+  },
+  {
+    "id": "Q0145",
+    "index": 145,
+    "type": "single",
+    "stem": "在计算功率损耗时，网络中各点的未知电压可暂用（ ）代替。",
+    "options": [
+      {
+        "label": "A",
+        "text": "基准电压"
+      },
+      {
+        "label": "B",
+        "text": "平均额定电压"
+      },
+      {
+        "label": "C",
+        "text": "标准电压"
+      },
+      {
+        "label": "D",
+        "text": "额定电压"
+      }
+    ],
+    "answer": "D",
+    "analysis": ""
+  },
+  {
+    "id": "Q0146",
+    "index": 146,
+    "type": "single",
+    "stem": "在接通、分断电路时，隔离开关与断路器配合，操作隔离开关必须执行（ ）的原则。",
+    "options": [
+      {
+        "label": "A",
+        "text": "先合后断"
+      },
+      {
+        "label": "B",
+        "text": "先合先断"
+      },
+      {
+        "label": "C",
+        "text": "先断先合"
+      },
+      {
+        "label": "D",
+        "text": "先合先合"
+      }
+    ],
+    "answer": "A",
+    "analysis": ""
+  },
+  {
+    "id": "Q0147",
+    "index": 147,
+    "type": "single",
+    "stem": "在距接地故障点（）m左右的地方，电位已趋近于零，这个电位为零的地方，称之为电气的地或大地。",
+    "options": [
+      {
+        "label": "A",
+        "text": "10"
+      },
+      {
+        "label": "B",
+        "text": "20"
+      },
+      {
+        "label": "C",
+        "text": "30"
+      },
+      {
+        "label": "D",
+        "text": "50"
+      }
+    ],
+    "answer": "B",
+    "analysis": ""
+  },
+  {
+    "id": "Q0148",
+    "index": 148,
+    "type": "single",
+    "stem": "在同一时间内，电网电能损耗占（ ）的百分比，称为电网的线损率。",
+    "options": [
+      {
+        "label": "A",
+        "text": "发电量"
+      },
+      {
+        "label": "B",
+        "text": "供电量"
+      },
+      {
+        "label": "C",
+        "text": "售电量"
+      },
+      {
+        "label": "D",
+        "text": "用电量"
+      }
+    ],
+    "answer": "B",
+    "analysis": ""
+  },
+  {
+    "id": "Q0149",
+    "index": 149,
+    "type": "single",
+    "stem": "在我国( )的发电量已经超过核电，成为第三大电源",
+    "options": [
+      {
+        "label": "A",
+        "text": "水电"
+      },
+      {
+        "label": "B",
+        "text": "光伏发电"
+      },
+      {
+        "label": "C",
+        "text": "风电"
+      },
+      {
+        "label": "D",
+        "text": "潮汐发电"
+      }
+    ],
+    "answer": "C",
+    "analysis": ""
+  },
+  {
+    "id": "Q0150",
+    "index": 150,
+    "type": "single",
+    "stem": "在以接地故障点为圆心，半径不同且略小于20m的同心圆上，各点电位（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "不同"
+      },
+      {
+        "label": "B",
+        "text": "相同"
+      },
+      {
+        "label": "C",
+        "text": "与半径大小有关"
+      },
+      {
+        "label": "D",
+        "text": "与半径大小无关"
+      }
+    ],
+    "answer": "A",
+    "analysis": ""
+  },
+  {
+    "id": "Q0151",
+    "index": 151,
+    "type": "single",
+    "stem": "在运行中的电流互感器二次回路上工作时，（ )是正确的。",
+    "options": [
+      {
+        "label": "A",
+        "text": "用铅丝将二次短接"
+      },
+      {
+        "label": "B",
+        "text": "用导线缠绕短接二次"
+      },
+      {
+        "label": "C",
+        "text": "用短路拨片将二次短接"
+      },
+      {
+        "label": "D",
+        "text": "将二次引线拆下"
+      }
+    ],
+    "answer": "C",
+    "analysis": ""
+  },
+  {
+    "id": "Q0152",
+    "index": 152,
+    "type": "single",
+    "stem": "在中枢点供电至各负荷的电力线路较长、负荷变动规律大致相同的场合，调压方式拟采用中枢点( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "逆调压"
+      },
+      {
+        "label": "B",
+        "text": "顺调压"
+      },
+      {
+        "label": "C",
+        "text": "恒调压"
+      },
+      {
+        "label": "D",
+        "text": "任何一种"
+      }
+    ],
+    "answer": "A",
+    "analysis": ""
+  },
+  {
+    "id": "Q0153",
+    "index": 153,
+    "type": "single",
+    "stem": "真空断路器不正确的是（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "检修间隔长"
+      },
+      {
+        "label": "B",
+        "text": "可靠性高"
+      },
+      {
+        "label": "C",
+        "text": "用于220KV以上"
+      },
+      {
+        "label": "D",
+        "text": "触头寿命长"
+      }
+    ],
+    "answer": "C",
+    "analysis": ""
+  },
+  {
+    "id": "Q0154",
+    "index": 154,
+    "type": "single",
+    "stem": "真空断路器的波纹管（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "是外部控制系统"
+      },
+      {
+        "label": "B",
+        "text": "操作时维持原状"
+      },
+      {
+        "label": "C",
+        "text": "承受触头伸缩"
+      },
+      {
+        "label": "D",
+        "text": "由绝缘材料构成"
+      }
+    ],
+    "answer": "C",
+    "analysis": ""
+  },
+  {
+    "id": "Q0155",
+    "index": 155,
+    "type": "single",
+    "stem": "真空断路器的触头常常采用( )触头。",
+    "options": [
+      {
+        "label": "A",
+        "text": "桥式"
+      },
+      {
+        "label": "B",
+        "text": "指形"
+      },
+      {
+        "label": "C",
+        "text": "对接式"
+      },
+      {
+        "label": "D",
+        "text": "插入"
+      }
+    ],
+    "answer": "C",
+    "analysis": ""
+  },
+  {
+    "id": "Q0156",
+    "index": 156,
+    "type": "single",
+    "stem": "正常情况下，一般在系统功率因数高于（ ）且仍有上升趋势时，应退出高压电容器组。",
+    "options": [
+      {
+        "label": "A",
+        "text": "0.8"
+      },
+      {
+        "label": "B",
+        "text": "0.9"
+      },
+      {
+        "label": "C",
+        "text": "0.95"
+      },
+      {
+        "label": "D",
+        "text": "0.98"
+      }
+    ],
+    "answer": "C",
+    "analysis": ""
+  },
+  {
+    "id": "Q0157",
+    "index": 157,
+    "type": "single",
+    "stem": "中性点不接地的电力系统中，发生单相接地故障时，可继续运行（ ）小时。",
+    "options": [
+      {
+        "label": "A",
+        "text": "1"
+      },
+      {
+        "label": "B",
+        "text": "2"
+      },
+      {
+        "label": "C",
+        "text": "3"
+      },
+      {
+        "label": "D",
+        "text": "4"
+      }
+    ],
+    "answer": "B",
+    "analysis": ""
+  },
+  {
+    "id": "Q0158",
+    "index": 158,
+    "type": "single",
+    "stem": "中性点非直接接地系统中用电设备的绝缘水平应按（ ）考虑。",
+    "options": [
+      {
+        "label": "A",
+        "text": "相电压"
+      },
+      {
+        "label": "B",
+        "text": "1/2相电压"
+      },
+      {
+        "label": "C",
+        "text": "线电压"
+      },
+      {
+        "label": "D",
+        "text": "2倍相电压"
+      }
+    ],
+    "answer": "C",
+    "analysis": ""
+  },
+  {
+    "id": "Q0159",
+    "index": 159,
+    "type": "single",
+    "stem": "中性点接地系统比不接地系统供电可靠性( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "高"
+      },
+      {
+        "label": "B",
+        "text": "差"
+      },
+      {
+        "label": "C",
+        "text": "相同"
+      },
+      {
+        "label": "D",
+        "text": "无法比"
+      }
+    ],
+    "answer": "A",
+    "analysis": ""
+  },
+  {
+    "id": "Q0160",
+    "index": 160,
+    "type": "single",
+    "stem": "中性点经消弧绕组接地系统，发生单相接地，非故障相对地点压( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "不变"
+      },
+      {
+        "label": "B",
+        "text": "升高3倍"
+      },
+      {
+        "label": "C",
+        "text": "降低"
+      },
+      {
+        "label": "D",
+        "text": "略升高"
+      }
+    ],
+    "answer": "D",
+    "analysis": ""
+  },
+  {
+    "id": "Q0161",
+    "index": 161,
+    "type": "single",
+    "stem": "中性点经消弧线圈接地的三相系统中发生单相接地时什么不变（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "相对地电压"
+      },
+      {
+        "label": "B",
+        "text": "线电压"
+      },
+      {
+        "label": "C",
+        "text": "中性点电压"
+      },
+      {
+        "label": "D",
+        "text": "相电压"
+      }
+    ],
+    "answer": "B",
+    "analysis": ""
+  },
+  {
+    "id": "Q0162",
+    "index": 162,
+    "type": "single",
+    "stem": "中性点经消弧线圈接地系统中，消弧线圈的补偿方式应采用（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "欠补偿"
+      },
+      {
+        "label": "B",
+        "text": "完全补偿"
+      },
+      {
+        "label": "C",
+        "text": "过补偿"
+      },
+      {
+        "label": "D",
+        "text": "以上皆可"
+      }
+    ],
+    "answer": "C",
+    "analysis": ""
+  },
+  {
+    "id": "Q0163",
+    "index": 163,
+    "type": "single",
+    "stem": "中压并联电抗器一般并联接于大型发电厂或110～500kV变电站的6～63kV母线上，用来吸收电缆线路的（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "充电容性无功"
+      },
+      {
+        "label": "B",
+        "text": "感性无功"
+      },
+      {
+        "label": "C",
+        "text": "有功功率"
+      },
+      {
+        "label": "D",
+        "text": "视在功率"
+      }
+    ],
+    "answer": "A",
+    "analysis": ""
+  },
+  {
+    "id": "Q0164",
+    "index": 164,
+    "type": "single",
+    "stem": "主接线方式对变电站设备选择，配电装置布置，（）和控制方式起着决定性作用",
+    "options": [
+      {
+        "label": "A",
+        "text": "短路电流大小"
+      },
+      {
+        "label": "B",
+        "text": "经济电流密度"
+      },
+      {
+        "label": "C",
+        "text": "资源配置"
+      },
+      {
+        "label": "D",
+        "text": "继保和自动装置配置"
+      }
+    ],
+    "answer": "D",
+    "analysis": ""
+  },
+  {
+    "id": "Q0165",
+    "index": 165,
+    "type": "single",
+    "stem": "主接线图通常用（）绘制，将不对称部分（互感器）局部用三线图绘制。",
+    "options": [
+      {
+        "label": "A",
+        "text": "单线"
+      },
+      {
+        "label": "B",
+        "text": "双线"
+      },
+      {
+        "label": "C",
+        "text": "虚线"
+      },
+      {
+        "label": "D",
+        "text": "隐形线"
+      }
+    ],
+    "answer": "A",
+    "analysis": ""
+  },
+  {
+    "id": "Q0166",
+    "index": 166,
+    "type": "single",
+    "stem": "主接线要求的灵活性指（），检修，扩建灵活。",
+    "options": [
+      {
+        "label": "A",
+        "text": "安装"
+      },
+      {
+        "label": "B",
+        "text": "调度"
+      },
+      {
+        "label": "C",
+        "text": "试验"
+      },
+      {
+        "label": "D",
+        "text": "调试"
+      }
+    ],
+    "answer": "B",
+    "analysis": ""
+  },
+  {
+    "id": "Q0167",
+    "index": 167,
+    "type": "multiple",
+    "stem": "按接地的目的不同，接地可分为以下（ ）三种。",
+    "options": [
+      {
+        "label": "A",
+        "text": "工作接地"
+      },
+      {
+        "label": "B",
+        "text": "防雷接地"
+      },
+      {
+        "label": "C",
+        "text": "重复接地"
+      },
+      {
+        "label": "D",
+        "text": "保护接地"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0168",
+    "index": 168,
+    "type": "multiple",
+    "stem": "备用容量按其存在形式分为（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "负荷备用"
+      },
+      {
+        "label": "B",
+        "text": "冷备用"
+      },
+      {
+        "label": "C",
+        "text": "热备用"
+      },
+      {
+        "label": "D",
+        "text": "事故备用"
+      }
+    ],
+    "answer": [
+      "B",
+      "C"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0169",
+    "index": 169,
+    "type": "multiple",
+    "stem": "变配电所的电气安装图包括（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "变配电所主接线图"
+      },
+      {
+        "label": "B",
+        "text": "二次回路图"
+      },
+      {
+        "label": "C",
+        "text": "平剖面图"
+      },
+      {
+        "label": "D",
+        "text": "无标准图样构件的安装大样图"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0170",
+    "index": 170,
+    "type": "multiple",
+    "stem": "变压器的损耗一般包括（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "铁损"
+      },
+      {
+        "label": "B",
+        "text": "磁损"
+      },
+      {
+        "label": "C",
+        "text": "线损"
+      },
+      {
+        "label": "D",
+        "text": "铜损"
+      }
+    ],
+    "answer": [
+      "A",
+      "D"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0171",
+    "index": 171,
+    "type": "multiple",
+    "stem": "变压器铭牌上代表电气特性的数据有（ ）.",
+    "options": [
+      {
+        "label": "A",
+        "text": "短路损耗"
+      },
+      {
+        "label": "B",
+        "text": "短路电压百分数"
+      },
+      {
+        "label": "C",
+        "text": "空载损耗"
+      },
+      {
+        "label": "D",
+        "text": "空载电流百分数"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0172",
+    "index": 172,
+    "type": "multiple",
+    "stem": "变压器一次侧熔断器熔丝是作为变压器的（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "过负荷保护"
+      },
+      {
+        "label": "B",
+        "text": "短路保护"
+      },
+      {
+        "label": "C",
+        "text": "低电压保护"
+      },
+      {
+        "label": "D",
+        "text": "二次故障保护"
+      }
+    ],
+    "answer": [
+      "A",
+      "B"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0173",
+    "index": 173,
+    "type": "multiple",
+    "stem": "采用标幺值计算的优点( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "易于比较电力系统各元件的特性及参数"
+      },
+      {
+        "label": "B",
+        "text": "能够简化计算公式"
+      },
+      {
+        "label": "C",
+        "text": "能在一定程度上简化计算"
+      },
+      {
+        "label": "D",
+        "text": "更加准确"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0174",
+    "index": 174,
+    "type": "multiple",
+    "stem": "成套配电装置的特点有（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "装置多，操作复杂"
+      },
+      {
+        "label": "B",
+        "text": "抗污秽能力突出"
+      },
+      {
+        "label": "C",
+        "text": "易于实现系列化，标准化"
+      },
+      {
+        "label": "D",
+        "text": "基建时间短"
+      }
+    ],
+    "answer": [
+      "B",
+      "C",
+      "D"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0175",
+    "index": 175,
+    "type": "multiple",
+    "stem": "导线材料有( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "铜"
+      },
+      {
+        "label": "B",
+        "text": "铝"
+      },
+      {
+        "label": "C",
+        "text": "钢"
+      },
+      {
+        "label": "D",
+        "text": "锌"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0176",
+    "index": 176,
+    "type": "multiple",
+    "stem": "电力变压器调压方式有（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "顺调压"
+      },
+      {
+        "label": "B",
+        "text": "无载调压"
+      },
+      {
+        "label": "C",
+        "text": "恒调压"
+      },
+      {
+        "label": "D",
+        "text": "有载调压"
+      }
+    ],
+    "answer": [
+      "B",
+      "D"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0177",
+    "index": 177,
+    "type": "multiple",
+    "stem": "电力网是指由（）组成的统一整体",
+    "options": [
+      {
+        "label": "A",
+        "text": "输电线路"
+      },
+      {
+        "label": "B",
+        "text": "发电机"
+      },
+      {
+        "label": "C",
+        "text": "电动机"
+      },
+      {
+        "label": "D",
+        "text": "变压器"
+      }
+    ],
+    "answer": [
+      "A",
+      "D"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0178",
+    "index": 178,
+    "type": "multiple",
+    "stem": "电力系统包括（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "发电"
+      },
+      {
+        "label": "B",
+        "text": "输电"
+      },
+      {
+        "label": "C",
+        "text": "配电"
+      },
+      {
+        "label": "D",
+        "text": "用电"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0179",
+    "index": 179,
+    "type": "multiple",
+    "stem": "电力系统的潮流计算是求解电力网( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "母线电压"
+      },
+      {
+        "label": "B",
+        "text": "线路中的功率"
+      },
+      {
+        "label": "C",
+        "text": "功率损耗"
+      },
+      {
+        "label": "D",
+        "text": "线路电流"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0180",
+    "index": 180,
+    "type": "multiple",
+    "stem": "电力系统的接线方式（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "网络接线"
+      },
+      {
+        "label": "B",
+        "text": "用户接线"
+      },
+      {
+        "label": "C",
+        "text": "无备用接线"
+      },
+      {
+        "label": "D",
+        "text": "有备用接线"
+      }
+    ],
+    "answer": [
+      "C",
+      "D"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0181",
+    "index": 181,
+    "type": "multiple",
+    "stem": "电力系统电压偏低原因是多方面的,很可能是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "系统中过多的无功功率传送，引起系统中电压损耗增加，电压下降"
+      },
+      {
+        "label": "B",
+        "text": "供电距离太长，线路导线截面太小，变压级数太多，造成电压损耗增大，引起电压下降"
+      },
+      {
+        "label": "C",
+        "text": "系统中传送有功功率偏少，引起系统中电压损耗增加，电压下降"
+      },
+      {
+        "label": "D",
+        "text": "供电距离太短，线路导线截面太大，变压级数太少，造成电压损耗增大，引起电压下降。"
+      }
+    ],
+    "answer": [
+      "A",
+      "B"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0182",
+    "index": 182,
+    "type": "multiple",
+    "stem": "电力系统提高功率因数的方法一般有两种，包括（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "提高自然功率因数"
+      },
+      {
+        "label": "B",
+        "text": "装设并联电容器"
+      },
+      {
+        "label": "C",
+        "text": "装设并联电抗器"
+      },
+      {
+        "label": "D",
+        "text": "装设并联电阻"
+      }
+    ],
+    "answer": [
+      "A",
+      "B"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0183",
+    "index": 183,
+    "type": "multiple",
+    "stem": "电容式电压互感器由（ ）组成",
+    "options": [
+      {
+        "label": "A",
+        "text": "电容线圈"
+      },
+      {
+        "label": "B",
+        "text": "电容分压器"
+      },
+      {
+        "label": "C",
+        "text": "稳压器"
+      },
+      {
+        "label": "D",
+        "text": "电磁元件"
+      }
+    ],
+    "answer": [
+      "B",
+      "D"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0184",
+    "index": 184,
+    "type": "multiple",
+    "stem": "电压偏低对电力用户的影响有（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "灯泡发的光效率降低"
+      },
+      {
+        "label": "B",
+        "text": "电动机转速降低"
+      },
+      {
+        "label": "C",
+        "text": "电动机效率提高"
+      },
+      {
+        "label": "D",
+        "text": "电动机绕组过热"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0185",
+    "index": 185,
+    "type": "multiple",
+    "stem": "电压中枢点的选择原则是（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "区域性水、火电厂的高压母线(高压母线有多回出线)"
+      },
+      {
+        "label": "B",
+        "text": "分区选择母线短路容量较大的220kV变电站母线"
+      },
+      {
+        "label": "C",
+        "text": "有大量地方负荷的发电厂母线"
+      },
+      {
+        "label": "D",
+        "text": "有部分小负荷的发电厂母线；"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0186",
+    "index": 186,
+    "type": "multiple",
+    "stem": "短路的危害包括（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "电流增大,电压下降"
+      },
+      {
+        "label": "B",
+        "text": "设备烧毁"
+      },
+      {
+        "label": "C",
+        "text": "发电厂失去同步"
+      },
+      {
+        "label": "D",
+        "text": "产生干扰"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0187",
+    "index": 187,
+    "type": "multiple",
+    "stem": "对电力系统运行的基本要求为（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "安全可靠"
+      },
+      {
+        "label": "B",
+        "text": "优质"
+      },
+      {
+        "label": "C",
+        "text": "经济"
+      },
+      {
+        "label": "D",
+        "text": "环保"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0188",
+    "index": 188,
+    "type": "multiple",
+    "stem": "对于低电压用电系统三相四线制供电方式特点有（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "中性点直接接地"
+      },
+      {
+        "label": "B",
+        "text": "没有相电压"
+      },
+      {
+        "label": "C",
+        "text": "经消弧线圈接地"
+      },
+      {
+        "label": "D",
+        "text": "既有相电压又有线电压"
+      }
+    ],
+    "answer": [
+      "A",
+      "D"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0189",
+    "index": 189,
+    "type": "multiple",
+    "stem": "对主接线的要求是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "可靠安全"
+      },
+      {
+        "label": "B",
+        "text": "应按用户要求重点考虑经济性"
+      },
+      {
+        "label": "C",
+        "text": "操作的灵活性"
+      },
+      {
+        "label": "D",
+        "text": "可发展性"
+      }
+    ],
+    "answer": [
+      "A",
+      "C",
+      "D"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0190",
+    "index": 190,
+    "type": "multiple",
+    "stem": "高压断路器说法正确的是",
+    "options": [
+      {
+        "label": "A",
+        "text": "能够开断负荷电流"
+      },
+      {
+        "label": "B",
+        "text": "短路时可作用于跳闸"
+      },
+      {
+        "label": "C",
+        "text": "必须和负荷开关配合使用"
+      },
+      {
+        "label": "D",
+        "text": "有灭弧能力"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0191",
+    "index": 191,
+    "type": "multiple",
+    "stem": "高压负荷开关的说法正确的是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "有一定的灭弧能力"
+      },
+      {
+        "label": "B",
+        "text": "与隔离开关配合开断"
+      },
+      {
+        "label": "C",
+        "text": "一般与熔断器相配合"
+      },
+      {
+        "label": "D",
+        "text": "不能通过短路电流"
+      }
+    ],
+    "answer": [
+      "A",
+      "C"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0192",
+    "index": 192,
+    "type": "multiple",
+    "stem": "高压熔断器的作用是（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "配电变压器保护"
+      },
+      {
+        "label": "B",
+        "text": "配电线路路保护"
+      },
+      {
+        "label": "C",
+        "text": "电压互感器保护"
+      },
+      {
+        "label": "D",
+        "text": "断路器保护"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0193",
+    "index": 193,
+    "type": "multiple",
+    "stem": "根据用户对供电可靠性的不同要求，目前我国将负荷分为以下几级（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "一类负荷"
+      },
+      {
+        "label": "B",
+        "text": "二类负荷"
+      },
+      {
+        "label": "C",
+        "text": "三类负荷"
+      },
+      {
+        "label": "D",
+        "text": "四类负荷"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0194",
+    "index": 194,
+    "type": "multiple",
+    "stem": "关于互感器说法正确的是（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "有电磁式和电子式"
+      },
+      {
+        "label": "B",
+        "text": "一次系统直接测量更方便"
+      },
+      {
+        "label": "C",
+        "text": "电流互感器串联在电路中"
+      },
+      {
+        "label": "D",
+        "text": "有利于实现远程控制"
+      }
+    ],
+    "answer": [
+      "A",
+      "C",
+      "D"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0195",
+    "index": 195,
+    "type": "multiple",
+    "stem": "关于火电厂说法正确的是（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "热电厂效率高于凝气式电厂"
+      },
+      {
+        "label": "B",
+        "text": "冷却水影响了凝气式电厂的效率"
+      },
+      {
+        "label": "C",
+        "text": "热电厂运行更为灵活"
+      },
+      {
+        "label": "D",
+        "text": "热电厂一般以热定电"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0196",
+    "index": 196,
+    "type": "multiple",
+    "stem": "互感器的特点（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "隔离了高压"
+      },
+      {
+        "label": "B",
+        "text": "有利于二次设备标准化小型化"
+      },
+      {
+        "label": "C",
+        "text": "易于实现一次自动化和远程控制"
+      },
+      {
+        "label": "D",
+        "text": "保障了人员安全"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0197",
+    "index": 197,
+    "type": "multiple",
+    "stem": "互感器是电力系统供测量仪器、仪表和继电保护等电气采样使用的重要设备。根据互感器的工作原理可分为（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "电磁式"
+      },
+      {
+        "label": "B",
+        "text": "电容式"
+      },
+      {
+        "label": "C",
+        "text": "光电式"
+      },
+      {
+        "label": "D",
+        "text": "机电一体式"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0198",
+    "index": 198,
+    "type": "multiple",
+    "stem": "架空线路与电缆线路相比具有的优点（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "成本低、投资小"
+      },
+      {
+        "label": "B",
+        "text": "安装容易"
+      },
+      {
+        "label": "C",
+        "text": "维护和检修方便"
+      },
+      {
+        "label": "D",
+        "text": "易于好现和排除故障"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0199",
+    "index": 199,
+    "type": "multiple",
+    "stem": "降低电力网电能损耗的技术措施有（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "提高用户的功率因数，减少线路输送的无功功率"
+      },
+      {
+        "label": "B",
+        "text": "改善网络中的功率分布"
+      },
+      {
+        "label": "C",
+        "text": "合理地确定电力网的运行电压水平"
+      },
+      {
+        "label": "D",
+        "text": "组织变压器的经济运行"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0200",
+    "index": 200,
+    "type": "multiple",
+    "stem": "六氟化硫（SF6）是一种 ( )的惰性气体，化学性能稳定，有优良的灭弧和绝缘性能。",
+    "options": [
+      {
+        "label": "A",
+        "text": "无色"
+      },
+      {
+        "label": "B",
+        "text": "无嗅"
+      },
+      {
+        "label": "C",
+        "text": "比重比空气小"
+      },
+      {
+        "label": "D",
+        "text": "无毒"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0201",
+    "index": 201,
+    "type": "multiple",
+    "stem": "六氟化硫断路器的特点是（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "绝缘性能好"
+      },
+      {
+        "label": "B",
+        "text": "检修周期长"
+      },
+      {
+        "label": "C",
+        "text": "运行时间较短"
+      },
+      {
+        "label": "D",
+        "text": "使用安全可靠"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0202",
+    "index": 202,
+    "type": "multiple",
+    "stem": "六氟化硫断路器灭弧原理是（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "SF6容易吸附电子"
+      },
+      {
+        "label": "B",
+        "text": "电负性强"
+      },
+      {
+        "label": "C",
+        "text": "高温分解还原能力强"
+      },
+      {
+        "label": "D",
+        "text": "无色无味"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0203",
+    "index": 203,
+    "type": "multiple",
+    "stem": "熔断器中的石英砂起（）作用。",
+    "options": [
+      {
+        "label": "A",
+        "text": "降温"
+      },
+      {
+        "label": "B",
+        "text": "锁定"
+      },
+      {
+        "label": "C",
+        "text": "灭弧"
+      },
+      {
+        "label": "D",
+        "text": "释放"
+      }
+    ],
+    "answer": [
+      "A",
+      "C"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0204",
+    "index": 204,
+    "type": "multiple",
+    "stem": "熔断器中的小锡球主要起（）作用。",
+    "options": [
+      {
+        "label": "A",
+        "text": "溶剂"
+      },
+      {
+        "label": "B",
+        "text": "冶金效应"
+      },
+      {
+        "label": "C",
+        "text": "M效应"
+      },
+      {
+        "label": "D",
+        "text": "熔丝"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0205",
+    "index": 205,
+    "type": "multiple",
+    "stem": "提高电力系统静态稳定的措施是（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "采用自动调节励磁装置"
+      },
+      {
+        "label": "B",
+        "text": "提高运行电压水平"
+      },
+      {
+        "label": "C",
+        "text": "改善系统结构"
+      },
+      {
+        "label": "D",
+        "text": "减少系统各元件的感抗"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0206",
+    "index": 206,
+    "type": "multiple",
+    "stem": "无备用接线方式主要包括（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "放射式"
+      },
+      {
+        "label": "B",
+        "text": "干线式"
+      },
+      {
+        "label": "C",
+        "text": "环网"
+      },
+      {
+        "label": "D",
+        "text": "链式"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0207",
+    "index": 207,
+    "type": "multiple",
+    "stem": "系统无功补偿方式有（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "集中补偿"
+      },
+      {
+        "label": "B",
+        "text": "分组补偿"
+      },
+      {
+        "label": "C",
+        "text": "分批补偿"
+      },
+      {
+        "label": "D",
+        "text": "个别补偿"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0208",
+    "index": 208,
+    "type": "multiple",
+    "stem": "系统无功功率供应不充裕时，可以用（ ）进行调压",
+    "options": [
+      {
+        "label": "A",
+        "text": "变压器分接头"
+      },
+      {
+        "label": "B",
+        "text": "并联电容器"
+      },
+      {
+        "label": "C",
+        "text": "调相机"
+      },
+      {
+        "label": "D",
+        "text": "静止无功补偿器"
+      }
+    ],
+    "answer": [
+      "B",
+      "C",
+      "D"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0209",
+    "index": 209,
+    "type": "multiple",
+    "stem": "下列选项中那些为大电流接地系统（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "35KV及以下系统"
+      },
+      {
+        "label": "B",
+        "text": "110KV及以上系统"
+      },
+      {
+        "label": "C",
+        "text": "中性点直接接地系统"
+      },
+      {
+        "label": "D",
+        "text": "中性点不接地系统"
+      }
+    ],
+    "answer": [
+      "B",
+      "C"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0210",
+    "index": 210,
+    "type": "multiple",
+    "stem": "下述对采用发电机进行调压讲述正确的有（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "不需增加额外的设备"
+      },
+      {
+        "label": "B",
+        "text": "是一种最经济合理、最直接的调压手段"
+      },
+      {
+        "label": "C",
+        "text": "非常难实现的调压手段"
+      },
+      {
+        "label": "D",
+        "text": "调压成本高"
+      }
+    ],
+    "answer": [
+      "A",
+      "B"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0211",
+    "index": 211,
+    "type": "multiple",
+    "stem": "消弧线圈可装设在（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "发电机中性点"
+      },
+      {
+        "label": "B",
+        "text": "变压器中性点"
+      },
+      {
+        "label": "C",
+        "text": "系统中性点"
+      },
+      {
+        "label": "D",
+        "text": "互感器中性点"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0212",
+    "index": 212,
+    "type": "multiple",
+    "stem": "以下属于旋转电机的是（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "同步发电机"
+      },
+      {
+        "label": "B",
+        "text": "静电电容器"
+      },
+      {
+        "label": "C",
+        "text": "调相机"
+      },
+      {
+        "label": "D",
+        "text": "静止无功补偿器"
+      }
+    ],
+    "answer": [
+      "A",
+      "C"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0213",
+    "index": 213,
+    "type": "multiple",
+    "stem": "引起电力系统大扰动的主要原因有( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "各种短路故障"
+      },
+      {
+        "label": "B",
+        "text": "短路故障元件的切除或自动重合闸不成功等引起的系统结构的变化"
+      },
+      {
+        "label": "C",
+        "text": "切除或投入大容量用户"
+      },
+      {
+        "label": "D",
+        "text": "切除或投入大容量发电机、变压器、输电线路等元件。"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0214",
+    "index": 214,
+    "type": "multiple",
+    "stem": "用户供配电系统中,( )是减小电压损耗的有效方法，线路中各元件电压损耗减少，就可提高末端用电设备的供电电压。",
+    "options": [
+      {
+        "label": "A",
+        "text": "减少供配电系统的变压级数"
+      },
+      {
+        "label": "B",
+        "text": "增大供配电线路的导线截面"
+      },
+      {
+        "label": "C",
+        "text": "增多供配电系统的变压级数"
+      },
+      {
+        "label": "D",
+        "text": "减少供配电线路的导线截面"
+      }
+    ],
+    "answer": [
+      "A",
+      "B"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0215",
+    "index": 215,
+    "type": "multiple",
+    "stem": "油浸式电力变压器的冷却方式有（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "油浸自冷式"
+      },
+      {
+        "label": "B",
+        "text": "油浸风冷式"
+      },
+      {
+        "label": "C",
+        "text": "强迫油浸循环风冷却"
+      },
+      {
+        "label": "D",
+        "text": "强迫油浸循环水冷却"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0216",
+    "index": 216,
+    "type": "multiple",
+    "stem": "有功功率的最优分配问题，包括( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "有功损耗的最优组合"
+      },
+      {
+        "label": "B",
+        "text": "有功电能的最优组合"
+      },
+      {
+        "label": "C",
+        "text": "有功电源的最优组合"
+      },
+      {
+        "label": "D",
+        "text": "有功负荷的最优分配"
+      }
+    ],
+    "answer": [
+      "C",
+      "D"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0217",
+    "index": 217,
+    "type": "multiple",
+    "stem": "装卸高压熔断器，（），必要时使用绝缘夹钳，并站在绝缘垫或绝缘台上。",
+    "options": [
+      {
+        "label": "A",
+        "text": "应用绝缘夹钳"
+      },
+      {
+        "label": "B",
+        "text": "应戴护目眼镜和绝缘手套"
+      },
+      {
+        "label": "C",
+        "text": "应穿用绝缘鞋"
+      },
+      {
+        "label": "D",
+        "text": "仅戴绝缘手套即可"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0218",
+    "index": 218,
+    "type": "judge",
+    "stem": "35kV及以上供电电压正、负偏移的绝对值之和不超过额定电压的百分之十五。",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0219",
+    "index": 219,
+    "type": "judge",
+    "stem": "FL（R)N36-12D型负荷开关设置的透明观察孔可方便地检查动触头所在位置。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0220",
+    "index": 220,
+    "type": "judge",
+    "stem": "FN5-10型负荷开关在分闸过程中，主、辅（灭弧）触头同时断开。",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0221",
+    "index": 221,
+    "type": "judge",
+    "stem": "GIS的使用大大减少了变配电系统的占地面积",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0222",
+    "index": 222,
+    "type": "judge",
+    "stem": "GW4-110D型隔离开关表示其电压等级为110KV",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0223",
+    "index": 223,
+    "type": "judge",
+    "stem": "GW4-35系列隔离开关可借助连杆将三台单极隔离开关组成三极联动的隔离开关。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0224",
+    "index": 224,
+    "type": "judge",
+    "stem": "SF6断路器进行操作时，检修人员可以在其外壳上进行工作。",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0225",
+    "index": 225,
+    "type": "judge",
+    "stem": "SF6具有良好的绝缘性，电负性和可复合性。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0226",
+    "index": 226,
+    "type": "judge",
+    "stem": "SF6气体断路器的SF6气体在常压下绝缘强度比空气大3倍。",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0227",
+    "index": 227,
+    "type": "judge",
+    "stem": "SF6气体断路器含水量超标时，应将SF6气体放净，重新充入新气。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0228",
+    "index": 228,
+    "type": "judge",
+    "stem": "SF6气体具有良好的电负性，因此其导电性良好",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0229",
+    "index": 229,
+    "type": "judge",
+    "stem": "SF6设备在充入SF6气体24小时后进行气体湿度测量。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0230",
+    "index": 230,
+    "type": "judge",
+    "stem": "VBFN系列真空负荷开关一般采用弹簧储能操作机构，所以只能电动分、合闸。",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0231",
+    "index": 231,
+    "type": "judge",
+    "stem": "XGN-10型高压开关柜不能用于3~10KV系统中作为接受和分配电能之用。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0232",
+    "index": 232,
+    "type": "judge",
+    "stem": "ZN4-10/600型断路器是额定电压为10KV的户内型真空断路器。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0233",
+    "index": 233,
+    "type": "judge",
+    "stem": "把电容器串联在线路上以补偿电路电抗，可以改善电压质量，提高系统稳定性和增加电力输出能力。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0234",
+    "index": 234,
+    "type": "judge",
+    "stem": "把短路功率定义为短路电流和工作电压的乘积，是因为一方面开关要能切断这样大的电流，另一方面，在开关断流时其触头应经受住工作电压的作用。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0235",
+    "index": 235,
+    "type": "judge",
+    "stem": "闭式网是指负荷可从两个或两个以上的线路取用电能的网络。",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0236",
+    "index": 236,
+    "type": "judge",
+    "stem": "变电所的各种电压等级的母线起着汇集和分配电能的作用。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0237",
+    "index": 237,
+    "type": "judge",
+    "stem": "变电所与配电所的区别是变电所有变换电压的功能。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0238",
+    "index": 238,
+    "type": "judge",
+    "stem": "变压器铭牌上的阻抗电压就是短路电压。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0239",
+    "index": 239,
+    "type": "judge",
+    "stem": "并联电容器组允许在 1.1 在倍额定电压长期运行，允许超过电容器额定电流的 30% 长期运行。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0240",
+    "index": 240,
+    "type": "judge",
+    "stem": "不管是输电线路还是配电线路，多数都采用架空线路。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0241",
+    "index": 241,
+    "type": "judge",
+    "stem": "不同材质的触头是不能相互连接的()",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0242",
+    "index": 242,
+    "type": "judge",
+    "stem": "采取何种主接线方式要综合考虑：可靠性，灵活性与经济性",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0243",
+    "index": 243,
+    "type": "judge",
+    "stem": "触头是两段或多段导体的接触部分()",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0244",
+    "index": 244,
+    "type": "judge",
+    "stem": "大中型发电厂和变电所，电压等级为110KV及以下的配电装置，多采用屋内配电装置",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0245",
+    "index": 245,
+    "type": "judge",
+    "stem": "单母线分段的优点是当某段母线故障时，可以经过倒闸操作将故障段母段上的负荷切换到另一段母线上以恢复供电。",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0246",
+    "index": 246,
+    "type": "judge",
+    "stem": "单母线分段接线中，分段断路器可以闭合也可以断开运行。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0247",
+    "index": 247,
+    "type": "judge",
+    "stem": "单台变压器运行时，当空载损耗和负载损耗相等时，变压器效率最高，运行最经济。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0248",
+    "index": 248,
+    "type": "judge",
+    "stem": "单相电弧接地引起过电压只发生在中性点不接地的系统中。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0249",
+    "index": 249,
+    "type": "judge",
+    "stem": "单相短路电流一定比两相短路电流小。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0250",
+    "index": 250,
+    "type": "judge",
+    "stem": "当安装电容器的金属构架良好接地后，电容器金属外壳不一定要接地。",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0251",
+    "index": 251,
+    "type": "judge",
+    "stem": "当安装电容器的金属构架良好接地后,电容器金属外壳不一定要接地。",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0252",
+    "index": 252,
+    "type": "judge",
+    "stem": "当采用标幺值计算法时，对称三相电路可以按单相电路的标幺值进行计算，但与三相系统的连接方式有关。",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0253",
+    "index": 253,
+    "type": "judge",
+    "stem": "当电力系统无功不足时，可以采用调整变压器分接头的办法来提高电压。",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0254",
+    "index": 254,
+    "type": "judge",
+    "stem": "当实际运行电压过高或气象条件变坏时，运行电压将超过临界电压而产生电晕。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0255",
+    "index": 255,
+    "type": "judge",
+    "stem": "当系统由于有功不足和无功不足因而频率和电压都偏低时，升高电压，就会减小有功的缺额，导致频率上升。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0256",
+    "index": 256,
+    "type": "judge",
+    "stem": "低压刀开关常常与熔丝配合实现短路保护功能（）",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0257",
+    "index": 257,
+    "type": "judge",
+    "stem": "低压配电柜主要有开关电器，测量仪表，保护装置等设备。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0258",
+    "index": 258,
+    "type": "judge",
+    "stem": "低压熔断器均应属于配电类低压电器设备",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0259",
+    "index": 259,
+    "type": "judge",
+    "stem": "点触头因为结构简单，接触点集中，因此能通过大电流()",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0260",
+    "index": 260,
+    "type": "judge",
+    "stem": "电磁操作机构可以采用交流操作电源。",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0261",
+    "index": 261,
+    "type": "judge",
+    "stem": "电弧的本质是气体放电现象",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0262",
+    "index": 262,
+    "type": "judge",
+    "stem": "电弧在固体和液体介质中比在气体中更容易形成",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0263",
+    "index": 263,
+    "type": "judge",
+    "stem": "电弧只是气体放电，因此对电气设备来说并无太多的危害",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0264",
+    "index": 264,
+    "type": "judge",
+    "stem": "电力变压器的实际容量不能超过其额定容量。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0265",
+    "index": 265,
+    "type": "judge",
+    "stem": "电力网的功率损耗和电能损耗主要产生在输电线路和变压器上。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0266",
+    "index": 266,
+    "type": "judge",
+    "stem": "电力网中发电机只提供有功功率，变压器提供无功功率。",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0267",
+    "index": 267,
+    "type": "judge",
+    "stem": "电力系统的潮流分布，主要取决于负荷的分布、电力网参数以及和供电电源间关系。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0268",
+    "index": 268,
+    "type": "judge",
+    "stem": "电力系统过低电压运行时，使发电机、变压器、线路过负荷。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0269",
+    "index": 269,
+    "type": "judge",
+    "stem": "电力系统使用的高压断路器均是按电压等级来划分的。( )",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0270",
+    "index": 270,
+    "type": "judge",
+    "stem": "电力系统无功补偿与无功平衡是保证电压质量的基本条件。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0271",
+    "index": 271,
+    "type": "judge",
+    "stem": "电力系统无功功率经济分配包括无功功率负荷的经济分布和无功功率补偿的经济配置。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0272",
+    "index": 272,
+    "type": "judge",
+    "stem": "电流互感器的同名端为固定的，与接法无关。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0273",
+    "index": 273,
+    "type": "judge",
+    "stem": "电流互感器的一次电流取决于二次电流，二次电流大，一次电流也随之变大",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0274",
+    "index": 274,
+    "type": "judge",
+    "stem": "电流互感器二次侧开路不会对设备产生不良影响",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0275",
+    "index": 275,
+    "type": "judge",
+    "stem": "电流互感器是用二次小电流反映一次大电流值 ，直接供给仪表和继电保护装置",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0276",
+    "index": 276,
+    "type": "judge",
+    "stem": "电能在传输过程中总会产生电压损耗，且传输中有功功率对电压损耗的影响最大。",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0277",
+    "index": 277,
+    "type": "judge",
+    "stem": "电气设备停电后，在没有断开电源开关和采取安全措施以前，不得触及设备或进入设备的遮栏内，以免发生人身触电事故。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0278",
+    "index": 278,
+    "type": "judge",
+    "stem": "电气主接线图只能画成单线图",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0279",
+    "index": 279,
+    "type": "judge",
+    "stem": "电器设备的金属外壳接地是工作接地。",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0280",
+    "index": 280,
+    "type": "judge",
+    "stem": "电压等级越低，越接近负荷中心的变电所，地位越重要",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0281",
+    "index": 281,
+    "type": "judge",
+    "stem": "短路容量的大小实际上反映了该点短路时短路电流的大小，也反映了该点至恒定电压点之间总电抗的大小。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0282",
+    "index": 282,
+    "type": "judge",
+    "stem": "断路器的额定电流是指在额定频率下长期通过此电流时,断路器无损伤,且各部分发热不超过长期工作时最高允许发热温度。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0283",
+    "index": 283,
+    "type": "judge",
+    "stem": "断路器的额定电流是指在任意的环境温度下，当断路器的绝缘和截流部分不超过其长期工作的最高允许温度时，断路器允许通过的最大电流值。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0284",
+    "index": 284,
+    "type": "judge",
+    "stem": "断路器的额定开断电流是指断路器在额定电压下能可靠开断的最大短路电流。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0285",
+    "index": 285,
+    "type": "judge",
+    "stem": "断路器的绝缘水平与断路器的额定电压无关。",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0286",
+    "index": 286,
+    "type": "judge",
+    "stem": "断路器经检修恢复运行，操作前应检查检修中为保证人身安全所设置的接地线是否已全部拆除。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0287",
+    "index": 287,
+    "type": "judge",
+    "stem": "对三相交流母线的A相用黄色，B相用绿色，C相用红色标志；对直流母线的正极用赭色、负极用蓝色标志。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0288",
+    "index": 288,
+    "type": "judge",
+    "stem": "对于用电设备较少、各台设备容量相差悬殊时,宜采用二项式法确定计算负荷",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0289",
+    "index": 289,
+    "type": "judge",
+    "stem": "二次系统包括测量仪表及保护装置和计量表计",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0290",
+    "index": 290,
+    "type": "judge",
+    "stem": "发电厂、变电所的电气设备,有些是就地控制,有些是集中控制。( )",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0291",
+    "index": 291,
+    "type": "judge",
+    "stem": "负荷开关能开断5至6倍负荷电流的过载电流",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0292",
+    "index": 292,
+    "type": "judge",
+    "stem": "改变变压器的变比调压实际上就是根据调压要求适当选择分接头。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0293",
+    "index": 293,
+    "type": "judge",
+    "stem": "高压成套装置“五防”联锁中，防误入带电间隔的闭锁功能一般可在柜门上加挂挂锁来达到。",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0294",
+    "index": 294,
+    "type": "judge",
+    "stem": "高压电容器组断电后，若需再次合闸，应在其断电3分钟后进行。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0295",
+    "index": 295,
+    "type": "judge",
+    "stem": "高压跌落式熔断器先合边相的原因是第二次合闸弧光最大，要保证操作相两边距离最远",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0296",
+    "index": 296,
+    "type": "judge",
+    "stem": "高压断路器操动机构有弹簧操动机构，液压操动机构，电磁操动机构，但主要以手动操动机构为主。",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0297",
+    "index": 297,
+    "type": "judge",
+    "stem": "高压断路器是电力系统中最重要的控制和保护设备。它有两方面作用一是控制作用二是保护作用",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0298",
+    "index": 298,
+    "type": "judge",
+    "stem": "高压负荷开关不能够开断短路电流,因而常需要与熔断器配合使用。( )",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0299",
+    "index": 299,
+    "type": "judge",
+    "stem": "高压负荷开关有灭弧装置，因此可以断开短路电流。（ ）",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0300",
+    "index": 300,
+    "type": "judge",
+    "stem": "高压隔离开关在线路发生过负荷时可以拉开。",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0301",
+    "index": 301,
+    "type": "judge",
+    "stem": "高压熔断器可以用于保护电流互感器。",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0302",
+    "index": 302,
+    "type": "judge",
+    "stem": "高压熔断器用于3~35KV小容量装置中以保护线路、变压器、电动机及电压互感器。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0303",
+    "index": 303,
+    "type": "judge",
+    "stem": "隔离开关按刀闸运动方式分类可分为水平旋转式、垂直旋转式、插入式。",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0304",
+    "index": 304,
+    "type": "judge",
+    "stem": "隔离开关必须与断路器配合使用，不能单独操作",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0305",
+    "index": 305,
+    "type": "judge",
+    "stem": "隔离开关不需要校验断流能力。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0306",
+    "index": 306,
+    "type": "judge",
+    "stem": "隔离开关的开合可以由电动机正反转来控制实现。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0307",
+    "index": 307,
+    "type": "judge",
+    "stem": "隔离开关的作用之一是可以断开系统中发生接地故障的消弧线圈（ ）",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0308",
+    "index": 308,
+    "type": "judge",
+    "stem": "隔离开关可以开断励磁电流不大于5A的空载变压器。",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0309",
+    "index": 309,
+    "type": "judge",
+    "stem": "隔离开关可以用来拉合无故障的电压互感器或避雷器。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0310",
+    "index": 310,
+    "type": "judge",
+    "stem": "隔离开关可以用来切除无故障电流。",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0311",
+    "index": 311,
+    "type": "judge",
+    "stem": "隔离开关能拉合电容电流值不超过6.5A的空载线路（ ）",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0312",
+    "index": 312,
+    "type": "judge",
+    "stem": "隔离开关是隔离电源用的电器，它具有灭弧装置，能带负荷拉合，能切断短路电流。",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0313",
+    "index": 313,
+    "type": "judge",
+    "stem": "隔离开关在电路中仅仅实现隔离电源的作用",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0314",
+    "index": 314,
+    "type": "judge",
+    "stem": "隔离开关主刀接通时，接地刀才能合上",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0315",
+    "index": 315,
+    "type": "judge",
+    "stem": "更换高压熔断器的熔体，可用焊有锡或铅球的铜或银丝，也可用铅锡合金或银丝，也可用铅锡合金或锌制的熔体。",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0316",
+    "index": 316,
+    "type": "judge",
+    "stem": "工作中电流互感器的结构特点是一次匝数很多二次匝数很少",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0317",
+    "index": 317,
+    "type": "judge",
+    "stem": "供电可靠性与操作灵活性是考虑主接线形式的主要因素",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0318",
+    "index": 318,
+    "type": "judge",
+    "stem": "供配电系统在运行中应尽量使负荷系数接近1、以发挥整个电力系统的效能。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0319",
+    "index": 319,
+    "type": "judge",
+    "stem": "恒调压即在任何负荷下，中枢点电压均保持为大约恒定的数值。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0320",
+    "index": 320,
+    "type": "judge",
+    "stem": "互感器二次侧的电压很高而电流很小",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0321",
+    "index": 321,
+    "type": "judge",
+    "stem": "互感器二次电压电流的标准化有利于表计的统一规格",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0322",
+    "index": 322,
+    "type": "judge",
+    "stem": "互感器是为了连接一次设备与二次设备",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0323",
+    "index": 323,
+    "type": "judge",
+    "stem": "计算电流是选择导线截面的直接依据。",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0324",
+    "index": 324,
+    "type": "judge",
+    "stem": "计算电压降落时,必须用同一端的电压与功率。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0325",
+    "index": 325,
+    "type": "judge",
+    "stem": "计算负荷是实际变动的负荷。",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0326",
+    "index": 326,
+    "type": "judge",
+    "stem": "加装旁路母线的关键目的是不停电检修出线断路器。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0327",
+    "index": 327,
+    "type": "judge",
+    "stem": "尖峰电流是短时的最大负荷电流。",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0328",
+    "index": 328,
+    "type": "judge",
+    "stem": "检修隔离开关导电回路时，应测量回路电阻，并调整合格。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0329",
+    "index": 329,
+    "type": "judge",
+    "stem": "将检修设备停电，对已拉开的断路器和隔离开关取下操作电源，隔离开关操作把手必须锁住。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0330",
+    "index": 330,
+    "type": "judge",
+    "stem": "降低网损是电力企业提高经济效益的一项重要任务。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0331",
+    "index": 331,
+    "type": "judge",
+    "stem": "交流高压真空接触器不能适用于频繁操作的场所。",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0332",
+    "index": 332,
+    "type": "judge",
+    "stem": "交流高压真空接触器利用分闸弹簧的作用力分闸。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0333",
+    "index": 333,
+    "type": "judge",
+    "stem": "接地装置的接地电阻值越小越好。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0334",
+    "index": 334,
+    "type": "judge",
+    "stem": "金具是起悬挂、耐张、固定、防振、连接等作用的金属部件。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0335",
+    "index": 335,
+    "type": "judge",
+    "stem": "进行熔断器更换时，应换型号和容量相同的熔断器。（ ）",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0336",
+    "index": 336,
+    "type": "judge",
+    "stem": "具有加压调压变压器的有载调压变压器是由主变压器和加压调压变压器并联组成。",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0337",
+    "index": 337,
+    "type": "judge",
+    "stem": "具有接地刀闸的隔离开关，主刀与地刀之间应有闭锁装置。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0338",
+    "index": 338,
+    "type": "judge",
+    "stem": "连锁闭锁装置仅仅与断路器和隔离开关之间有关，而与接地刀闸无关",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0339",
+    "index": 339,
+    "type": "judge",
+    "stem": "两台暗备用的变压器,任意一台单独运行时,其额定容量应为总的视在计算负荷的60%~70%。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0340",
+    "index": 340,
+    "type": "judge",
+    "stem": "两台明备用的变压器容量均按100%的负荷选择。",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0341",
+    "index": 341,
+    "type": "judge",
+    "stem": "农村电网的自然功率因数较低，负荷又分散，无功补偿应采用分散补偿为主。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0342",
+    "index": 342,
+    "type": "judge",
+    "stem": "配电装置各部分之间，为确保人身和设备安全所必须的最小电气距离，被称为安全净距。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0343",
+    "index": 343,
+    "type": "judge",
+    "stem": "碰撞游离是电弧稳定燃烧的主导过程",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0344",
+    "index": 344,
+    "type": "judge",
+    "stem": "普通变压器的分接头只能在停电的情况下调整，在正常的运行中无论负荷怎样变化都只能使用一个固定的分接头。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0345",
+    "index": 345,
+    "type": "judge",
+    "stem": "欠补偿是补偿了线路部分感抗，线路末端电压得到提高，但不会超过线路首端电压的值。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0346",
+    "index": 346,
+    "type": "judge",
+    "stem": "强电场发射和热电子发射是电弧的中间发展阶段",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0347",
+    "index": 347,
+    "type": "judge",
+    "stem": "桥式接线属于有母线的主接线形式。",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0348",
+    "index": 348,
+    "type": "judge",
+    "stem": "桥式接线虽增加了一组断路器和隔离开关，但提高了供电的可靠性。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0349",
+    "index": 349,
+    "type": "judge",
+    "stem": "热备用状态时隔离开关主刀，接地刀闸都应该合上",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0350",
+    "index": 350,
+    "type": "judge",
+    "stem": "熔断器的熔丝熔断时间通过熔丝的电流间关系曲线称为安培特性（ ）",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0351",
+    "index": 351,
+    "type": "judge",
+    "stem": "熔断器断开电路时，会形成电弧。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0352",
+    "index": 352,
+    "type": "judge",
+    "stem": "熔断器需要校验短路动稳定度。",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0353",
+    "index": 353,
+    "type": "judge",
+    "stem": "如果电缆沟等低洼处集聚的六氟化硫气体多了会引起工作人员窒息事故。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0354",
+    "index": 354,
+    "type": "judge",
+    "stem": "软母线的悬挂与连接用的线夹主要有五种：悬垂线夹、T形线夹、耐张线夹、并沟线夹和设备线夹。( )",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0355",
+    "index": 355,
+    "type": "judge",
+    "stem": "三相短路电流比两相短路电流大。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0356",
+    "index": 356,
+    "type": "judge",
+    "stem": "三相短路时短路点的电压为零，网络中距短路点电抗为X的某点剩余电压，在数值上等于短路电流通过该电抗时的电压降。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0357",
+    "index": 357,
+    "type": "judge",
+    "stem": "生产和分配,接受电能的设备称为一次设备。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0358",
+    "index": 358,
+    "type": "judge",
+    "stem": "手车开关每次推入柜内后，应保证手车到位和隔离插头接触良好，防止由于隔离插头接触不良、过热引发开关柜内部故障。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0359",
+    "index": 359,
+    "type": "judge",
+    "stem": "手车是指配电柜中可抽出的部分。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0360",
+    "index": 360,
+    "type": "judge",
+    "stem": "输电线路的输电效率指线路的有功损耗和线路首端输入的有功功率的比值。",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0361",
+    "index": 361,
+    "type": "judge",
+    "stem": "双绕组变压器的分接开关装设在高压侧。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0362",
+    "index": 362,
+    "type": "judge",
+    "stem": "塑料外壳式低压断路器广泛用于工业企业变配电室交、直流配电线路的开关柜上。框架式低压断路器多用于保护容量不大的电动机及照明电路，作控制开关。",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0363",
+    "index": 363,
+    "type": "judge",
+    "stem": "提高功率因数的唯一方法就是加装电力电容器。",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0364",
+    "index": 364,
+    "type": "judge",
+    "stem": "铜质触头因为较易受氧化，而导致接触电阻增大()",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0365",
+    "index": 365,
+    "type": "judge",
+    "stem": "为了减少电晕损耗，常常采用分裂导线来增大每一相的等值半径，在特殊情况下也采用扩径导线。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0366",
+    "index": 366,
+    "type": "judge",
+    "stem": "屋内配电装置对外界污秽空气隔离较好",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0367",
+    "index": 367,
+    "type": "judge",
+    "stem": "无备用接线的网络中，每一个负荷只能靠一个方向取得电能。",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0368",
+    "index": 368,
+    "type": "judge",
+    "stem": "无功功率不做功，因此可以在线路中大量传输。",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0369",
+    "index": 369,
+    "type": "judge",
+    "stem": "无功功率平衡和电压调整可以按地区就地解决。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0370",
+    "index": 370,
+    "type": "judge",
+    "stem": "无功功率是用于电路内电场与磁场的交换，并用来在电气设备中建立和维持磁场的电功率",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0371",
+    "index": 371,
+    "type": "judge",
+    "stem": "无论升压变压器或降压变压器，高压绕组因绝缘要求排在外层。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0372",
+    "index": 372,
+    "type": "judge",
+    "stem": "线路的首端电压和末端电压的代数差称作电压偏移。",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0373",
+    "index": 373,
+    "type": "judge",
+    "stem": "线路始端输入的无功功率一定大于末端输出的无功功率。",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0374",
+    "index": 374,
+    "type": "judge",
+    "stem": "线损电量包括电网输送损失电量和其他损失电量。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0375",
+    "index": 375,
+    "type": "judge",
+    "stem": "消弧线圈用于中性点不接地系统。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0376",
+    "index": 376,
+    "type": "judge",
+    "stem": "小电流接地系统中的并联电容器可采用中性点不接地的星形接线。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0377",
+    "index": 377,
+    "type": "judge",
+    "stem": "液压油在断路器液压机构中是起储能作用的。",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0378",
+    "index": 378,
+    "type": "judge",
+    "stem": "一般单导线线路每公里的电抗为0.4 左右。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0379",
+    "index": 379,
+    "type": "judge",
+    "stem": "一般计量用电流互感器二次侧电流为2A",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0380",
+    "index": 380,
+    "type": "judge",
+    "stem": "一般来说，主接线投入越大，其可靠性也越高。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0381",
+    "index": 381,
+    "type": "judge",
+    "stem": "一般三绕组变压器的高、中压绕组带有分接头可供选择，低压绕组没有分接头。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0382",
+    "index": 382,
+    "type": "judge",
+    "stem": "一次设备的特点是大电流，低电压",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0383",
+    "index": 383,
+    "type": "judge",
+    "stem": "一类负荷是指这类负荷中断供电将造成大量减产，使城市中大量居民的正常活动受到影响等。",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0384",
+    "index": 384,
+    "type": "judge",
+    "stem": "以调压为目的装设无功补偿设备，适宜于使用小截面导线的架空线路和电缆线路的场合。",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0385",
+    "index": 385,
+    "type": "judge",
+    "stem": "用户的月平均功率因数是指一个月内用户消耗的有功电能与无功电能之比。",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0386",
+    "index": 386,
+    "type": "judge",
+    "stem": "用户的自然功率因数是指经过无功补偿后的功率因数。",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0387",
+    "index": 387,
+    "type": "judge",
+    "stem": "有功负荷随频率的变化的特性称为负荷的频率静态特性。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0388",
+    "index": 388,
+    "type": "judge",
+    "stem": "有一台设备,在其以9分钟一个周期的工作中,电动机只工作短短的30秒，它是短时工作制。",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0389",
+    "index": 389,
+    "type": "judge",
+    "stem": "有载调压变压器可以在带负荷的条件下换分接头，而且调节范围也比较大。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0390",
+    "index": 390,
+    "type": "judge",
+    "stem": "与恒定电源相连电路的短路电流在暂态过程中包含有两个分量：周期分量和非周期分量。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0391",
+    "index": 391,
+    "type": "judge",
+    "stem": "与小型三相配电变压器连接的熔断器可以中相，边相任意操作。",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0392",
+    "index": 392,
+    "type": "judge",
+    "stem": "在220kV及以上电压的系统中，常用串联电容以提高线路的输送容量及系统稳定运行的能力。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0393",
+    "index": 393,
+    "type": "judge",
+    "stem": "在电力系统标幺制计算中，习惯上也只选定电压和电流作为基准值。",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0394",
+    "index": 394,
+    "type": "judge",
+    "stem": "在电力系统中，将电气设备和用电装置的中性点、外壳或支架与接地装置用导体做良好的电气连接叫接地。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0395",
+    "index": 395,
+    "type": "judge",
+    "stem": "在更换熔断器的管内石英砂时，石英砂颗粒大小都应一样。（ ）",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0396",
+    "index": 396,
+    "type": "judge",
+    "stem": "在利用需要系数法计算单台用电设备的计算负荷时，除考虑用电设备的利用系数外，还应考虑设备组的同时系数。",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0397",
+    "index": 397,
+    "type": "judge",
+    "stem": "在输送相同的功率时，如果电力系统电压过低，输送电流下降明显。",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0398",
+    "index": 398,
+    "type": "judge",
+    "stem": "在同一电压等级中，电力系统各环节（发动机、电力变压器、电力线路、用电设备）的额定电压都是相同的。",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0399",
+    "index": 399,
+    "type": "judge",
+    "stem": "在中性点直接接地的电网内,为了提高供电可靠性,应装设自动重合闸装置",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0400",
+    "index": 400,
+    "type": "judge",
+    "stem": "增大导线截面，减小电阻调压，只适用于电压低、传输的无功功率小的配电线路。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0401",
+    "index": 401,
+    "type": "judge",
+    "stem": "增加输电线路的电抗是提高系统静态稳定的有效措施。",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0402",
+    "index": 402,
+    "type": "judge",
+    "stem": "这种最大负荷时降低电压，最小负荷时升高电压的中枢点电压调整方式称“逆调压”。",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0403",
+    "index": 403,
+    "type": "judge",
+    "stem": "真空断路器操动机构为弹簧式，只有分闸操作，而且需要储能。",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0404",
+    "index": 404,
+    "type": "judge",
+    "stem": "真空断路器是将其动、静触头安装在“真空”的密封容器（又称真空灭弧室）内而制成的一种断路器。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0405",
+    "index": 405,
+    "type": "judge",
+    "stem": "真空断路器适用于 35kV 及以下的户内变电所和工矿企业中要求频繁操作的场合和故障较多的配电系统，特别适合于开断容性负载电流。其运行维护简单、噪声小。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0406",
+    "index": 406,
+    "type": "judge",
+    "stem": "中枢点电压总能同时满足与之相连所有负荷的电压质量要求。",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0407",
+    "index": 407,
+    "type": "judge",
+    "stem": "中性点经消弧线圈接地是为了降低接地电容电流，熄灭电弧",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0408",
+    "index": 408,
+    "type": "judge",
+    "stem": "中性点经消弧线圈接地系统普遍采用过补偿运行方式。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0409",
+    "index": 409,
+    "type": "judge",
+    "stem": "中性点直接接地系统可靠性优于中性点经消弧线圈接地系统",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0410",
+    "index": 410,
+    "type": "judge",
+    "stem": "中性点直接接地系统用于110kV及以上电网。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0411",
+    "index": 411,
+    "type": "judge",
+    "stem": "主接线是一次接线和二次接线的总称。",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0412",
+    "index": 412,
+    "type": "judge",
+    "stem": "主接线图上一根线就代表一相。",
+    "options": [],
+    "answer": "错误",
+    "analysis": ""
+  },
+  {
+    "id": "Q0413",
+    "index": 413,
+    "type": "judge",
+    "stem": "主接线中加装旁路母线的关键目的是不停电检修出线断路器。",
+    "options": [],
+    "answer": "正确",
+    "analysis": ""
+  },
+  {
+    "id": "Q0414",
+    "index": 414,
+    "type": "blank",
+    "stem": "（）的做法是采用供应无功功率的设备来就地补偿用电设备所需的无功功率。",
+    "options": [],
+    "answer": [
+      "人工补偿提高功率因数"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0415",
+    "index": 415,
+    "type": "blank",
+    "stem": "（）更适于确定设备台数较少而容量差别较大的低压分支干线的计算负荷。",
+    "options": [],
+    "answer": [
+      "二项式法"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0416",
+    "index": 416,
+    "type": "blank",
+    "stem": "（）和频率是衡量电能质量的两个基本参数。",
+    "options": [],
+    "answer": [
+      "电压"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0417",
+    "index": 417,
+    "type": "blank",
+    "stem": "（）是防护雷电入侵波对电气设备产生危害的保护装置。",
+    "options": [],
+    "answer": [
+      "避雷器"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0418",
+    "index": 418,
+    "type": "blank",
+    "stem": "（）是企业电能供应的枢纽。",
+    "options": [],
+    "answer": [
+      "总降变电所"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0419",
+    "index": 419,
+    "type": "blank",
+    "stem": "（）是指室外架设在电杆上用于输送电能的线路。",
+    "options": [],
+    "answer": [
+      "架空线路"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0420",
+    "index": 420,
+    "type": "blank",
+    "stem": "PEN线兼有N线和PE线功能，我国过去习惯称为（）。",
+    "options": [],
+    "answer": [
+      "零线"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0421",
+    "index": 421,
+    "type": "blank",
+    "stem": "保护接零就是将电气设备正常运行中不带电的金属部分与公共的（）线间作良好的电气连接。",
+    "options": [],
+    "answer": [
+      "PE或PEN"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0422",
+    "index": 422,
+    "type": "blank",
+    "stem": "变压器的事故过负荷能力是以牺牲（） 为代价的。",
+    "options": [],
+    "answer": [
+      "使用寿命"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0423",
+    "index": 423,
+    "type": "blank",
+    "stem": "变压器的事故过负荷能力是以牺牲（） 为代价的。油浸式变压器允许的正常过负荷包括以下两部分: 由于昼夜不均匀 而允许的变压器过负荷和 （）允许的变压器过负荷。",
+    "options": [],
+    "answer": [
+      "季节性负荷变化"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0424",
+    "index": 424,
+    "type": "blank",
+    "stem": "变压器室的门要向（）开。",
+    "options": [],
+    "answer": [
+      "外"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0425",
+    "index": 425,
+    "type": "blank",
+    "stem": "标幺制法又称（）。",
+    "options": [],
+    "answer": [
+      "相对单位制法"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0426",
+    "index": 426,
+    "type": "blank",
+    "stem": "常见的接闪器有（），避雷线，避雷带，避雷网。",
+    "options": [],
+    "answer": [
+      "避雷针"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0427",
+    "index": 427,
+    "type": "blank",
+    "stem": "常见的接闪器有避雷针，（），避雷带，避雷网。",
+    "options": [],
+    "answer": [
+      "避雷线"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0428",
+    "index": 428,
+    "type": "blank",
+    "stem": "常见的接闪器有避雷针，避雷线，（），避雷网。",
+    "options": [],
+    "answer": [
+      "避雷带"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0429",
+    "index": 429,
+    "type": "blank",
+    "stem": "常见的接闪器有避雷针，避雷线，避雷带，（）。",
+    "options": [],
+    "answer": [
+      "避雷网"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0430",
+    "index": 430,
+    "type": "blank",
+    "stem": "触电时间超过（）时，致颤电流值将急剧降低。",
+    "options": [],
+    "answer": [
+      "0.2s"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0431",
+    "index": 431,
+    "type": "blank",
+    "stem": "单相设备接于相电压时的等效三相设备容量Pe是（）",
+    "options": [],
+    "answer": [
+      "最大相设备容量的3倍"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0432",
+    "index": 432,
+    "type": "blank",
+    "stem": "当电压、有功功率、线路电阻恒定时，则有功功率损耗与功率因数的平方成（）。",
+    "options": [],
+    "answer": [
+      "反比"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0433",
+    "index": 433,
+    "type": "blank",
+    "stem": "导线按结构分有( )和绝缘导线。",
+    "options": [],
+    "answer": [
+      "裸导线"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0434",
+    "index": 434,
+    "type": "blank",
+    "stem": "导线按结构分有裸导线和()。",
+    "options": [],
+    "answer": [
+      "绝缘导线"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0435",
+    "index": 435,
+    "type": "blank",
+    "stem": "低压架空导线大多数采用（）。",
+    "options": [],
+    "answer": [
+      "绝缘导线"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0436",
+    "index": 436,
+    "type": "blank",
+    "stem": "低压配电室的高度应与（）综合考虑，以便变压器低压出线。",
+    "options": [],
+    "answer": [
+      "变压器室"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0437",
+    "index": 437,
+    "type": "blank",
+    "stem": "低压配电系统的接地型式有（）系统、TT系统和IT系统。",
+    "options": [],
+    "answer": [
+      "TN"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0438",
+    "index": 438,
+    "type": "blank",
+    "stem": "低压照明线一般先按（）条件初选截面。",
+    "options": [],
+    "answer": [
+      "允许电压损失"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0439",
+    "index": 439,
+    "type": "blank",
+    "stem": "电杆是导线的支柱，是()的重要组成部分。",
+    "options": [],
+    "answer": [
+      "架空线路"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0440",
+    "index": 440,
+    "type": "blank",
+    "stem": "电缆头包括()和终端头。",
+    "options": [],
+    "answer": [
+      "电缆中间头"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0441",
+    "index": 441,
+    "type": "blank",
+    "stem": "电力负荷按重要程度分为（）、二级负荷和三级负荷",
+    "options": [],
+    "answer": [
+      "一级负荷"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0442",
+    "index": 442,
+    "type": "blank",
+    "stem": "电力系统是由发电、输电、变电和（）组成。",
+    "options": [],
+    "answer": [
+      "用电"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0443",
+    "index": 443,
+    "type": "blank",
+    "stem": "电力系统中，按过电压产生的原因可分为内部过电压和（）两大类。",
+    "options": [],
+    "answer": [
+      "雷电过电压"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0444",
+    "index": 444,
+    "type": "blank",
+    "stem": "电压和（）是衡量电能质量的两个基本参数。",
+    "options": [],
+    "answer": [
+      "频率"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0445",
+    "index": 445,
+    "type": "blank",
+    "stem": "电压和频率是衡量（）的基本参数。",
+    "options": [],
+    "answer": [
+      "电能质量"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0446",
+    "index": 446,
+    "type": "blank",
+    "stem": "短路电流的计算方法有欧姆法和（）。",
+    "options": [],
+    "answer": [
+      "标幺制法"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0447",
+    "index": 447,
+    "type": "blank",
+    "stem": "短路电流的形式有:（）、两相短路、两相接地短路和单相接地短路。",
+    "options": [],
+    "answer": [
+      "三相短路"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0448",
+    "index": 448,
+    "type": "blank",
+    "stem": "断路器不仅能通断正常负荷电流，而且能通断一定的 （） 电流。",
+    "options": [],
+    "answer": [
+      "短路"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0449",
+    "index": 449,
+    "type": "blank",
+    "stem": "对长距离大电流线路和35kV及以上高压架空线路导线截面可以按照（）初选。",
+    "options": [],
+    "answer": [
+      "经济电流密度"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0450",
+    "index": 450,
+    "type": "blank",
+    "stem": "二级负荷对供电电源的要求由（）供电，供电变压器也应由两台。",
+    "options": [],
+    "answer": [
+      "两回路"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0451",
+    "index": 451,
+    "type": "blank",
+    "stem": "发电厂又称（），是将自然界存在的各种一次能源转换为电能的工厂。",
+    "options": [],
+    "answer": [
+      "发电站"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0452",
+    "index": 452,
+    "type": "blank",
+    "stem": "发动机的额定电压规定高于同级电网的额定电压（）。",
+    "options": [],
+    "answer": [
+      "0.05"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0453",
+    "index": 453,
+    "type": "blank",
+    "stem": "负荷持续率是指一个工作周期内工作时间与（）的百分比。",
+    "options": [],
+    "answer": [
+      "工作周期"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0454",
+    "index": 454,
+    "type": "blank",
+    "stem": "负荷开关能通断一定的 （） 电流，",
+    "options": [],
+    "answer": [
+      "负荷电流和过负荷"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0455",
+    "index": 455,
+    "type": "blank",
+    "stem": "负荷指示图是将（）按一定比例用负荷圆的形式标示在工厂或车间的平面图。",
+    "options": [],
+    "answer": [
+      "电力负荷"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0456",
+    "index": 456,
+    "type": "blank",
+    "stem": "高压架空导线一般采用（）。",
+    "options": [],
+    "answer": [
+      "裸导线"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0457",
+    "index": 457,
+    "type": "blank",
+    "stem": "高压室的钥匙至少应有（）把，由运行值班员负责保管，按值移交。",
+    "options": [],
+    "answer": [
+      "3"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0458",
+    "index": 458,
+    "type": "blank",
+    "stem": "隔离开关只能通断一定的 （） 电流",
+    "options": [],
+    "answer": [
+      "小"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0459",
+    "index": 459,
+    "type": "blank",
+    "stem": "工厂变配电所的运行值班制度主要有轮班制和（）值班制。",
+    "options": [],
+    "answer": [
+      "无人"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0460",
+    "index": 460,
+    "type": "blank",
+    "stem": "工厂用电设备按其工作制分为长时作制、短时工作制和（）三类。",
+    "options": [],
+    "answer": [
+      "反复短时工作制"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0461",
+    "index": 461,
+    "type": "blank",
+    "stem": "横担安装在()的上部，用来安装绝缘子以架设导线。",
+    "options": [],
+    "answer": [
+      "电杆"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0462",
+    "index": 462,
+    "type": "blank",
+    "stem": "检验电器和载流导体的热温度度时,一般采用（）。",
+    "options": [],
+    "answer": [
+      "三相稳态短路电流"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0463",
+    "index": 463,
+    "type": "blank",
+    "stem": "接地电阻是（）和接地体的电阻与接地体散流电阻的总和。",
+    "options": [],
+    "answer": [
+      "接地线"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0464",
+    "index": 464,
+    "type": "blank",
+    "stem": "结线方式是指电源端向负荷端输送电能时采用的（）。",
+    "options": [],
+    "answer": [
+      "网络形式"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0465",
+    "index": 465,
+    "type": "blank",
+    "stem": "雷电过电压的基本形式有（），感应雷过电压雷电波侵入。",
+    "options": [],
+    "answer": [
+      "直击雷过电压"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0466",
+    "index": 466,
+    "type": "blank",
+    "stem": "雷电过电压的基本形式有直击雷过电压，（）雷电波侵入。",
+    "options": [],
+    "answer": [
+      "感应雷过电压"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0467",
+    "index": 467,
+    "type": "blank",
+    "stem": "母线也叫（），配电装置中用来汇集和分配电能的导体。",
+    "options": [],
+    "answer": [
+      "汇流排"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0468",
+    "index": 468,
+    "type": "blank",
+    "stem": "年最大负荷Pmax就是全年中负荷最大的工作班内消耗电能（）的平均功率。",
+    "options": [],
+    "answer": [
+      "最大的半小时"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0469",
+    "index": 469,
+    "type": "blank",
+    "stem": "人工补偿提高功率因数一般由（）方法。",
+    "options": [],
+    "answer": [
+      "四种"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0470",
+    "index": 470,
+    "type": "blank",
+    "stem": "人体也是一种（），在人体接触到不同电位时，就会有电流流过体内。",
+    "options": [],
+    "answer": [
+      "导体"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0471",
+    "index": 471,
+    "type": "blank",
+    "stem": "如果导体和电器在最严重短路时的发热温度不超过允许温度，则可认为其短路（）是满足要求的。",
+    "options": [],
+    "answer": [
+      "热稳定度"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0472",
+    "index": 472,
+    "type": "blank",
+    "stem": "三级负荷对供电电源（）要求。",
+    "options": [],
+    "answer": [
+      "没有特殊"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0473",
+    "index": 473,
+    "type": "blank",
+    "stem": "三相交流电力系统中，作为供电电源的发电机和变压器的中性点有三种运行方式，分别为：（）、中性点经消弧线圈、中性点直接接地。",
+    "options": [],
+    "answer": [
+      "中性点不接地"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0474",
+    "index": 474,
+    "type": "blank",
+    "stem": "三相交流电力系统中，作为供电电源的发电机和变压器的中性点有三种运行方式，分别为：中性点不接地、()、中性点直接接地。",
+    "options": [],
+    "answer": [
+      "中性点经消弧线圈"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0475",
+    "index": 475,
+    "type": "blank",
+    "stem": "三相交流电力系统中，作为供电电源的发电机和变压器的中性点有三种运行方式，分别为：中性点不接地、中性点经消弧线圈、()。",
+    "options": [],
+    "answer": [
+      "中性点直接接地"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0476",
+    "index": 476,
+    "type": "blank",
+    "stem": "所谓无限大容量电源系统是指电源的（）为零。",
+    "options": [],
+    "answer": [
+      "内阻抗"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0477",
+    "index": 477,
+    "type": "blank",
+    "stem": "提高电能质量主要是提高（）问题。",
+    "options": [],
+    "answer": [
+      "电压质量"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0478",
+    "index": 478,
+    "type": "blank",
+    "stem": "为了减小建筑物的接触电压，接地体与建筑物的基础间应不小于（）。",
+    "options": [],
+    "answer": [
+      "1.5m"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0479",
+    "index": 479,
+    "type": "blank",
+    "stem": "我国220／380V低压配电系统广泛采用（）运行方式。",
+    "options": [],
+    "answer": [
+      "中性点直接接地"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0480",
+    "index": 480,
+    "type": "blank",
+    "stem": "我国采用的工业频率是（）。",
+    "options": [],
+    "answer": [
+      "50Hz"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0481",
+    "index": 481,
+    "type": "blank",
+    "stem": "小电流接地系统包括（）的电力系统和中性点经消弧线圈的电力系统。",
+    "options": [],
+    "answer": [
+      "中性点不接地"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0482",
+    "index": 482,
+    "type": "blank",
+    "stem": "校验电器和载流导体的动稳定度时,一般应采用（）或其有效值。",
+    "options": [],
+    "answer": [
+      "三相短路冲击电流"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0483",
+    "index": 483,
+    "type": "blank",
+    "stem": "要使电路元件能承受短路时最大电动力的作用，电路元件必须具有足够的（）。",
+    "options": [],
+    "answer": [
+      "电动稳定度"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0484",
+    "index": 484,
+    "type": "blank",
+    "stem": "一般10kV及以下高压线路，通常是按（）来选择导线截面。",
+    "options": [],
+    "answer": [
+      "发热条件"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0485",
+    "index": 485,
+    "type": "blank",
+    "stem": "一级负荷对供电电源的要求由（）供电。",
+    "options": [],
+    "answer": [
+      "两个电源"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0486",
+    "index": 486,
+    "type": "blank",
+    "stem": "一级负荷中特别重要的负荷,除由两个独立电源供角外,尚应增设（），并严禁其他负荷接人。",
+    "options": [],
+    "answer": [
+      "应急电源"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0487",
+    "index": 487,
+    "type": "blank",
+    "stem": "以时间为横坐标,以负荷功率为纵坐标画出的图形叫（）。",
+    "options": [],
+    "answer": [
+      "负荷曲线"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0488",
+    "index": 488,
+    "type": "blank",
+    "stem": "用电设备的额定电压一般规定与同级电网的额定电压（）。",
+    "options": [],
+    "answer": [
+      "相同"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0489",
+    "index": 489,
+    "type": "blank",
+    "stem": "由于标幺制法一般只用于高压系统的短路计算，而高压系统R《X，因此通常只计算（）。",
+    "options": [],
+    "answer": [
+      "电抗标幺值"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0490",
+    "index": 490,
+    "type": "blank",
+    "stem": "油浸式变压器允许的正常过负荷包括以下两部分: （） 而允许的变压器过负荷和 季节性负荷变化允许的变压器过负荷。",
+    "options": [],
+    "answer": [
+      "由于昼夜不均匀"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0491",
+    "index": 491,
+    "type": "blank",
+    "stem": "有高压设备的变配电所为了保证安全，一般应至少（）人值班。",
+    "options": [],
+    "answer": [
+      "两"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0492",
+    "index": 492,
+    "type": "blank",
+    "stem": "有人值班的变配电所，一般应设（）的值班室。",
+    "options": [],
+    "answer": [
+      "单独"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0493",
+    "index": 493,
+    "type": "blank",
+    "stem": "在采用高压隔离开关-高压断路器的电路中，断电时先断开（），再断开高压隔离开关。",
+    "options": [],
+    "answer": [
+      "高压断路器"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0494",
+    "index": 494,
+    "type": "blank",
+    "stem": "在采用高压隔离开关-高压断路器的电路中，送电时先合（），再合高压断路器。",
+    "options": [],
+    "answer": [
+      "高压隔离开关"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0495",
+    "index": 495,
+    "type": "blank",
+    "stem": "在发电和输、配电设备安装容量一定时，提高用户的功率因数相应减少了（）的供给。",
+    "options": [],
+    "answer": [
+      "无功功率"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0496",
+    "index": 496,
+    "type": "blank",
+    "stem": "在供用电工作中，电气工作人员应贯彻执行（），预防为主的方针",
+    "options": [],
+    "answer": [
+      "安全第一"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0497",
+    "index": 497,
+    "type": "blank",
+    "stem": "在无功补偿中，10kV及以下线路的补偿电容器组常按（）接线。",
+    "options": [],
+    "answer": [
+      "三角形"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0498",
+    "index": 498,
+    "type": "blank",
+    "stem": "只装有一台主变压器的小型变电所，其高压侧一般采用（）的接线。",
+    "options": [],
+    "answer": [
+      "无母线"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0499",
+    "index": 499,
+    "type": "blank",
+    "stem": "中性点直接接地的电力系统又称()。",
+    "options": [],
+    "answer": [
+      "大电流接地系统"
+    ],
+    "analysis": ""
+  },
+  {
+    "id": "Q0500",
+    "index": 500,
+    "type": "blank",
+    "stem": "主接线也就是（），是表示电力系统中电能输送和分配线路的电路图。",
+    "options": [],
+    "answer": [
+      "主电路图"
+    ],
+    "analysis": ""
+  }
+]
