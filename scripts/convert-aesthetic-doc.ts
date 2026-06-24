@@ -87,9 +87,8 @@ function parsePaper(fileName: string): ParsedPaper {
   const missingAnswerIds: string[] = [];
   const unknownTypeIds: string[] = [];
 
-  const validBlocks = blocks.filter((block) => !isInlineAnsweredFragment(block));
-
-  const questions = validBlocks.map((block, blockIndex) => {
+  const questions = blocks.map((rawBlock, blockIndex) => {
+    const block = normalizeInlineJudgeBlock(rawBlock);
     const localQuestionIndex = blockIndex + 1;
     const id = `${paperId}-Q${String(localQuestionIndex).padStart(4, "0")}`;
     if (!block.rawAnswer) {
@@ -147,7 +146,9 @@ function htmlToLines(html: string): string[] {
 
 function splitQuestionBlocks(lines: string[]): QuestionBlock[] {
   const questionStarts = lines.flatMap((line, lineIndex) => {
-    const match = line.match(/^\s*(\d+)[、.．]\s*(.+)$/);
+    const match =
+      line.match(/^\s*(\d+)[、.．]\s*(.+)$/) ??
+      line.match(/^\s*(\d+)\s*(?=.+[（(]\s*[×√✓Xx]\s*[)）])(.+)$/);
     if (!match || /^(单选题|多选题|判断题|填空题|问答题)/.test(match[2].trim())) {
       return [];
     }
@@ -217,8 +218,24 @@ function parseBlock(
   return { paperIndex, localIndex, stem, options, rawAnswer, analysis };
 }
 
-function isInlineAnsweredFragment(block: QuestionBlock): boolean {
-  return !block.rawAnswer && /^[\s\S]*[（(]\s*[×√✓]\s*[)）]/.test(block.stem);
+function normalizeInlineJudgeBlock(block: QuestionBlock): QuestionBlock {
+  if (block.rawAnswer) {
+    return block;
+  }
+
+  const match = block.stem.match(/^(.*?)[（(]\s*([×√✓Xx])\s*[)）]\s*(.*)$/);
+  if (!match) {
+    return block;
+  }
+
+  const answer = /[×Xx]/.test(match[2]) ? "错误" : "正确";
+  const inlineAnalysis = match[3].trim();
+  return {
+    ...block,
+    stem: cleanupStem(match[1]),
+    rawAnswer: answer,
+    analysis: appendText(block.analysis, inlineAnalysis),
+  };
 }
 
 function isSectionHeading(line: string): boolean {
@@ -295,6 +312,8 @@ function countTypes(questions: Question[]): Record<QuestionType, number> {
     { single: 0, multiple: 0, judge: 0, blank: 0 },
   );
 }
+
+
 
 
 
