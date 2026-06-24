@@ -402,6 +402,10 @@ button:disabled {
   background: #fff0ed;
   border-color: #e4b2a9;
 }
+.result-box p,
+.compact-card p {
+  white-space: pre-line;
+}
 
 .sticky-actions {
   border-top: 1px solid #e4ebe6;
