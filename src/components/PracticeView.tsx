@@ -9,7 +9,6 @@ import type {
 } from "../types";
 import { QUESTION_TYPE_LABEL, QUESTION_TYPES } from "../types";
 import {
-  displayOptionsFor,
   emptyAnswerFor,
   hasAnswer,
   isAnswerCorrect,
@@ -432,10 +431,9 @@ function AnswerEditor({
 
   if (question.type === "multiple") {
     const selected = Array.isArray(answer) ? answer : [];
-    const options = displayOptionsFor(question, question.id);
     return (
       <div className="option-list">
-        {options.map((option) => (
+        {question.options.map((option) => (
           <label className="option-row" key={option.label}>
             <input
               checked={selected.includes(option.label)}
@@ -457,10 +455,9 @@ function AnswerEditor({
     );
   }
 
-  const options = displayOptionsFor(question, question.id);
   return (
     <div className="option-list">
-      {options.map((option) => (
+      {question.options.map((option) => (
         <label className="option-row" key={option.label}>
           <input
             checked={answer === option.label}

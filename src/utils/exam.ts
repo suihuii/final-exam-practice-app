@@ -4,7 +4,6 @@ import type {
   ExamOrder,
   ExamSession,
   Question,
-  QuestionOption,
   QuestionType,
 } from "../types";
 
@@ -19,24 +18,6 @@ export function shuffle<T>(items: T[]): T[] {
   return next;
 }
 
-
-export function displayOptionsFor(question: Question, seed: string): QuestionOption[] {
-  if (question.options.length <= 1) {
-    return question.options;
-  }
-  return shuffleWithSeed(question.options, `${question.id}:${seed}`);
-}
-
-export function shuffleWithSeed<T>(items: T[], seed: string): T[] {
-  const next = [...items];
-  let state = hashSeed(seed);
-  for (let index = next.length - 1; index > 0; index -= 1) {
-    state = nextRandomState(state);
-    const swapIndex = state % (index + 1);
-    [next[index], next[swapIndex]] = [next[swapIndex], next[index]];
-  }
-  return next;
-}
 export function filterQuestions(
   questions: Question[],
   selectedTypes: QuestionType[],
@@ -236,16 +217,4 @@ function normalizeJudge(answer: AnswerValue): string {
 
 function normalizeText(value: string): string {
   return value.trim().replace(/\s+/g, "").toLowerCase();
-}
-function hashSeed(seed: string): number {
-  let hash = 2166136261;
-  for (let index = 0; index < seed.length; index += 1) {
-    hash ^= seed.charCodeAt(index);
-    hash = Math.imul(hash, 16777619);
-  }
-  return hash >>> 0;
-}
-
-function nextRandomState(state: number): number {
-  return (Math.imul(state, 1664525) + 1013904223) >>> 0;
 }
