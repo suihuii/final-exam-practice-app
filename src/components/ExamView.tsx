@@ -4,6 +4,7 @@ import type { AnswerValue, ExamSession, CourseProgress,
   ProgressData, Question, ViewKey } from "../types";
 import { QUESTION_TYPE_LABEL } from "../types";
 import {
+  displayOptionsFor,
   emptyAnswerFor,
   formatDuration,
   getElapsedSeconds,
@@ -272,6 +273,7 @@ export function ExamView({
 
         <ExamAnswerEditor
           answer={currentAnswer}
+          optionSeed={session.id}
           onChange={(nextAnswer) =>
             setProgress((previous) =>
               updateExamAnswer(previous, session.id, currentQuestion.id, nextAnswer),
@@ -324,10 +326,12 @@ export function ExamView({
 function ExamAnswerEditor({
   answer,
   onChange,
+  optionSeed,
   question,
 }: {
   answer: AnswerValue;
   onChange: (answer: AnswerValue) => void;
+  optionSeed: string;
   question: Question;
 }) {
   if (question.type === "judge") {
@@ -372,9 +376,10 @@ function ExamAnswerEditor({
 
   if (question.type === "multiple") {
     const selected = Array.isArray(answer) ? answer : [];
+    const options = displayOptionsFor(question, optionSeed);
     return (
       <div className="option-list">
-        {question.options.map((option) => (
+        {options.map((option) => (
           <label className="option-row" key={option.label}>
             <input
               checked={selected.includes(option.label)}
@@ -395,9 +400,10 @@ function ExamAnswerEditor({
     );
   }
 
+  const options = displayOptionsFor(question, optionSeed);
   return (
     <div className="option-list">
-      {question.options.map((option) => (
+      {options.map((option) => (
         <label className="option-row" key={option.label}>
           <input
             checked={answer === option.label}
