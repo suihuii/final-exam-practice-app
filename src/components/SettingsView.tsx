@@ -2,6 +2,7 @@
 import type { Course, ProgressData } from "../types";
 import { downloadTextFile } from "../utils/csv";
 import {
+  clearPracticeProgress,
   clearProgress,
   exportProgress,
   importProgress,
@@ -46,6 +47,12 @@ export function SettingsView({ activeCourse, progress, setProgress }: SettingsVi
     }
   }
 
+  function clearCurrentPracticeProgress() {
+    if (window.confirm(`确定清空“${activeCourse.name}”的练习进度吗？错题、收藏和考试记录不会被删除。`)) {
+      setProgress((previous) => clearPracticeProgress(previous));
+    }
+  }
+
   const rawStorage = localStorage.getItem(PROGRESS_KEY) ?? "";
   const legacyStorage = localStorage.getItem(LEGACY_PROGRESS_KEY) ?? "";
   const containsQuestionText = /stem|题干|options|analysis/.test(rawStorage);
@@ -69,6 +76,9 @@ export function SettingsView({ activeCourse, progress, setProgress }: SettingsVi
               type="file"
             />
           </label>
+          <button className="ghost-button" onClick={clearCurrentPracticeProgress} type="button">
+            清空当前课程练习进度
+          </button>
           <button className="danger-button" onClick={clearLocalProgress} type="button">
             清空本机进度
           </button>

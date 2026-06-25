@@ -49,10 +49,21 @@ export interface WrongRecord {
   mastered: boolean;
 }
 
+export interface PracticeAnswerRecord {
+  questionId: string;
+  selectedAnswer: AnswerValue;
+  isCorrect: boolean | null;
+  answeredAt: string;
+  answerVisible?: boolean;
+}
+
 export interface PracticeState {
   lastQuestionId: string | null;
+  currentIndex: number;
   mode: PracticeMode;
   filterTypes: QuestionType[];
+  answers: Record<string, PracticeAnswerRecord>;
+  updatedAt: string | null;
 }
 
 export interface ExamSettings {

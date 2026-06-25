@@ -10,6 +10,7 @@ import type {
 import { QUESTION_TYPE_LABEL, QUESTION_TYPES } from "../types";
 import {
   emptyAnswerFor,
+  hasAnswer,
   isAnswerCorrect,
   normalizeAnswerForDisplay,
   shuffle,
@@ -17,6 +18,7 @@ import {
 import {
   addWrong,
   isFavorite,
+  recordPracticeAnswer,
   setPracticeState,
   toggleFavorite,
   updateWrongNote,
@@ -30,6 +32,14 @@ interface PracticeViewProps {
 
 type PracticeOrder = "sequence" | "random";
 type FilterType = QuestionType | "all";
+type PracticeQuestionStatus = "todo" | "done" | "correct" | "wrong";
+
+const STATUS_LABEL: Record<PracticeQuestionStatus, string> = {
+  todo: "未做",
+  done: "已做",
+  correct: "对",
+  wrong: "错",
+};
 
 export function PracticeView({
   progress,
@@ -44,7 +54,7 @@ export function PracticeView({
   const [mode, setMode] = useState<PracticeMode>(progress.practice.mode);
   const [order, setOrder] = useState<PracticeOrder>("sequence");
   const [randomSeed, setRandomSeed] = useState(0);
-  const [currentIndex, setCurrentIndex] = useState(0);
+  const [currentIndex, setCurrentIndex] = useState(progress.practice.currentIndex);
   const [answer, setAnswer] = useState<AnswerValue>("");
   const [submitted, setSubmitted] = useState(false);
   const [result, setResult] = useState<boolean | null>(null);
@@ -65,19 +75,46 @@ export function PracticeView({
     return order === "random" ? shuffle(source) : source;
   }, [filterType, mode, order, progress.favorites, progress.wrong, questions, randomSeed]);
 
+  useEffect(() => {
+    if (practiceQuestions.length === 0) {
+      setCurrentIndex(0);
+      return;
+    }
+
+    const restoredIndex = resolvePracticeIndex(
+      practiceQuestions,
+      progress.practice.lastQuestionId,
+      progress.practice.currentIndex,
+    );
+    setCurrentIndex((value) => (value === restoredIndex ? value : restoredIndex));
+  }, [practiceQuestions, progress.practice.currentIndex, progress.practice.lastQuestionId]);
+
   const currentQuestion = practiceQuestions[currentIndex] ?? null;
+  const savedAnswer = currentQuestion ? progress.practice.answers[currentQuestion.id] : undefined;
+  const statusCounts = useMemo(
+    () => countPracticeStatuses(practiceQuestions, progress.practice.answers),
+    [practiceQuestions, progress.practice.answers],
+  );
 
   useEffect(() => {
-    setCurrentIndex(0);
-  }, [filterType, mode, order, randomSeed]);
-
-  useEffect(() => {
-    if (currentQuestion) {
-      setAnswer(emptyAnswerFor(currentQuestion));
+    if (!currentQuestion) {
+      setAnswer("");
       setSubmitted(false);
       setResult(null);
+      return;
     }
-  }, [currentQuestion?.id]);
+
+    if (savedAnswer) {
+      setAnswer(normalizeSavedAnswer(currentQuestion, savedAnswer.selectedAnswer));
+      setSubmitted(savedAnswer.answerVisible === true);
+      setResult(savedAnswer.isCorrect);
+      return;
+    }
+
+    setAnswer(emptyAnswerFor(currentQuestion));
+    setSubmitted(false);
+    setResult(null);
+  }, [currentQuestion?.id, savedAnswer?.answeredAt]);
 
   function filterTypesFor(nextFilterType: FilterType): QuestionType[] {
     return nextFilterType === "all" ? [] : [nextFilterType];
@@ -85,26 +122,37 @@ export function PracticeView({
 
   function persistPractice(
     questionId: string | null,
+    nextIndex: number,
     nextMode = mode,
     nextFilterType = filterType,
   ) {
     setProgress((previous) =>
-      setPracticeState(previous, questionId, nextMode, filterTypesFor(nextFilterType)),
+      setPracticeState(
+        previous,
+        questionId,
+        nextIndex,
+        nextMode,
+        filterTypesFor(nextFilterType),
+      ),
     );
   }
 
   function changeFilter(nextFilterType: FilterType) {
     setFilterType(nextFilterType);
-    persistPractice(currentQuestion?.id ?? null, mode, nextFilterType);
+    setCurrentIndex(0);
+    persistPractice(null, 0, mode, nextFilterType);
   }
 
   function changeMode(nextMode: PracticeMode) {
     setMode(nextMode);
-    persistPractice(currentQuestion?.id ?? null, nextMode, filterType);
+    setCurrentIndex(0);
+    persistPractice(null, 0, nextMode, filterType);
   }
 
   function changeOrder(nextOrder: PracticeOrder) {
     setOrder(nextOrder);
+    setCurrentIndex(0);
+    persistPractice(null, 0);
     if (nextOrder === "random") {
       setRandomSeed((value) => value + 1);
     }
@@ -114,7 +162,19 @@ export function PracticeView({
     const boundedIndex = Math.min(Math.max(0, nextIndex), practiceQuestions.length - 1);
     const nextQuestion = practiceQuestions[boundedIndex];
     setCurrentIndex(boundedIndex);
-    persistPractice(nextQuestion?.id ?? null);
+    persistPractice(nextQuestion?.id ?? null, boundedIndex);
+  }
+
+  function handleAnswerChange(nextAnswer: AnswerValue) {
+    setAnswer(nextAnswer);
+    setSubmitted(false);
+    setResult(null);
+    if (!currentQuestion) {
+      return;
+    }
+    setProgress((previous) =>
+      recordPracticeAnswer(previous, currentQuestion.id, nextAnswer, null, false),
+    );
   }
 
   function submitAnswer() {
@@ -124,9 +184,13 @@ export function PracticeView({
     const correct = isAnswerCorrect(currentQuestion, answer);
     setSubmitted(true);
     setResult(correct);
-    if (!correct) {
-      setProgress((previous) => addWrong(previous, currentQuestion.id));
-    }
+    setProgress((previous) => {
+      let next = recordPracticeAnswer(previous, currentQuestion.id, answer, correct, true);
+      if (!correct) {
+        next = addWrong(next, currentQuestion.id);
+      }
+      return next;
+    });
   }
 
   function updateNote(note: string) {
@@ -214,66 +278,99 @@ export function PracticeView({
           <p>调整筛选条件后继续。</p>
         </section>
       ) : (
-        <section className="panel question-panel">
-          <div className="question-topline">
-            <span>
-              {currentIndex + 1} / {practiceQuestions.length}
-            </span>
-            <span>{QUESTION_TYPE_LABEL[currentQuestion.type]}</span>
-          </div>
-
-          <h2>{currentQuestion.stem}</h2>
-
-          <AnswerEditor
-            answer={answer}
-            disabled={submitted}
-            onChange={setAnswer}
-            question={currentQuestion}
-          />
-
-          {submitted && (
-            <div className={result ? "result-box success" : "result-box danger"}>
-              <strong>{result ? "回答正确" : "回答错误"}</strong>
-              <p>正确答案：{normalizeAnswerForDisplay(currentQuestion.answer)}</p>
-              <p>我的答案：{normalizeAnswerForDisplay(answer)}</p>
-              {currentQuestion.analysis && <p>解析：{currentQuestion.analysis}</p>}
+        <>
+          <section className="panel question-panel">
+            <div className="question-topline">
+              <span>
+                {currentIndex + 1} / {practiceQuestions.length}
+              </span>
+              <span>{QUESTION_TYPE_LABEL[currentQuestion.type]}</span>
             </div>
-          )}
 
-          <label className="field-stack">
-            <span>错因备注</span>
-            <textarea
-              onChange={(event) => updateNote(event.target.value)}
-              placeholder="可记录易错点"
-              value={progress.wrong[currentQuestion.id]?.note ?? ""}
+            <h2>{currentQuestion.stem}</h2>
+
+            <AnswerEditor
+              answer={answer}
+              disabled={false}
+              onChange={handleAnswerChange}
+              question={currentQuestion}
             />
-          </label>
 
-          <div className="button-row sticky-actions">
-            <button
-              className="ghost-button"
-              disabled={currentIndex === 0}
-              onClick={() => goToQuestion(currentIndex - 1)}
-              type="button"
-            >
-              上一题
-            </button>
-            <button className="primary-button" onClick={submitAnswer} type="button">
-              提交
-            </button>
-            <button className="secondary-button" onClick={handleFavorite} type="button">
-              {isFavorite(progress, currentQuestion.id) ? "取消收藏" : "收藏"}
-            </button>
-            <button
-              className="ghost-button"
-              disabled={currentIndex >= practiceQuestions.length - 1}
-              onClick={() => goToQuestion(currentIndex + 1)}
-              type="button"
-            >
-              下一题
-            </button>
-          </div>
-        </section>
+            {submitted && (
+              <div className={result === false ? "result-box danger" : "result-box success"}>
+                <strong>{result === null ? "已显示答案" : result ? "回答正确" : "回答错误"}</strong>
+                <p>正确答案：{normalizeAnswerForDisplay(currentQuestion.answer)}</p>
+                <p>我的答案：{normalizeAnswerForDisplay(answer)}</p>
+                {currentQuestion.analysis && <p>解析：{currentQuestion.analysis}</p>}
+              </div>
+            )}
+
+            <label className="field-stack">
+              <span>错因备注</span>
+              <textarea
+                onChange={(event) => updateNote(event.target.value)}
+                placeholder="可记录易错点"
+                value={progress.wrong[currentQuestion.id]?.note ?? ""}
+              />
+            </label>
+
+            <div className="button-row sticky-actions">
+              <button
+                className="ghost-button"
+                disabled={currentIndex === 0}
+                onClick={() => goToQuestion(currentIndex - 1)}
+                type="button"
+              >
+                上一题
+              </button>
+              <button className="primary-button" onClick={submitAnswer} type="button">
+                {submitted ? "重新提交" : "提交"}
+              </button>
+              <button className="secondary-button" onClick={handleFavorite} type="button">
+                {isFavorite(progress, currentQuestion.id) ? "取消收藏" : "收藏"}
+              </button>
+              <button
+                className="ghost-button"
+                disabled={currentIndex >= practiceQuestions.length - 1}
+                onClick={() => goToQuestion(currentIndex + 1)}
+                type="button"
+              >
+                下一题
+              </button>
+            </div>
+          </section>
+
+          <section className="panel practice-nav-panel">
+            <div className="panel-heading">
+              <h2>题号导航</h2>
+              <span>
+                未做 {statusCounts.todo} · 已做 {statusCounts.done} · 正确 {statusCounts.correct} · 错误 {statusCounts.wrong}
+              </span>
+            </div>
+            <div className="practice-number-grid" aria-label="练习题号导航">
+              {practiceQuestions.map((question, index) => {
+                const status = practiceStatusFor(progress.practice.answers[question.id]);
+                return (
+                  <button
+                    className={[
+                      "practice-number-button",
+                      status,
+                      index === currentIndex ? "current" : "",
+                      isFavorite(progress, question.id) ? "favorite" : "",
+                    ].filter(Boolean).join(" ")}
+                    key={question.id}
+                    onClick={() => goToQuestion(index)}
+                    title={`${index + 1}. ${STATUS_LABEL[status]} ${question.id}`}
+                    type="button"
+                  >
+                    <span>{index + 1}</span>
+                    <small>{STATUS_LABEL[status]}</small>
+                  </button>
+                );
+              })}
+            </div>
+          </section>
+        </>
       )}
     </div>
   );
@@ -378,4 +475,56 @@ function AnswerEditor({
   );
 }
 
+function resolvePracticeIndex(
+  questions: Question[],
+  questionId: string | null,
+  storedIndex: number,
+): number {
+  if (questions.length === 0) {
+    return 0;
+  }
 
+  const questionIndex = questionId
+    ? questions.findIndex((question) => question.id === questionId)
+    : -1;
+  if (questionIndex >= 0) {
+    return questionIndex;
+  }
+  return Math.min(Math.max(0, storedIndex), questions.length - 1);
+}
+
+function normalizeSavedAnswer(question: Question, value: AnswerValue): AnswerValue {
+  if (question.type === "multiple" || question.type === "blank") {
+    return Array.isArray(value) ? value : [value];
+  }
+  return Array.isArray(value) ? value[0] ?? "" : value;
+}
+
+function practiceStatusFor(
+  record: CourseProgress["practice"]["answers"][string] | undefined,
+): PracticeQuestionStatus {
+  if (!record || (!hasAnswer(record.selectedAnswer) && !record.answerVisible)) {
+    return "todo";
+  }
+  if (record.isCorrect === true) {
+    return "correct";
+  }
+  if (record.isCorrect === false) {
+    return "wrong";
+  }
+  return "done";
+}
+
+function countPracticeStatuses(
+  questions: Question[],
+  answers: CourseProgress["practice"]["answers"],
+): Record<PracticeQuestionStatus, number> {
+  return questions.reduce(
+    (counts, question) => {
+      const status = practiceStatusFor(answers[question.id]);
+      counts[status] += 1;
+      return counts;
+    },
+    { todo: 0, done: 0, correct: 0, wrong: 0 },
+  );
+}

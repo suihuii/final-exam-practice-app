@@ -4,6 +4,7 @@
   CourseProgress,
   ExamSession,
   LegacyProgressData,
+  PracticeAnswerRecord,
   PracticeMode,
   ProgressData,
   QuestionType,
@@ -20,8 +21,11 @@ export const defaultCourseProgress: CourseProgress = {
   favorites: [],
   practice: {
     lastQuestionId: null,
+    currentIndex: 0,
     mode: "normal",
     filterTypes: [],
+    answers: {},
+    updatedAt: null,
   },
   exams: {
     activeSessionId: null,
@@ -176,6 +180,7 @@ export function markWrongMastered(
 export function setPracticeState(
   progress: ProgressData,
   lastQuestionId: string | null,
+  currentIndex: number,
   mode: PracticeMode,
   filterTypes: QuestionType[],
 ): ProgressData {
@@ -183,9 +188,53 @@ export function setPracticeState(
   return updateActiveCourse(progress, {
     ...course,
     practice: {
+      ...course.practice,
       lastQuestionId,
+      currentIndex: Math.max(0, Math.floor(currentIndex)),
       mode,
       filterTypes,
+      updatedAt: new Date().toISOString(),
+    },
+  });
+}
+
+export function recordPracticeAnswer(
+  progress: ProgressData,
+  questionId: string,
+  selectedAnswer: AnswerValue,
+  isCorrect: boolean | null,
+  answerVisible = false,
+): ProgressData {
+  const course = getCourseProgress(progress);
+  return updateActiveCourse(progress, {
+    ...course,
+    practice: {
+      ...course.practice,
+      answers: {
+        ...course.practice.answers,
+        [questionId]: {
+          questionId,
+          selectedAnswer: cloneAnswer(selectedAnswer),
+          isCorrect,
+          answeredAt: new Date().toISOString(),
+          answerVisible,
+        },
+      },
+      updatedAt: new Date().toISOString(),
+    },
+  });
+}
+
+export function clearPracticeProgress(progress: ProgressData): ProgressData {
+  const course = getCourseProgress(progress);
+  return updateActiveCourse(progress, {
+    ...course,
+    practice: {
+      ...course.practice,
+      lastQuestionId: null,
+      currentIndex: 0,
+      answers: {},
+      updatedAt: new Date().toISOString(),
     },
   });
 }
@@ -356,15 +405,20 @@ function sanitizeCourseProgress(value: unknown): CourseProgress {
     favorites,
     practice: {
       lastQuestionId:
-        typeof practiceSource.lastQuestionId === "string"
+        typeof practiceSource.lastQuestionId === "string" && isQuestionId(practiceSource.lastQuestionId)
           ? practiceSource.lastQuestionId
           : null,
+      currentIndex: Number.isFinite(practiceSource.currentIndex)
+        ? Math.max(0, Math.floor(Number(practiceSource.currentIndex)))
+        : 0,
       mode: isPracticeMode(practiceSource.mode)
         ? practiceSource.mode
         : "normal",
       filterTypes: Array.isArray(practiceSource.filterTypes)
         ? practiceSource.filterTypes.filter(isQuestionType)
         : [],
+      answers: sanitizePracticeAnswers(practiceSource.answers),
+      updatedAt: typeof practiceSource.updatedAt === "string" ? practiceSource.updatedAt : null,
     },
     exams: {
       activeSessionId,
@@ -474,6 +528,46 @@ function sanitizeSessions(value: unknown): Record<string, ExamSession> {
   return sessions;
 }
 
+function sanitizePracticeAnswers(value: unknown): Record<string, PracticeAnswerRecord> {
+  if (!isRecord(value)) {
+    return {};
+  }
+
+  const answers: Record<string, PracticeAnswerRecord> = {};
+  for (const [questionId, record] of Object.entries(value)) {
+    if (!isQuestionId(questionId) || !isRecord(record)) {
+      continue;
+    }
+
+    const selectedAnswer = sanitizeAnswerValue(record.selectedAnswer);
+    if (selectedAnswer === null) {
+      continue;
+    }
+
+    answers[questionId] = {
+      questionId,
+      selectedAnswer,
+      isCorrect: typeof record.isCorrect === "boolean" ? record.isCorrect : null,
+      answeredAt: typeof record.answeredAt === "string" ? record.answeredAt : "",
+      answerVisible: record.answerVisible === true,
+    };
+  }
+  return answers;
+}
+
+function sanitizeAnswerValue(value: unknown): AnswerValue | null {
+  if (typeof value === "string") {
+    return value;
+  }
+  if (Array.isArray(value)) {
+    return value.filter((item): item is string => typeof item === "string");
+  }
+  return null;
+}
+
+function cloneAnswer(answer: AnswerValue): AnswerValue {
+  return Array.isArray(answer) ? [...answer] : answer;
+}
 function sanitizeAnswers(value: unknown): Record<string, AnswerValue> {
   if (!isRecord(value)) {
     return {};
