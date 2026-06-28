@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+  <title id="title">电流互感器与电压互感器区别示意图</title>
+  <desc id="desc">电流互感器一次侧串联接入线路，二次侧接电流表或继电器；电压互感器一次侧并联接入线路，二次侧接电压表。</desc>
+  <defs><style>text{font-family:Arial,'Microsoft YaHei',sans-serif;fill:#111;font-size:20px}.small{font-size:16px}.wire{stroke:#111;stroke-width:3;fill:none}.box{fill:#fff;stroke:#111;stroke-width:2}.soft{fill:#f7faf9}.label{font-weight:700}.danger{fill:#fff0ed}</style></defs>
+  <rect x="28" y="24" width="844" height="472" fill="#fff" stroke="#222" stroke-width="2"/>
+  <text x="450" y="58" text-anchor="middle" class="label">电流互感器 CT 与电压互感器 PT</text>
+  <rect x="70" y="92" width="350" height="350" class="box soft"/><text x="245" y="126" text-anchor="middle" class="label">CT：串联接入</text>
+  <path d="M110 200 H188" class="wire"/><rect x="188" y="164" width="88" height="72" class="box"/><text x="232" y="207" text-anchor="middle">CT</text><path d="M276 200 H378" class="wire"/>
+  <text x="115" y="178" class="small">一次线路</text>
+  <path d="M232 236 V310 H150" class="wire"/><circle cx="124" cy="310" r="26" fill="#fff" stroke="#111" stroke-width="2"/><text x="124" y="316" text-anchor="middle" class="small">A</text>
+  <path d="M150 310 H232 V236" class="wire"/>
+  <text x="246" y="302" class="small">二次侧接近短路</text>
+  <rect x="112" y="354" width="268" height="44" class="box danger"/><text x="246" y="382" text-anchor="middle" class="small">运行中严禁二次开路</text>
+  <rect x="480" y="92" width="350" height="350" class="box soft"/><text x="655" y="126" text-anchor="middle" class="label">PT：并联接入</text>
+  <path d="M520 182 H790" class="wire"/><path d="M520 258 H790" class="wire"/><text x="530" y="162" class="small">一次母线/线路</text>
+  <path d="M645 182 V206" class="wire"/><rect x="601" y="206" width="88" height="72" class="box"/><text x="645" y="249" text-anchor="middle">PT</text><path d="M645 278 V310" class="wire"/>
+  <circle cx="598" cy="340" r="26" fill="#fff" stroke="#111" stroke-width="2"/><text x="598" y="346" text-anchor="middle" class="small">V</text><path d="M624 340 H708" class="wire"/><path d="M708 340 V310 H645" class="wire"/>
+  <text x="676" y="302" class="small">二次侧接近开路</text>
+  <rect x="546" y="354" width="228" height="44" class="box danger"/><text x="660" y="382" text-anchor="middle" class="small">运行中严禁二次短路</text>
+</svg>

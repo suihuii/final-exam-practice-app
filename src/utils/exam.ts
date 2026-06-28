@@ -1,3 +1,4 @@
+import { QUESTION_TYPES } from "../types";
 import type {
   AnswerValue,
   ExamGrade,
@@ -35,6 +36,69 @@ export function pickQuestionIds(
 ): string[] {
   const source = order === "random" ? shuffle(questions) : [...questions];
   return source.slice(0, Math.max(0, count)).map((question) => question.id);
+}
+
+export function allocateQuestionCountsByType(
+  questions: Question[],
+  count: number,
+): Record<QuestionType, number> {
+  const safeCount = Math.min(Math.max(0, count), questions.length);
+  const groups = groupQuestionsByType(questions);
+  const allocation = emptyTypeCounts();
+  if (safeCount === 0 || questions.length === 0) {
+    return allocation;
+  }
+
+  const ratios = QUESTION_TYPES
+    .map((type, orderIndex) => {
+      const available = groups[type].length;
+      const exact = (safeCount * available) / questions.length;
+      const base = Math.min(Math.floor(exact), available);
+      allocation[type] = base;
+      return {
+        type,
+        orderIndex,
+        available,
+        fraction: exact - base,
+      };
+    })
+    .filter((item) => item.available > 0);
+
+  let remaining = safeCount - QUESTION_TYPES.reduce((total, type) => total + allocation[type], 0);
+  while (remaining > 0) {
+    const candidate = ratios
+      .filter((item) => allocation[item.type] < item.available)
+      .sort((left, right) => right.fraction - left.fraction || left.orderIndex - right.orderIndex)[0];
+    if (!candidate) {
+      break;
+    }
+    allocation[candidate.type] += 1;
+    remaining -= 1;
+  }
+
+  return allocation;
+}
+
+export function pickQuestionIdsByType(
+  questions: Question[],
+  count: number,
+  order: ExamOrder,
+): string[] {
+  const allocation = allocateQuestionCountsByType(questions, count);
+  const groups = groupQuestionsByType(questions);
+
+  return QUESTION_TYPES.flatMap((type) => {
+    const source = order === "random" ? shuffle(groups[type]) : [...groups[type]];
+    return source.slice(0, allocation[type]).map((question) => question.id);
+  });
+}
+
+export function countQuestionsByType(questions: Question[]): Record<QuestionType, number> {
+  const counts = emptyTypeCounts();
+  for (const question of questions) {
+    counts[question.type] += 1;
+  }
+  return counts;
 }
 
 export function emptyAnswerFor(question: Question): AnswerValue {
@@ -185,6 +249,20 @@ export function formatDuration(seconds: number): string {
   return `${String(minutes).padStart(2, "0")}:${String(rest).padStart(2, "0")}`;
 }
 
+
+function groupQuestionsByType(questions: Question[]): Record<QuestionType, Question[]> {
+  return questions.reduce(
+    (groups, question) => {
+      groups[question.type].push(question);
+      return groups;
+    },
+    { single: [], multiple: [], judge: [], blank: [] } as Record<QuestionType, Question[]>,
+  );
+}
+
+function emptyTypeCounts(): Record<QuestionType, number> {
+  return { single: 0, multiple: 0, judge: 0, blank: 0 };
+}
 function normalizeSingle(answer: AnswerValue): string {
   const text = normalizeAnswerForDisplay(answer).trim().toUpperCase();
   const match = text.match(optionAnswerPattern);

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+  <title id="title">一个半断路器接线示意图</title>
+  <desc id="desc">两个回路共用三个断路器，平均每个回路占用一个半断路器。</desc>
+  <defs><style>text{font-family:Arial,'Microsoft YaHei',sans-serif;fill:#111;font-size:20px}.small{font-size:16px}.wire{stroke:#111;stroke-width:4;fill:none}.bus{stroke-width:7}.box{fill:#fff;stroke:#111;stroke-width:2}.soft{fill:#f7faf9}.label{font-weight:700}</style></defs>
+  <rect x="28" y="24" width="844" height="472" fill="#fff" stroke="#222" stroke-width="2"/>
+  <text x="450" y="58" text-anchor="middle" class="label">一个半断路器接线（一串两回路）</text>
+  <path d="M90 145 H810" class="wire bus"/><text x="90" y="120" class="label">母线Ⅰ</text>
+  <path d="M90 390 H810" class="wire bus"/><text x="90" y="424" class="label">母线Ⅱ</text>
+  <path d="M200 145 V390" class="wire"/><path d="M450 145 V390" class="wire"/><path d="M700 145 V390" class="wire"/>
+  <rect x="166" y="188" width="68" height="54" class="box soft"/><text x="200" y="222" text-anchor="middle" class="small">QF1</text>
+  <rect x="416" y="188" width="68" height="54" class="box soft"/><text x="450" y="222" text-anchor="middle" class="small">QF2</text>
+  <rect x="666" y="188" width="68" height="54" class="box soft"/><text x="700" y="222" text-anchor="middle" class="small">QF3</text>
+  <path d="M200 268 H450" class="wire"/><path d="M450 268 H700" class="wire"/>
+  <path d="M325 268 V324" class="wire"/><path d="M575 268 V324" class="wire"/>
+  <rect x="268" y="324" width="114" height="46" class="box"/><text x="325" y="353" text-anchor="middle" class="small">回路1</text>
+  <rect x="518" y="324" width="114" height="46" class="box"/><text x="575" y="353" text-anchor="middle" class="small">回路2</text>
+  <text x="450" y="470" text-anchor="middle" class="small">特点：两个回路共用三个断路器，可靠性高，投资和保护配置较复杂</text>
+</svg>

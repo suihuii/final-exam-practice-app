@@ -1,9 +1,15 @@
 ﻿import { useMemo, useState } from "react";
 import type { Dispatch, SetStateAction } from "react";
-import type { ExamOrder, CourseProgress,
-  ProgressData, Question, QuestionType, ViewKey } from "../types";
+import type {
+  CourseProgress,
+  ExamOrder,
+  ProgressData,
+  Question,
+  QuestionType,
+  ViewKey,
+} from "../types";
 import { QUESTION_TYPE_LABEL, QUESTION_TYPES } from "../types";
-import { createExamSession, filterQuestions, pickQuestionIds } from "../utils/exam";
+import { allocateQuestionCountsByType, createExamSession, filterQuestions, pickQuestionIdsByType } from "../utils/exam";
 import { abandonActiveExam, setExamSession } from "../utils/storage";
 
 interface ExamSetupViewProps {
@@ -49,6 +55,10 @@ export function ExamSetupView({
     [questions, selectedTypes],
   );
   const resolvedCount = resolveCount(countChoice, customCount, availableQuestions.length);
+  const typeAllocation = useMemo(
+    () => allocateQuestionCountsByType(availableQuestions, resolvedCount),
+    [availableQuestions, resolvedCount],
+  );
   const durationSeconds = manualMinutes
     ? Math.max(60, Math.round(Number(manualMinutes) * 60))
     : Math.max(60, resolvedCount * 60);
@@ -104,7 +114,7 @@ export function ExamSetupView({
     if (availableQuestions.length === 0 || resolvedCount === 0) {
       return;
     }
-    const questionIds = pickQuestionIds(availableQuestions, resolvedCount, order);
+    const questionIds = pickQuestionIdsByType(availableQuestions, resolvedCount, order);
     const session = createExamSession(questionIds, durationSeconds, selectedTypes, order);
     setProgress((previous) => setExamSession(previous, session, true));
     openExamSession();
@@ -146,7 +156,7 @@ export function ExamSetupView({
         )}
 
         <label className="field-stack">
-          <span>出题方式</span>
+          <span>同题型内抽题方式</span>
           <select
             onChange={(event) => setOrder(event.target.value as ExamOrder)}
             value={order}
@@ -181,9 +191,16 @@ export function ExamSetupView({
         ))}
       </div>
 
-      <div className="setup-summary">
+      <div className="setup-summary exam-type-summary">
         <span>实际题量：{resolvedCount}</span>
         <span>考试时间：{Math.ceil(durationSeconds / 60)} 分钟</span>
+        <span>题型顺序：单选 → 多选 → 判断 → 填空/简答</span>
+        <span>
+          按占比分配：
+          {QUESTION_TYPES.filter((type) => typeAllocation[type] > 0)
+            .map((type) => `${QUESTION_TYPE_LABEL[type]} ${typeAllocation[type]}`)
+            .join(" / ") || "无"}
+        </span>
       </div>
 
       <button
@@ -207,5 +224,3 @@ function resolveCount(choice: CountChoice, customCount: number, availableCount: 
   }
   return Math.min(Number(choice), availableCount);
 }
-
-

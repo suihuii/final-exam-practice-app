@@ -2,7 +2,8 @@
 import type { Dispatch, SetStateAction } from "react";
 import type { AnswerValue, ExamSession, CourseProgress,
   ProgressData, Question, ViewKey } from "../types";
-import { QUESTION_TYPE_LABEL } from "../types";
+import { QuestionFigure } from "./QuestionFigure";
+import { QUESTION_TYPE_LABEL, QUESTION_TYPES } from "../types";
 import {
   emptyAnswerFor,
   formatDuration,
@@ -48,6 +49,22 @@ export function ExamView({
     [questionsById, session],
   );
   const remainingSeconds = session ? getRemainingSeconds(session, now) : 0;
+  const questionSections = useMemo(() => {
+    if (!session) {
+      return [];
+    }
+
+    return QUESTION_TYPES.map((type) => ({
+      type,
+      items: session.questionIds
+        .map((questionId, index) => ({
+          index,
+          questionId,
+          question: questionsById.get(questionId),
+        }))
+        .filter((item) => item.question?.type === type),
+    })).filter((section) => section.items.length > 0);
+  }, [questionsById, session]);
 
   useEffect(() => {
     const timer = window.setInterval(() => setNow(new Date()), 1000);
@@ -269,6 +286,7 @@ export function ExamView({
           <span>{QUESTION_TYPE_LABEL[currentQuestion.type]}</span>
         </div>
         <h2>{currentQuestion.stem}</h2>
+        <QuestionFigure question={currentQuestion} />
 
         <ExamAnswerEditor
           answer={currentAnswer}
@@ -301,19 +319,33 @@ export function ExamView({
       </section>
 
       <section className="panel question-nav-panel">
-        <div className="question-number-grid">
-          {session.questionIds.map((questionId, index) => (
-            <button
-              className={[
-                index === session.currentIndex ? "current" : "",
-                session.answers[questionId] ? "answered" : "",
-              ].join(" ")}
-              key={questionId}
-              onClick={() => goToQuestion(index)}
-              type="button"
-            >
-              {index + 1}
-            </button>
+        <div className="panel-heading">
+          <h2>题型导航</h2>
+          <span>按题型顺序出卷</span>
+        </div>
+        <div className="exam-type-sections">
+          {questionSections.map((section) => (
+            <div className="exam-type-section" key={section.type}>
+              <div className="exam-type-section-heading">
+                <strong>{QUESTION_TYPE_LABEL[section.type]}</strong>
+                <span>{section.items.length} 题</span>
+              </div>
+              <div className="question-number-grid">
+                {section.items.map(({ questionId, index }) => (
+                  <button
+                    className={[
+                      index === session.currentIndex ? "current" : "",
+                      session.answers[questionId] ? "answered" : "",
+                    ].join(" ")}
+                    key={questionId}
+                    onClick={() => goToQuestion(index)}
+                    type="button"
+                  >
+                    {index + 1}
+                  </button>
+                ))}
+              </div>
+            </div>
           ))}
         </div>
       </section>

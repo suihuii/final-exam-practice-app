@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+  <title id="title">一次设备与二次设备关系示意图</title>
+  <desc id="desc">上方为发电、变压、母线和输电线路组成的一次主电路，下方为测量、保护、控制和信号组成的二次回路。</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#222"/></marker>
+    <style>
+      text{font-family:Arial,'Microsoft YaHei',sans-serif;fill:#111;font-size:20px}.small{font-size:16px}.box{fill:#fff;stroke:#111;stroke-width:2}.soft{fill:#f7faf9}.wire{stroke:#111;stroke-width:3;fill:none}.dash{stroke-dasharray:8 6}.label{font-weight:700}
+    </style>
+  </defs>
+  <rect x="28" y="24" width="844" height="472" fill="#fff" stroke="#222" stroke-width="2"/>
+  <text x="450" y="58" text-anchor="middle" class="label">一次设备与二次设备关系</text>
+  <rect x="72" y="94" width="756" height="150" class="box soft"/>
+  <text x="92" y="126" class="label">一次设备（主电路，高电压 / 大电流）</text>
+  <circle cx="142" cy="178" r="35" fill="#fff" stroke="#111" stroke-width="2"/>
+  <text x="142" y="185" text-anchor="middle">G</text>
+  <text x="142" y="230" text-anchor="middle" class="small">发电机</text>
+  <path d="M177 178 H245" class="wire" marker-end="url(#arrow)"/>
+  <rect x="245" y="143" width="90" height="70" class="box"/>
+  <text x="290" y="172" text-anchor="middle" class="small">变压器</text><text x="290" y="195" text-anchor="middle" class="small">T</text>
+  <path d="M335 178 H410" class="wire" marker-end="url(#arrow)"/>
+  <path d="M420 134 V222" class="wire"/>
+  <text x="420" y="238" text-anchor="middle" class="small">母线</text>
+  <path d="M430 178 H520" class="wire" marker-end="url(#arrow)"/>
+  <rect x="520" y="150" width="76" height="56" class="box"/>
+  <text x="558" y="184" text-anchor="middle" class="small">QF</text>
+  <text x="558" y="230" text-anchor="middle" class="small">断路器</text>
+  <path d="M596 178 H742" class="wire" marker-end="url(#arrow)"/>
+  <text x="680" y="158" text-anchor="middle" class="small">输电线路 / 负荷</text>
+  <rect x="72" y="306" width="756" height="138" class="box"/>
+  <text x="92" y="338" class="label">二次设备（二次回路，测量 / 保护 / 控制 / 信号）</text>
+  <rect x="116" y="366" width="130" height="44" class="box soft"/><text x="181" y="394" text-anchor="middle" class="small">测量仪表</text>
+  <rect x="292" y="366" width="130" height="44" class="box soft"/><text x="357" y="394" text-anchor="middle" class="small">继电保护</text>
+  <rect x="468" y="366" width="130" height="44" class="box soft"/><text x="533" y="394" text-anchor="middle" class="small">控制开关</text>
+  <rect x="644" y="366" width="130" height="44" class="box soft"/><text x="709" y="394" text-anchor="middle" class="small">信号监控</text>
+  <path d="M238 306 C238 270 338 270 338 244" class="wire dash" marker-end="url(#arrow)"/>
+  <path d="M444 306 C444 270 520 270 558 244" class="wire dash" marker-end="url(#arrow)"/>
+  <path d="M640 306 C640 270 600 262 596 220" class="wire dash" marker-end="url(#arrow)"/>
+  <text x="450" y="282" text-anchor="middle" class="small">互感器、控制电缆和信号回路把一次系统状态送入二次系统</text>
+</svg>

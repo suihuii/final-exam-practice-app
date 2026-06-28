@@ -6373,16 +6373,6 @@
     "analysis": ""
   },
   {
-    "id": "PS-Q0251",
-    "courseId": "power-supply",
-    "index": 251,
-    "type": "judge",
-    "stem": "当安装电容器的金属构架良好接地后,电容器金属外壳不一定要接地。",
-    "options": [],
-    "answer": "错误",
-    "analysis": ""
-  },
-  {
     "id": "PS-Q0252",
     "courseId": "power-supply",
     "index": 252,

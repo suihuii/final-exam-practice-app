@@ -7,6 +7,7 @@ import type {
   Question,
   QuestionType,
 } from "../types";
+import { QuestionFigure } from "./QuestionFigure";
 import { QUESTION_TYPE_LABEL, QUESTION_TYPES } from "../types";
 import {
   emptyAnswerFor,
@@ -288,6 +289,7 @@ export function PracticeView({
             </div>
 
             <h2>{currentQuestion.stem}</h2>
+            <QuestionFigure question={currentQuestion} />
 
             <AnswerEditor
               answer={answer}

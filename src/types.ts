@@ -40,6 +40,8 @@ export interface Question {
   options: QuestionOption[];
   answer: AnswerValue;
   analysis: string;
+  image?: string;
+  imageAlt?: string;
 }
 
 export interface WrongRecord {
