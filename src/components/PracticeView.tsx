@@ -188,7 +188,7 @@ export function PracticeView({
     setProgress((previous) => {
       let next = recordPracticeAnswer(previous, currentQuestion.id, answer, correct, true);
       if (!correct) {
-        next = addWrong(next, currentQuestion.id);
+        next = addWrong(next, currentQuestion.id, answer);
       }
       return next;
     });

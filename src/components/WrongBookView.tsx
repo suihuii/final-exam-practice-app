@@ -1,13 +1,13 @@
 ﻿import { useMemo, useState } from "react";
 import type { Dispatch, SetStateAction } from "react";
-import type { CourseProgress,
-  ProgressData, Question, QuestionType } from "../types";
+import type { Course, CourseProgress, ProgressData, Question, QuestionType } from "../types";
 import { QUESTION_TYPE_LABEL, QUESTION_TYPES } from "../types";
+import { QuestionReviewCard } from "./QuestionReviewCard";
 import { buildWrongBookCsv, downloadTextFile } from "../utils/csv";
-import { normalizeAnswerForDisplay } from "../utils/exam";
 import { markWrongMastered, updateWrongNote } from "../utils/storage";
 
 interface WrongBookViewProps {
+  activeCourse: Course;
   progress: CourseProgress;
   questions: Question[];
   setProgress: Dispatch<SetStateAction<ProgressData>>;
@@ -16,6 +16,7 @@ interface WrongBookViewProps {
 type FilterType = QuestionType | "all";
 
 export function WrongBookView({
+  activeCourse,
   progress,
   questions,
   setProgress,
@@ -89,92 +90,53 @@ export function WrongBookView({
         {wrongRows.length === 0 ? (
           <p className="muted-text">当前筛选下没有错题。</p>
         ) : (
-          <>
-            <div className="wrong-table desktop-table" role="table">
-              <div className="table-row table-head" role="row">
-                <span>题号</span>
-                <span>题型</span>
-                <span>题干</span>
-                <span>答案</span>
-                <span>次数</span>
-                <span>备注</span>
-                <span>掌握</span>
-              </div>
-              {wrongRows.map(({ question, record }) => (
-                <div className="table-row" key={question.id} role="row">
-                  <span>{question.id}</span>
-                  <span>{QUESTION_TYPE_LABEL[question.type]}</span>
-                  <span>{question.stem}</span>
-                  <span>{normalizeAnswerForDisplay(question.answer)}</span>
-                  <span>
-                    {record.count}
-                    <small>{record.lastWrongAt ? new Date(record.lastWrongAt).toLocaleString() : ""}</small>
-                  </span>
-                  <span>
-                    <textarea
-                      onChange={(event) =>
-                        setProgress((previous) =>
-                          updateWrongNote(previous, question.id, event.target.value),
-                        )
-                      }
-                      value={record.note}
-                    />
-                  </span>
-                  <span>
-                    <input
-                      checked={record.mastered}
-                      onChange={(event) =>
-                        setProgress((previous) =>
-                          markWrongMastered(previous, question.id, event.target.checked),
-                        )
-                      }
-                      type="checkbox"
-                    />
-                  </span>
-                </div>
-              ))}
-            </div>
-
-            <div className="card-list mobile-cards">
-              {wrongRows.map(({ question, record }) => (
-                <article className="compact-card" key={question.id}>
-                  <strong>
-                    {question.id} · {QUESTION_TYPE_LABEL[question.type]} · {record.count} 次
-                  </strong>
-                  <p>{question.stem}</p>
-                  <p>正确答案：{normalizeAnswerForDisplay(question.answer)}</p>
-                  <p>上次错误：{record.lastWrongAt ? new Date(record.lastWrongAt).toLocaleString() : "无"}</p>
-                  <label className="field-stack">
-                    <span>错因备注</span>
-                    <textarea
-                      onChange={(event) =>
-                        setProgress((previous) =>
-                          updateWrongNote(previous, question.id, event.target.value),
-                        )
-                      }
-                      value={record.note}
-                    />
-                  </label>
-                  <label className="check-row">
-                    <input
-                      checked={record.mastered}
-                      onChange={(event) =>
-                        setProgress((previous) =>
-                          markWrongMastered(previous, question.id, event.target.checked),
-                        )
-                      }
-                      type="checkbox"
-                    />
-                    <span>已掌握</span>
-                  </label>
-                </article>
-              ))}
-            </div>
-          </>
+          <div className="wrong-review-list">
+            {wrongRows.map(({ question, record }, index) => {
+              const savedPracticeAnswer = progress.practice.answers[question.id]?.selectedAnswer;
+              const userAnswer = record.lastAnswer ?? savedPracticeAnswer;
+              return (
+                <QuestionReviewCard
+                  actions={(
+                    <div className="wrong-review-actions">
+                      <label className="field-stack">
+                        <span>错因备注</span>
+                        <textarea
+                          onChange={(event) =>
+                            setProgress((previous) =>
+                              updateWrongNote(previous, question.id, event.target.value),
+                            )
+                          }
+                          value={record.note}
+                        />
+                      </label>
+                      <label className="check-row">
+                        <input
+                          checked={record.mastered}
+                          onChange={(event) =>
+                            setProgress((previous) =>
+                              markWrongMastered(previous, question.id, event.target.checked),
+                            )
+                          }
+                          type="checkbox"
+                        />
+                        <span>已掌握</span>
+                      </label>
+                    </div>
+                  )}
+                  courseName={activeCourse.name}
+                  indexLabel={`${index + 1} / ${wrongRows.length}`}
+                  key={question.id}
+                  question={question}
+                  questionId={question.id}
+                  status="wrong"
+                  titleSuffix={`${record.count} 次错误${record.lastWrongAt ? ` · ${new Date(record.lastWrongAt).toLocaleString()}` : ""}`}
+                  userAnswer={userAnswer}
+                />
+              );
+            })}
+          </div>
         )}
       </section>
     </div>
   );
 }
-
-

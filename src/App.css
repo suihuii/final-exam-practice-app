@@ -774,3 +774,151 @@ button:disabled {
   }
 }
 
+
+.question-review-card {
+  background: #ffffff;
+  border: 1px solid #dfe6df;
+  border-radius: 8px;
+  display: grid;
+  gap: 14px;
+  padding: 16px;
+}
+
+.question-review-card.correct {
+  border-left: 5px solid #2f8f57;
+}
+
+.question-review-card.wrong,
+.question-review-card.missing {
+  border-left: 5px solid #c4473a;
+}
+
+.question-review-card.unanswered {
+  border-left: 5px solid #b7791f;
+}
+
+.review-meta-row {
+  align-items: center;
+  color: #5e6d67;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 14px;
+  justify-content: space-between;
+}
+
+.review-meta-row strong {
+  color: #17211e;
+}
+
+.review-option-list {
+  display: grid;
+  gap: 10px;
+}
+
+.review-option-row {
+  align-items: flex-start;
+  background: #f8faf9;
+  border: 1px solid #dfe6df;
+  border-radius: 8px;
+  display: grid;
+  gap: 8px;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  line-height: 1.55;
+  min-height: 48px;
+  padding: 12px;
+}
+
+.review-option-row.correct {
+  background: #ebf8ef;
+  border-color: #72b88b;
+}
+
+.review-option-row.wrong {
+  background: #fff0ed;
+  border-color: #cf7165;
+}
+
+.review-option-row em {
+  color: #5e6d67;
+  font-style: normal;
+  font-size: 13px;
+  white-space: nowrap;
+}
+
+.answer-review-grid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.answer-review-grid > div {
+  background: #f8faf9;
+  border: 1px solid #dfe6df;
+  border-radius: 8px;
+  display: grid;
+  gap: 6px;
+  min-height: 72px;
+  padding: 10px;
+}
+
+.answer-review-grid span {
+  color: #5e6d67;
+  font-size: 13px;
+}
+
+.answer-review-grid strong,
+.analysis-box p {
+  overflow-wrap: anywhere;
+  white-space: pre-line;
+}
+
+.analysis-box {
+  background: #fbfcfb;
+  border: 1px solid #dfe6df;
+  border-radius: 8px;
+  display: grid;
+  gap: 8px;
+  padding: 12px;
+}
+
+.review-actions,
+.wrong-review-actions {
+  display: grid;
+  gap: 12px;
+}
+
+.wrong-review-list,
+.exam-review-view {
+  display: grid;
+  gap: 14px;
+}
+
+.review-number-grid button.correct:not(.current) {
+  background: #ebf8ef;
+  border-color: #72b88b;
+}
+
+.review-number-grid button.wrong:not(.current),
+.review-number-grid button.missing:not(.current) {
+  background: #fff0ed;
+  border-color: #cf7165;
+}
+
+.review-number-grid button.unanswered:not(.current) {
+  background: #fff8e8;
+  border-color: #d9a441;
+}
+
+@media (max-width: 720px) {
+  .answer-review-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .review-option-row {
+    grid-template-columns: auto minmax(0, 1fr);
+  }
+
+  .review-option-row em {
+    grid-column: 2;
+  }
+}

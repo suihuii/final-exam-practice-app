@@ -162,6 +162,7 @@ export default function App() {
             ))}
           {view === "wrong" && (
             <WrongBookView
+              activeCourse={activeCourse}
               progress={courseProgress}
               questions={questions}
               setProgress={setProgress}

@@ -49,6 +49,7 @@ export interface WrongRecord {
   lastWrongAt: string;
   note: string;
   mastered: boolean;
+  lastAnswer?: AnswerValue;
 }
 
 export interface PracticeAnswerRecord {
@@ -75,6 +76,16 @@ export interface ExamSettings {
   durationSeconds: number;
 }
 
+export interface ExamReviewSnapshot {
+  score: number;
+  correct: number;
+  wrong: number;
+  unanswered: number;
+  wrongIds: string[];
+  unansweredIds: string[];
+  gradedAt: string;
+}
+
 export interface ExamSession {
   id: string;
   questionIds: string[];
@@ -87,6 +98,7 @@ export interface ExamSession {
   submittedAt: string | null;
   score: number | null;
   settings: ExamSettings;
+  review?: ExamReviewSnapshot;
 }
 
 export interface CourseProgress {

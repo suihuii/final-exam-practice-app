@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "convert": "npm run convert:power && npm run convert:aesthetic && npm run convert:plant && npm run convert:dedupe && npm run convert:images && tsx scripts/build-courses-index.ts",
+    "convert": "npm run convert:power && npm run convert:aesthetic && npm run convert:plant && npm run convert:dedupe && npm run convert:images && npm run convert:analysis && tsx scripts/build-courses-index.ts",
     "build": "tsc -b && vite build",
     "preview": "vite preview",
     "deploy": "npm run build",
@@ -13,7 +13,8 @@
     "convert:aesthetic": "tsx scripts/convert-aesthetic-doc.ts",
     "convert:plant": "tsx scripts/convert-power-plant-docx.ts",
     "convert:dedupe": "tsx scripts/dedupe-questions.ts",
-    "convert:images": "tsx scripts/enrich-question-images.ts"
+    "convert:images": "tsx scripts/enrich-question-images.ts",
+    "convert:analysis": "tsx scripts/enrich-question-analysis.ts"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^5.0.0",

@@ -1,6 +1,7 @@
-﻿import { useMemo } from "react";
+﻿import { useMemo, useState } from "react";
 import type { Course, CourseProgress, ProgressData, Question } from "../types";
 import { QUESTION_TYPE_LABEL, QUESTION_TYPES } from "../types";
+import { ExamReviewView } from "./ExamReviewView";
 import { gradeExam } from "../utils/exam";
 import { countQuestionTypes } from "../utils/parseQuestions";
 import { getCourseProgress } from "../utils/storage";
@@ -37,6 +38,18 @@ export function StatsView({
     [progress.exams.sessions],
   );
   const latestExam = examHistory[0] ?? null;
+  const [reviewSessionId, setReviewSessionId] = useState<string | null>(null);
+  const reviewSession = reviewSessionId ? progress.exams.sessions[reviewSessionId] ?? null : null;
+
+  if (reviewSession) {
+    return (
+      <ExamReviewView
+        onBack={() => setReviewSessionId(null)}
+        questionsById={questionsById}
+        session={reviewSession}
+      />
+    );
+  }
 
   return (
     <div className="view-stack">
@@ -125,6 +138,9 @@ export function StatsView({
                     正确 {grade.correct} · 错误 {grade.wrong} · 未答 {grade.unanswered}
                   </p>
                   <p>{new Date(session.submittedAt ?? "").toLocaleString()}</p>
+                  <button className="secondary-button" onClick={() => setReviewSessionId(session.id)} type="button">
+                    复盘试卷
+                  </button>
                 </article>
               );
             })

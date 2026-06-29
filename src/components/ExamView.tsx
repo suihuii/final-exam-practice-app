@@ -2,6 +2,7 @@
 import type { Dispatch, SetStateAction } from "react";
 import type { AnswerValue, ExamSession, CourseProgress,
   ProgressData, Question, ViewKey } from "../types";
+import { ExamReviewView } from "./ExamReviewView";
 import { QuestionFigure } from "./QuestionFigure";
 import { QUESTION_TYPE_LABEL, QUESTION_TYPES } from "../types";
 import {
@@ -10,7 +11,6 @@ import {
   getElapsedSeconds,
   getRemainingSeconds,
   gradeExam,
-  normalizeAnswerForDisplay,
   pauseSession,
   resumeSession,
 } from "../utils/exam";
@@ -38,6 +38,7 @@ export function ExamView({
 }: ExamViewProps) {
   const [now, setNow] = useState(() => new Date());
   const [finalizing, setFinalizing] = useState(false);
+  const [submittedView, setSubmittedView] = useState<"summary" | "review" | "wrong">("summary");
   const session = progress.exams.activeSessionId
     ? progress.exams.sessions[progress.exams.activeSessionId]
     : null;
@@ -70,6 +71,10 @@ export function ExamView({
     const timer = window.setInterval(() => setNow(new Date()), 1000);
     return () => window.clearInterval(timer);
   }, []);
+
+  useEffect(() => {
+    setSubmittedView("summary");
+  }, [session?.id, session?.submittedAt]);
 
   useEffect(() => {
     if (
@@ -117,18 +122,23 @@ export function ExamView({
     }
 
     setFinalizing(true);
+    const finishedGrade = gradeExam(session, questionsById);
+    const submittedAt = new Date().toISOString();
     const finishedSession = {
       ...session,
       elapsedSeconds: getElapsedSeconds(session),
       pausedAt: null,
-      submittedAt: new Date().toISOString(),
-      score: gradeExam(session, questionsById).score,
+      submittedAt,
+      score: finishedGrade.score,
+      review: {
+        ...finishedGrade,
+        gradedAt: submittedAt,
+      },
     };
-    const finishedGrade = gradeExam(finishedSession, questionsById);
     setProgress((previous) => {
       let next = setExamSession(previous, finishedSession, true);
       for (const questionId of finishedGrade.wrongIds) {
-        next = addWrong(next, questionId);
+        next = addWrong(next, questionId, finishedSession.answers[questionId]);
       }
       return next;
     });
@@ -147,9 +157,17 @@ export function ExamView({
   }
 
   if (session.submittedAt && grade) {
-    const wrongQuestions = grade.wrongIds
-      .map((questionId) => questionsById.get(questionId))
-      .filter((question): question is Question => Boolean(question));
+    if (submittedView !== "summary") {
+      return (
+        <ExamReviewView
+          key={session.id + "-" + submittedView}
+          initialOnlyWrong={submittedView === "wrong"}
+          onBack={() => setSubmittedView("summary")}
+          questionsById={questionsById}
+          session={session}
+        />
+      );
+    }
 
     return (
       <div className="view-stack">
@@ -161,46 +179,40 @@ export function ExamView({
           <div className="dashboard-grid">
             <article className="metric-card accent">
               <span>分数</span>
-              <strong>{grade.score}</strong>
+              <strong>{session.review?.score ?? grade.score}</strong>
             </article>
             <article className="metric-card">
               <span>正确</span>
-              <strong>{grade.correct}</strong>
+              <strong>{session.review?.correct ?? grade.correct}</strong>
             </article>
             <article className="metric-card">
               <span>错误</span>
-              <strong>{grade.wrong}</strong>
+              <strong>{session.review?.wrong ?? grade.wrong}</strong>
             </article>
             <article className="metric-card">
               <span>未答</span>
-              <strong>{grade.unanswered}</strong>
+              <strong>{session.review?.unanswered ?? grade.unanswered}</strong>
             </article>
           </div>
         </section>
 
         <section className="panel">
           <div className="panel-heading">
-            <h2>错题列表</h2>
-            <span>{wrongQuestions.length} 题</span>
+            <h2>考试复盘</h2>
+            <span>{session.questionIds.length} 题</span>
           </div>
-          <div className="card-list">
-            {wrongQuestions.length === 0 ? (
-              <p className="muted-text">本次考试没有答错题。</p>
-            ) : (
-              wrongQuestions.map((question) => (
-                <article className="compact-card" key={question.id}>
-                  <strong>
-                    {question.id} · {QUESTION_TYPE_LABEL[question.type]}
-                  </strong>
-                  <p>{question.stem}</p>
-                  <p>正确答案：{normalizeAnswerForDisplay(question.answer)}</p>
-                  <p>我的答案：{normalizeAnswerForDisplay(session.answers[question.id] ?? "")}</p>
-                </article>
-              ))
-            )}
-          </div>
+          <p className="muted-text">复盘会显示完整题干、题图、选项、我的答案、正确答案和解析。</p>
           <div className="button-row">
-            <button className="primary-button" onClick={() => closeSubmittedExam("stats")} type="button">
+            <button className="primary-button" onClick={() => setSubmittedView("review")} type="button">
+              查看完整试卷
+            </button>
+            <button className="secondary-button" onClick={() => setSubmittedView("wrong")} type="button">
+              只看错题
+            </button>
+            <button className="ghost-button" onClick={() => closeSubmittedExam("home")} type="button">
+              返回首页
+            </button>
+            <button className="ghost-button" onClick={() => closeSubmittedExam("stats")} type="button">
               查看统计
             </button>
             <button className="secondary-button" onClick={() => closeSubmittedExam("exam")} type="button">

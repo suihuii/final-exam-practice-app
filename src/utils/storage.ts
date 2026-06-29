@@ -115,7 +115,11 @@ export function toggleFavorite(progress: ProgressData, questionId: string): Prog
   return updateActiveCourse(progress, { ...course, favorites });
 }
 
-export function addWrong(progress: ProgressData, questionId: string): ProgressData {
+export function addWrong(
+  progress: ProgressData,
+  questionId: string,
+  lastAnswer?: AnswerValue,
+): ProgressData {
   const course = getCourseProgress(progress);
   const previous = course.wrong[questionId];
   const record: WrongRecord = {
@@ -123,6 +127,7 @@ export function addWrong(progress: ProgressData, questionId: string): ProgressDa
     lastWrongAt: new Date().toISOString(),
     note: previous?.note ?? "",
     mastered: false,
+    lastAnswer: lastAnswer === undefined ? previous?.lastAnswer : cloneAnswer(lastAnswer),
   };
   return updateActiveCourse(progress, {
     ...course,
@@ -145,6 +150,7 @@ export function updateWrongNote(
     lastWrongAt: previous?.lastWrongAt ?? "",
     note,
     mastered: previous?.mastered ?? false,
+    lastAnswer: previous?.lastAnswer,
   };
   return updateActiveCourse(progress, {
     ...course,
@@ -480,6 +486,7 @@ function sanitizeWrong(value: unknown): CourseProgress["wrong"] {
           lastWrongAt: typeof record.lastWrongAt === "string" ? record.lastWrongAt : "",
           note: typeof record.note === "string" ? record.note : "",
           mastered: record.mastered === true,
+          lastAnswer: sanitizeAnswerValue(record.lastAnswer) ?? undefined,
         },
       ],
     ];
@@ -517,15 +524,47 @@ function sanitizeSessions(value: unknown): Record<string, ExamSession> {
       durationSeconds: Number.isFinite(session.durationSeconds) ? Math.max(60, Number(session.durationSeconds)) : 600,
       submittedAt: typeof session.submittedAt === "string" ? session.submittedAt : null,
       score: Number.isFinite(session.score) ? Number(session.score) : null,
-      settings: {
-        count: questionIds.length,
-        selectedTypes: [],
-        order: "random",
-        durationSeconds: Number.isFinite(session.durationSeconds) ? Math.max(60, Number(session.durationSeconds)) : 600,
-      },
+      settings: sanitizeExamSettings(session.settings, questionIds.length, session.durationSeconds),
+      review: sanitizeExamReview(session.review),
     };
   }
   return sessions;
+}
+
+function sanitizeExamSettings(
+  value: unknown,
+  count: number,
+  durationSeconds: unknown,
+): ExamSession["settings"] {
+  const source = isRecord(value) ? value : {};
+  return {
+    count,
+    selectedTypes: Array.isArray(source.selectedTypes)
+      ? source.selectedTypes.filter(isQuestionType)
+      : [],
+    order: source.order === "sequence" ? "sequence" : "random",
+    durationSeconds: Number.isFinite(source.durationSeconds)
+      ? Math.max(60, Number(source.durationSeconds))
+      : Number.isFinite(durationSeconds)
+        ? Math.max(60, Number(durationSeconds))
+        : 600,
+  };
+}
+
+function sanitizeExamReview(value: unknown): ExamSession["review"] {
+  if (!isRecord(value)) {
+    return undefined;
+  }
+
+  return {
+    score: Number.isFinite(value.score) ? Number(value.score) : 0,
+    correct: Number.isFinite(value.correct) ? Math.max(0, Number(value.correct)) : 0,
+    wrong: Number.isFinite(value.wrong) ? Math.max(0, Number(value.wrong)) : 0,
+    unanswered: Number.isFinite(value.unanswered) ? Math.max(0, Number(value.unanswered)) : 0,
+    wrongIds: Array.isArray(value.wrongIds) ? value.wrongIds.filter(isQuestionId) : [],
+    unansweredIds: Array.isArray(value.unansweredIds) ? value.unansweredIds.filter(isQuestionId) : [],
+    gradedAt: typeof value.gradedAt === "string" ? value.gradedAt : "",
+  };
 }
 
 function sanitizePracticeAnswers(value: unknown): Record<string, PracticeAnswerRecord> {
