@@ -1,4 +1,4 @@
-﻿:root {
+:root {
   color: #17211e;
   background: #f5f7f4;
   font-family:
@@ -867,9 +867,9 @@ button:disabled {
 }
 
 .answer-review-grid strong,
-.analysis-box p {
+.analysis-content p {
   overflow-wrap: anywhere;
-  white-space: pre-line;
+  white-space: pre-wrap;
 }
 
 .analysis-box {
@@ -879,6 +879,25 @@ button:disabled {
   display: grid;
   gap: 8px;
   padding: 12px;
+}
+
+.analysis-content {
+  display: grid;
+  gap: 8px;
+  line-height: 1.7;
+}
+
+.analysis-content p {
+  margin: 0;
+}
+
+.analysis-section {
+  display: grid;
+  gap: 4px;
+}
+
+.analysis-section > strong {
+  color: #1f2d29;
 }
 
 .review-actions,

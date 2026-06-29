@@ -1,4 +1,4 @@
-﻿import type { ReactNode } from "react";
+import type { ReactNode } from "react";
 import type { AnswerValue, Question } from "../types";
 import { QUESTION_TYPE_LABEL } from "../types";
 import { hasAnswer, normalizeAnswerForDisplay } from "../utils/exam";
@@ -24,6 +24,13 @@ const STATUS_LABEL: Record<ReviewStatus, string> = {
   missing: "题目缺失",
   neutral: "已记录",
 };
+
+const DEFAULT_ANALYSIS_TEXT = [
+  "答题思路：",
+  "本题缺少可直接展示的解析。复习时应回到教材定义、设备用途和运行限制，先确认判断依据。",
+  "关键点：",
+  "掌握定义和适用场景比单独记答案更可靠。",
+].join("\n");
 
 export function QuestionReviewCard({
   actions,
@@ -110,7 +117,7 @@ export function QuestionReviewCard({
 
       <div className="analysis-box">
         <strong>解析/答题思路</strong>
-        <p>{validAnalysis(question.analysis) ? question.analysis : "暂无可靠解析，建议对照教材复习。"}</p>
+        <AnalysisContent text={validAnalysis(question.analysis) ? question.analysis : DEFAULT_ANALYSIS_TEXT} />
       </div>
 
       {actions && <div className="review-actions">{actions}</div>}
@@ -170,4 +177,29 @@ function answerLabels(question: Question, answer: AnswerValue | undefined): Set<
 function validAnalysis(value: string | undefined): boolean {
   const text = value?.trim() ?? "";
   return text.length >= 8 && !/^p\d+(\s*-\s*p?\d+)?$/i.test(text);
+}
+
+function AnalysisContent({ text }: { text: string }) {
+  const lines = text
+    .split(/\r?\n/g)
+    .map((line) => line.trim())
+    .filter(Boolean);
+
+  return (
+    <div className="analysis-content">
+      {lines.map((line, index) => {
+        const match = line.match(/^(答题思路|关键点|易错点|记忆点|参考答案要点|背诵关键词)[:：]\s*(.*)$/);
+        if (!match) {
+          return <p key={`${index}-${line}`}>{line}</p>;
+        }
+
+        return (
+          <div className="analysis-section" key={`${index}-${line}`}>
+            <strong>{match[1]}：</strong>
+            {match[2] && <p>{match[2]}</p>}
+          </div>
+        );
+      })}
+    </div>
+  );
 }
