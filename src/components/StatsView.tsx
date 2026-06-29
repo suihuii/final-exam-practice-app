@@ -1,7 +1,6 @@
-﻿import { useMemo, useState } from "react";
-import type { Course, CourseProgress, ProgressData, Question } from "../types";
+import { useMemo } from "react";
+import type { Course, CourseProgress, ExamReviewFilter, ProgressData, Question } from "../types";
 import { QUESTION_TYPE_LABEL, QUESTION_TYPES } from "../types";
-import { ExamReviewView } from "./ExamReviewView";
 import { gradeExam } from "../utils/exam";
 import { countQuestionTypes } from "../utils/parseQuestions";
 import { getCourseProgress } from "../utils/storage";
@@ -10,6 +9,7 @@ interface StatsViewProps {
   activeCourse: Course;
   courses: Course[];
   fullProgress: ProgressData;
+  onReviewExam: (sessionId: string, filter: ExamReviewFilter) => void;
   progress: CourseProgress;
   questions: Question[];
   questionsById: Map<string, Question>;
@@ -19,6 +19,7 @@ export function StatsView({
   activeCourse,
   courses,
   fullProgress,
+  onReviewExam,
   progress,
   questions,
   questionsById,
@@ -38,18 +39,6 @@ export function StatsView({
     [progress.exams.sessions],
   );
   const latestExam = examHistory[0] ?? null;
-  const [reviewSessionId, setReviewSessionId] = useState<string | null>(null);
-  const reviewSession = reviewSessionId ? progress.exams.sessions[reviewSessionId] ?? null : null;
-
-  if (reviewSession) {
-    return (
-      <ExamReviewView
-        onBack={() => setReviewSessionId(null)}
-        questionsById={questionsById}
-        session={reviewSession}
-      />
-    );
-  }
 
   return (
     <div className="view-stack">
@@ -130,17 +119,24 @@ export function StatsView({
             <p className="muted-text">提交当前课程考试后会显示记录。</p>
           ) : (
             examHistory.map((session) => {
-              const grade = gradeExam(session, questionsById);
+              const grade = session.review ?? gradeExam(session, questionsById);
+              const total = session.questionIds.length || session.settings.count || 0;
               return (
                 <article className="compact-card" key={session.id}>
-                  <strong>{session.score ?? grade.score} 分</strong>
+                  <strong>{session.score ?? grade.score} {"\u5206"}</strong>
                   <p>
-                    正确 {grade.correct} · 错误 {grade.wrong} · 未答 {grade.unanswered}
+                    {"\u6b63\u786e "}{grade.correct}{" \u00b7 \u9519\u8bef "}{grade.wrong}{" \u00b7 \u672a\u7b54 "}{grade.unanswered}
                   </p>
-                  <p>{new Date(session.submittedAt ?? "").toLocaleString()}</p>
-                  <button className="secondary-button" onClick={() => setReviewSessionId(session.id)} type="button">
-                    复盘试卷
-                  </button>
+                  <p>{new Date(session.submittedAt ?? session.startedAt).toLocaleString()}</p>
+                  <p>{"\u6240\u5c5e\u8bfe\u7a0b\uff1a"}{activeCourse.name}{" \u00b7 \u603b\u9898\u6570 "}{total}</p>
+                  <div className="button-row">
+                    <button className="secondary-button compact" onClick={() => onReviewExam(session.id, "all")} type="button">
+                      {"\u590d\u76d8\u8bd5\u5377"}
+                    </button>
+                    <button className="ghost-button compact" onClick={() => onReviewExam(session.id, "wrong")} type="button">
+                      {"\u53ea\u770b\u9519\u9898"}
+                    </button>
+                  </div>
                 </article>
               );
             })

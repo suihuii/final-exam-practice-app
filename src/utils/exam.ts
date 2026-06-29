@@ -1,6 +1,7 @@
 import { QUESTION_TYPES } from "../types";
 import type {
   AnswerValue,
+  CourseId,
   ExamGrade,
   ExamOrder,
   ExamSession,
@@ -152,10 +153,12 @@ export function createExamSession(
   durationSeconds: number,
   selectedTypes: QuestionType[],
   order: ExamOrder,
+  courseId?: CourseId,
 ): ExamSession {
   const now = new Date().toISOString();
   return {
     id: `exam_${Date.now()}`,
+    courseId,
     questionIds,
     currentIndex: 0,
     answers: {},

@@ -1,4 +1,4 @@
-﻿import type {
+import type {
   AnswerValue,
   CourseId,
   CourseProgress,
@@ -43,7 +43,9 @@ export function loadProgress(): ProgressData {
   const raw = localStorage.getItem(PROGRESS_KEY);
   if (raw) {
     try {
-      return sanitizeProgress(JSON.parse(raw));
+      const sanitized = sanitizeProgress(JSON.parse(raw));
+      saveProgress(sanitized);
+      return sanitized;
     } catch {
       return cloneProgress(defaultProgress);
     }
@@ -352,13 +354,13 @@ function sanitizeProgress(value: unknown): ProgressData {
   const courses = Object.fromEntries(
     COURSE_IDS.map((courseId) => [
       courseId,
-      sanitizeCourseProgress(coursesSource[courseId]),
+      sanitizeCourseProgress(coursesSource[courseId], courseId),
     ]),
   );
 
   for (const [courseId, courseProgress] of Object.entries(coursesSource)) {
     if (typeof courseId === "string" && !courses[courseId]) {
-      courses[courseId] = sanitizeCourseProgress(courseProgress);
+      courses[courseId] = sanitizeCourseProgress(courseProgress, courseId);
     }
   }
 
@@ -380,14 +382,14 @@ function sanitizeLegacyProgress(value: unknown): LegacyProgressData {
   if (!isRecord(value) || value.version !== 1) {
     throw new Error("旧进度文件版本不正确");
   }
-  const course = sanitizeCourseProgress(value);
+  const course = sanitizeCourseProgress(value, DEFAULT_COURSE_ID);
   return {
     version: 1,
     ...course,
   };
 }
 
-function sanitizeCourseProgress(value: unknown): CourseProgress {
+function sanitizeCourseProgress(value: unknown, courseId?: CourseId): CourseProgress {
   if (!isRecord(value)) {
     return cloneCourseProgress(defaultCourseProgress);
   }
@@ -398,10 +400,11 @@ function sanitizeCourseProgress(value: unknown): CourseProgress {
     : [];
   const practiceSource = isRecord(value.practice) ? value.practice : {};
   const examsSource = isRecord(value.exams) ? value.exams : {};
-  const sessions = sanitizeSessions(examsSource.sessions);
+  const sessions = sanitizeSessions(examsSource.sessions, courseId);
   const activeSessionId =
     typeof examsSource.activeSessionId === "string" &&
     sessions[examsSource.activeSessionId] &&
+    sessions[examsSource.activeSessionId].questionIds.length > 0 &&
     !sessions[examsSource.activeSessionId].submittedAt
       ? examsSource.activeSessionId
       : null;
@@ -495,26 +498,41 @@ function sanitizeWrong(value: unknown): CourseProgress["wrong"] {
   return Object.fromEntries(entries);
 }
 
-function sanitizeSessions(value: unknown): Record<string, ExamSession> {
-  if (!isRecord(value)) {
+function sanitizeSessions(value: unknown, courseId?: CourseId): Record<string, ExamSession> {
+  if (!isRecord(value) && !Array.isArray(value)) {
     return {};
   }
 
+  const entries: Array<[string, unknown]> = Array.isArray(value)
+    ? value.map((session, index) => [legacySessionId(session, index), session])
+    : Object.entries(value);
+
   const sessions: Record<string, ExamSession> = {};
-  for (const [sessionId, session] of Object.entries(value)) {
-    if (!isRecord(session) || typeof sessionId !== "string") {
+  for (const [fallbackSessionId, session] of entries) {
+    if (!isRecord(session) || typeof fallbackSessionId !== "string") {
       continue;
     }
+
+    const sessionId = typeof session.id === "string" && session.id.trim()
+      ? session.id.trim()
+      : fallbackSessionId;
+    if (!sessionId) {
+      continue;
+    }
+
     const questionIds = Array.isArray(session.questionIds)
       ? session.questionIds.filter(isQuestionId)
       : [];
-    if (questionIds.length === 0) {
-      continue;
-    }
+    const settingsSource = isRecord(session.settings) ? session.settings : {};
+    const settingsCount = Number.isFinite(settingsSource.count)
+      ? Math.max(0, Number(settingsSource.count))
+      : questionIds.length;
+
     sessions[sessionId] = {
       id: sessionId,
+      courseId: typeof session.courseId === "string" ? session.courseId : courseId,
       questionIds,
-      currentIndex: Number.isFinite(session.currentIndex)
+      currentIndex: questionIds.length > 0 && Number.isFinite(session.currentIndex)
         ? Math.min(Math.max(0, Number(session.currentIndex)), questionIds.length - 1)
         : 0,
       answers: sanitizeAnswers(session.answers),
@@ -524,13 +542,26 @@ function sanitizeSessions(value: unknown): Record<string, ExamSession> {
       durationSeconds: Number.isFinite(session.durationSeconds) ? Math.max(60, Number(session.durationSeconds)) : 600,
       submittedAt: typeof session.submittedAt === "string" ? session.submittedAt : null,
       score: Number.isFinite(session.score) ? Number(session.score) : null,
-      settings: sanitizeExamSettings(session.settings, questionIds.length, session.durationSeconds),
+      settings: sanitizeExamSettings(session.settings, settingsCount, session.durationSeconds),
       review: sanitizeExamReview(session.review),
     };
   }
   return sessions;
 }
 
+function legacySessionId(value: unknown, index: number): string {
+  if (isRecord(value) && typeof value.id === "string" && value.id.trim()) {
+    return value.id.trim();
+  }
+
+  const timestamp = isRecord(value) && typeof value.submittedAt === "string"
+    ? value.submittedAt
+    : isRecord(value) && typeof value.startedAt === "string"
+      ? value.startedAt
+      : String(index);
+  const normalized = timestamp.replace(/\D/g, "").slice(0, 14) || String(index);
+  return "legacy_exam_" + index + "_" + normalized;
+}
 function sanitizeExamSettings(
   value: unknown,
   count: number,

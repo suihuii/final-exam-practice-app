@@ -1,6 +1,7 @@
-﻿import { useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 import type { Dispatch, SetStateAction } from "react";
 import type {
+  CourseId,
   CourseProgress,
   ExamOrder,
   ProgressData,
@@ -13,6 +14,7 @@ import { allocateQuestionCountsByType, createExamSession, filterQuestions, pickQ
 import { abandonActiveExam, setExamSession } from "../utils/storage";
 
 interface ExamSetupViewProps {
+  activeCourseId: CourseId;
   openExamSession: () => void;
   progress: CourseProgress;
   questions: Question[];
@@ -33,6 +35,7 @@ const countChoices: Array<{ value: CountChoice; label: string }> = [
 ];
 
 export function ExamSetupView({
+  activeCourseId,
   openExamSession,
   progress,
   questions,
@@ -115,7 +118,7 @@ export function ExamSetupView({
       return;
     }
     const questionIds = pickQuestionIdsByType(availableQuestions, resolvedCount, order);
-    const session = createExamSession(questionIds, durationSeconds, selectedTypes, order);
+    const session = createExamSession(questionIds, durationSeconds, selectedTypes, order, activeCourseId);
     setProgress((previous) => setExamSession(previous, session, true));
     openExamSession();
     setView("exam");

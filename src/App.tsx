@@ -1,14 +1,15 @@
-﻿import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { Layout } from "./components/Layout";
 import { HomeView } from "./components/HomeView";
 import { PracticeView } from "./components/PracticeView";
 import { ExamSetupView } from "./components/ExamSetupView";
 import { ExamView } from "./components/ExamView";
+import { ExamReviewView } from "./components/ExamReviewView";
 import { WrongBookView } from "./components/WrongBookView";
 import { StatsView } from "./components/StatsView";
 import { SettingsView } from "./components/SettingsView";
 import coursesData from "./data/courses.json";
-import type { Course, ProgressData, Question, ViewKey } from "./types";
+import type { Course, ExamReviewFilter, ProgressData, Question, ViewKey } from "./types";
 import { buildQuestionMap, normalizeQuestions } from "./utils/parseQuestions";
 import { getCourseProgress, loadProgress, setActiveCourse } from "./utils/storage";
 
@@ -20,6 +21,13 @@ const questionUrls = import.meta.glob("./data/questions/*.json", {
 
 const courses = coursesData as Course[];
 
+interface ExamReviewTarget {
+  courseId: string;
+  filter: ExamReviewFilter;
+  returnView: ViewKey;
+  sessionId: string;
+}
+
 export default function App() {
   const [view, setView] = useState<ViewKey>("home");
   const [questions, setQuestions] = useState<Question[]>([]);
@@ -27,6 +35,7 @@ export default function App() {
   const [questionError, setQuestionError] = useState("");
   const [progress, setProgress] = useState<ProgressData>(() => loadProgress());
   const [examSessionVisible, setExamSessionVisible] = useState(false);
+  const [examReviewTarget, setExamReviewTarget] = useState<ExamReviewTarget | null>(null);
 
   const activeCourse =
     courses.find((course) => course.id === progress.activeCourseId) ?? courses[0];
@@ -101,8 +110,29 @@ export default function App() {
     if (activeExamSession && !activeExamSession.submittedAt) {
       window.alert("该课程有未提交考试，可稍后继续。");
     }
+    setExamReviewTarget(null);
     setExamSessionVisible(false);
     setProgress((previous) => setActiveCourse(previous, courseId));
+  }
+
+  function openExamReview(
+    sessionId: string,
+    filter: ExamReviewFilter,
+    returnView: ViewKey,
+    courseId = activeCourse.id,
+  ) {
+    if (courseId !== progress.activeCourseId) {
+      setProgress((previous) => setActiveCourse(previous, courseId));
+    }
+    setExamReviewTarget({ courseId, filter, returnView, sessionId });
+    setExamSessionVisible(false);
+    setView("exam-review");
+  }
+
+  function closeExamReview() {
+    const returnView = examReviewTarget?.returnView ?? "stats";
+    setExamReviewTarget(null);
+    setView(returnView);
   }
 
   return (
@@ -146,6 +176,7 @@ export default function App() {
             (activeExamSession && examSessionVisible ? (
               <ExamView
                 leaveExamSession={() => setExamSessionVisible(false)}
+                openExamReview={(sessionId, filter) => openExamReview(sessionId, filter, "exam")}
                 progress={courseProgress}
                 questionsById={questionsById}
                 setProgress={setProgress}
@@ -153,6 +184,7 @@ export default function App() {
               />
             ) : (
               <ExamSetupView
+                activeCourseId={activeCourse.id}
                 openExamSession={() => setExamSessionVisible(true)}
                 progress={courseProgress}
                 questions={questions}
@@ -173,10 +205,30 @@ export default function App() {
               activeCourse={activeCourse}
               courses={courses}
               fullProgress={progress}
+              onReviewExam={(sessionId, filter) => openExamReview(sessionId, filter, "stats", activeCourse.id)}
               progress={courseProgress}
               questions={questions}
               questionsById={questionsById}
             />
+          )}
+          {view === "exam-review" && examReviewTarget && (
+            <ExamReviewView
+              activeCourse={activeCourse}
+              initialFilter={examReviewTarget.filter}
+              onBack={closeExamReview}
+              progress={courseProgress}
+              questionsById={questionsById}
+              sessionId={examReviewTarget.sessionId}
+            />
+          )}
+          {view === "exam-review" && !examReviewTarget && (
+            <section className="panel empty-panel">
+              <h2>考试记录不存在或已被清除</h2>
+              <p className="muted-text">请返回历史考试列表重新选择一条记录。</p>
+              <button className="ghost-button" onClick={() => setView("stats")} type="button">
+                {"\u8fd4\u56de\u7edf\u8ba1"}
+              </button>
+            </section>
           )}
           {view === "settings" && (
             <SettingsView

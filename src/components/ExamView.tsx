@@ -1,8 +1,7 @@
-﻿import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import type { Dispatch, SetStateAction } from "react";
-import type { AnswerValue, ExamSession, CourseProgress,
+import type { AnswerValue, CourseProgress, ExamReviewFilter, ExamSession,
   ProgressData, Question, ViewKey } from "../types";
-import { ExamReviewView } from "./ExamReviewView";
 import { QuestionFigure } from "./QuestionFigure";
 import { QUESTION_TYPE_LABEL, QUESTION_TYPES } from "../types";
 import {
@@ -23,6 +22,7 @@ import {
 
 interface ExamViewProps {
   leaveExamSession: () => void;
+  openExamReview: (sessionId: string, filter: ExamReviewFilter) => void;
   progress: CourseProgress;
   questionsById: Map<string, Question>;
   setProgress: Dispatch<SetStateAction<ProgressData>>;
@@ -31,6 +31,7 @@ interface ExamViewProps {
 
 export function ExamView({
   leaveExamSession,
+  openExamReview,
   progress,
   questionsById,
   setProgress,
@@ -38,7 +39,6 @@ export function ExamView({
 }: ExamViewProps) {
   const [now, setNow] = useState(() => new Date());
   const [finalizing, setFinalizing] = useState(false);
-  const [submittedView, setSubmittedView] = useState<"summary" | "review" | "wrong">("summary");
   const session = progress.exams.activeSessionId
     ? progress.exams.sessions[progress.exams.activeSessionId]
     : null;
@@ -72,9 +72,6 @@ export function ExamView({
     return () => window.clearInterval(timer);
   }, []);
 
-  useEffect(() => {
-    setSubmittedView("summary");
-  }, [session?.id, session?.submittedAt]);
 
   useEffect(() => {
     if (
@@ -157,18 +154,6 @@ export function ExamView({
   }
 
   if (session.submittedAt && grade) {
-    if (submittedView !== "summary") {
-      return (
-        <ExamReviewView
-          key={session.id + "-" + submittedView}
-          initialOnlyWrong={submittedView === "wrong"}
-          onBack={() => setSubmittedView("summary")}
-          questionsById={questionsById}
-          session={session}
-        />
-      );
-    }
-
     return (
       <div className="view-stack">
         <section className="panel result-summary-panel">
@@ -203,10 +188,10 @@ export function ExamView({
           </div>
           <p className="muted-text">复盘会显示完整题干、题图、选项、我的答案、正确答案和解析。</p>
           <div className="button-row">
-            <button className="primary-button" onClick={() => setSubmittedView("review")} type="button">
+            <button className="primary-button" onClick={() => openExamReview(session.id, "all")} type="button">
               查看完整试卷
             </button>
-            <button className="secondary-button" onClick={() => setSubmittedView("wrong")} type="button">
+            <button className="secondary-button" onClick={() => openExamReview(session.id, "wrong")} type="button">
               只看错题
             </button>
             <button className="ghost-button" onClick={() => closeSubmittedExam("home")} type="button">

@@ -1,4 +1,4 @@
-﻿export type CourseId = "power-supply" | "aesthetic-education" | string;
+export type CourseId = "power-supply" | "aesthetic-education" | string;
 
 export type QuestionType = "single" | "multiple" | "judge" | "blank";
 
@@ -12,9 +12,12 @@ export type ViewKey =
   | "home"
   | "practice"
   | "exam"
+  | "exam-review"
   | "wrong"
   | "stats"
   | "settings";
+
+export type ExamReviewFilter = "all" | "wrong" | "unanswered";
 
 export interface Course {
   id: CourseId;
@@ -88,6 +91,7 @@ export interface ExamReviewSnapshot {
 
 export interface ExamSession {
   id: string;
+  courseId?: CourseId;
   questionIds: string[];
   currentIndex: number;
   answers: Record<string, AnswerValue>;
