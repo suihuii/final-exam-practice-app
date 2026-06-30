@@ -7,7 +7,7 @@ import type {
   Question,
   QuestionType,
 } from "../types";
-import { QuestionFigure } from "./QuestionFigure";
+import { QuestionFigure, SolutionFigure } from "./QuestionFigure";
 import { QUESTION_TYPE_LABEL, QUESTION_TYPES } from "../types";
 import {
   emptyAnswerFor,
@@ -303,6 +303,7 @@ export function PracticeView({
                 <strong>{result === null ? "已显示答案" : result ? "回答正确" : "回答错误"}</strong>
                 <p>正确答案：{normalizeAnswerForDisplay(currentQuestion.answer)}</p>
                 <p>我的答案：{normalizeAnswerForDisplay(answer)}</p>
+                <SolutionFigure question={currentQuestion} />
                 {currentQuestion.analysis && <p>解析：{currentQuestion.analysis}</p>}
               </div>
             )}

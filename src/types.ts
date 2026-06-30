@@ -45,6 +45,8 @@ export interface Question {
   analysis: string;
   image?: string;
   imageAlt?: string;
+  solutionImage?: string;
+  solutionImageAlt?: string;
 }
 
 export interface WrongRecord {

@@ -2,7 +2,7 @@ import type { ReactNode } from "react";
 import type { AnswerValue, Question } from "../types";
 import { QUESTION_TYPE_LABEL } from "../types";
 import { hasAnswer, normalizeAnswerForDisplay } from "../utils/exam";
-import { QuestionFigure } from "./QuestionFigure";
+import { QuestionFigure, SolutionFigure } from "./QuestionFigure";
 
 export type ReviewStatus = "correct" | "wrong" | "unanswered" | "missing" | "neutral";
 
@@ -114,6 +114,8 @@ export function QuestionReviewCard({
           <strong>{STATUS_LABEL[status]}</strong>
         </div>
       </div>
+
+      <SolutionFigure question={question} />
 
       <div className="analysis-box">
         <strong>解析/答题思路</strong>

@@ -9,15 +9,51 @@ export function QuestionFigure({ question }: QuestionFigureProps) {
     return null;
   }
 
-  const imagePath = question.image.replace(/^\/+/, "");
-  const imageUrl = /^https?:\/\//i.test(question.image)
-    ? question.image
+  return (
+    <ImageFigure
+      alt={question.imageAlt ?? `${question.id} 题图`}
+      caption={question.imageAlt}
+      className="question-figure"
+      image={question.image}
+    />
+  );
+}
+
+export function SolutionFigure({ question }: QuestionFigureProps) {
+  if (!question.solutionImage) {
+    return null;
+  }
+
+  return (
+    <ImageFigure
+      alt={question.solutionImageAlt ?? `${question.id} 答案图`}
+      caption={question.solutionImageAlt}
+      className="question-figure solution-figure"
+      image={question.solutionImage}
+    />
+  );
+}
+
+function ImageFigure({
+  alt,
+  caption,
+  className,
+  image,
+}: {
+  alt: string;
+  caption?: string;
+  className: string;
+  image: string;
+}) {
+  const imagePath = image.replace(/^\/+/, "");
+  const imageUrl = /^https?:\/\//i.test(image)
+    ? image
     : `${import.meta.env.BASE_URL}${imagePath}`;
 
   return (
-    <figure className="question-figure">
-      <img alt={question.imageAlt ?? `${question.id} 题图`} loading="lazy" src={imageUrl} />
-      {question.imageAlt && <figcaption>{question.imageAlt}</figcaption>}
+    <figure className={className}>
+      <img alt={alt} loading="lazy" src={imageUrl} />
+      {caption && <figcaption>{caption}</figcaption>}
     </figure>
   );
 }

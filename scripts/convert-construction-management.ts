@@ -26,6 +26,8 @@ interface SubjectiveDraft {
   analysis: string;
   image?: string;
   imageAlt?: string;
+  solutionImage?: string;
+  solutionImageAlt?: string;
   stem: string;
 }
 
@@ -79,13 +81,13 @@ function main() {
   console.log("图片处理:");
   console.log(`- DOCX 第 40 题网络图: ${choiceNetworkImage}`);
   console.log(`- PDF 第 20 题数据图: ${subjectiveNetworkDataImage}`);
-  console.log(`- PDF 第 20 题答案参考图: ${subjectiveNetworkAnswerImage}（保留为参考，不绑定到题目，避免提前暴露答案）`);
+  console.log(`- PDF 第 20 题答案参考图: ${subjectiveNetworkAnswerImage}（绑定为 solutionImage，仅在答案/复盘区域展示）`);
   for (const item of pdfImageReport) {
     console.log(`  ${item}`);
   }
   console.log("暂无法准确重绘的图片:");
   console.log("- DOCX 第 40 题网络图：已保留原图，未在脚本中重绘。");
-  console.log("- PDF 第 20 题数据/答案图：已提取原图；答案图未绑定到题目，具体六时标数值需人工复核后再重绘。");
+  console.log("- PDF 第 20 题数据/答案图：已提取原图；答案图作为 solutionImage 使用，后续可人工重绘为更清晰版本。");
 }
 
 function parseChoiceQuestions(): Question[] {
@@ -226,6 +228,7 @@ function parseSubjectiveQuestions(startIndex: number): Question[] {
     answer: draft.answer,
     analysis: draft.analysis,
     ...(draft.image ? { image: draft.image, imageAlt: draft.imageAlt } : {}),
+    ...(draft.solutionImage ? { solutionImage: draft.solutionImage, solutionImageAlt: draft.solutionImageAlt } : {}),
   } satisfies Question));
 }
 
@@ -293,9 +296,10 @@ function subjectiveDrafts(): SubjectiveDraft[] {
     ),
     blankDraft(
       "施工项目发生安全事故后必须坚持“四不放过”原则，包括（ ）不放过、责任人员未受到处理不放过、整改措施未落实不放过、有关人员没有受到教育不放过。",
-      ["事故原因未查清"],
-      "四不放过用于事故调查处理，核心是原因查清、责任处理、整改落实和教育到位，防止同类事故再次发生。",
-      "四不放过围绕原因、责任、整改、教育四件事。",
+      ["事故原因未查清不放过；责任人员未受到处理不放过；有关人员未受到教育不放过；整改措施未落实不放过。"],
+      "“四不放过”用于事故调查处理，核心不是背口号，而是把事故原因、责任处理、人员教育和整改落实四个环节闭合起来，防止同类事故再次发生。本题空缺处对应“事故原因未查清”，复习时应同时掌握完整规范表述。",
+      "原因、责任、教育、整改四个环节缺一不可。",
+      "不要只写“事故原因、责任人”，还要写教育和整改落实。",
     ),
     blankDraft(
       "建设工程参建各方中具有投资目标的项目管理包括：（ ）方、（ ）方和项目总承包方的项目管理。",
@@ -323,9 +327,10 @@ function subjectiveDrafts(): SubjectiveDraft[] {
     ),
     blankDraft(
       "安全事故的“四不放过”原则是什么？",
-      ["事故原因未查清不放过、责任人员未受到处理不放过、整改措施未落实不放过、有关人员没有受到教育不放过"],
-      "四不放过要求事故处理不能停留在结果统计上，必须查原因、追责任、抓整改、做教育，形成闭环。",
-      "原因、责任、整改、教育是四个关键词。",
+      ["事故原因未查清不放过；责任人员未受到处理不放过；有关人员未受到教育不放过；整改措施未落实不放过。"],
+      "“四不放过”用于事故调查处理，核心不是背口号，而是把事故原因、责任处理、人员教育和整改落实四个环节闭合起来，防止同类事故再次发生。",
+      "原因、责任、教育、整改四个环节缺一不可。",
+      "不要只写“事故原因、责任人”，还要写教育和整改落实。",
     ),
     blankDraft(
       "请按照时间顺序列出工程的基本建设程序。",
@@ -347,9 +352,10 @@ function subjectiveDrafts(): SubjectiveDraft[] {
     ),
     blankDraft(
       "请写出质量事故处理的一般程序。",
-      ["事故上报、组织事故调查、分析事故产生原因、编制事故处理技术方案、实施事故处理、处理结果检查验收、编写并上报事故处理总结报告"],
-      "质量事故处理要先报告和调查，再分析原因、制定并实施处理方案，最后进行验收和总结上报，形成闭环管理。",
-      "事故处理顺序是报告、调查、分析、方案、处理、验收、总结。",
+      ["① 事故上报；\n② 组织事故调查；\n③ 分析事故产生原因；\n④ 编制事故处理技术方案；\n⑤ 实施事故处理；\n⑥ 处理结果检查验收；\n⑦ 编写并上报事故处理总结报告。"],
+      "质量事故处理不是直接返工，而是先上报和调查，查明原因后再制定处理方案，实施后还要验收和形成总结报告。",
+      "顺序是“上报—调查—原因分析—方案—处理—验收—总结”。",
+      "不要漏掉“处理结果检查验收”和“总结报告”。",
     ),
     {
       stem: "网络计划综合计算题：某工程施工工序包含 A、B、C、D、E、F、G 七个工作，其时间和对应紧前工作如图所示。请绘制双代号网络图，计算各工作的六时标，写出工期并给出关键线路。",
@@ -376,30 +382,38 @@ function subjectiveDrafts(): SubjectiveDraft[] {
           "G：ES=10，EF=13，LS=11，LF=14，TF=1，FF=1。",
           "",
           "（3）工期和关键线路：",
-          "计算工期为 14 天。",
+          "工期为 14 天；",
           "关键线路为 C→D→F。",
           "原因是 C、D、F 的总时差均为 0，且该线路持续时间 5+4+5=14 天，为从起点到终点的最长线路。",
         ].join("\n"),
       ],
       analysis: [
         "答题思路：",
-        "本题是网络计划综合计算题。先根据紧前工作关系画出网络逻辑关系；再从起点向终点正推计算最早开始 ES 和最早完成 EF；再从终点向起点逆推计算最迟开始 LS 和最迟完成 LF；最后计算总时差 TF 和自由时差 FF。总时差为 0 的工作组成关键线路。本题关键线路为 C-D-F，工期为 14 天。",
+        "先按紧前工作关系建立双代号网络逻辑；再从起点向终点正推 ES、EF；再从终点向起点逆推 LS、LF；最后计算 TF、FF。总时差为 0 的工作组成关键线路，本题 C、D、F 总时差为 0，因此关键线路为 C→D→F，工期 14 天。",
         "关键点：",
-        "网络计划题不要只背图，要掌握“先正推、再逆推、最后看总时差”的步骤。",
+        "网络计划题按“画逻辑关系—正推—逆推—算时差—找关键线路”的顺序做。",
         "易错点：",
-        "D 和 E 的紧前工作都是 A、C，画双代号网络图时要用虚工作表达逻辑关系；不要漏掉虚工作，也不要把答案图提前作为题干图展示。",
+        "D、E 都受 A、C 约束，双代号网络图中要用虚工作表达逻辑关系；不要漏掉虚工作。",
       ].join("\n"),
       image: subjectiveNetworkDataImage,
       imageAlt: "第 20 题施工工序持续时间和紧前工作关系表，用于绘制双代号网络图。",
+      solutionImage: subjectiveNetworkAnswerImage,
+      solutionImageAlt: "第 20 题答案参考图，包含双代号网络图、六时标、关键线路和 14 天工期。",
     },
   ];
 }
 
-function blankDraft(stem: string, answer: string[], thought: string, keyPoint: string): SubjectiveDraft {
+function blankDraft(
+  stem: string,
+  answer: string[],
+  thought: string,
+  keyPoint: string,
+  mistake?: string,
+): SubjectiveDraft {
   return {
     stem,
     answer,
-    analysis: ["答题思路：", thought, "关键点：", keyPoint].join("\n"),
+    analysis: ["答题思路：", thought, "关键点：", keyPoint, ...(mistake ? ["易错点：", mistake] : [])].join("\n"),
   };
 }
 
@@ -415,11 +429,18 @@ function analysisForChoice(stem: string, optionText: string, number: number): st
   const text = `${stem} ${optionText}`;
   const key = normalizeForRule(text);
 
+  if (number === 83) {
+    return sectionAnalysis(
+      "混凝土试块检测不合格时，不能只按试块结果直接判断实体工程必须返工。本题经法定检测单位对混凝土实体强度检测后，实际强度达到规范允许和设计要求，说明实体工程质量可以满足安全和使用要求，因此可不作处理，但应保留检测鉴定资料。",
+      "是否处理要看实体质量是否满足设计和规范要求。",
+      "不是试块强度一低就必然返工；要看实体检测结论。",
+    );
+  }
   if (number === 84) {
     return sectionAnalysis(
-      "事故等级应分别看死亡人数、重伤人数和直接经济损失，再取达到的较重等级。本题 1 人死亡、11 人重伤、直接经济损失 2000 万元，其中重伤人数和经济损失均达到较大事故范围。",
+      "较大事故通常包括 3 人以上 10 人以下死亡，或 10 人以上 50 人以下重伤，或 1000 万元以上 5000 万元以下直接经济损失。本题 1 人死亡未达到较大事故的死亡人数标准，但 11 人重伤、直接经济损失 2000 万元均达到较大事故标准，所以按较大事故判断。",
       "事故等级按死亡、重伤、直接经济损失分别判断，取较重等级。",
-      "不要只看死亡人数；1 人死亡虽未达到较大事故，但 11 人重伤和 2000 万元损失会提高等级判断。",
+      "不能只看死亡人数；重伤人数和经济损失达到标准时，也会提高事故等级。",
     );
   }
   if (number === 85) {
@@ -429,18 +450,25 @@ function analysisForChoice(stem: string, optionText: string, number: number): st
       "这类题问的是备案期限，不是材料进场签字或监理审批权限。",
     );
   }
+  if (number === 87) {
+    return sectionAnalysis(
+      "施工起重机械和整体提升脚手架、模板等自升式架设设施验收合格后，应在规定期限内向建设行政主管部门或有关部门登记。本题考查登记时限，常考为 30 日。",
+      "验收合格后 30 日内登记。",
+      "不要和事故补报、质量备案等时限混淆。",
+    );
+  }
   if (number === 88) {
     return sectionAnalysis(
-      "事故等级要把补报期内的伤亡变化计入判断，并按死亡人数、重伤人数、直接经济损失等指标取较重等级。本题补报后为 2 人死亡、11 人重伤，重伤人数达到较大事故范围。",
-      "补报期内伤亡变化要并入事故等级，按较重指标确定等级。",
-      "不要只按最初 11 人重伤判断，也不要忽略补报后的死亡人数变化。",
+      "事故补报期限内重伤人员死亡，事故等级应按补报后的实际后果重新判定。本题最终死亡 2 人，原 11 名重伤人员中 2 人死亡后仍体现出较严重后果，按较大事故标准判断。",
+      "补报期内伤亡变化会影响事故等级。",
+      "不要只按事故发生当天人数判断。",
     );
   }
   if (number === 89) {
     return sectionAnalysis(
-      "生产安全事故等级按死亡人数、重伤人数、直接经济损失以及急性工业中毒人数等指标判断，取达到的最高等级。120 名操作工人急性工业中毒，已达到特别重大事故范围。",
-      "急性工业中毒人数也用于事故分级，100 人以上通常按特别重大事故掌握。",
-      "事故分级不是只看死亡人数，群体中毒人数达到上限时等级会更高。",
+      "特别重大事故包括造成 30 人以上死亡，或 100 人以上重伤（包括急性工业中毒），或 1 亿元以上直接经济损失。本题 120 名工人急性工业中毒，达到 100 人以上标准，属于特别重大事故。",
+      "急性工业中毒人数按重伤口径计入事故等级判断。",
+      "不要只看死亡人数。",
     );
   }
 
