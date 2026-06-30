@@ -1,6 +1,6 @@
-﻿import fs from "node:fs";
+import fs from "node:fs";
 import path from "node:path";
-import type { Course, Question, QuestionType } from "../src/types";
+import type { AnswerValue, Course, Question, QuestionType } from "../src/types";
 
 interface CourseReport {
   courseId: string;
@@ -8,23 +8,19 @@ interface CourseReport {
   original: number;
   deleted: number;
   remaining: number;
-  conflicts: number;
+  safeDuplicateGroups: number;
+  sameStemDifferentType: number;
+  sameStemSameTypeDifferentOptions: number;
+  sameStemSameTypeDifferentAnswer: number;
+  imageMismatchDuplicates: number;
 }
 
-interface DuplicateReport {
+interface SafeDuplicateReport {
   courseId: string;
   type: QuestionType;
   stem: string;
   keepId: string;
   deleteIds: string[];
-}
-
-interface ConflictReport {
-  courseId: string;
-  type: QuestionType;
-  stem: string;
-  questionIds: string[];
-  answers: Array<{ id: string; answer: string }>;
 }
 
 interface DifferentTypeReport {
@@ -33,40 +29,57 @@ interface DifferentTypeReport {
   types: Array<{ type: QuestionType; ids: string[] }>;
 }
 
+interface DifferentOptionsReport {
+  courseId: string;
+  type: QuestionType;
+  stem: string;
+  variants: Array<{ ids: string[]; options: string }>;
+}
+
+interface DifferentAnswerReport {
+  courseId: string;
+  type: QuestionType;
+  stem: string;
+  variants: Array<{ ids: string[]; answer: string }>;
+}
+
+interface ImageMismatchReport {
+  courseId: string;
+  type: QuestionType;
+  stem: string;
+  variants: Array<{ ids: string[]; image: string }>;
+}
+
 const dryRun = process.argv.includes("--dry-run");
 const coursesPath = path.resolve("src/data/courses.json");
 const courses = JSON.parse(stripBom(fs.readFileSync(coursesPath, "utf8"))) as Course[];
 
 const courseReports: CourseReport[] = [];
-const duplicateReports: DuplicateReport[] = [];
-const conflictReports: ConflictReport[] = [];
+const safeDuplicateReports: SafeDuplicateReport[] = [];
 const differentTypeReports: DifferentTypeReport[] = [];
+const differentOptionsReports: DifferentOptionsReport[] = [];
+const differentAnswerReports: DifferentAnswerReport[] = [];
+const imageMismatchReports: ImageMismatchReport[] = [];
 
 for (const course of courses) {
   const questionPath = path.resolve("src/data", course.questionFile);
   const questions = JSON.parse(stripBom(fs.readFileSync(questionPath, "utf8"))) as Question[];
   const originalIndex = new Map(questions.map((question, index) => [question.id, index]));
-  const groups = groupQuestions(course.id, questions);
   const deleteIds = new Set<string>();
-  let conflictCount = 0;
 
-  differentTypeReports.push(...findSameStemDifferentType(course.id, questions));
+  const courseDifferentTypes = findSameStemDifferentType(course.id, questions);
+  const courseDifferentOptions = findSameStemSameTypeDifferentOptions(course.id, questions);
+  const courseDifferentAnswers = findSameStemSameTypeDifferentAnswer(course.id, questions);
+  const courseImageMismatches = findImageMismatchDuplicates(course.id, questions);
 
-  for (const group of groups.values()) {
+  differentTypeReports.push(...courseDifferentTypes);
+  differentOptionsReports.push(...courseDifferentOptions);
+  differentAnswerReports.push(...courseDifferentAnswers);
+  imageMismatchReports.push(...courseImageMismatches);
+
+  const safeGroups = groupSafeDuplicates(course.id, questions);
+  for (const group of safeGroups.values()) {
     if (group.length <= 1) {
-      continue;
-    }
-
-    const answerKeys = new Set(group.map(normalizeQuestionAnswer));
-    if (answerKeys.size > 1) {
-      conflictCount += 1;
-      conflictReports.push({
-        courseId: course.id,
-        type: group[0].type,
-        stem: normalizeStemForDisplay(group[0].stem),
-        questionIds: group.map((question) => question.id),
-        answers: group.map((question) => ({ id: question.id, answer: normalizeQuestionAnswer(question) })),
-      });
       continue;
     }
 
@@ -83,7 +96,7 @@ for (const course of courses) {
       deleteIds.add(question.id);
     }
 
-    duplicateReports.push({
+    safeDuplicateReports.push({
       courseId: course.id,
       type: kept.type,
       stem: normalizeStemForDisplay(kept.stem),
@@ -103,7 +116,11 @@ for (const course of courses) {
     original: questions.length,
     deleted: deleteIds.size,
     remaining: deduped.length,
-    conflicts: conflictCount,
+    safeDuplicateGroups: [...safeGroups.values()].filter((group) => group.length > 1).length,
+    sameStemDifferentType: courseDifferentTypes.length,
+    sameStemSameTypeDifferentOptions: courseDifferentOptions.length,
+    sameStemSameTypeDifferentAnswer: courseDifferentAnswers.length,
+    imageMismatchDuplicates: courseImageMismatches.length,
   });
 }
 
@@ -111,27 +128,19 @@ console.log(dryRun ? "题库去重 dry-run：未修改任何文件。" : "题库
 console.log("课程统计:");
 for (const report of courseReports) {
   console.log(
-    `- ${report.courseName}(${report.courseId}): 原 ${report.original} 题，删除 ${report.deleted} 题，剩余 ${report.remaining} 题，冲突 ${report.conflicts} 组。`,
+    `- ${report.courseName}(${report.courseId}): 原 ${report.original} 题，删除 ${report.deleted} 题，剩余 ${report.remaining} 题；safe duplicate ${report.safeDuplicateGroups} 组；same stem different type ${report.sameStemDifferentType} 组；different options ${report.sameStemSameTypeDifferentOptions} 组；different answer ${report.sameStemSameTypeDifferentAnswer} 组；image mismatch ${report.imageMismatchDuplicates} 组。`,
   );
 }
 
-console.log(`safe duplicates: ${duplicateReports.length} 组，删除 ${duplicateReports.reduce((total, item) => total + item.deleteIds.length, 0)} 题`);
-for (const report of duplicateReports) {
+const deletedCount = safeDuplicateReports.reduce((total, item) => total + item.deleteIds.length, 0);
+console.log(`safe duplicates: ${safeDuplicateReports.length} 组，删除 ${deletedCount} 题`);
+for (const report of safeDuplicateReports) {
   console.log(
     `[safe][${report.courseId}] ${report.type} 保留 ${report.keepId}，删除 ${report.deleteIds.join(", ")}：${summarize(report.stem)}`,
   );
 }
 
-console.log(`conflicts: ${conflictReports.length} 组`);
-for (const report of conflictReports) {
-  console.warn(
-    `[conflict][${report.courseId}] ${report.type} ${report.questionIds.join(", ")}：${summarize(report.stem)} / ${report.answers
-      .map((item) => `${item.id}=${item.answer}`)
-      .join(" | ")}`,
-  );
-}
-
-console.log(`same stem different type: ${differentTypeReports.length} 组，仅报告不删除`);
+console.log(`same stem different type: ${differentTypeReports.length} 组，全部保留`);
 for (const report of differentTypeReports) {
   console.log(
     `[different-type][${report.courseId}] ${summarize(report.stem)} / ${report.types
@@ -140,13 +149,45 @@ for (const report of differentTypeReports) {
   );
 }
 
-function groupQuestions(courseId: string, questions: Question[]): Map<string, Question[]> {
+console.log(`same stem same type different options: ${differentOptionsReports.length} 组，全部保留`);
+for (const report of differentOptionsReports) {
+  console.warn(
+    `[different-options][${report.courseId}] ${report.type} ${summarize(report.stem)} / ${report.variants
+      .map((item) => `${item.ids.join(", ")}=${summarize(item.options)}`)
+      .join(" | ")}`,
+  );
+}
+
+console.log(`same stem same type different answer: ${differentAnswerReports.length} 组，全部保留`);
+for (const report of differentAnswerReports) {
+  console.warn(
+    `[different-answer][${report.courseId}] ${report.type} ${summarize(report.stem)} / ${report.variants
+      .map((item) => `${item.ids.join(", ")}=${item.answer}`)
+      .join(" | ")}`,
+  );
+}
+
+console.log(`image mismatch duplicates: ${imageMismatchReports.length} 组，全部保留`);
+for (const report of imageMismatchReports) {
+  console.warn(
+    `[image-mismatch][${report.courseId}] ${report.type} ${summarize(report.stem)} / ${report.variants
+      .map((item) => `${item.ids.join(", ")}=${item.image}`)
+      .join(" | ")}`,
+  );
+}
+
+function groupSafeDuplicates(courseId: string, questions: Question[]): Map<string, Question[]> {
   const groups = new Map<string, Question[]>();
   for (const question of questions) {
-    const key = `${courseId}\u0000${question.type}\u0000${normalizeStem(question.stem)}`;
-    const group = groups.get(key) ?? [];
-    group.push(question);
-    groups.set(key, group);
+    const key = [
+      courseId,
+      question.type,
+      normalizeStem(question.stem),
+      normalizeQuestionOptions(question),
+      normalizeQuestionAnswer(question),
+      normalizeQuestionImage(question),
+    ].join("\u0000");
+    groups.set(key, [...(groups.get(key) ?? []), question]);
   }
   return groups;
 }
@@ -156,9 +197,7 @@ function findSameStemDifferentType(courseId: string, questions: Question[]): Dif
   for (const question of questions) {
     const stemKey = normalizeStem(question.stem);
     const byType = byStem.get(stemKey) ?? new Map<QuestionType, Question[]>();
-    const typedQuestions = byType.get(question.type) ?? [];
-    typedQuestions.push(question);
-    byType.set(question.type, typedQuestions);
+    byType.set(question.type, [...(byType.get(question.type) ?? []), question]);
     byStem.set(stemKey, byType);
   }
 
@@ -179,6 +218,102 @@ function findSameStemDifferentType(courseId: string, questions: Question[]): Dif
   return reports;
 }
 
+function findSameStemSameTypeDifferentOptions(courseId: string, questions: Question[]): DifferentOptionsReport[] {
+  const reports: DifferentOptionsReport[] = [];
+  for (const group of sameStemSameTypeGroups(courseId, questions).values()) {
+    const variants = groupByVariant(group, normalizeQuestionOptions);
+    if (variants.length <= 1) {
+      continue;
+    }
+    reports.push({
+      courseId,
+      type: group[0].type,
+      stem: normalizeStemForDisplay(group[0].stem),
+      variants: variants.map((variant) => ({
+        ids: variant.questions.map((question) => question.id),
+        options: variant.variant,
+      })),
+    });
+  }
+  return reports;
+}
+
+function findSameStemSameTypeDifferentAnswer(courseId: string, questions: Question[]): DifferentAnswerReport[] {
+  const reports: DifferentAnswerReport[] = [];
+  for (const group of sameStemSameTypeGroups(courseId, questions).values()) {
+    const variants = groupByVariant(group, normalizeQuestionAnswer);
+    if (variants.length <= 1) {
+      continue;
+    }
+    reports.push({
+      courseId,
+      type: group[0].type,
+      stem: normalizeStemForDisplay(group[0].stem),
+      variants: variants.map((variant) => ({
+        ids: variant.questions.map((question) => question.id),
+        answer: variant.variant,
+      })),
+    });
+  }
+  return reports;
+}
+
+function findImageMismatchDuplicates(courseId: string, questions: Question[]): ImageMismatchReport[] {
+  const bySafeWithoutImage = new Map<string, Question[]>();
+  for (const question of questions) {
+    const key = [
+      courseId,
+      question.type,
+      normalizeStem(question.stem),
+      normalizeQuestionOptions(question),
+      normalizeQuestionAnswer(question),
+    ].join("\u0000");
+    bySafeWithoutImage.set(key, [...(bySafeWithoutImage.get(key) ?? []), question]);
+  }
+
+  const reports: ImageMismatchReport[] = [];
+  for (const group of bySafeWithoutImage.values()) {
+    const variants = groupByVariant(group, normalizeQuestionImage);
+    if (variants.length <= 1) {
+      continue;
+    }
+    reports.push({
+      courseId,
+      type: group[0].type,
+      stem: normalizeStemForDisplay(group[0].stem),
+      variants: variants.map((variant) => ({
+        ids: variant.questions.map((question) => question.id),
+        image: variant.variant,
+      })),
+    });
+  }
+  return reports;
+}
+
+function sameStemSameTypeGroups(courseId: string, questions: Question[]): Map<string, Question[]> {
+  const groups = new Map<string, Question[]>();
+  for (const question of questions) {
+    const key = [courseId, question.type, normalizeStem(question.stem)].join("\u0000");
+    groups.set(key, [...(groups.get(key) ?? []), question]);
+  }
+  return new Map([...groups.entries()].filter(([, group]) => group.length > 1));
+}
+
+function groupByVariant(
+  questions: Question[],
+  variantFor: (question: Question) => string,
+): Array<{ variant: string; questions: Question[] }> {
+  const byVariant = new Map<string, Question[]>();
+  for (const question of questions) {
+    const variant = variantFor(question);
+    byVariant.set(variant, [...(byVariant.get(variant) ?? []), question]);
+  }
+  return [...byVariant.entries()].map(([variant, variantQuestions]) => ({
+    variant,
+    questions: variantQuestions,
+  }));
+}
+
 function normalizeStem(value: string): string {
   return value
     .normalize("NFKC")
@@ -197,6 +332,15 @@ function normalizeStemForDisplay(value: string): string {
   return normalizeStem(value).replace(/\s+/g, " ");
 }
 
+function normalizeQuestionOptions(question: Question): string {
+  return JSON.stringify(
+    question.options.map((option) => ({
+      label: option.label.normalize("NFKC").trim().toUpperCase(),
+      text: normalizeText(option.text),
+    })),
+  );
+}
+
 function normalizeQuestionAnswer(question: Question): string {
   if (question.type === "multiple") {
     return JSON.stringify(normalizeOptionArray(question.answer));
@@ -210,13 +354,24 @@ function normalizeQuestionAnswer(question: Question): string {
   return JSON.stringify(normalizeText(question.answer));
 }
 
-function normalizeOptionArray(answer: Question["answer"]): string[] {
+function normalizeQuestionImage(question: Question): string {
+  const image = question.image?.trim();
+  if (!image) {
+    return "<no-image>";
+  }
+  return JSON.stringify({
+    image: normalizeText(image),
+    imageAlt: normalizeText(question.imageAlt ?? ""),
+  });
+}
+
+function normalizeOptionArray(answer: AnswerValue): string[] {
   const text = Array.isArray(answer) ? answer.join("") : answer;
   const matches = text.normalize("NFKC").toUpperCase().match(/[A-H]/g) ?? [];
   return Array.from(new Set(matches)).sort();
 }
 
-function normalizeJudge(answer: Question["answer"]): string {
+function normalizeJudge(answer: AnswerValue): string {
   const text = normalizeText(Array.isArray(answer) ? answer.join("") : answer).toLowerCase();
   if (["正确", "对", "true", "t", "yes", "y", "√", "✓"].includes(text)) {
     return "正确";
@@ -234,7 +389,7 @@ function normalizeText(value: string): string {
 function scoreQuestion(question: Question): number {
   const analysisScore = (question.analysis ?? "").trim().length;
   const optionScore = question.options.reduce((total, option) => total + option.text.trim().length, 0);
-  const imageScore = hasImage(question) ? 10000 : 0;
+  const imageScore = question.image ? 10000 : 0;
   const answerScore = Array.isArray(question.answer) ? question.answer.join(" ").length : String(question.answer).length;
   const fieldScore = Object.entries(question).filter(([, value]) => {
     if (Array.isArray(value)) {
@@ -245,13 +400,8 @@ function scoreQuestion(question: Question): number {
   return imageScore + analysisScore * 10 + optionScore + answerScore + fieldScore;
 }
 
-function hasImage(question: Question): boolean {
-  const candidate = question as Question & { images?: unknown[] };
-  return typeof question.image === "string" || (Array.isArray(candidate.images) && candidate.images.length > 0);
-}
-
-function summarize(stem: string): string {
-  return stem.length > 90 ? `${stem.slice(0, 90)}...` : stem;
+function summarize(value: string): string {
+  return value.length > 90 ? `${value.slice(0, 90)}...` : value;
 }
 
 function stripBom(text: string): string {

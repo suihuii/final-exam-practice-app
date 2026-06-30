@@ -54,6 +54,11 @@ function run(): void {
     let updated = 0;
 
     const enriched = questions.map((question) => {
+      if (!professionalCourseIds.has(course.id) && question.analysis.trim()) {
+        kept += 1;
+        return question;
+      }
+
       if (shouldKeepExistingAnalysis(question.analysis)) {
         kept += 1;
         return question;

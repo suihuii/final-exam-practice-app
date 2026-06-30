@@ -1,0 +1,1930 @@
+[
+  {
+    "id": "CM-S0001",
+    "courseId": "construction-management",
+    "paperId": "CM-CHOICE",
+    "paperIndex": 1,
+    "index": 1,
+    "type": "single",
+    "stem": "双代号网络计划中的关键线路是指（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "总时差为零的线路"
+      },
+      {
+        "label": "B",
+        "text": "总的工作持续时间最短的线路"
+      },
+      {
+        "label": "C",
+        "text": "一经确定,不会发生转移的线路"
+      },
+      {
+        "label": "D",
+        "text": "自始至终全部由关键工作组成的线路"
+      }
+    ],
+    "answer": "D",
+    "analysis": "答题思路：\n网络计划中关键线路决定计算工期，通常表现为总持续时间最长，或由总时差为 0 的关键工作连续组成。判断时要从起点到终点看整条线路，而不是只看单个工作。\n关键点：\n关键线路看最长路径和总时差为 0。\n易错点：\n关键线路可能不止一条，且项目执行中可能随进度变化而转移。"
+  },
+  {
+    "id": "CM-S0002",
+    "courseId": "construction-management",
+    "paperId": "CM-CHOICE",
+    "paperIndex": 2,
+    "index": 2,
+    "type": "single",
+    "stem": "在安排一个小型项目施工的进度时,只需编制（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "施工总进度方案"
+      },
+      {
+        "label": "B",
+        "text": "施工总进度规划"
+      },
+      {
+        "label": "C",
+        "text": "施工总进度计划"
+      },
+      {
+        "label": "D",
+        "text": "施工总进度目标"
+      }
+    ],
+    "answer": "C",
+    "analysis": "答题思路：\n按编制深度划分时，进度计划可分为总进度计划、单项工程进度计划和单位工程进度计划。这里强调的是计划对象和深度层级。\n关键点：\n编制深度看总、单项、单位工程三个层级。"
+  },
+  {
+    "id": "CM-S0003",
+    "courseId": "construction-management",
+    "paperId": "CM-CHOICE",
+    "paperIndex": 3,
+    "index": 3,
+    "type": "single",
+    "stem": "在不影响其紧后工作最早开始的前提下,工作可以利用的机动时间是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "最早开始时间"
+      },
+      {
+        "label": "B",
+        "text": "最早完成时间"
+      },
+      {
+        "label": "C",
+        "text": "总时差"
+      },
+      {
+        "label": "D",
+        "text": "自由时差"
+      }
+    ],
+    "answer": "D",
+    "analysis": "答题思路：\n自由时差是不影响紧后工作最早开始时间的机动时间，范围比总时差更受限制。题干出现“不影响紧后工作最早开始”时，应判断为自由时差。\n关键点：\n自由时差只看对紧后工作最早开始的影响。"
+  },
+  {
+    "id": "CM-S0004",
+    "courseId": "construction-management",
+    "paperId": "CM-CHOICE",
+    "paperIndex": 4,
+    "index": 4,
+    "type": "single",
+    "stem": "下列关于网络计划的说法,正确的是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "一个网络计划只有一条关键线路"
+      },
+      {
+        "label": "B",
+        "text": "一个网络计划可能有多条关键线路"
+      },
+      {
+        "label": "C",
+        "text": "由关键工作组成的线路称为非关键线路"
+      },
+      {
+        "label": "D",
+        "text": "网络计划中允许存在循环回路"
+      }
+    ],
+    "answer": "B",
+    "analysis": "答题思路：\n网络计划中关键线路决定计算工期，通常表现为总持续时间最长，或由总时差为 0 的关键工作连续组成。判断时要从起点到终点看整条线路，而不是只看单个工作。\n关键点：\n关键线路看最长路径和总时差为 0。\n易错点：\n关键线路可能不止一条，且项目执行中可能随进度变化而转移。"
+  },
+  {
+    "id": "CM-S0005",
+    "courseId": "construction-management",
+    "paperId": "CM-CHOICE",
+    "paperIndex": 5,
+    "index": 5,
+    "type": "single",
+    "stem": "建设工程项目进度计划按编制深度可分为（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "指导性进度计划、控制性进度计划、实施性进度计划"
+      },
+      {
+        "label": "B",
+        "text": "总进度计划、单项工程进度计划、单位工程进度计划"
+      },
+      {
+        "label": "C",
+        "text": "里程碑表、横道图计划、网络计划"
+      },
+      {
+        "label": "D",
+        "text": "年度进度计划、季度进度计划、月进度计划"
+      }
+    ],
+    "answer": "B",
+    "analysis": "答题思路：\n按编制深度划分时，进度计划可分为总进度计划、单项工程进度计划和单位工程进度计划。这里强调的是计划对象和深度层级。\n关键点：\n编制深度看总、单项、单位工程三个层级。"
+  },
+  {
+    "id": "CM-S0006",
+    "courseId": "construction-management",
+    "paperId": "CM-CHOICE",
+    "paperIndex": 6,
+    "index": 6,
+    "type": "single",
+    "stem": "施工企业的施工生产计划与建设工程项目施工进度计划属于（ ）的计划。",
+    "options": [
+      {
+        "label": "A",
+        "text": "同一个系统内的同一个层次"
+      },
+      {
+        "label": "B",
+        "text": "两个不同系统,但紧密相关"
+      },
+      {
+        "label": "C",
+        "text": "同一个层次上两种不同系统"
+      },
+      {
+        "label": "D",
+        "text": "两个不同系统,毫不相关"
+      }
+    ],
+    "answer": "B",
+    "analysis": "答题思路：\n施工企业的施工生产计划属于企业管理系统，项目施工进度计划属于具体建设工程项目管理系统。二者系统不同，但在资源、工期和施工组织上紧密相关。\n关键点：\n企业生产计划和项目进度计划不同系统但密切相关。"
+  },
+  {
+    "id": "CM-S0007",
+    "courseId": "construction-management",
+    "paperId": "CM-CHOICE",
+    "paperIndex": 7,
+    "index": 7,
+    "type": "single",
+    "stem": "下列施工进度计划中,属于控制性施工进度计划的是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "施工总进度计划"
+      },
+      {
+        "label": "B",
+        "text": "单体工程施工进度计划"
+      },
+      {
+        "label": "C",
+        "text": "项目年度施工计划"
+      },
+      {
+        "label": "D",
+        "text": "项目月度施工计划"
+      }
+    ],
+    "answer": "A",
+    "analysis": "答题思路：\n控制性施工进度计划用于确定总体部署、控制节点和合同进度目标，是项目层面的控制依据。作业班组的具体责任划分更偏实施性安排，不属于控制性计划的核心内容。\n关键点：\n控制性计划抓总体部署和控制节点。"
+  },
+  {
+    "id": "CM-S0008",
+    "courseId": "construction-management",
+    "paperId": "CM-CHOICE",
+    "paperIndex": 8,
+    "index": 8,
+    "type": "single",
+    "stem": "下列建设工程项目进度控制的措施中,属于技术措施的是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "确定各类进度计划的审批程序"
+      },
+      {
+        "label": "B",
+        "text": "选择合理的合同结构"
+      },
+      {
+        "label": "C",
+        "text": "选择工程承发包方式"
+      },
+      {
+        "label": "D",
+        "text": "优化项目的设计方案或施工方案"
+      }
+    ],
+    "answer": "D",
+    "analysis": "答题思路：\n进度控制的技术措施通常与设计方案、施工方案、施工方法和技术路线优化有关。题干涉及优化设计或施工方案时，应归入技术措施。\n关键点：\n技术措施看方案和技术路线。\n易错点：\n信息技术应用通常归入管理措施，不要和技术措施混淆。"
+  },
+  {
+    "id": "CM-S0009",
+    "courseId": "construction-management",
+    "paperId": "CM-CHOICE",
+    "paperIndex": 9,
+    "index": 9,
+    "type": "single",
+    "stem": "控制性施工进度计划的内容不包括（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "对承包合同的进度目标进行分析论证"
+      },
+      {
+        "label": "B",
+        "text": "确定施工的总体部署"
+      },
+      {
+        "label": "C",
+        "text": "划分各作业班组进度控制的责任"
+      },
+      {
+        "label": "D",
+        "text": "确定控制节点的进度目标"
+      }
+    ],
+    "answer": "C",
+    "analysis": "答题思路：\n控制性施工进度计划用于确定总体部署、控制节点和合同进度目标，是项目层面的控制依据。作业班组的具体责任划分更偏实施性安排，不属于控制性计划的核心内容。\n关键点：\n控制性计划抓总体部署和控制节点。"
+  },
+  {
+    "id": "CM-S0010",
+    "courseId": "construction-management",
+    "paperId": "CM-CHOICE",
+    "paperIndex": 10,
+    "index": 10,
+    "type": "single",
+    "stem": "设计方进度控制的任务是依据（ ）对设计工作进度的要求控制设计工作进度。",
+    "options": [
+      {
+        "label": "A",
+        "text": "设计总进度纲要"
+      },
+      {
+        "label": "B",
+        "text": "设计任务委托合同"
+      },
+      {
+        "label": "C",
+        "text": "设计标准和规范"
+      },
+      {
+        "label": "D",
+        "text": "可行性研究报告"
+      }
+    ],
+    "answer": "B",
+    "analysis": "答题思路：\n设计方进度控制的直接依据是设计任务委托合同，因为合同明确了设计工作范围、成果和时间要求。\n关键点：\n设计进度控制看设计任务委托合同。"
+  },
+  {
+    "id": "CM-S0011",
+    "courseId": "construction-management",
+    "paperId": "CM-CHOICE",
+    "paperIndex": 11,
+    "index": 11,
+    "type": "single",
+    "stem": "在网络计划中,关键工作是指（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "总时差最小的工作"
+      },
+      {
+        "label": "B",
+        "text": "自由时差最小的工作"
+      },
+      {
+        "label": "C",
+        "text": "时标网络计划中无波形线的工作"
+      },
+      {
+        "label": "D",
+        "text": "持续时间最长的工作"
+      }
+    ],
+    "answer": "A",
+    "analysis": "答题思路：\n关键工作是对总工期最敏感的工作，通常总时差最小；当计划工期等于计算工期时，关键工作的总时差为 0。\n关键点：\n判断关键工作优先看总时差。\n易错点：\n持续时间最长的单个工作不一定就是关键工作。"
+  },
+  {
+    "id": "CM-S0012",
+    "courseId": "construction-management",
+    "paperId": "CM-CHOICE",
+    "paperIndex": 12,
+    "index": 12,
+    "type": "single",
+    "stem": "业主方进度控制的任务是控制整个项目（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "前期工作进度"
+      },
+      {
+        "label": "B",
+        "text": "设计阶段进度"
+      },
+      {
+        "label": "C",
+        "text": "建设管理进度"
+      },
+      {
+        "label": "D",
+        "text": "实施阶段进度"
+      }
+    ],
+    "answer": "D",
+    "analysis": "答题思路：\n业主方是项目实施阶段全过程进度目标的主要控制主体，控制范围覆盖设计、招采、施工、动用前准备等整个实施阶段。\n关键点：\n业主方进度控制看整个实施阶段。"
+  },
+  {
+    "id": "CM-S0013",
+    "courseId": "construction-management",
+    "paperId": "CM-CHOICE",
+    "paperIndex": 13,
+    "index": 13,
+    "type": "single",
+    "stem": "下列施工进度控制措施中,属于管理措施的是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "编制进度控制工作流程"
+      },
+      {
+        "label": "B",
+        "text": "重视信息技术的应用"
+      },
+      {
+        "label": "C",
+        "text": "优选施工方案"
+      },
+      {
+        "label": "D",
+        "text": "进行进度控制的会议组织设计"
+      }
+    ],
+    "answer": "B",
+    "analysis": "答题思路：\n管理措施强调管理方法、合同模式、承发包模式、信息技术和计划方法的运用。采用信息技术或网络计划方法辅助进度控制，通常属于管理措施。\n关键点：\n管理措施看方法、合同、信息和计划手段。\n易错点：\n优化施工方案才更偏技术措施。"
+  },
+  {
+    "id": "CM-S0014",
+    "courseId": "construction-management",
+    "paperId": "CM-CHOICE",
+    "paperIndex": 14,
+    "index": 14,
+    "type": "single",
+    "stem": "建设工程进度控制措施中,采用信息技术辅助进度控制属于进度控制的（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "经济"
+      },
+      {
+        "label": "B",
+        "text": "技术"
+      },
+      {
+        "label": "C",
+        "text": "组织"
+      },
+      {
+        "label": "D",
+        "text": "管理"
+      }
+    ],
+    "answer": "D",
+    "analysis": "答题思路：\n管理措施强调管理方法、合同模式、承发包模式、信息技术和计划方法的运用。采用信息技术或网络计划方法辅助进度控制，通常属于管理措施。\n关键点：\n管理措施看方法、合同、信息和计划手段。\n易错点：\n优化施工方案才更偏技术措施。"
+  },
+  {
+    "id": "CM-S0015",
+    "courseId": "construction-management",
+    "paperId": "CM-CHOICE",
+    "paperIndex": 15,
+    "index": 15,
+    "type": "single",
+    "stem": "下列措施中,属于进度控制的组织措施的是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "进度控制会议的组织设计"
+      },
+      {
+        "label": "B",
+        "text": "利用网络方法编制工程进度计划"
+      },
+      {
+        "label": "C",
+        "text": "承发包模式的选择"
+      },
+      {
+        "label": "D",
+        "text": "更换施工机械"
+      }
+    ],
+    "answer": "A",
+    "analysis": "答题思路：\n组织措施关注组织结构、职责分工、工作流程和会议制度等安排。进度控制会议如何组织，属于通过组织体系保障进度目标。\n关键点：\n组织措施看人、岗位、流程和会议制度。"
+  },
+  {
+    "id": "CM-S0016",
+    "courseId": "construction-management",
+    "paperId": "CM-CHOICE",
+    "paperIndex": 16,
+    "index": 16,
+    "type": "single",
+    "stem": "下列建设工程施工方进度控制的措施中,属于技术措施的是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "重视信息技术在进度控制中的应用"
+      },
+      {
+        "label": "B",
+        "text": "采用网络计划方法编制进度计划"
+      },
+      {
+        "label": "C",
+        "text": "分析工程设计变更的必要性和可能性"
+      },
+      {
+        "label": "D",
+        "text": "编制与进度相适应的资源需求计划"
+      }
+    ],
+    "answer": "C",
+    "analysis": "答题思路：\n进度控制的技术措施通常与设计方案、施工方案、施工方法和技术路线优化有关。题干涉及优化设计或施工方案时，应归入技术措施。\n关键点：\n技术措施看方案和技术路线。\n易错点：\n信息技术应用通常归入管理措施，不要和技术措施混淆。"
+  },
+  {
+    "id": "CM-S0017",
+    "courseId": "construction-management",
+    "paperId": "CM-CHOICE",
+    "paperIndex": 17,
+    "index": 17,
+    "type": "single",
+    "stem": "下列施工进度计划中,属于实施性施工进度计划的是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "施工总进度计划"
+      },
+      {
+        "label": "B",
+        "text": "单体工程施工进度计划"
+      },
+      {
+        "label": "C",
+        "text": "项目年度施工计划"
+      },
+      {
+        "label": "D",
+        "text": "项目月度施工计划"
+      }
+    ],
+    "answer": "D",
+    "analysis": "答题思路：\n实施性施工进度计划面向现场近期施工安排，通常落实到月、旬、周等较细层级。月度施工计划比总进度计划更接近现场执行。\n关键点：\n实施性计划越具体，越接近现场作业。"
+  },
+  {
+    "id": "CM-S0018",
+    "courseId": "construction-management",
+    "paperId": "CM-CHOICE",
+    "paperIndex": 18,
+    "index": 18,
+    "type": "single",
+    "stem": "下列有关虚工作的说法错误的是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "虚工作可以起联系作用"
+      },
+      {
+        "label": "B",
+        "text": "虚工作仅表示工作之间的逻辑关系"
+      },
+      {
+        "label": "C",
+        "text": "混凝土养护可以用虚工作来表示"
+      },
+      {
+        "label": "D",
+        "text": "只有双代号网络图中才有虚箭线"
+      }
+    ],
+    "answer": "C",
+    "analysis": "答题思路：\n虚工作不消耗时间和资源，主要用于表达双代号网络图中的逻辑关系。实际施工过程如混凝土养护不能简单当作虚工作处理。\n关键点：\n虚工作只表示逻辑关系，不表示真实施工活动。"
+  },
+  {
+    "id": "CM-S0019",
+    "courseId": "construction-management",
+    "paperId": "CM-CHOICE",
+    "paperIndex": 19,
+    "index": 19,
+    "type": "single",
+    "stem": "建设工程项目进度计划系统是由多个相互关联的进度计划组成的系统,这是（ ）的依据。",
+    "options": [
+      {
+        "label": "A",
+        "text": "项目实施"
+      },
+      {
+        "label": "B",
+        "text": "项目进度控制"
+      },
+      {
+        "label": "C",
+        "text": "编制总进度纲要"
+      },
+      {
+        "label": "D",
+        "text": "进行项目结构分析"
+      }
+    ],
+    "answer": "B",
+    "analysis": "答题思路：\n建设工程项目进度计划系统由多个相互关联的计划组成，是进度控制的依据。它不是一次性固定成果，而是在项目进展过程中逐步形成和完善。\n关键点：\n进度计划系统服务于进度控制，并随项目推进逐步形成。"
+  },
+  {
+    "id": "CM-S0020",
+    "courseId": "construction-management",
+    "paperId": "CM-CHOICE",
+    "paperIndex": 20,
+    "index": 20,
+    "type": "single",
+    "stem": "作为建设工程项目进度控制的依据,建设工程项目进度计划系统应（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "在项目的前期决策阶段建立"
+      },
+      {
+        "label": "B",
+        "text": "在项目的初步设计阶段完善"
+      },
+      {
+        "label": "C",
+        "text": "在项目的进展过程中逐步形成"
+      },
+      {
+        "label": "D",
+        "text": "在项目的准备阶段建立"
+      }
+    ],
+    "answer": "C",
+    "analysis": "答题思路：\n建设工程项目进度计划系统由多个相互关联的计划组成，是进度控制的依据。它不是一次性固定成果，而是在项目进展过程中逐步形成和完善。\n关键点：\n进度计划系统服务于进度控制，并随项目推进逐步形成。"
+  },
+  {
+    "id": "CM-S0021",
+    "courseId": "construction-management",
+    "paperId": "CM-CHOICE",
+    "paperIndex": 21,
+    "index": 21,
+    "type": "single",
+    "stem": "关于施工总承包管理方责任的说法,正确的是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "承担施工任务并对其质量负责"
+      },
+      {
+        "label": "B",
+        "text": "与分包方和供货方直接签订合同"
+      },
+      {
+        "label": "C",
+        "text": "承担对分包方的组织和管理责任"
+      },
+      {
+        "label": "D",
+        "text": "负责组织和指挥总承包单位的施工"
+      }
+    ],
+    "answer": "B",
+    "analysis": "答题思路：\n施工总承包管理方的核心责任是对分包施工进行组织、协调和管理；若其想承担部分施工任务，通常也应通过投标竞争取得。\n关键点：\n总承包管理重在管理分包，不等同于自动承接施工。"
+  },
+  {
+    "id": "CM-S0022",
+    "courseId": "construction-management",
+    "paperId": "CM-CHOICE",
+    "paperIndex": 22,
+    "index": 22,
+    "type": "single",
+    "stem": "施工总承包管理模式下,如施工总承包管理单位想承接该工程部分工程的施工任务,则其取得施工任务的合理途径应为（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "监理单位委托"
+      },
+      {
+        "label": "B",
+        "text": "投标竞争"
+      },
+      {
+        "label": "C",
+        "text": "施工总承包人委托"
+      },
+      {
+        "label": "D",
+        "text": "自行分配"
+      }
+    ],
+    "answer": "B",
+    "analysis": "答题思路：\n施工总承包管理方的核心责任是对分包施工进行组织、协调和管理；若其想承担部分施工任务，通常也应通过投标竞争取得。\n关键点：\n总承包管理重在管理分包，不等同于自动承接施工。"
+  },
+  {
+    "id": "CM-S0023",
+    "courseId": "construction-management",
+    "paperId": "CM-CHOICE",
+    "paperIndex": 23,
+    "index": 23,
+    "type": "single",
+    "stem": "施工方作为工程项目建设的一个参与方,其项目管理工作除了维护自身的利益外,还应服务于（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "材料供应方的利益"
+      },
+      {
+        "label": "B",
+        "text": "建设项目工程总承包方的利益"
+      },
+      {
+        "label": "C",
+        "text": "项目的整体利益"
+      },
+      {
+        "label": "D",
+        "text": "工程监理方的利益"
+      }
+    ],
+    "answer": "C",
+    "analysis": "答题思路：\n施工方项目管理既服务自身合同利益，也必须服从项目整体目标。建设工程项目参与方很多，但业主方的项目管理通常居于核心地位。\n关键点：\n施工方服务项目整体利益，项目管理核心通常是业主方。"
+  },
+  {
+    "id": "CM-S0024",
+    "courseId": "construction-management",
+    "paperId": "CM-CHOICE",
+    "paperIndex": 24,
+    "index": 24,
+    "type": "single",
+    "stem": "工程项目建设有众多的参与方,各方为实现特定目标而进行不同类型的项目管理,但核心是（ ）方的项目管理。",
+    "options": [
+      {
+        "label": "A",
+        "text": "设计"
+      },
+      {
+        "label": "B",
+        "text": "施工"
+      },
+      {
+        "label": "C",
+        "text": "监理"
+      },
+      {
+        "label": "D",
+        "text": "业主"
+      }
+    ],
+    "answer": "D",
+    "analysis": "答题思路：\n施工方项目管理既服务自身合同利益，也必须服从项目整体目标。建设工程项目参与方很多，但业主方的项目管理通常居于核心地位。\n关键点：\n施工方服务项目整体利益，项目管理核心通常是业主方。"
+  },
+  {
+    "id": "CM-S0025",
+    "courseId": "construction-management",
+    "paperId": "CM-CHOICE",
+    "paperIndex": 25,
+    "index": 25,
+    "type": "single",
+    "stem": "某企业以建设项目工程总承包的形式承担了某大学新校区建设项目,该项目占地400万m 2,其中包括教学区、行政办公区、实验区、体育运动区、学生教职工生活区以及场区道路、绿化、管网等。项目工期要求紧,企业根据该项目的具体情况,采用了矩阵组织结构模式,并在组织系统内进行了工作任务分工和管理职能分工。该项目承包方采用矩阵组织结构模式,主要原因是（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "使项目组织结构的层次尽量少一些"
+      },
+      {
+        "label": "B",
+        "text": "避免矛盾的指令而影响组织系统的运行"
+      },
+      {
+        "label": "C",
+        "text": "使每一工作部门可对其直接或非直接下属部门下达指令"
+      },
+      {
+        "label": "D",
+        "text": "使每一工作部门仅有一个指令源"
+      }
+    ],
+    "answer": "A",
+    "analysis": "答题思路：\n矩阵组织结构适用于大型、复杂、跨部门协作强的项目，可以减少组织层级并加强横向协调。但双重指令容易冲突，需要明确以哪一方指令为主。\n关键点：\n矩阵结构重协调，指令冲突时要明确主导关系。"
+  },
+  {
+    "id": "CM-S0026",
+    "courseId": "construction-management",
+    "paperId": "CM-CHOICE",
+    "paperIndex": 26,
+    "index": 26,
+    "type": "single",
+    "stem": "组织结构图中的矩形框的含义是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "一个项目的组成部分"
+      },
+      {
+        "label": "B",
+        "text": "一个组织系统中的组成部分(工作部门)"
+      },
+      {
+        "label": "C",
+        "text": "一个建设项目的参与单位"
+      },
+      {
+        "label": "D",
+        "text": "一项工作"
+      }
+    ],
+    "answer": "B",
+    "analysis": "答题思路：\n组织结构图反映组织系统中各工作部门之间的指令关系，矩形框表示组织系统中的一个组成部分或工作部门。\n关键点：\n组织结构图看部门和指令关系。"
+  },
+  {
+    "id": "CM-S0027",
+    "courseId": "construction-management",
+    "paperId": "CM-CHOICE",
+    "paperIndex": 27,
+    "index": 27,
+    "type": "single",
+    "stem": "关于工作流程与工作流程图的说法,正确的是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "业主方与项目各参与方工作流程组织的任务是一致的"
+      },
+      {
+        "label": "B",
+        "text": "工作流程组织的任务就是编制组织结构图"
+      },
+      {
+        "label": "C",
+        "text": "工作流程图可以用来描述工作流程组织"
+      },
+      {
+        "label": "D",
+        "text": "工作流程图中用双向箭线表示工作间的逻辑关系"
+      }
+    ],
+    "answer": "C",
+    "analysis": "答题思路：\n工作流程图用于描述工作之间的逻辑关系和流转顺序，是工作流程组织的表达工具。它不同于组织结构图，不能用来表示部门指令关系。\n关键点：\n工作流程图看工作流向，不看组织层级。"
+  },
+  {
+    "id": "CM-S0028",
+    "courseId": "construction-management",
+    "paperId": "CM-CHOICE",
+    "paperIndex": 28,
+    "index": 28,
+    "type": "single",
+    "stem": "对一个项目的管理组织进行分解,并用图的形式表示就形成（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "项目结构图"
+      },
+      {
+        "label": "B",
+        "text": "项目管理结构图"
+      },
+      {
+        "label": "C",
+        "text": "工作流程图"
+      },
+      {
+        "label": "D",
+        "text": "项目组织结构图"
+      }
+    ],
+    "answer": "D",
+    "analysis": "答题思路：\n组织结构图反映组织系统中各工作部门之间的指令关系，矩形框表示组织系统中的一个组成部分或工作部门。\n关键点：\n组织结构图看部门和指令关系。"
+  },
+  {
+    "id": "CM-S0029",
+    "courseId": "construction-management",
+    "paperId": "CM-CHOICE",
+    "paperIndex": 29,
+    "index": 29,
+    "type": "single",
+    "stem": "在某纺织职业技术学校新区建设中,总承包商的项目经理在开工前组织有关人员对项目结构进行了逐层分解。这项工作所采用的组织工具应是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "项目组织结构图"
+      },
+      {
+        "label": "B",
+        "text": "项目结构图"
+      },
+      {
+        "label": "C",
+        "text": "工作流程图"
+      },
+      {
+        "label": "D",
+        "text": "合同结构图"
+      }
+    ],
+    "answer": "B",
+    "analysis": "答题思路：\n项目结构图是对项目组成进行逐层分解的组织工具，关注项目由哪些部分构成，不表示合同关系或部门指令关系。\n关键点：\n项目结构图看项目组成分解。"
+  },
+  {
+    "id": "CM-S0030",
+    "courseId": "construction-management",
+    "paperId": "CM-CHOICE",
+    "paperIndex": 30,
+    "index": 30,
+    "type": "single",
+    "stem": "某项目管理机构采用了矩阵式组织结构。在其运行过程中发现,当职能部门与子项目部的指令出现矛盾时,对工作产生了不良影响。为了避免这种影响,宜采用的做法是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "将这种矛盾全部交给项目经理裁决"
+      },
+      {
+        "label": "B",
+        "text": "由相关部门自己解决这类问题"
+      },
+      {
+        "label": "C",
+        "text": "由接受指令的员工处理这类问题"
+      },
+      {
+        "label": "D",
+        "text": "明确以职能部门或子项目部为主的管理模式"
+      }
+    ],
+    "answer": "D",
+    "analysis": "答题思路：\n本题考查建设工程项目管理基础概念，应先抓题干限定的主体、阶段或管理措施，再和选项中的“明确以职能部门或子项目部为主的管理模式”对应起来判断。\n关键点：\n先识别主体、阶段、措施类别，再判断适用概念。"
+  },
+  {
+    "id": "CM-S0031",
+    "courseId": "construction-management",
+    "paperId": "CM-CHOICE",
+    "paperIndex": 31,
+    "index": 31,
+    "type": "single",
+    "stem": "关于双带号网络图中终点节点和箭线关系的说法,正确的是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "既有内向箭线,又有外向箭线"
+      },
+      {
+        "label": "B",
+        "text": "只有外向箭线,没有内向箭线"
+      },
+      {
+        "label": "C",
+        "text": "只有内向箭线,没有外向箭线"
+      },
+      {
+        "label": "D",
+        "text": "既无内向箭线,又无外向箭线"
+      }
+    ],
+    "answer": "C",
+    "analysis": "答题思路：\n本题考查建设工程项目管理基础概念，应先抓题干限定的主体、阶段或管理措施，再和选项中的“只有内向箭线,没有外向箭线”对应起来判断。\n关键点：\n先识别主体、阶段、措施类别，再判断适用概念。"
+  },
+  {
+    "id": "CM-S0040",
+    "courseId": "construction-management",
+    "paperId": "CM-CHOICE",
+    "paperIndex": 40,
+    "index": 40,
+    "type": "single",
+    "stem": "某双代网络计划如下图(时间单位:天),其计算工期是（ ）天。",
+    "options": [
+      {
+        "label": "A",
+        "text": "12"
+      },
+      {
+        "label": "B",
+        "text": "14"
+      },
+      {
+        "label": "C",
+        "text": "22"
+      },
+      {
+        "label": "D",
+        "text": "17"
+      }
+    ],
+    "answer": "C",
+    "analysis": "答题思路：\n网络图计算工期要按图从起点到终点逐条累计线路持续时间，最长线路的持续时间就是计算工期。本题图中最长线路对应 22 天。\n关键点：\n计算工期取网络图最长线路时间。\n易错点：\n不要把某一条局部路径或单个工作的持续时间当成总工期。",
+    "image": "question-images/construction-management-q0040-network.png",
+    "imageAlt": "第 40 题双代号网络计划图，用于计算工程计划工期。"
+  },
+  {
+    "id": "CM-S0065",
+    "courseId": "construction-management",
+    "paperId": "CM-CHOICE",
+    "paperIndex": 65,
+    "index": 65,
+    "type": "single",
+    "stem": "建设工程项目进度计划系统是由多个相互关联的进度计划组成的系统,这是（ ）的依据。",
+    "options": [
+      {
+        "label": "A",
+        "text": "项目实施"
+      },
+      {
+        "label": "B",
+        "text": "项目进度控制"
+      },
+      {
+        "label": "C",
+        "text": "编制总进度纲要"
+      },
+      {
+        "label": "D",
+        "text": "进行项目结构分析"
+      }
+    ],
+    "answer": "D",
+    "analysis": "答题思路：\n源文件中同题干题目存在答案表冲突：第 19、49 题给出项目进度控制，第 65 题答案表给出 D。按教材概念，建设工程项目进度计划系统通常是项目进度控制的依据，建议人工核对该题答案表。\n关键点：\n同题干答案冲突已保留，复习时以教材概念和教师口径核对。\n易错点：\n不要在未核对来源的情况下自动删除答案冲突题。"
+  },
+  {
+    "id": "CM-S0067",
+    "courseId": "construction-management",
+    "paperId": "CM-CHOICE",
+    "paperIndex": 67,
+    "index": 67,
+    "type": "single",
+    "stem": "EPC工程总承包方的项目管理工作涉及的阶段是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "决策-设计-施工-动用前准备"
+      },
+      {
+        "label": "B",
+        "text": "决策-施工-动用前准备-保修期"
+      },
+      {
+        "label": "C",
+        "text": "设计前的准备-设计-施工-动用前准备"
+      },
+      {
+        "label": "D",
+        "text": "设计前的准备-设计-施工-动用前准备-保修期"
+      }
+    ],
+    "answer": "D",
+    "analysis": "答题思路：\nEPC 工程总承包方的项目管理覆盖设计前准备、设计、施工、动用前准备和保修期等阶段，范围比单纯施工管理更宽。\n关键点：\nEPC 管理贯穿设计前准备到保修期。"
+  },
+  {
+    "id": "CM-S0068",
+    "courseId": "construction-management",
+    "paperId": "CM-CHOICE",
+    "paperIndex": 68,
+    "index": 68,
+    "type": "single",
+    "stem": "建设项目决策阶段管理工作的主要任务是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "项目策划"
+      },
+      {
+        "label": "B",
+        "text": "项目控制"
+      },
+      {
+        "label": "C",
+        "text": "通过管理使项目目标实现"
+      },
+      {
+        "label": "D",
+        "text": "确定项目的定义"
+      }
+    ],
+    "answer": "D",
+    "analysis": "答题思路：\n建设项目决策阶段管理工作的核心是确定项目的定义，包括建设目的、规模、功能、投资目标等基础问题。\n关键点：\n决策阶段先回答项目是什么、为什么建。"
+  },
+  {
+    "id": "CM-S0070",
+    "courseId": "construction-management",
+    "paperId": "CM-CHOICE",
+    "paperIndex": 70,
+    "index": 70,
+    "type": "single",
+    "stem": "管理职能分工表用（ ）表示管理职能。",
+    "options": [
+      {
+        "label": "A",
+        "text": "数字"
+      },
+      {
+        "label": "B",
+        "text": "大写英文字母"
+      },
+      {
+        "label": "C",
+        "text": "拉丁字母"
+      },
+      {
+        "label": "D",
+        "text": "小写英文字母"
+      }
+    ],
+    "answer": "C",
+    "analysis": "答题思路：\n管理职能分工表通常用拉丁字母表示不同管理职能，用来明确各参与部门在提出、筹划、决策、执行、检查等环节中的职责。\n关键点：\n管理职能分工表用字母表达管理职能。"
+  },
+  {
+    "id": "CM-S0071",
+    "courseId": "construction-management",
+    "paperId": "CM-CHOICE",
+    "paperIndex": 71,
+    "index": 71,
+    "type": "single",
+    "stem": "某企业以建设项目工程总承包的形式承担了某大学新校区建设项目,该项目占地400万m 2,其中包括教学区、行政办公区、实验区、体育运动区、学生生活区、教职工生活区以及场区道路、绿化、管网等。项目工期要求紧,企业根据该项目的具体情况,采用了矩阵组织结构模式,并在组织系统内进行了工作任务分工和管理职能分工。该项目承包方采用矩阵组织结构模式,主要原因是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "使项目组织结构的层次尽量少一些"
+      },
+      {
+        "label": "B",
+        "text": "避免矛盾的指令而影响组织系统的运行"
+      },
+      {
+        "label": "C",
+        "text": "使每一工作部门可对其直接或非直接下属部门下达指令"
+      },
+      {
+        "label": "D",
+        "text": "使每一工作部门仅有一个指令源"
+      }
+    ],
+    "answer": "A",
+    "analysis": "答题思路：\n矩阵组织结构适用于大型、复杂、跨部门协作强的项目，可以减少组织层级并加强横向协调。但双重指令容易冲突，需要明确以哪一方指令为主。\n关键点：\n矩阵结构重协调，指令冲突时要明确主导关系。"
+  },
+  {
+    "id": "CM-S0072",
+    "courseId": "construction-management",
+    "paperId": "CM-CHOICE",
+    "paperIndex": 72,
+    "index": 72,
+    "type": "single",
+    "stem": "根据编制的广度、深度和作用的不同,施工组织设计可分为施工组织总设计、单位工程施工组织设计及（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "分部、分项工程施工组织设计"
+      },
+      {
+        "label": "B",
+        "text": "施工详图设计"
+      },
+      {
+        "label": "C",
+        "text": "施工工艺及方案设计"
+      },
+      {
+        "label": "D",
+        "text": "施工总平面图设计"
+      }
+    ],
+    "answer": "A",
+    "analysis": "答题思路：\n按编制深度划分时，进度计划可分为总进度计划、单项工程进度计划和单位工程进度计划。这里强调的是计划对象和深度层级。\n关键点：\n编制深度看总、单项、单位工程三个层级。"
+  },
+  {
+    "id": "CM-S0073",
+    "courseId": "construction-management",
+    "paperId": "CM-CHOICE",
+    "paperIndex": 73,
+    "index": 73,
+    "type": "single",
+    "stem": "项目管理目标责任书应在项目实施之前,由（ ）或其授权人与项目经理协商制定。",
+    "options": [
+      {
+        "label": "A",
+        "text": "企业董事长"
+      },
+      {
+        "label": "B",
+        "text": "法定代表人"
+      },
+      {
+        "label": "C",
+        "text": "企业总经理"
+      },
+      {
+        "label": "D",
+        "text": "分管生产经营的副部经理"
+      }
+    ],
+    "answer": "B",
+    "analysis": "答题思路：\n项目管理目标责任书应在项目实施前，由组织法定代表人或其授权人与项目经理协商制定，用来明确项目经理的目标和责任。\n关键点：\n目标责任书由法定代表人或授权人与项目经理协商。"
+  },
+  {
+    "id": "CM-S0074",
+    "courseId": "construction-management",
+    "paperId": "CM-CHOICE",
+    "paperIndex": 74,
+    "index": 74,
+    "type": "single",
+    "stem": "根据《建设工程质量管理条例》,未经（ ）签字的建筑材料不得在工程上使用。",
+    "options": [
+      {
+        "label": "A",
+        "text": "监理员"
+      },
+      {
+        "label": "B",
+        "text": "专业监理工程师"
+      },
+      {
+        "label": "C",
+        "text": "总监理工程师代表"
+      },
+      {
+        "label": "D",
+        "text": "总监理工程师"
+      }
+    ],
+    "answer": "B",
+    "analysis": "答题思路：\n进入工程使用的建筑材料、构配件和设备应经专业监理工程师签字认可。总监主要负责更高层级的监理审批和组织管理。\n关键点：\n材料使用把关通常看专业监理工程师。"
+  },
+  {
+    "id": "CM-S0075",
+    "courseId": "construction-management",
+    "paperId": "CM-CHOICE",
+    "paperIndex": 75,
+    "index": 75,
+    "type": "single",
+    "stem": "下列属于施工成本管理组织措施的是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "确定最佳的施工方案"
+      },
+      {
+        "label": "B",
+        "text": "确定合理详细的工作流程"
+      },
+      {
+        "label": "C",
+        "text": "确定和分解施工成本管理目标"
+      },
+      {
+        "label": "D",
+        "text": "选用合适的合同结构"
+      }
+    ],
+    "answer": "B",
+    "analysis": "答题思路：\n组织措施关注组织结构、职责分工、工作流程和会议制度等安排。进度控制会议如何组织，属于通过组织体系保障进度目标。\n关键点：\n组织措施看人、岗位、流程和会议制度。"
+  },
+  {
+    "id": "CM-S0076",
+    "courseId": "construction-management",
+    "paperId": "CM-CHOICE",
+    "paperIndex": 76,
+    "index": 76,
+    "type": "single",
+    "stem": "成本计划的编制环节包括:(1)编制项目总体成本计划;(2)确定项目总体成本目标;(3)预测项目成本;(4)针对成本计划制定相应的控制措施;(5)由项目管理机构与组织的职能部门负责人分别审批相应的成本计划;(6)项目管理机构与组织的职能部门根据其责任成本范围,分别确定自己的成本目标,并编制相应的成本计划。其中正确的程序是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "(2)(3)(1)(5)(4)(6)"
+      },
+      {
+        "label": "B",
+        "text": "(1)(3)(2)(4)(6)(5)"
+      },
+      {
+        "label": "C",
+        "text": "(3)(2)(1)(6)(4)(5)"
+      },
+      {
+        "label": "D",
+        "text": "(4)(1)(2)(5)(3)(6)"
+      }
+    ],
+    "answer": "C",
+    "analysis": "答题思路：\n成本计划编制一般先预测项目成本并确定总体成本目标，再编制总体成本计划和分解责任成本，随后制定控制措施并履行审批。\n关键点：\n成本计划先预测和定目标，再编制、分解、控制、审批。"
+  },
+  {
+    "id": "CM-S0077",
+    "courseId": "construction-management",
+    "paperId": "CM-CHOICE",
+    "paperIndex": 77,
+    "index": 77,
+    "type": "single",
+    "stem": "在分部分项工程成本分析中,预算成本的资料来自（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "施工任务单的实际工程量"
+      },
+      {
+        "label": "B",
+        "text": "施工预算"
+      },
+      {
+        "label": "C",
+        "text": "限额领料单的实耗材料"
+      },
+      {
+        "label": "D",
+        "text": "投标报价成本"
+      }
+    ],
+    "answer": "D",
+    "analysis": "答题思路：\n分部分项工程成本分析通常比较预算成本、目标成本和实际成本。其中预算成本来自投标报价成本，目标成本来自施工预算，实际成本来自施工任务单和限额领料等资料。\n关键点：\n预算成本看投标报价成本。"
+  },
+  {
+    "id": "CM-S0078",
+    "courseId": "construction-management",
+    "paperId": "CM-CHOICE",
+    "paperIndex": 78,
+    "index": 78,
+    "type": "single",
+    "stem": "根据我国GB/T19000-2016质量管理体系标准,质量管理就是关于质量的管理,是在质量方面指挥和控制组织的协调活动,包括建立和确定质量方针和质量目标,并在质量管理体系中通过（ ）等手段来实施和实现全部质量管理职能的所有活动。",
+    "options": [
+      {
+        "label": "A",
+        "text": "质量规划、质量控制、质量检查和质量改进"
+      },
+      {
+        "label": "B",
+        "text": "质量策划、质量保证、质量控制和质量改进"
+      },
+      {
+        "label": "C",
+        "text": "质量策划、质量检查、质量监督和质量审核"
+      },
+      {
+        "label": "D",
+        "text": "质量规划、质量检查、质量审核和质量改进"
+      }
+    ],
+    "answer": "B",
+    "analysis": "答题思路：\n质量管理体系中的质量管理职能通常通过质量策划、质量保证、质量控制和质量改进来实现。这里考查标准术语，不是日常检查流程。\n关键点：\n质量管理职能记策划、保证、控制、改进。"
+  },
+  {
+    "id": "CM-S0079",
+    "courseId": "construction-management",
+    "paperId": "CM-CHOICE",
+    "paperIndex": 79,
+    "index": 79,
+    "type": "single",
+    "stem": "第三方认证机构对施工企业质量管理体系实施的监督管理应每（ ）进行一次。",
+    "options": [
+      {
+        "label": "A",
+        "text": "一年"
+      },
+      {
+        "label": "B",
+        "text": "三月"
+      },
+      {
+        "label": "C",
+        "text": "半年"
+      },
+      {
+        "label": "D",
+        "text": "三年"
+      }
+    ],
+    "answer": "A",
+    "analysis": "答题思路：\n质量管理体系中的质量管理职能通常通过质量策划、质量保证、质量控制和质量改进来实现。这里考查标准术语，不是日常检查流程。\n关键点：\n质量管理职能记策划、保证、控制、改进。"
+  },
+  {
+    "id": "CM-S0080",
+    "courseId": "construction-management",
+    "paperId": "CM-CHOICE",
+    "paperIndex": 80,
+    "index": 80,
+    "type": "single",
+    "stem": "施工企业质量管理体系文件中,阐明质量政策、质量体系等的文件是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "质量手册"
+      },
+      {
+        "label": "B",
+        "text": "程序文件"
+      },
+      {
+        "label": "C",
+        "text": "质量计划"
+      },
+      {
+        "label": "D",
+        "text": "质量记录"
+      }
+    ],
+    "answer": "A",
+    "analysis": "答题思路：\n质量管理体系中的质量管理职能通常通过质量策划、质量保证、质量控制和质量改进来实现。这里考查标准术语，不是日常检查流程。\n关键点：\n质量管理职能记策划、保证、控制、改进。"
+  },
+  {
+    "id": "CM-S0081",
+    "courseId": "construction-management",
+    "paperId": "CM-CHOICE",
+    "paperIndex": 81,
+    "index": 81,
+    "type": "single",
+    "stem": "对进入施工现场的钢筋取样后进行力学性能检测,属于施工质量控制方法中的（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "目测法"
+      },
+      {
+        "label": "B",
+        "text": "实测法"
+      },
+      {
+        "label": "C",
+        "text": "试验法"
+      },
+      {
+        "label": "D",
+        "text": "无损检验法"
+      }
+    ],
+    "answer": "C",
+    "analysis": "答题思路：\n对材料取样后进行力学性能检测，需要通过试验取得数据，属于施工质量控制方法中的试验法。\n关键点：\n取样检测、强度试验归入试验法。"
+  },
+  {
+    "id": "CM-S0082",
+    "courseId": "construction-management",
+    "paperId": "CM-CHOICE",
+    "paperIndex": 82,
+    "index": 82,
+    "type": "single",
+    "stem": "下列施工质量控制措施中,属于事前控制的是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "设计交底"
+      },
+      {
+        "label": "B",
+        "text": "重要结构实体检测"
+      },
+      {
+        "label": "C",
+        "text": "隐蔽工程验收"
+      },
+      {
+        "label": "D",
+        "text": "施工质量检查验收"
+      }
+    ],
+    "answer": "A",
+    "analysis": "答题思路：\n事前控制发生在施工活动正式实施前，重点是技术准备、设计交底、方案审查和资源条件确认。设计交底属于典型事前控制。\n关键点：\n事前控制看施工前的准备和预防。"
+  },
+  {
+    "id": "CM-S0083",
+    "courseId": "construction-management",
+    "paperId": "CM-CHOICE",
+    "paperIndex": 83,
+    "index": 83,
+    "type": "single",
+    "stem": "某批混凝土试块经检测发现其强度值低于规范要求,后经法定检测单位对混凝土实体强度进行检测后,其实际强度达到规范允许和设计要求。这一质量事故宜采取的处理方法是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "加固处理"
+      },
+      {
+        "label": "B",
+        "text": "返修处理"
+      },
+      {
+        "label": "C",
+        "text": "不作处理"
+      },
+      {
+        "label": "D",
+        "text": "返工处理"
+      }
+    ],
+    "answer": "C",
+    "analysis": "答题思路：\n质量问题经法定检测单位鉴定后，如果实体强度满足规范允许和设计要求，可以不作专门处理，但应保留检测和认定资料。\n关键点：\n满足设计和规范要求时，可采取不作处理。"
+  },
+  {
+    "id": "CM-S0084",
+    "courseId": "construction-management",
+    "paperId": "CM-CHOICE",
+    "paperIndex": 84,
+    "index": 84,
+    "type": "single",
+    "stem": "某房屋建设工程施工中,模板支撑体系坍塌,导致1人死亡,11人重伤,直接经济损失2000万元,根据《关于做好房屋建筑和市政基础设施工程质量事故报告和调查处理工作的通知》(建质[2010]111号),该事故等级为（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "一般事故"
+      },
+      {
+        "label": "B",
+        "text": "较大事故"
+      },
+      {
+        "label": "C",
+        "text": "重大事故"
+      },
+      {
+        "label": "D",
+        "text": "特别重大事故"
+      }
+    ],
+    "answer": "B",
+    "analysis": "答题思路：\n质量问题经法定检测单位鉴定后，如果实体强度满足规范允许和设计要求，可以不作专门处理，但应保留检测和认定资料。\n关键点：\n满足设计和规范要求时，可采取不作处理。"
+  },
+  {
+    "id": "CM-S0085",
+    "courseId": "construction-management",
+    "paperId": "CM-CHOICE",
+    "paperIndex": 85,
+    "index": 85,
+    "type": "single",
+    "stem": "根据《建设工程质量管理条例》,工程项目主要分部工程在政府监督机构监督验收合格后,建设单位应将质量验收证明文件报送工程质量监督机构备案的时限是（ ）天。",
+    "options": [
+      {
+        "label": "A",
+        "text": "14"
+      },
+      {
+        "label": "B",
+        "text": "7"
+      },
+      {
+        "label": "C",
+        "text": "5"
+      },
+      {
+        "label": "D",
+        "text": "3"
+      }
+    ],
+    "answer": "D",
+    "analysis": "答题思路：\n进入工程使用的建筑材料、构配件和设备应经专业监理工程师签字认可。总监主要负责更高层级的监理审批和组织管理。\n关键点：\n材料使用把关通常看专业监理工程师。"
+  },
+  {
+    "id": "CM-S0086",
+    "courseId": "construction-management",
+    "paperId": "CM-CHOICE",
+    "paperIndex": 86,
+    "index": 86,
+    "type": "single",
+    "stem": "职业健康的结构系统的构成要素不包括（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "职业健康安全方针"
+      },
+      {
+        "label": "B",
+        "text": "检查和纠正措施"
+      },
+      {
+        "label": "C",
+        "text": "实施与运行"
+      },
+      {
+        "label": "D",
+        "text": "应急准备和响应"
+      }
+    ],
+    "answer": "D",
+    "analysis": "答题思路：\n职业健康安全管理体系包括方针、策划、实施与运行、检查和纠正措施、管理评审等要素。应急准备和响应通常属于实施与运行中的内容，不是并列的结构要素。\n关键点：\n体系结构要素和运行细项不要混记。"
+  },
+  {
+    "id": "CM-S0087",
+    "courseId": "construction-management",
+    "paperId": "CM-CHOICE",
+    "paperIndex": 87,
+    "index": 87,
+    "type": "single",
+    "stem": "施工单位应当自施工起重机械和整体提升脚手架、模板等自升式架设设施验收合格之日起（ ）日内,向建设行政主管部门或者其他有关部门登记。",
+    "options": [
+      {
+        "label": "A",
+        "text": "10"
+      },
+      {
+        "label": "B",
+        "text": "15"
+      },
+      {
+        "label": "C",
+        "text": "30"
+      },
+      {
+        "label": "D",
+        "text": "60"
+      }
+    ],
+    "answer": "C",
+    "analysis": "答题思路：\n施工起重机械和整体提升脚手架、模板等自升式架设设施验收合格后，施工单位应在规定期限内向主管部门登记，常考期限为 30 日。\n关键点：\n起重机械等验收合格后 30 日内登记。"
+  },
+  {
+    "id": "CM-S0088",
+    "courseId": "construction-management",
+    "paperId": "CM-CHOICE",
+    "paperIndex": 88,
+    "index": 88,
+    "type": "single",
+    "stem": "某施工单位在进行脚手架模板的架设过程中发生了坍塌事故,事故造成11人重伤,在事故补报期限内,有2名重伤人员因医治无效死亡,此起事故应判定为（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "一般事故"
+      },
+      {
+        "label": "B",
+        "text": "较大事故"
+      },
+      {
+        "label": "C",
+        "text": "重大事故"
+      },
+      {
+        "label": "D",
+        "text": "特别重大事故"
+      }
+    ],
+    "answer": "B",
+    "analysis": "答题思路：\n事故等级按死亡人数、重伤人数、直接经济损失或急性工业中毒人数判断，取其中达到的最高等级。120 人急性工业中毒属于特别重大事故。\n关键点：\n事故分级按人员伤亡、中毒人数和经济损失从严判定。\n易错点：\n补报期内伤亡变化应计入事故等级判断。"
+  },
+  {
+    "id": "CM-S0089",
+    "courseId": "construction-management",
+    "paperId": "CM-CHOICE",
+    "paperIndex": 89,
+    "index": 89,
+    "type": "single",
+    "stem": "根据国务院《生产安全事故报告和调查处理条例》,致使120名操作工人急性工业中毒的生产安全事故属于（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "特别重大事故"
+      },
+      {
+        "label": "B",
+        "text": "重大事故"
+      },
+      {
+        "label": "C",
+        "text": "较大事故"
+      },
+      {
+        "label": "D",
+        "text": "一般事故"
+      }
+    ],
+    "answer": "A",
+    "analysis": "答题思路：\n事故等级按死亡人数、重伤人数、直接经济损失或急性工业中毒人数判断，取其中达到的最高等级。120 人急性工业中毒属于特别重大事故。\n关键点：\n事故分级按人员伤亡、中毒人数和经济损失从严判定。\n易错点：\n补报期内伤亡变化应计入事故等级判断。"
+  },
+  {
+    "id": "CM-S0090",
+    "courseId": "construction-management",
+    "paperId": "CM-CHOICE",
+    "paperIndex": 90,
+    "index": 90,
+    "type": "single",
+    "stem": "某工程处于市区主要路段,根据《建设工程施工现场管理规定》,该工程现场围挡设置高度不宜低于（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "4m"
+      },
+      {
+        "label": "B",
+        "text": "2.5m"
+      },
+      {
+        "label": "C",
+        "text": "2m"
+      },
+      {
+        "label": "D",
+        "text": "1.8m"
+      }
+    ],
+    "answer": "B",
+    "analysis": "答题思路：\n市区主要路段施工现场围挡要求较高，通常不宜低于 2.5m；一般路段要求相对较低。\n关键点：\n市区主要路段围挡高度记 2.5m。"
+  },
+  {
+    "id": "CM-B0001",
+    "courseId": "construction-management",
+    "paperId": "CM-SUBJECTIVE",
+    "paperIndex": 1,
+    "index": 91,
+    "type": "blank",
+    "stem": "费用目标对业主而言是（ ）目标，对施工方而言是（ ）目标。",
+    "options": [],
+    "answer": [
+      "投资",
+      "成本"
+    ],
+    "analysis": "答题思路：\n业主关注项目总投资是否受控，施工方关注完成承包任务所发生的施工成本。区分参与方后，费用目标的称谓就能判断。\n关键点：\n业主看投资，施工方看成本。"
+  },
+  {
+    "id": "CM-B0002",
+    "courseId": "construction-management",
+    "paperId": "CM-SUBJECTIVE",
+    "paperIndex": 2,
+    "index": 92,
+    "type": "blank",
+    "stem": "按照工程项目不同参与方的工作性质和组织特征划分，项目管理的类型包括业主方、（ ）、（ ）、供货方和工程总承包方的项目管理。",
+    "options": [],
+    "answer": [
+      "施工方",
+      "设计方"
+    ],
+    "analysis": "答题思路：\n建设工程项目管理按参与主体划分，不同主体围绕自身任务进行管理，但都服务于项目目标实现。常见主体包括业主方、设计方、施工方、供货方和工程总承包方。\n关键点：\n先按参与主体分类，再判断该主体承担的管理任务。"
+  },
+  {
+    "id": "CM-B0003",
+    "courseId": "construction-management",
+    "paperId": "CM-SUBJECTIVE",
+    "paperIndex": 3,
+    "index": 93,
+    "type": "blank",
+    "stem": "对建设工程项目施工负有全面管理责任的是（ ）。",
+    "options": [],
+    "answer": [
+      "项目经理"
+    ],
+    "analysis": "答题思路：\n施工项目经理受企业授权，对施工项目的进度、质量、成本、安全和现场协调承担全面管理责任。\n关键点：\n施工现场综合管理责任通常落在项目经理身上。"
+  },
+  {
+    "id": "CM-B0004",
+    "courseId": "construction-management",
+    "paperId": "CM-SUBJECTIVE",
+    "paperIndex": 4,
+    "index": 94,
+    "type": "blank",
+    "stem": "建设工程监理的工作性质特点有：（ ）、科学性、独立性和（ ）。",
+    "options": [],
+    "answer": [
+      "服务性",
+      "公平性"
+    ],
+    "analysis": "答题思路：\n监理单位不是施工承包人，也不是行政主管部门，其工作以服务业主和工程建设为基础，同时要依照法规、合同和技术标准独立、公平地开展监理。\n关键点：\n监理性质常记为服务性、科学性、独立性、公平性。"
+  },
+  {
+    "id": "CM-B0005",
+    "courseId": "construction-management",
+    "paperId": "CM-SUBJECTIVE",
+    "paperIndex": 5,
+    "index": 95,
+    "type": "blank",
+    "stem": "旁站监理是指项目监理机构对工程的关键部位或（ ）的施工质量进行监督活动。",
+    "options": [],
+    "answer": [
+      "关键工序"
+    ],
+    "analysis": "答题思路：\n旁站监理强调在施工现场对关键部位、关键工序进行跟班监督，目的是及时发现质量风险。\n关键点：\n旁站盯的是关键部位和关键工序。"
+  },
+  {
+    "id": "CM-B0006",
+    "courseId": "construction-management",
+    "paperId": "CM-SUBJECTIVE",
+    "paperIndex": 6,
+    "index": 96,
+    "type": "blank",
+    "stem": "根据施工组织设计编制的广度、深度和作用不同，可分为施工组织总设计、（ ）施工组织设计、分部（分项）工程施工组织设计。",
+    "options": [],
+    "answer": [
+      "单位工程"
+    ],
+    "analysis": "答题思路：\n施工组织设计按对象和深度分层，项目整体用施工组织总设计，单位工程用单位工程施工组织设计，局部专项内容用分部（分项）工程施工组织设计。\n关键点：\n总设计、单位工程、分部（分项）工程是常见三级。"
+  },
+  {
+    "id": "CM-B0007",
+    "courseId": "construction-management",
+    "paperId": "CM-SUBJECTIVE",
+    "paperIndex": 7,
+    "index": 97,
+    "type": "blank",
+    "stem": "成本管理的任务包括成本计划、（ ）、成本核算、（ ）和成本考核。",
+    "options": [],
+    "answer": [
+      "成本控制",
+      "成本分析"
+    ],
+    "analysis": "答题思路：\n施工成本管理不是只算账，还包括事前计划、过程控制、事后核算分析和考核反馈。\n关键点：\n成本管理流程常按计划、控制、核算、分析、考核记忆。"
+  },
+  {
+    "id": "CM-B0008",
+    "courseId": "construction-management",
+    "paperId": "CM-SUBJECTIVE",
+    "paperIndex": 8,
+    "index": 98,
+    "type": "blank",
+    "stem": "施工进度计划的编制方法包含横道图、（ ）网络图、（ ）网络图和双代号时标网络图。",
+    "options": [],
+    "answer": [
+      "单代号",
+      "双代号"
+    ],
+    "analysis": "答题思路：\n施工进度计划可以用横道图表达，也可以用网络计划表达。网络计划常见形式包括单代号、双代号和双代号时标网络图。\n关键点：\n网络计划的图示形式要和横道图区分记忆。"
+  },
+  {
+    "id": "CM-B0009",
+    "courseId": "construction-management",
+    "paperId": "CM-SUBJECTIVE",
+    "paperIndex": 9,
+    "index": 99,
+    "type": "blank",
+    "stem": "在网络计划图中，关键路线是总的工作持续时间最（ ）的线路。",
+    "options": [],
+    "answer": [
+      "长"
+    ],
+    "analysis": "答题思路：\n关键线路决定计算工期；从起点到终点持续时间最长的线路，其上的工作延误通常会直接影响总工期。\n关键点：\n关键线路看最长路径，不看工作数量多少。"
+  },
+  {
+    "id": "CM-B0010",
+    "courseId": "construction-management",
+    "paperId": "CM-SUBJECTIVE",
+    "paperIndex": 10,
+    "index": 100,
+    "type": "blank",
+    "stem": "控制项目目标的主要措施包括组织措施、管理措施、经济措施和技术措施，其中（ ）措施是最重要的措施。",
+    "options": [],
+    "answer": [
+      "组织"
+    ],
+    "analysis": "答题思路：\n项目目标控制首先要明确组织结构、职责分工、工作流程和会议制度。组织关系不清，其他措施很难落实。\n关键点：\n目标控制四类措施中，组织措施通常最重要。"
+  },
+  {
+    "id": "CM-B0011",
+    "courseId": "construction-management",
+    "paperId": "CM-SUBJECTIVE",
+    "paperIndex": 11,
+    "index": 101,
+    "type": "blank",
+    "stem": "施工项目发生安全事故后必须坚持“四不放过”原则，包括（ ）不放过、责任人员未受到处理不放过、整改措施未落实不放过、有关人员没有受到教育不放过。",
+    "options": [],
+    "answer": [
+      "事故原因未查清"
+    ],
+    "analysis": "答题思路：\n四不放过用于事故调查处理，核心是原因查清、责任处理、整改落实和教育到位，防止同类事故再次发生。\n关键点：\n四不放过围绕原因、责任、整改、教育四件事。"
+  },
+  {
+    "id": "CM-B0012",
+    "courseId": "construction-management",
+    "paperId": "CM-SUBJECTIVE",
+    "paperIndex": 12,
+    "index": 102,
+    "type": "blank",
+    "stem": "建设工程参建各方中具有投资目标的项目管理包括：（ ）方、（ ）方和项目总承包方的项目管理。",
+    "options": [],
+    "answer": [
+      "业主",
+      "设计"
+    ],
+    "analysis": "答题思路：\n具有投资目标的一般是能影响建设投资或总投资控制的参与方。业主方直接承担投资目标，设计方和工程总承包方也会影响项目投资控制。\n关键点：\n看到投资目标，优先联想到业主方，并结合设计和总承包对投资的影响。"
+  },
+  {
+    "id": "CM-B0013",
+    "courseId": "construction-management",
+    "paperId": "CM-SUBJECTIVE",
+    "paperIndex": 13,
+    "index": 103,
+    "type": "blank",
+    "stem": "施工方项目管理的任务包含“三管三控一协调”，具体是指什么？",
+    "options": [],
+    "answer": [
+      "安全管理、合同管理、信息管理、成本控制、质量控制、进度控制、组织与协调"
+    ],
+    "analysis": "答题思路：\n三管三控一协调是施工方项目管理任务的概括：管理侧重安全、合同、信息，控制侧重成本、质量、进度，最后还要做好组织协调。\n关键点：\n三管是安全、合同、信息；三控是成本、质量、进度。"
+  },
+  {
+    "id": "CM-B0014",
+    "courseId": "construction-management",
+    "paperId": "CM-SUBJECTIVE",
+    "paperIndex": 14,
+    "index": 104,
+    "type": "blank",
+    "stem": "施工方项目管理的任务是什么？",
+    "options": [],
+    "answer": [
+      "安全管理、合同管理、信息管理、成本控制、质量控制、进度控制、组织与协调"
+    ],
+    "analysis": "答题思路：\n施工方项目管理围绕施工合同和现场实施展开，既要管安全、合同、信息，也要控成本、质量、进度，并协调参与人员和资源。\n关键点：\n用“三管三控一协调”能快速展开完整答案。"
+  },
+  {
+    "id": "CM-B0015",
+    "courseId": "construction-management",
+    "paperId": "CM-SUBJECTIVE",
+    "paperIndex": 15,
+    "index": 105,
+    "type": "blank",
+    "stem": "请列出参与工程建设的各方。",
+    "options": [],
+    "answer": [
+      "业主方、设计方、施工方、供货方、建设项目工程总承包方、监理方"
+    ],
+    "analysis": "答题思路：\n建设工程项目由多个主体共同参与，不同主体有不同利益和管理任务。列举时应覆盖业主、勘察设计、施工、供货、工程总承包和监理等主要参与方。\n关键点：\n按项目建设链条从业主、设计、施工、供货、总承包、监理来记。"
+  },
+  {
+    "id": "CM-B0016",
+    "courseId": "construction-management",
+    "paperId": "CM-SUBJECTIVE",
+    "paperIndex": 16,
+    "index": 106,
+    "type": "blank",
+    "stem": "安全事故的“四不放过”原则是什么？",
+    "options": [],
+    "answer": [
+      "事故原因未查清不放过、责任人员未受到处理不放过、整改措施未落实不放过、有关人员没有受到教育不放过"
+    ],
+    "analysis": "答题思路：\n四不放过要求事故处理不能停留在结果统计上，必须查原因、追责任、抓整改、做教育，形成闭环。\n关键点：\n原因、责任、整改、教育是四个关键词。"
+  },
+  {
+    "id": "CM-B0017",
+    "courseId": "construction-management",
+    "paperId": "CM-SUBJECTIVE",
+    "paperIndex": 17,
+    "index": 107,
+    "type": "blank",
+    "stem": "请按照时间顺序列出工程的基本建设程序。",
+    "options": [],
+    "answer": [
+      "项目建议书阶段、可行性研究阶段、初步设计阶段、施工图设计阶段、施工准备阶段、施工阶段、生产动用前准备阶段、竣工验收、保修阶段"
+    ],
+    "analysis": "答题思路：\n基本建设程序体现项目从决策到设计、施工、交付和保修的全过程。作答时按时间顺序展开，不能把竣工验收、保修提前。\n关键点：\n先决策研究，再设计施工，最后竣工验收和保修。"
+  },
+  {
+    "id": "CM-B0018",
+    "courseId": "construction-management",
+    "paperId": "CM-SUBJECTIVE",
+    "paperIndex": 18,
+    "index": 108,
+    "type": "blank",
+    "stem": "建设工程项目管理的内涵是指什么？",
+    "options": [],
+    "answer": [
+      "自项目开始至项目完成，通过项目策划和项目控制，使项目的费用目标、进度目标和质量目标得以实现。"
+    ],
+    "analysis": "答题思路：\n建设工程项目管理强调全过程管理，用项目策划确定方向，用项目控制纠偏，最终服务费用、进度和质量三大目标。\n关键点：\n项目管理内涵抓住全过程、策划与控制、三大目标。"
+  },
+  {
+    "id": "CM-B0019",
+    "courseId": "construction-management",
+    "paperId": "CM-SUBJECTIVE",
+    "paperIndex": 19,
+    "index": 109,
+    "type": "blank",
+    "stem": "请写出成本控制的流程。",
+    "options": [],
+    "answer": [
+      "成本预测、成本计划、成本控制、成本核算、成本分析、成本考核"
+    ],
+    "analysis": "答题思路：\n成本控制流程先预测目标，再形成计划；实施中进行控制，完成后通过核算、分析和考核反馈管理效果。\n关键点：\n成本流程按预测、计划、控制、核算、分析、考核顺序记。"
+  },
+  {
+    "id": "CM-B0020",
+    "courseId": "construction-management",
+    "paperId": "CM-SUBJECTIVE",
+    "paperIndex": 20,
+    "index": 110,
+    "type": "blank",
+    "stem": "请写出质量事故处理的一般程序。",
+    "options": [],
+    "answer": [
+      "事故上报、组织事故调查、分析事故产生原因、编制事故处理技术方案、实施事故处理、处理结果检查验收、编写并上报事故处理总结报告"
+    ],
+    "analysis": "答题思路：\n质量事故处理要先报告和调查，再分析原因、制定并实施处理方案，最后进行验收和总结上报，形成闭环管理。\n关键点：\n事故处理顺序是报告、调查、分析、方案、处理、验收、总结。"
+  },
+  {
+    "id": "CM-B0021",
+    "courseId": "construction-management",
+    "paperId": "CM-SUBJECTIVE",
+    "paperIndex": 21,
+    "index": 111,
+    "type": "blank",
+    "stem": "某工程施工工序包含五个工作，其时间和对应紧前工作如图所示。请绘制双代号网络图，计算各工作的六时标，写出工期并绘出关键线路。",
+    "options": [],
+    "answer": [
+      "根据题图中的工作持续时间和紧前关系绘制双代号网络图；从起点正推计算最早时间，从终点逆推计算最迟时间，再计算总时差和自由时差；总时差为 0 的工作组成关键线路，计算工期取起点到终点的最长线路时间。具体节点编号和六时标数值需对照原 PDF 答案图复核。"
+    ],
+    "analysis": "答题思路：\n本题属于网络计划计算题，应先按紧前关系把逻辑关系画成双代号网络图，再正推最早时间、逆推最迟时间，最后用总时差判断关键工作和关键线路。\n关键点：\n关键线路由总时差为 0 的工作连续组成，计算工期等于从起点到终点的最长线路持续时间。\n易错点：\n暂无可靠解析，建议对照教材复习；当前脚本只能可靠保留原 PDF 数据图，答案图中的具体六时标数值未自动重绘。",
+    "image": "question-images/construction-management-q0021-network-data.png",
+    "imageAlt": "第 20 题施工工序持续时间和紧前工作关系表，用于绘制双代号网络图。"
+  }
+]

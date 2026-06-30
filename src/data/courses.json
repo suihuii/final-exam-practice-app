@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "id": "power-supply",
     "name": "供配电系统",
@@ -19,5 +19,12 @@
     "shortName": "发电厂",
     "description": "发电厂题库",
     "questionFile": "questions/power-plant.json"
+  },
+  {
+    "id": "construction-management",
+    "name": "建设工程项目管理",
+    "shortName": "建工管理",
+    "description": "建设工程项目管理期末复习题库",
+    "questionFile": "questions/construction-management.json"
   }
 ]
