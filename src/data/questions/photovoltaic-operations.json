@@ -1,0 +1,5464 @@
+[
+  {
+    "id": "PVOPS-S0001",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 1,
+    "index": 1,
+    "type": "single",
+    "stem": "光伏电站根据是否与电网相连，可以分为哪两种类型?",
+    "options": [
+      {
+        "label": "A",
+        "text": "小型和大型"
+      },
+      {
+        "label": "B",
+        "text": "低压和高压"
+      },
+      {
+        "label": "C",
+        "text": "离网和并网"
+      },
+      {
+        "label": "D",
+        "text": "分布式和集中式"
+      }
+    ],
+    "answer": "C",
+    "analysis": "",
+    "sourceIndex": "1",
+    "sourceId": "PV-001",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0002",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 2,
+    "index": 2,
+    "type": "single",
+    "stem": "下列哪项不属于光伏电站的主要组成部分?",
+    "options": [
+      {
+        "label": "A",
+        "text": "光伏组件"
+      },
+      {
+        "label": "B",
+        "text": "逆变器"
+      },
+      {
+        "label": "C",
+        "text": "柴油发电机"
+      },
+      {
+        "label": "D",
+        "text": "汇流箱"
+      }
+    ],
+    "answer": "C",
+    "analysis": "",
+    "sourceIndex": "2",
+    "sourceId": "PV-002",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0003",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 3,
+    "index": 3,
+    "type": "single",
+    "stem": "大型荒漠地面并网光伏电站通常采用哪种类型的逆变器?",
+    "options": [
+      {
+        "label": "A",
+        "text": "组串式逆变器"
+      },
+      {
+        "label": "B",
+        "text": "微型逆变器"
+      },
+      {
+        "label": "C",
+        "text": "集中式逆变器"
+      },
+      {
+        "label": "D",
+        "text": "模块化逆变器"
+      }
+    ],
+    "answer": "C",
+    "analysis": "",
+    "sourceIndex": "3",
+    "sourceId": "PV-003",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0004",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 4,
+    "index": 4,
+    "type": "single",
+    "stem": "离网光伏电站中，用于储存电能的设备是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "逆变器"
+      },
+      {
+        "label": "B",
+        "text": "汇流箱"
+      },
+      {
+        "label": "C",
+        "text": "蓄电池"
+      },
+      {
+        "label": "D",
+        "text": "变压器"
+      }
+    ],
+    "answer": "C",
+    "analysis": "",
+    "sourceIndex": "4",
+    "sourceId": "PV-004",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0005",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 5,
+    "index": 5,
+    "type": "single",
+    "stem": "下列哪项是分布式并网光伏电站的主要特点?",
+    "options": [
+      {
+        "label": "A",
+        "text": "投资大、建设周期长"
+      },
+      {
+        "label": "B",
+        "text": "远离负荷中心"
+      },
+      {
+        "label": "C",
+        "text": "优先本地负载使用，余电上网"
+      },
+      {
+        "label": "D",
+        "text": "必须接入高压电网"
+      }
+    ],
+    "answer": "C",
+    "analysis": "",
+    "sourceIndex": "5",
+    "sourceId": "PV-005",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0006",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 6,
+    "index": 6,
+    "type": "single",
+    "stem": "大型山丘地面光伏电站中，解决组件朝向不一致问题的关键技术是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "增大组件面积"
+      },
+      {
+        "label": "B",
+        "text": "使用MPPT技术"
+      },
+      {
+        "label": "C",
+        "text": "提高电压等级"
+      },
+      {
+        "label": "D",
+        "text": "增加蓄电池容量"
+      }
+    ],
+    "answer": "B",
+    "analysis": "",
+    "sourceIndex": "6",
+    "sourceId": "PV-006",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0007",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 7,
+    "index": 7,
+    "type": "single",
+    "stem": "光伏组件寿命长的优点主要体现在?",
+    "options": [
+      {
+        "label": "A",
+        "text": "可移动性强"
+      },
+      {
+        "label": "B",
+        "text": "一次投资长期使用"
+      },
+      {
+        "label": "C",
+        "text": "安装简单"
+      },
+      {
+        "label": "D",
+        "text": "不受天气影响"
+      }
+    ],
+    "answer": "B",
+    "analysis": "",
+    "sourceIndex": "7",
+    "sourceId": "PV-007",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0008",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 8,
+    "index": 8,
+    "type": "single",
+    "stem": "大型荒漠光伏电站的主要挑战是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "阴影遮挡"
+      },
+      {
+        "label": "B",
+        "text": "朝向不一致"
+      },
+      {
+        "label": "C",
+        "text": "强风沙、高温差"
+      },
+      {
+        "label": "D",
+        "text": "电网不稳定"
+      }
+    ],
+    "answer": "C",
+    "analysis": "",
+    "sourceIndex": "8",
+    "sourceId": "PV-008",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0009",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 9,
+    "index": 9,
+    "type": "single",
+    "stem": "光伏电站的“检有压合闸”功能中，电压恢复后需稳定多长时间?",
+    "options": [
+      {
+        "label": "A",
+        "text": "几毫秒"
+      },
+      {
+        "label": "B",
+        "text": "几秒到几分钟"
+      },
+      {
+        "label": "C",
+        "text": "几小时"
+      },
+      {
+        "label": "D",
+        "text": "几天"
+      }
+    ],
+    "answer": "B",
+    "analysis": "",
+    "sourceIndex": "9",
+    "sourceId": "PV-009",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0010",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 10,
+    "index": 10,
+    "type": "single",
+    "stem": "下列哪项不是光伏电站运维管理的内容?",
+    "options": [
+      {
+        "label": "A",
+        "text": "巡检维护"
+      },
+      {
+        "label": "B",
+        "text": "定检维护"
+      },
+      {
+        "label": "C",
+        "text": "设备销售"
+      },
+      {
+        "label": "D",
+        "text": "运行管理"
+      }
+    ],
+    "answer": "C",
+    "analysis": "",
+    "sourceIndex": "10",
+    "sourceId": "PV-010",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0011",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 11,
+    "index": 11,
+    "type": "single",
+    "stem": "下列哪项属于电流通过人体内部、破坏内部组织并可能危及生命的触电类型?",
+    "options": [
+      {
+        "label": "A",
+        "text": "电伤"
+      },
+      {
+        "label": "B",
+        "text": "电击"
+      },
+      {
+        "label": "C",
+        "text": "灼伤"
+      },
+      {
+        "label": "D",
+        "text": "皮肤金属化"
+      }
+    ],
+    "answer": "B",
+    "analysis": "",
+    "sourceIndex": "11",
+    "sourceId": "PV-011",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0012",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 12,
+    "index": 12,
+    "type": "single",
+    "stem": "在停电检修设备时，装设临时接地线的操作顺序正确的是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "先接设备端，后接地端"
+      },
+      {
+        "label": "B",
+        "text": "只接设备端即可"
+      },
+      {
+        "label": "C",
+        "text": "先接地端，后接设备端"
+      },
+      {
+        "label": "D",
+        "text": "无需接地线"
+      }
+    ],
+    "answer": "C",
+    "analysis": "",
+    "sourceIndex": "12",
+    "sourceId": "PV-012",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0013",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 13,
+    "index": 13,
+    "type": "single",
+    "stem": "临时接地线应使用的最小导线截面积是多少?",
+    "options": [
+      {
+        "label": "A",
+        "text": "1.5 mm²"
+      },
+      {
+        "label": "B",
+        "text": "2.5 mm²"
+      },
+      {
+        "label": "C",
+        "text": "4.0 mm²"
+      },
+      {
+        "label": "D",
+        "text": "6.0 mm²"
+      }
+    ],
+    "answer": "D",
+    "analysis": "审核备注：题面选项未给出常见携带型短路接地线 25mm²；按本题给定选项暂取最大截面 D，建议对照教师课件。",
+    "sourceIndex": "13",
+    "sourceId": "PV-013",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0014",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 14,
+    "index": 14,
+    "type": "single",
+    "stem": "在带电检修低压线路时，断开导线的正确顺序是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "先断地线，后断相线"
+      },
+      {
+        "label": "B",
+        "text": "同时断开"
+      },
+      {
+        "label": "C",
+        "text": "先断相线，后断地线"
+      },
+      {
+        "label": "D",
+        "text": "任意顺序均可"
+      }
+    ],
+    "answer": "C",
+    "analysis": "",
+    "sourceIndex": "14",
+    "sourceId": "PV-014",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0015",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 15,
+    "index": 15,
+    "type": "single",
+    "stem": "以下哪项不属于安全用电的组织措施?",
+    "options": [
+      {
+        "label": "A",
+        "text": "制定安全操作规程"
+      },
+      {
+        "label": "B",
+        "text": "安装自动断电装置"
+      },
+      {
+        "label": "C",
+        "text": "加强安全教育与培训"
+      },
+      {
+        "label": "D",
+        "text": "建立健全检修制度"
+      }
+    ],
+    "answer": "B",
+    "analysis": "",
+    "sourceIndex": "15",
+    "sourceId": "PV-015",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0016",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 16,
+    "index": 16,
+    "type": "single",
+    "stem": "光伏组件中，光电转换效率最高的是哪种类型?",
+    "options": [
+      {
+        "label": "A",
+        "text": "多晶硅"
+      },
+      {
+        "label": "B",
+        "text": "单晶硅"
+      },
+      {
+        "label": "C",
+        "text": "非晶硅"
+      },
+      {
+        "label": "D",
+        "text": "多元化合物"
+      }
+    ],
+    "answer": "B",
+    "analysis": "",
+    "sourceIndex": "16",
+    "sourceId": "PV-016",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0017",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 17,
+    "index": 17,
+    "type": "single",
+    "stem": "光伏组件的开路电压与温度的关系是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "成正比"
+      },
+      {
+        "label": "B",
+        "text": "成反比"
+      },
+      {
+        "label": "C",
+        "text": "无关"
+      },
+      {
+        "label": "D",
+        "text": "先升后降"
+      }
+    ],
+    "answer": "B",
+    "analysis": "",
+    "sourceIndex": "17",
+    "sourceId": "PV-017",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0018",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 18,
+    "index": 18,
+    "type": "single",
+    "stem": "下列哪种现象会导致光伏组件局部发热并消耗功率?",
+    "options": [
+      {
+        "label": "A",
+        "text": "光致衰减"
+      },
+      {
+        "label": "B",
+        "text": "热斑效应"
+      },
+      {
+        "label": "C",
+        "text": "温度系数"
+      },
+      {
+        "label": "D",
+        "text": "填充因子"
+      }
+    ],
+    "answer": "B",
+    "analysis": "",
+    "sourceIndex": "18",
+    "sourceId": "PV-018",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0019",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 19,
+    "index": 19,
+    "type": "single",
+    "stem": "光伏组件的输出功率随温度升高如何变化?",
+    "options": [
+      {
+        "label": "A",
+        "text": "增加"
+      },
+      {
+        "label": "B",
+        "text": "减少"
+      },
+      {
+        "label": "C",
+        "text": "不变"
+      },
+      {
+        "label": "D",
+        "text": "先增后减"
+      }
+    ],
+    "answer": "B",
+    "analysis": "",
+    "sourceIndex": "19",
+    "sourceId": "PV-019",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0020",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 20,
+    "index": 20,
+    "type": "single",
+    "stem": "下列哪种光伏组件在弱光条件下也能发电?",
+    "options": [
+      {
+        "label": "A",
+        "text": "单晶硅"
+      },
+      {
+        "label": "B",
+        "text": "多晶硅"
+      },
+      {
+        "label": "C",
+        "text": "非晶硅"
+      },
+      {
+        "label": "D",
+        "text": "多元化合物"
+      }
+    ],
+    "answer": "C",
+    "analysis": "",
+    "sourceIndex": "20",
+    "sourceId": "PV-020",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0021",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 21,
+    "index": 21,
+    "type": "single",
+    "stem": "光伏电站工作票使用前必须统一格式、按顺序编号，一个年度之内( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "可以重复编号"
+      },
+      {
+        "label": "B",
+        "text": "不能有重复编号"
+      },
+      {
+        "label": "C",
+        "text": "无编号要求"
+      },
+      {
+        "label": "D",
+        "text": "可随意编号"
+      }
+    ],
+    "answer": "B",
+    "analysis": "",
+    "sourceIndex": "21",
+    "sourceId": "PV-021",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0022",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 22,
+    "index": 22,
+    "type": "single",
+    "stem": "倒闸操作应将电气设备从一种工作状态转换到另一种状态，电气设备状态不包括( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "运行"
+      },
+      {
+        "label": "B",
+        "text": "热备用"
+      },
+      {
+        "label": "C",
+        "text": "冷备用"
+      },
+      {
+        "label": "D",
+        "text": "断电"
+      }
+    ],
+    "answer": "D",
+    "analysis": "",
+    "sourceIndex": "22",
+    "sourceId": "PV-022",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0023",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 23,
+    "index": 23,
+    "type": "single",
+    "stem": "光伏电站交接班时，遇到哪种情况不得进行交接班( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "正常巡检"
+      },
+      {
+        "label": "B",
+        "text": "处理事故或重要操作"
+      },
+      {
+        "label": "C",
+        "text": "资料核对"
+      },
+      {
+        "label": "D",
+        "text": "工具交接"
+      }
+    ],
+    "answer": "B",
+    "analysis": "",
+    "sourceIndex": "23",
+    "sourceId": "PV-023",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0024",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 24,
+    "index": 24,
+    "type": "single",
+    "stem": "设备定期检查应做到 “四到”，以下哪项不属于 “四到”( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "看到"
+      },
+      {
+        "label": "B",
+        "text": "听到"
+      },
+      {
+        "label": "C",
+        "text": "猜到"
+      },
+      {
+        "label": "D",
+        "text": "嗅到"
+      }
+    ],
+    "answer": "C",
+    "analysis": "",
+    "sourceIndex": "24",
+    "sourceId": "PV-024",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0025",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 25,
+    "index": 25,
+    "type": "single",
+    "stem": "新入职人员必须经过三级安全教育，考试合格后方可上岗，三级不包括( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "公司"
+      },
+      {
+        "label": "B",
+        "text": "部门"
+      },
+      {
+        "label": "C",
+        "text": "班组"
+      },
+      {
+        "label": "D",
+        "text": "行业"
+      }
+    ],
+    "answer": "D",
+    "analysis": "",
+    "sourceIndex": "25",
+    "sourceId": "PV-025",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0026",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 26,
+    "index": 26,
+    "type": "single",
+    "stem": "光伏电站消防第一负责人通常是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "值班长"
+      },
+      {
+        "label": "B",
+        "text": "运维人员"
+      },
+      {
+        "label": "C",
+        "text": "站长"
+      },
+      {
+        "label": "D",
+        "text": "调度员"
+      }
+    ],
+    "answer": "C",
+    "analysis": "",
+    "sourceIndex": "26",
+    "sourceId": "PV-026",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0027",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 27,
+    "index": 27,
+    "type": "single",
+    "stem": "操作票应使用设备双重名称，指的是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "设备名称和型号"
+      },
+      {
+        "label": "B",
+        "text": "设备名称和编号"
+      },
+      {
+        "label": "C",
+        "text": "设备编号和型号"
+      },
+      {
+        "label": "D",
+        "text": "设备名称和厂家"
+      }
+    ],
+    "answer": "B",
+    "analysis": "",
+    "sourceIndex": "27",
+    "sourceId": "PV-027",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0028",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 28,
+    "index": 28,
+    "type": "single",
+    "stem": "光伏电站巡回检查应做到要求，不包括( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "慢走"
+      },
+      {
+        "label": "B",
+        "text": "细看"
+      },
+      {
+        "label": "C",
+        "text": "认真听"
+      },
+      {
+        "label": "D",
+        "text": "快查"
+      }
+    ],
+    "answer": "D",
+    "analysis": "",
+    "sourceIndex": "28",
+    "sourceId": "PV-028",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0029",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 29,
+    "index": 29,
+    "type": "single",
+    "stem": "接受调度命令时，除加减出力和调整电压外，其他命令必须( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "口头记录"
+      },
+      {
+        "label": "B",
+        "text": "书面记录"
+      },
+      {
+        "label": "C",
+        "text": "无需记录"
+      },
+      {
+        "label": "D",
+        "text": "事后补记"
+      }
+    ],
+    "answer": "B",
+    "analysis": "",
+    "sourceIndex": "29",
+    "sourceId": "PV-029",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-M0030",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 30,
+    "index": 30,
+    "type": "multiple",
+    "stem": "光伏电站生产管理中的 “两票” 指的是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "工作票"
+      },
+      {
+        "label": "B",
+        "text": "操作票"
+      },
+      {
+        "label": "C",
+        "text": "巡检票"
+      },
+      {
+        "label": "D",
+        "text": "检修票"
+      }
+    ],
+    "answer": "AB",
+    "analysis": "审核备注：【疑似题型异常，待人工核对】；原题标为单选，但‘两票’应为工作票+操作票，调整为多选，答案 AB；与第99题重复，保留第30题，删除第99题。",
+    "sourceIndex": "30",
+    "sourceId": "PV-030",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0031",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 31,
+    "index": 31,
+    "type": "single",
+    "stem": "光伏电站工作票原则上应在工作开始前( )送达光伏电站值班室。",
+    "options": [
+      {
+        "label": "A",
+        "text": "4 小时"
+      },
+      {
+        "label": "B",
+        "text": "一天"
+      },
+      {
+        "label": "C",
+        "text": "两天"
+      },
+      {
+        "label": "D",
+        "text": "当班前"
+      }
+    ],
+    "answer": "B",
+    "analysis": "",
+    "sourceIndex": "31",
+    "sourceId": "PV-031",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0032",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 32,
+    "index": 32,
+    "type": "single",
+    "stem": "光伏电站倒闸操作中，特别重要和复杂的倒闸操作应由( )操作，值长或值班负责人监护。",
+    "options": [
+      {
+        "label": "A",
+        "text": "实习值班员"
+      },
+      {
+        "label": "B",
+        "text": "熟练值班员"
+      },
+      {
+        "label": "C",
+        "text": "检修人员"
+      },
+      {
+        "label": "D",
+        "text": "外委人员"
+      }
+    ],
+    "answer": "B",
+    "analysis": "",
+    "sourceIndex": "32",
+    "sourceId": "PV-032",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0033",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 33,
+    "index": 33,
+    "type": "single",
+    "stem": "光伏电站在接受调度命令时，除( )命令外，均应对调度命令作书面记录。",
+    "options": [
+      {
+        "label": "A",
+        "text": "加减出力和调整电压"
+      },
+      {
+        "label": "B",
+        "text": "设备停运"
+      },
+      {
+        "label": "C",
+        "text": "事故处理"
+      },
+      {
+        "label": "D",
+        "text": "检修申请"
+      }
+    ],
+    "answer": "A",
+    "analysis": "",
+    "sourceIndex": "33",
+    "sourceId": "PV-033",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0034",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 34,
+    "index": 34,
+    "type": "single",
+    "stem": "中控室值班人员应至少每( )对后台监控全站设备运行情况进行一次查看。",
+    "options": [
+      {
+        "label": "A",
+        "text": "30 分钟"
+      },
+      {
+        "label": "B",
+        "text": "1 小时"
+      },
+      {
+        "label": "C",
+        "text": "2 小时"
+      },
+      {
+        "label": "D",
+        "text": "4 小时"
+      }
+    ],
+    "answer": "B",
+    "analysis": "",
+    "sourceIndex": "34",
+    "sourceId": "PV-034",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0035",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 35,
+    "index": 35,
+    "type": "single",
+    "stem": "光伏组件红外热成像扫描的巡检周期为( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "每季度"
+      },
+      {
+        "label": "B",
+        "text": "每半年"
+      },
+      {
+        "label": "C",
+        "text": "每年"
+      },
+      {
+        "label": "D",
+        "text": "每两年"
+      }
+    ],
+    "answer": "C",
+    "analysis": "审核备注：红外热成像巡检周期不同规程/企业制度可能不同；本版暂取每年，需以课程口径为准。",
+    "sourceIndex": "35",
+    "sourceId": "PV-035",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0036",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 36,
+    "index": 36,
+    "type": "single",
+    "stem": "逆变器除尘维护的周期为( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "1 个月"
+      },
+      {
+        "label": "B",
+        "text": "4 个月"
+      },
+      {
+        "label": "C",
+        "text": "6 个月"
+      },
+      {
+        "label": "D",
+        "text": "12 个月"
+      }
+    ],
+    "answer": "C",
+    "analysis": "",
+    "sourceIndex": "36",
+    "sourceId": "PV-036",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0037",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 37,
+    "index": 37,
+    "type": "single",
+    "stem": "主变压器运行中接地电流一般不大于( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "0.1A"
+      },
+      {
+        "label": "B",
+        "text": "0.5A"
+      },
+      {
+        "label": "C",
+        "text": "1A"
+      },
+      {
+        "label": "D",
+        "text": "5A"
+      }
+    ],
+    "answer": "A",
+    "analysis": "",
+    "sourceIndex": "37",
+    "sourceId": "PV-037",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0038",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 38,
+    "index": 38,
+    "type": "single",
+    "stem": "新上岗人员必须经过( )安全教育并考试合格方可上岗。",
+    "options": [
+      {
+        "label": "A",
+        "text": "一级"
+      },
+      {
+        "label": "B",
+        "text": "二级"
+      },
+      {
+        "label": "C",
+        "text": "三级"
+      },
+      {
+        "label": "D",
+        "text": "四级"
+      }
+    ],
+    "answer": "C",
+    "analysis": "",
+    "sourceIndex": "38",
+    "sourceId": "PV-038",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0039",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 39,
+    "index": 39,
+    "type": "single",
+    "stem": "事故处理或重要操作进行时，( )交接班。",
+    "options": [
+      {
+        "label": "A",
+        "text": "可以"
+      },
+      {
+        "label": "B",
+        "text": "不得"
+      },
+      {
+        "label": "C",
+        "text": "经批准可"
+      },
+      {
+        "label": "D",
+        "text": "视情况"
+      }
+    ],
+    "answer": "B",
+    "analysis": "",
+    "sourceIndex": "39",
+    "sourceId": "PV-039",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0040",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 40,
+    "index": 40,
+    "type": "single",
+    "stem": "操作票必须使用设备( )，且接令过程需录音。",
+    "options": [
+      {
+        "label": "A",
+        "text": "名称"
+      },
+      {
+        "label": "B",
+        "text": "编号"
+      },
+      {
+        "label": "C",
+        "text": "双重名称"
+      },
+      {
+        "label": "D",
+        "text": "位置名称"
+      }
+    ],
+    "answer": "C",
+    "analysis": "",
+    "sourceIndex": "40",
+    "sourceId": "PV-040",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0041",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 41,
+    "index": 41,
+    "type": "single",
+    "stem": "日巡检中计算机监控系统每日巡检( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "1 次"
+      },
+      {
+        "label": "B",
+        "text": "2 次"
+      },
+      {
+        "label": "C",
+        "text": "3 次"
+      },
+      {
+        "label": "D",
+        "text": "4 次"
+      }
+    ],
+    "answer": "A",
+    "analysis": "审核备注：每日巡检次数可能受站内制度影响；暂按每日 1 次处理。",
+    "sourceIndex": "41",
+    "sourceId": "PV-041",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0042",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 42,
+    "index": 42,
+    "type": "single",
+    "stem": "高压开关柜绝缘遥测应使用( )摇表。",
+    "options": [
+      {
+        "label": "A",
+        "text": "500V"
+      },
+      {
+        "label": "B",
+        "text": "1000V"
+      },
+      {
+        "label": "C",
+        "text": "2500V"
+      },
+      {
+        "label": "D",
+        "text": "5000V"
+      }
+    ],
+    "answer": "C",
+    "analysis": "",
+    "sourceIndex": "42",
+    "sourceId": "PV-042",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0043",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 43,
+    "index": 43,
+    "type": "single",
+    "stem": "电缆头定期检查的周期为( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "3 个月"
+      },
+      {
+        "label": "B",
+        "text": "6 个月"
+      },
+      {
+        "label": "C",
+        "text": "9 个月"
+      },
+      {
+        "label": "D",
+        "text": "12 个月"
+      }
+    ],
+    "answer": "B",
+    "analysis": "",
+    "sourceIndex": "43",
+    "sourceId": "PV-043",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0044",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 44,
+    "index": 44,
+    "type": "single",
+    "stem": "智能营维云中心的五点四段损耗模型中，四段损耗不包含以下哪项（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "组串环境及失配损耗"
+      },
+      {
+        "label": "B",
+        "text": "逆变器损耗"
+      },
+      {
+        "label": "C",
+        "text": "箱变内部损耗"
+      },
+      {
+        "label": "D",
+        "text": "并网损耗"
+      }
+    ],
+    "answer": "C",
+    "analysis": "",
+    "sourceIndex": "44",
+    "sourceId": "PV-044",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0045",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 45,
+    "index": 45,
+    "type": "single",
+    "stem": "智能光伏电站监控系统可实现精细化监控，其最小监控粒度为（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "子阵级"
+      },
+      {
+        "label": "B",
+        "text": "组串级"
+      },
+      {
+        "label": "C",
+        "text": "逆变器级"
+      },
+      {
+        "label": "D",
+        "text": "设备级"
+      }
+    ],
+    "answer": "B",
+    "analysis": "",
+    "sourceIndex": "45",
+    "sourceId": "PV-045",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0046",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 46,
+    "index": 46,
+    "type": "single",
+    "stem": "智能营维分析系统中，单 MW 发电量离散率正常优秀标准为（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "＜5%"
+      },
+      {
+        "label": "B",
+        "text": "5%~10%"
+      },
+      {
+        "label": "C",
+        "text": "10%~20%"
+      },
+      {
+        "label": "D",
+        "text": "＞20%"
+      }
+    ],
+    "answer": "A",
+    "analysis": "",
+    "sourceIndex": "46",
+    "sourceId": "PV-046",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0047",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 47,
+    "index": 47,
+    "type": "single",
+    "stem": "生产管理系统中，操作票主要用于（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "设备检修作业许可"
+      },
+      {
+        "label": "B",
+        "text": "规范电气倒闸操作"
+      },
+      {
+        "label": "C",
+        "text": "缺陷登记处理"
+      },
+      {
+        "label": "D",
+        "text": "交接班记录"
+      }
+    ],
+    "answer": "B",
+    "analysis": "",
+    "sourceIndex": "47",
+    "sourceId": "PV-047",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0048",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 48,
+    "index": 48,
+    "type": "single",
+    "stem": "智能营维云中心数据存储可支持电站数据长达（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "10 年"
+      },
+      {
+        "label": "B",
+        "text": "15 年"
+      },
+      {
+        "label": "C",
+        "text": "20 年"
+      },
+      {
+        "label": "D",
+        "text": "25 年"
+      }
+    ],
+    "answer": "D",
+    "analysis": "审核备注：数据存储年限属于平台功能宣传口径；暂按 25 年处理，需核对课程材料。",
+    "sourceIndex": "48",
+    "sourceId": "PV-048",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0049",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 49,
+    "index": 49,
+    "type": "single",
+    "stem": "智能光伏电站监控系统接收调度指令后，可实现（）自动调节",
+    "options": [
+      {
+        "label": "A",
+        "text": "温度与湿度"
+      },
+      {
+        "label": "B",
+        "text": "有功与无功功率"
+      },
+      {
+        "label": "C",
+        "text": "辐照强度"
+      },
+      {
+        "label": "D",
+        "text": "组件倾角"
+      }
+    ],
+    "answer": "B",
+    "analysis": "",
+    "sourceIndex": "49",
+    "sourceId": "PV-049",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0050",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 50,
+    "index": 50,
+    "type": "single",
+    "stem": "电站生产运行日报中，等效利用小时数计算公式为（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "实际总发电量 ÷ 装机额定容量"
+      },
+      {
+        "label": "B",
+        "text": "理论发电量 ÷ 装机额定容量"
+      },
+      {
+        "label": "C",
+        "text": "上网电量 ÷ 理论发电量"
+      },
+      {
+        "label": "D",
+        "text": "实际发电量 ÷ 理论发电量"
+      }
+    ],
+    "answer": "A",
+    "analysis": "",
+    "sourceIndex": "50",
+    "sourceId": "PV-050",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-M0051",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 51,
+    "index": 51,
+    "type": "multiple",
+    "stem": "营维分析系统集团大屏可展示的核心 KPI 包括（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "累计发电量"
+      },
+      {
+        "label": "B",
+        "text": "电站 PR 值"
+      },
+      {
+        "label": "C",
+        "text": "两票闭环率"
+      },
+      {
+        "label": "D",
+        "text": "设备内部结构图纸"
+      }
+    ],
+    "answer": "ABC",
+    "analysis": "审核备注：原题标为单选，但题干为‘核心 KPI 包括’，A/B/C 均合理，调整为多选，答案 ABC。；原题标为单选，但 A/B/C 均属于集团大屏核心 KPI，已调整为多选。",
+    "sourceIndex": "51",
+    "sourceId": "PV-051",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0052",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 52,
+    "index": 52,
+    "type": "single",
+    "stem": "关于光伏组件隐裂故障，下列说法正确的是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "隐裂会导致组件输出电压明显下降"
+      },
+      {
+        "label": "B",
+        "text": "隐裂可通过肉眼直接观察识别"
+      },
+      {
+        "label": "C",
+        "text": "隐裂在EL成像中可被检测出来"
+      },
+      {
+        "label": "D",
+        "text": "隐裂不会影响组件的转换效率"
+      }
+    ],
+    "answer": "C",
+    "analysis": "",
+    "sourceIndex": "52",
+    "sourceId": "PV-052",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0053",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 53,
+    "index": 53,
+    "type": "single",
+    "stem": "光伏组件发生热斑效应时，为防止其损坏，通常在组件正负极间并联( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "稳压二极管"
+      },
+      {
+        "label": "B",
+        "text": "旁路二极管"
+      },
+      {
+        "label": "C",
+        "text": "肖特基二极管"
+      },
+      {
+        "label": "D",
+        "text": "瞬态电压抑制二极管"
+      }
+    ],
+    "answer": "B",
+    "analysis": "",
+    "sourceIndex": "53",
+    "sourceId": "PV-053",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0054",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 54,
+    "index": 54,
+    "type": "single",
+    "stem": "关于PID(电位诱发衰减)现象的产生机理，下列说法错误的是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "水汽进入组件导致EVA水解产生醋酸"
+      },
+      {
+        "label": "B",
+        "text": "醋酸与玻璃中析出的碱反应生成钠离子"
+      },
+      {
+        "label": "C",
+        "text": "钠离子在正偏压作用下向电池片表面移动"
+      },
+      {
+        "label": "D",
+        "text": "PID会降低光伏组件性能"
+      }
+    ],
+    "answer": "C",
+    "analysis": "",
+    "sourceIndex": "54",
+    "sourceId": "PV-054",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0055",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 55,
+    "index": 55,
+    "type": "single",
+    "stem": "关于光伏组件接线盒湿热失效，以下哪种现象不属于常见失效表现( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "盒体碎裂"
+      },
+      {
+        "label": "B",
+        "text": "盒体与背板脱落"
+      },
+      {
+        "label": "C",
+        "text": "输出功率短暂上升"
+      },
+      {
+        "label": "D",
+        "text": "电气连接不可靠"
+      }
+    ],
+    "answer": "C",
+    "analysis": "",
+    "sourceIndex": "55",
+    "sourceId": "PV-055",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0056",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 56,
+    "index": 56,
+    "type": "single",
+    "stem": "以下哪项不是导致光伏组件接线盒进水的常见原因( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "密封螺母开裂"
+      },
+      {
+        "label": "B",
+        "text": "盒体锁扣设计不当"
+      },
+      {
+        "label": "C",
+        "text": "旁路二极管短路"
+      },
+      {
+        "label": "D",
+        "text": "密封圈橡胶材料选择不当"
+      }
+    ],
+    "answer": "C",
+    "analysis": "",
+    "sourceIndex": "56",
+    "sourceId": "PV-056",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0057",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 57,
+    "index": 57,
+    "type": "single",
+    "stem": "在光伏组串输出偏低的故障分析中，最常用的初步判断方法是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "对每块组件进行EL检测"
+      },
+      {
+        "label": "B",
+        "text": "对比相同子阵相同支路数的汇流箱输出功率和电流"
+      },
+      {
+        "label": "C",
+        "text": "测量接地电阻"
+      },
+      {
+        "label": "D",
+        "text": "检查逆变器的IGBT模块"
+      }
+    ],
+    "answer": "B",
+    "analysis": "",
+    "sourceIndex": "57",
+    "sourceId": "PV-057",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0058",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 58,
+    "index": 58,
+    "type": "single",
+    "stem": "关于光伏组件隐裂对输出参数的影响，正确的是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "输出电压明显降低，电流基本不变"
+      },
+      {
+        "label": "B",
+        "text": "输出电压和电流均明显降低"
+      },
+      {
+        "label": "C",
+        "text": "输出电压无明显变化，输出电流明显降低"
+      },
+      {
+        "label": "D",
+        "text": "输出电压和电流均无明显变化"
+      }
+    ],
+    "answer": "C",
+    "analysis": "",
+    "sourceIndex": "58",
+    "sourceId": "PV-058",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0059",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 59,
+    "index": 59,
+    "type": "single",
+    "stem": "以下哪项措施不能有效防止光伏组件热斑效应( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "在组件正负极并联旁路二极管"
+      },
+      {
+        "label": "B",
+        "text": "使用性能一致性好的电池片"
+      },
+      {
+        "label": "C",
+        "text": "增加组件边框接地电阻"
+      },
+      {
+        "label": "D",
+        "text": "避免组件被遮挡"
+      }
+    ],
+    "answer": "C",
+    "analysis": "",
+    "sourceIndex": "59",
+    "sourceId": "PV-059",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0060",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 60,
+    "index": 60,
+    "type": "single",
+    "stem": "关于光伏逆变器的功能，下列说法错误的是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "将直流电转换为交流电"
+      },
+      {
+        "label": "B",
+        "text": "检测光伏组件和电网状况"
+      },
+      {
+        "label": "C",
+        "text": "直接调节光伏组件的倾角"
+      },
+      {
+        "label": "D",
+        "text": "完成系统绝缘检测"
+      }
+    ],
+    "answer": "C",
+    "analysis": "",
+    "sourceIndex": "60",
+    "sourceId": "PV-060",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0061",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 61,
+    "index": 61,
+    "type": "single",
+    "stem": "逆变器不并网故障时，首选的检测工具和测量对象是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "钳形电流表测量直流输入电流"
+      },
+      {
+        "label": "B",
+        "text": "万用表测量逆变器交流输出电压"
+      },
+      {
+        "label": "C",
+        "text": "绝缘电阻表测量对地绝缘电阻"
+      },
+      {
+        "label": "D",
+        "text": "示波器观察PWM波形"
+      }
+    ],
+    "answer": "B",
+    "analysis": "",
+    "sourceIndex": "61",
+    "sourceId": "PV-061",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0062",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 62,
+    "index": 62,
+    "type": "single",
+    "stem": "直流过电压报警最可能的原因是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "光伏组件串联数量过多"
+      },
+      {
+        "label": "B",
+        "text": "光伏组件并联数量过多"
+      },
+      {
+        "label": "C",
+        "text": "交流侧负载突变"
+      },
+      {
+        "label": "D",
+        "text": "逆变器内部电容击穿"
+      }
+    ],
+    "answer": "A",
+    "analysis": "",
+    "sourceIndex": "62",
+    "sourceId": "PV-062",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0063",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 63,
+    "index": 63,
+    "type": "single",
+    "stem": "在电网欠电压故障中，若出现单独一相电压过低，除了负载分配不均外，还可能的原因是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "该相电网掉电或断路"
+      },
+      {
+        "label": "B",
+        "text": "该相电压采样电阻变大"
+      },
+      {
+        "label": "C",
+        "text": "逆变器内部继电器粘连"
+      },
+      {
+        "label": "D",
+        "text": "直流侧对地短路"
+      }
+    ],
+    "answer": "A",
+    "analysis": "",
+    "sourceIndex": "63",
+    "sourceId": "PV-063",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0064",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 64,
+    "index": 64,
+    "type": "single",
+    "stem": "关于孤岛保护，逆变器应在电网供电中断后多长时间内停止向电网供电?",
+    "options": [
+      {
+        "label": "A",
+        "text": "0.5秒"
+      },
+      {
+        "label": "B",
+        "text": "1秒"
+      },
+      {
+        "label": "C",
+        "text": "2秒"
+      },
+      {
+        "label": "D",
+        "text": "5秒"
+      }
+    ],
+    "answer": "C",
+    "analysis": "",
+    "sourceIndex": "64",
+    "sourceId": "PV-064",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0065",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 65,
+    "index": 65,
+    "type": "single",
+    "stem": "阿拉尔电站二期逆变器IGBT模块反复烧毁，经分析主要原因是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "模块选型电流过小"
+      },
+      {
+        "label": "B",
+        "text": "风道设计导致驱动板积灰受潮腐蚀"
+      },
+      {
+        "label": "C",
+        "text": "电网频率波动过大"
+      },
+      {
+        "label": "D",
+        "text": "直流过电压保护设定错误"
+      }
+    ],
+    "answer": "B",
+    "analysis": "",
+    "sourceIndex": "65",
+    "sourceId": "PV-065",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0066",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 66,
+    "index": 66,
+    "type": "single",
+    "stem": "在孤岛保护故障排查中，现场测量交流侧电压正常，电压采样板输出正常，转接板输出不正常，则可判断故障点位于?",
+    "options": [
+      {
+        "label": "A",
+        "text": "交流接触器"
+      },
+      {
+        "label": "B",
+        "text": "电压采样板"
+      },
+      {
+        "label": "C",
+        "text": "转接板"
+      },
+      {
+        "label": "D",
+        "text": "IGBT模块"
+      }
+    ],
+    "answer": "C",
+    "analysis": "",
+    "sourceIndex": "66",
+    "sourceId": "PV-066",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0067",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 67,
+    "index": 67,
+    "type": "single",
+    "stem": "在漏电流故障中，下列哪项不是常见原因?",
+    "options": [
+      {
+        "label": "A",
+        "text": "低质量的直流接头"
+      },
+      {
+        "label": "B",
+        "text": "光伏组件安装高度不足"
+      },
+      {
+        "label": "C",
+        "text": "逆变器输出交流频率过高"
+      },
+      {
+        "label": "D",
+        "text": "并网设备进水"
+      }
+    ],
+    "answer": "C",
+    "analysis": "",
+    "sourceIndex": "67",
+    "sourceId": "PV-067",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0068",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 68,
+    "index": 68,
+    "type": "single",
+    "stem": "关于万能断路器不能合闸的原因，下列哪项描述是错误的?",
+    "options": [
+      {
+        "label": "A",
+        "text": "控制回路故障"
+      },
+      {
+        "label": "B",
+        "text": "智能脱扣器动作后，红色按钮未复位"
+      },
+      {
+        "label": "C",
+        "text": "储能机构已储能"
+      },
+      {
+        "label": "D",
+        "text": "脱扣器未复位"
+      }
+    ],
+    "answer": "C",
+    "analysis": "",
+    "sourceIndex": "68",
+    "sourceId": "PV-068",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0069",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 69,
+    "index": 69,
+    "type": "single",
+    "stem": "塑壳断路器不能合闸，若原因是“机构脱扣后没有复位”，正确的处理方法是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "直接手动储能"
+      },
+      {
+        "label": "B",
+        "text": "查明脱扣原因并排除故障后复位"
+      },
+      {
+        "label": "C",
+        "text": "更换断路器"
+      },
+      {
+        "label": "D",
+        "text": "短接欠电压线圈"
+      }
+    ],
+    "answer": "B",
+    "analysis": "",
+    "sourceIndex": "69",
+    "sourceId": "PV-069",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0070",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 70,
+    "index": 70,
+    "type": "single",
+    "stem": "变压器绕组故障中，出现频率最高的故障类型是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "绕组接地"
+      },
+      {
+        "label": "B",
+        "text": "相间短路"
+      },
+      {
+        "label": "C",
+        "text": "匝间短路"
+      },
+      {
+        "label": "D",
+        "text": "引线断线"
+      }
+    ],
+    "answer": "C",
+    "analysis": "",
+    "sourceIndex": "70",
+    "sourceId": "PV-070",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0071",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 71,
+    "index": 71,
+    "type": "single",
+    "stem": "变压器发生“相间短路”的主要原因通常与下列哪项有关?",
+    "options": [
+      {
+        "label": "A",
+        "text": "雷电过电压"
+      },
+      {
+        "label": "B",
+        "text": "变压器油受潮"
+      },
+      {
+        "label": "C",
+        "text": "检修或组装过程中的不当操作"
+      },
+      {
+        "label": "D",
+        "text": "长期过负荷运行"
+      }
+    ],
+    "answer": "C",
+    "analysis": "",
+    "sourceIndex": "71",
+    "sourceId": "PV-071",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0072",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 72,
+    "index": 72,
+    "type": "single",
+    "stem": "变压器套管表面积垢后，在箱变水汽重时容易发生?",
+    "options": [
+      {
+        "label": "A",
+        "text": "匝间短路"
+      },
+      {
+        "label": "B",
+        "text": "污闪，导致单相接地或相间短路"
+      },
+      {
+        "label": "C",
+        "text": "铁心两点接地"
+      },
+      {
+        "label": "D",
+        "text": "分接开关放电"
+      }
+    ],
+    "answer": "B",
+    "analysis": "",
+    "sourceIndex": "72",
+    "sourceId": "PV-072",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0073",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 73,
+    "index": 73,
+    "type": "single",
+    "stem": "变压器发出“吱吱”或“噼啪”声，通常表示?",
+    "options": [
+      {
+        "label": "A",
+        "text": "过载运行"
+      },
+      {
+        "label": "B",
+        "text": "内部夹件松动"
+      },
+      {
+        "label": "C",
+        "text": "局部放电"
+      },
+      {
+        "label": "D",
+        "text": "绕组短路"
+      }
+    ],
+    "answer": "C",
+    "analysis": "",
+    "sourceIndex": "73",
+    "sourceId": "PV-073",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0074",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 74,
+    "index": 74,
+    "type": "single",
+    "stem": "变压器温度异常升高，下列哪项不是常见原因?",
+    "options": [
+      {
+        "label": "A",
+        "text": "匝间短路"
+      },
+      {
+        "label": "B",
+        "text": "铁心局部短路"
+      },
+      {
+        "label": "C",
+        "text": "散热条件改善"
+      },
+      {
+        "label": "D",
+        "text": "长期过负荷运行"
+      }
+    ],
+    "answer": "C",
+    "analysis": "",
+    "sourceIndex": "74",
+    "sourceId": "PV-074",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0075",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 75,
+    "index": 75,
+    "type": "single",
+    "stem": "当电压互感器高压保险熔断时，下列哪项现象不会出现?",
+    "options": [
+      {
+        "label": "A",
+        "text": "熔断相电压降低但不为零"
+      },
+      {
+        "label": "B",
+        "text": "其他两相电压保持正常或稍低"
+      },
+      {
+        "label": "C",
+        "text": "二次回路出现零序电压"
+      },
+      {
+        "label": "D",
+        "text": "熔断相电压为零"
+      }
+    ],
+    "answer": "D",
+    "analysis": "",
+    "sourceIndex": "75",
+    "sourceId": "PV-075",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0076",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 76,
+    "index": 76,
+    "type": "single",
+    "stem": "在金属性接地故障中，故障相电压和非故障相电压的变化规律是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "故障相电压升高，非故障相电压降低"
+      },
+      {
+        "label": "B",
+        "text": "故障相电压为零或接近零，非故障相电压上升为线电压"
+      },
+      {
+        "label": "C",
+        "text": "故障相电压降低，非故障相电压升高但低于线电压"
+      },
+      {
+        "label": "D",
+        "text": "三相电压均不变"
+      }
+    ],
+    "answer": "B",
+    "analysis": "",
+    "sourceIndex": "76",
+    "sourceId": "PV-076",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0077",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 77,
+    "index": 77,
+    "type": "single",
+    "stem": "下列哪一项不属于电缆闪络故障的常见发生部位?",
+    "options": [
+      {
+        "label": "A",
+        "text": "电缆终端"
+      },
+      {
+        "label": "B",
+        "text": "中间接头"
+      },
+      {
+        "label": "C",
+        "text": "电缆导体内部"
+      },
+      {
+        "label": "D",
+        "text": "预防性耐压试验时"
+      }
+    ],
+    "answer": "C",
+    "analysis": "",
+    "sourceIndex": "77",
+    "sourceId": "PV-077",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0078",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 78,
+    "index": 78,
+    "type": "single",
+    "stem": "8. 对于三芯电缆一芯或两芯接地，当绝缘电阻值高于多少Ω时被称为高电阻接地故障?",
+    "options": [
+      {
+        "label": "A",
+        "text": "100Ω"
+      },
+      {
+        "label": "B",
+        "text": "500Ω"
+      },
+      {
+        "label": "C",
+        "text": "1000Ω"
+      },
+      {
+        "label": "D",
+        "text": "5000Ω"
+      }
+    ],
+    "answer": "C",
+    "analysis": "",
+    "sourceIndex": "78",
+    "sourceId": "PV-078",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0079",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 79,
+    "index": 79,
+    "type": "single",
+    "stem": "对于直流侧电缆绝缘电阻，依据GB 50217，用1000V兆欧表摇测时，绝缘电阻值不应低于（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "1MΩ"
+      },
+      {
+        "label": "B",
+        "text": "5MΩ"
+      },
+      {
+        "label": "C",
+        "text": "10MΩ"
+      },
+      {
+        "label": "D",
+        "text": "35MΩ"
+      }
+    ],
+    "answer": "B",
+    "analysis": "审核备注：GB 50217 直流侧电缆绝缘电阻题，按常见题库口径暂取 5MΩ，建议核对课件。",
+    "sourceIndex": "79",
+    "sourceId": "PV-079",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-S0080",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 80,
+    "index": 80,
+    "type": "single",
+    "stem": "18.某电站35kV开关柜内单芯电缆与零序CT感应放电，最有效的解决措施是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "更换更大容量熔断器"
+      },
+      {
+        "label": "B",
+        "text": "拆除零序CT或将三相电缆分开安装"
+      },
+      {
+        "label": "C",
+        "text": "增加电缆长度"
+      },
+      {
+        "label": "D",
+        "text": "更换为单芯铠装电缆且不改变安装方式"
+      }
+    ],
+    "answer": "B",
+    "analysis": "",
+    "sourceIndex": "80",
+    "sourceId": "PV-080",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-M0081",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 81,
+    "index": 81,
+    "type": "multiple",
+    "stem": "光伏电站按装机容量可以分为哪些类型?",
+    "options": [
+      {
+        "label": "A",
+        "text": "小型光伏电站"
+      },
+      {
+        "label": "B",
+        "text": "中型光伏电站"
+      },
+      {
+        "label": "C",
+        "text": "大型光伏电站"
+      },
+      {
+        "label": "D",
+        "text": "微型光伏电站"
+      }
+    ],
+    "answer": "ABC",
+    "analysis": "",
+    "sourceIndex": "81",
+    "sourceId": "PV-081",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-M0082",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 82,
+    "index": 82,
+    "type": "multiple",
+    "stem": "并网光伏电站的系统构成包括哪些部分?",
+    "options": [
+      {
+        "label": "A",
+        "text": "光伏阵列"
+      },
+      {
+        "label": "B",
+        "text": "直流汇流箱"
+      },
+      {
+        "label": "C",
+        "text": "并网逆变器"
+      },
+      {
+        "label": "D",
+        "text": "蓄电池"
+      }
+    ],
+    "answer": "ABC",
+    "analysis": "",
+    "sourceIndex": "82",
+    "sourceId": "PV-082",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-M0083",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 83,
+    "index": 83,
+    "type": "multiple",
+    "stem": "离网光伏电站的主要组成部分包括?",
+    "options": [
+      {
+        "label": "A",
+        "text": "光伏组件"
+      },
+      {
+        "label": "B",
+        "text": "控制器"
+      },
+      {
+        "label": "C",
+        "text": "蓄电池"
+      },
+      {
+        "label": "D",
+        "text": "电网"
+      }
+    ],
+    "answer": "ABC",
+    "analysis": "",
+    "sourceIndex": "83",
+    "sourceId": "PV-083",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-M0084",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 84,
+    "index": 84,
+    "type": "multiple",
+    "stem": "大型荒漠地面光伏电站的特点包括?",
+    "options": [
+      {
+        "label": "A",
+        "text": "地势平坦"
+      },
+      {
+        "label": "B",
+        "text": "组件朝向一致"
+      },
+      {
+        "label": "C",
+        "text": "多采用组串式逆变器"
+      },
+      {
+        "label": "D",
+        "text": "接入高压电网"
+      }
+    ],
+    "answer": "ABD",
+    "analysis": "",
+    "sourceIndex": "84",
+    "sourceId": "PV-084",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-M0085",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 85,
+    "index": 85,
+    "type": "multiple",
+    "stem": "分布式光伏电站的优点包括?",
+    "options": [
+      {
+        "label": "A",
+        "text": "投资小"
+      },
+      {
+        "label": "B",
+        "text": "建设快"
+      },
+      {
+        "label": "C",
+        "text": "占地面积大"
+      },
+      {
+        "label": "D",
+        "text": "减少线路损耗"
+      }
+    ],
+    "answer": "ABD",
+    "analysis": "",
+    "sourceIndex": "85",
+    "sourceId": "PV-085",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-M0086",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 86,
+    "index": 86,
+    "type": "multiple",
+    "stem": "光伏电站接入电网的电压等级可以分为?",
+    "options": [
+      {
+        "label": "A",
+        "text": "低压"
+      },
+      {
+        "label": "B",
+        "text": "中压"
+      },
+      {
+        "label": "C",
+        "text": "高压"
+      },
+      {
+        "label": "D",
+        "text": "超高压"
+      }
+    ],
+    "answer": "ABCD",
+    "analysis": "",
+    "sourceIndex": "86",
+    "sourceId": "PV-086",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-M0087",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 87,
+    "index": 87,
+    "type": "multiple",
+    "stem": "大型山丘光伏电站的挑战包括?",
+    "options": [
+      {
+        "label": "A",
+        "text": "组件朝向不一致"
+      },
+      {
+        "label": "B",
+        "text": "阴影遮挡"
+      },
+      {
+        "label": "C",
+        "text": "地质灾害风险"
+      },
+      {
+        "label": "D",
+        "text": "电网不稳定"
+      }
+    ],
+    "answer": "ABC",
+    "analysis": "",
+    "sourceIndex": "87",
+    "sourceId": "PV-087",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-M0088",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 88,
+    "index": 88,
+    "type": "multiple",
+    "stem": "光伏电站的运维管理包括哪些内容?",
+    "options": [
+      {
+        "label": "A",
+        "text": "巡检维护"
+      },
+      {
+        "label": "B",
+        "text": "定检维护"
+      },
+      {
+        "label": "C",
+        "text": "设备更换"
+      },
+      {
+        "label": "D",
+        "text": "运行管理"
+      }
+    ],
+    "answer": "ABCD",
+    "analysis": "",
+    "sourceIndex": "88",
+    "sourceId": "PV-088",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-M0089",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 89,
+    "index": 89,
+    "type": "multiple",
+    "stem": "光伏电站的接入方式包括?",
+    "options": [
+      {
+        "label": "A",
+        "text": "专线接入"
+      },
+      {
+        "label": "B",
+        "text": "T接接入"
+      },
+      {
+        "label": "C",
+        "text": "直接接入低压电网"
+      },
+      {
+        "label": "D",
+        "text": "无线接入"
+      }
+    ],
+    "answer": "ABC",
+    "analysis": "",
+    "sourceIndex": "89",
+    "sourceId": "PV-089",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-M0090",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 90,
+    "index": 90,
+    "type": "multiple",
+    "stem": "下列哪些属于触电事故的常见原因?",
+    "options": [
+      {
+        "label": "A",
+        "text": "缺乏用电常识"
+      },
+      {
+        "label": "B",
+        "text": "设备绝缘良好"
+      },
+      {
+        "label": "C",
+        "text": "高压线路落地引起跨步电压"
+      },
+      {
+        "label": "D",
+        "text": "检修中安全措施不完善"
+      }
+    ],
+    "answer": "ACD",
+    "analysis": "",
+    "sourceIndex": "90",
+    "sourceId": "PV-090",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-M0091",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 91,
+    "index": 91,
+    "type": "multiple",
+    "stem": "停电工作中应采取的安全技术措施包括?",
+    "options": [
+      {
+        "label": "A",
+        "text": "切断电源"
+      },
+      {
+        "label": "B",
+        "text": "验电"
+      },
+      {
+        "label": "C",
+        "text": "装设临时接地线"
+      },
+      {
+        "label": "D",
+        "text": "使用绝缘工具带电作业"
+      }
+    ],
+    "answer": "ABC",
+    "analysis": "",
+    "sourceIndex": "91",
+    "sourceId": "PV-091",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-M0092",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 92,
+    "index": 92,
+    "type": "multiple",
+    "stem": "下列哪些属于电伤的表现形式?",
+    "options": [
+      {
+        "label": "A",
+        "text": "灼伤"
+      },
+      {
+        "label": "B",
+        "text": "心脏停止跳动"
+      },
+      {
+        "label": "C",
+        "text": "皮肤金属化"
+      },
+      {
+        "label": "D",
+        "text": "肌肉抽搐"
+      }
+    ],
+    "answer": "AC",
+    "analysis": "",
+    "sourceIndex": "92",
+    "sourceId": "PV-092",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-M0093",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 93,
+    "index": 93,
+    "type": "multiple",
+    "stem": "在带电工作中，以下做法正确的是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "使用合格绝缘手柄工具"
+      },
+      {
+        "label": "B",
+        "text": "穿绝缘鞋、戴绝缘手套"
+      },
+      {
+        "label": "C",
+        "text": "同时接触两根相线以加快操作"
+      },
+      {
+        "label": "D",
+        "text": "站在干燥绝缘物体上"
+      }
+    ],
+    "answer": "ABD",
+    "analysis": "",
+    "sourceIndex": "93",
+    "sourceId": "PV-093",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-M0094",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 94,
+    "index": 94,
+    "type": "multiple",
+    "stem": "以下哪些是防止触电的通用安全措施?",
+    "options": [
+      {
+        "label": "A",
+        "text": "电气设备外壳接地或接零"
+      },
+      {
+        "label": "B",
+        "text": "采用安全电压"
+      },
+      {
+        "label": "C",
+        "text": "定期检查用电设备"
+      },
+      {
+        "label": "D",
+        "text": "不使用屏护装置"
+      }
+    ],
+    "answer": "ABC",
+    "analysis": "",
+    "sourceIndex": "94",
+    "sourceId": "PV-094",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-M0095",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 95,
+    "index": 95,
+    "type": "multiple",
+    "stem": "光伏组件的电气参数包括以下哪些?",
+    "options": [
+      {
+        "label": "A",
+        "text": "开路电压"
+      },
+      {
+        "label": "B",
+        "text": "短路电流"
+      },
+      {
+        "label": "C",
+        "text": "峰值功率"
+      },
+      {
+        "label": "D",
+        "text": "额定频率"
+      }
+    ],
+    "answer": "ABC",
+    "analysis": "",
+    "sourceIndex": "95",
+    "sourceId": "PV-095",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-M0096",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 96,
+    "index": 96,
+    "type": "multiple",
+    "stem": "影响光伏组件输出特性的主要因素有?",
+    "options": [
+      {
+        "label": "A",
+        "text": "负载阻抗"
+      },
+      {
+        "label": "B",
+        "text": "日照强度"
+      },
+      {
+        "label": "C",
+        "text": "组件温度"
+      },
+      {
+        "label": "D",
+        "text": "电网频率"
+      }
+    ],
+    "answer": "ABC",
+    "analysis": "",
+    "sourceIndex": "96",
+    "sourceId": "PV-096",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-M0097",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 97,
+    "index": 97,
+    "type": "multiple",
+    "stem": "光伏方阵的安装方式包括?",
+    "options": [
+      {
+        "label": "A",
+        "text": "固定式"
+      },
+      {
+        "label": "B",
+        "text": "单轴跟踪式"
+      },
+      {
+        "label": "C",
+        "text": "双轴跟踪式"
+      },
+      {
+        "label": "D",
+        "text": "悬浮式"
+      }
+    ],
+    "answer": "ABC",
+    "analysis": "",
+    "sourceIndex": "97",
+    "sourceId": "PV-097",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-M0098",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 98,
+    "index": 98,
+    "type": "multiple",
+    "stem": "光伏组件选型时需要考虑的原则有?",
+    "options": [
+      {
+        "label": "A",
+        "text": "电压应在逆变器MPPT范围内"
+      },
+      {
+        "label": "B",
+        "text": "开路电压不得超过逆变器最高输入电压"
+      },
+      {
+        "label": "C",
+        "text": "功率越大越好"
+      },
+      {
+        "label": "D",
+        "text": "组件颜色需一致"
+      }
+    ],
+    "answer": "AB",
+    "analysis": "",
+    "sourceIndex": "98",
+    "sourceId": "PV-098",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-M0100",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 100,
+    "index": 99,
+    "type": "multiple",
+    "stem": "倒闸操作必须执行的要求有（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "两人执行，一人监护"
+      },
+      {
+        "label": "B",
+        "text": "监护人不得代替操作"
+      },
+      {
+        "label": "C",
+        "text": "操作中可随意换人"
+      },
+      {
+        "label": "D",
+        "text": "操作人员需培训合格"
+      }
+    ],
+    "answer": "ABD",
+    "analysis": "",
+    "sourceIndex": "100",
+    "sourceId": "PV-100",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-M0101",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 101,
+    "index": 100,
+    "type": "multiple",
+    "stem": "光伏电站交接班主要内容包括（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "设备运行方式"
+      },
+      {
+        "label": "B",
+        "text": "缺陷与异常情况"
+      },
+      {
+        "label": "C",
+        "text": "安全措施与接地线"
+      },
+      {
+        "label": "D",
+        "text": "工器具与备品备件"
+      }
+    ],
+    "answer": "ABCD",
+    "analysis": "",
+    "sourceIndex": "101",
+    "sourceId": "PV-101",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-M0102",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 102,
+    "index": 101,
+    "type": "multiple",
+    "stem": "设备缺陷管理要求，运维人员发现缺陷应（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "小缺陷及时处理"
+      },
+      {
+        "label": "B",
+        "text": "重大缺陷立即汇报"
+      },
+      {
+        "label": "C",
+        "text": "缺陷消除前加强监视"
+      },
+      {
+        "label": "D",
+        "text": "无需记录，直接处理"
+      }
+    ],
+    "answer": "ABC",
+    "analysis": "",
+    "sourceIndex": "102",
+    "sourceId": "PV-102",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-M0103",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 103,
+    "index": 102,
+    "type": "multiple",
+    "stem": "光伏电站安全管理包含以下哪些内容（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "安全生产责任制"
+      },
+      {
+        "label": "B",
+        "text": "消防安全管理"
+      },
+      {
+        "label": "C",
+        "text": "应急响应管理"
+      },
+      {
+        "label": "D",
+        "text": "人员培训管理"
+      }
+    ],
+    "answer": "ABCD",
+    "analysis": "",
+    "sourceIndex": "103",
+    "sourceId": "PV-103",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-M0104",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 104,
+    "index": 103,
+    "type": "multiple",
+    "stem": "文档与信息管理需建立的档案包括（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "基本技术档案"
+      },
+      {
+        "label": "B",
+        "text": "运行期档案"
+      },
+      {
+        "label": "C",
+        "text": "信息化数据库"
+      },
+      {
+        "label": "D",
+        "text": "人员考勤档案"
+      }
+    ],
+    "answer": "ABC",
+    "analysis": "",
+    "sourceIndex": "104",
+    "sourceId": "PV-104",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-M0105",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 105,
+    "index": 104,
+    "type": "multiple",
+    "stem": "光伏电站运行分析内容包括（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "设备运行情况"
+      },
+      {
+        "label": "B",
+        "text": "操作情况"
+      },
+      {
+        "label": "C",
+        "text": "异常情况"
+      },
+      {
+        "label": "D",
+        "text": "气象环境"
+      }
+    ],
+    "answer": "ABCD",
+    "analysis": "",
+    "sourceIndex": "105",
+    "sourceId": "PV-105",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-M0106",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 106,
+    "index": 105,
+    "type": "multiple",
+    "stem": "安全生产检查包含（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "交接班检查"
+      },
+      {
+        "label": "B",
+        "text": "周检查"
+      },
+      {
+        "label": "C",
+        "text": "月度检查"
+      },
+      {
+        "label": "D",
+        "text": "春秋季检查"
+      }
+    ],
+    "answer": "ABCD",
+    "analysis": "",
+    "sourceIndex": "106",
+    "sourceId": "PV-106",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-M0107",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 107,
+    "index": 106,
+    "type": "multiple",
+    "stem": "光伏电站生产管理内容包括（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "工作票管理"
+      },
+      {
+        "label": "B",
+        "text": "操作票管理"
+      },
+      {
+        "label": "C",
+        "text": "交接班管理"
+      },
+      {
+        "label": "D",
+        "text": "设备缺陷管理"
+      }
+    ],
+    "answer": "ABCD",
+    "analysis": "",
+    "sourceIndex": "107",
+    "sourceId": "PV-107",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-M0108",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 108,
+    "index": 107,
+    "type": "multiple",
+    "stem": "倒闸操作中电气设备的状态有（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "运行"
+      },
+      {
+        "label": "B",
+        "text": "热备用"
+      },
+      {
+        "label": "C",
+        "text": "冷备用"
+      },
+      {
+        "label": "D",
+        "text": "检修"
+      }
+    ],
+    "answer": "ABCD",
+    "analysis": "",
+    "sourceIndex": "108",
+    "sourceId": "PV-108",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-M0109",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 109,
+    "index": 108,
+    "type": "multiple",
+    "stem": "光伏电站常规巡检类型包括（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "日常巡检"
+      },
+      {
+        "label": "B",
+        "text": "现场巡检"
+      },
+      {
+        "label": "C",
+        "text": "季度巡检"
+      },
+      {
+        "label": "D",
+        "text": "特殊巡检"
+      }
+    ],
+    "answer": "ABD",
+    "analysis": "审核备注：巡检类型题存在企业制度口径差异；暂取日常、现场、特殊巡检。",
+    "sourceIndex": "109",
+    "sourceId": "PV-109",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-M0110",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 110,
+    "index": 109,
+    "type": "multiple",
+    "stem": "光伏电站工作票执行过程中，下列说法正确的有（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "字迹工整清晰，不得任意涂改"
+      },
+      {
+        "label": "B",
+        "text": "复杂作业应附危险点分析及控制单"
+      },
+      {
+        "label": "C",
+        "text": "不合格工作票可直接修改使用"
+      },
+      {
+        "label": "D",
+        "text": "许可前必须核实现场安全措施"
+      }
+    ],
+    "answer": "ABD",
+    "analysis": "",
+    "sourceIndex": "110",
+    "sourceId": "PV-110",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-M0111",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 111,
+    "index": 110,
+    "type": "multiple",
+    "stem": "倒闸操作中，必须使用操作票的作业有（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "复杂倒闸操作"
+      },
+      {
+        "label": "B",
+        "text": "拉合断路器单一操作"
+      },
+      {
+        "label": "C",
+        "text": "事故处理后的善后操作"
+      },
+      {
+        "label": "D",
+        "text": "拉开全场仅有的一组接地线"
+      }
+    ],
+    "answer": "AC",
+    "analysis": "审核备注：操作票使用范围题存在规程口径差异；暂取复杂倒闸操作和事故后善后操作需要操作票。",
+    "sourceIndex": "111",
+    "sourceId": "PV-111",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-M0112",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 112,
+    "index": 111,
+    "type": "multiple",
+    "stem": "光伏电站巡检必须遵守的要求有（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "按时、按路线、按项目执行"
+      },
+      {
+        "label": "B",
+        "text": "缺陷设备应重点巡视"
+      },
+      {
+        "label": "C",
+        "text": "可随意变更巡视路线"
+      },
+      {
+        "label": "D",
+        "text": "恶劣天气应增加巡检次数"
+      }
+    ],
+    "answer": "ABD",
+    "analysis": "",
+    "sourceIndex": "112",
+    "sourceId": "PV-112",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-M0113",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 113,
+    "index": 112,
+    "type": "multiple",
+    "stem": "下列属于日巡检设备的是（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "环境监测仪"
+      },
+      {
+        "label": "B",
+        "text": "逆变器室"
+      },
+      {
+        "label": "C",
+        "text": "光伏组件"
+      },
+      {
+        "label": "D",
+        "text": "箱式变压器室"
+      }
+    ],
+    "answer": "ABCD",
+    "analysis": "",
+    "sourceIndex": "113",
+    "sourceId": "PV-113",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-M0114",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 114,
+    "index": 113,
+    "type": "multiple",
+    "stem": "光伏电站调度联系管理要求包括（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "接令后必须复诵核对"
+      },
+      {
+        "label": "B",
+        "text": "所有通话必须录音"
+      },
+      {
+        "label": "C",
+        "text": "威胁安全时可拒绝执行命令"
+      },
+      {
+        "label": "D",
+        "text": "可拖延执行调度命令"
+      }
+    ],
+    "answer": "ABC",
+    "analysis": "",
+    "sourceIndex": "114",
+    "sourceId": "PV-114",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-M0115",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 115,
+    "index": 114,
+    "type": "multiple",
+    "stem": "光伏组件定检内容包括（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "玻璃有无开裂、破损"
+      },
+      {
+        "label": "B",
+        "text": "组件直接拆卸清洗"
+      },
+      {
+        "label": "C",
+        "text": "电池片有无隐裂、热斑"
+      },
+      {
+        "label": "D",
+        "text": "MC4 插头是否松动"
+      }
+    ],
+    "answer": "ACD",
+    "analysis": "",
+    "sourceIndex": "115",
+    "sourceId": "PV-115",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-M0116",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 116,
+    "index": 115,
+    "type": "multiple",
+    "stem": "汇流箱定检时需要进行的项目有（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "支路温度测量"
+      },
+      {
+        "label": "B",
+        "text": "箱体整体更换"
+      },
+      {
+        "label": "C",
+        "text": "避雷器状态检查"
+      },
+      {
+        "label": "D",
+        "text": "支路电压测量"
+      }
+    ],
+    "answer": "ACD",
+    "analysis": "",
+    "sourceIndex": "116",
+    "sourceId": "PV-116",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-M0117",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 117,
+    "index": 116,
+    "type": "multiple",
+    "stem": "变压器定检中属于维护内容的是（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "绕组直接重绕"
+      },
+      {
+        "label": "B",
+        "text": "更换变色硅胶"
+      },
+      {
+        "label": "C",
+        "text": "检查油位、油温"
+      },
+      {
+        "label": "D",
+        "text": "绝缘电阻测试"
+      }
+    ],
+    "answer": "BCD",
+    "analysis": "",
+    "sourceIndex": "117",
+    "sourceId": "PV-117",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-M0118",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 118,
+    "index": 117,
+    "type": "multiple",
+    "stem": "设备缺陷管理的正确做法是（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "及时发现并记录"
+      },
+      {
+        "label": "B",
+        "text": "紧急缺陷立即上报"
+      },
+      {
+        "label": "C",
+        "text": "缺陷消除前加强监视"
+      },
+      {
+        "label": "D",
+        "text": "小缺陷可长期不处理"
+      }
+    ],
+    "answer": "ABC",
+    "analysis": "",
+    "sourceIndex": "118",
+    "sourceId": "PV-118",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-M0119",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 119,
+    "index": 118,
+    "type": "multiple",
+    "stem": "属于光伏电站安全设施的有（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "办公电脑、打印机"
+      },
+      {
+        "label": "B",
+        "text": "绝缘垫、绝缘靴"
+      },
+      {
+        "label": "C",
+        "text": "安全警示牌、遮栏"
+      },
+      {
+        "label": "D",
+        "text": "灭火器、消防沙箱"
+      }
+    ],
+    "answer": "BCD",
+    "analysis": "",
+    "sourceIndex": "119",
+    "sourceId": "PV-119",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-M0120",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 120,
+    "index": 119,
+    "type": "multiple",
+    "stem": "下列属于定期维护内容的是（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "箱变除尘"
+      },
+      {
+        "label": "B",
+        "text": "设备随意拆卸"
+      },
+      {
+        "label": "C",
+        "text": "逆变器除尘"
+      },
+      {
+        "label": "D",
+        "text": "光伏组件清洁"
+      }
+    ],
+    "answer": "ACD",
+    "analysis": "",
+    "sourceIndex": "120",
+    "sourceId": "PV-120",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-M0121",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 121,
+    "index": 120,
+    "type": "multiple",
+    "stem": "智能营维云中心核心功能包括（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "多电站集中接入管理"
+      },
+      {
+        "label": "B",
+        "text": "大数据分析与损耗定位"
+      },
+      {
+        "label": "C",
+        "text": "现场设备直接维修"
+      },
+      {
+        "label": "D",
+        "text": "多维度报表输出"
+      }
+    ],
+    "answer": "ABD",
+    "analysis": "",
+    "sourceIndex": "121",
+    "sourceId": "PV-121",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-M0122",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 122,
+    "index": 121,
+    "type": "multiple",
+    "stem": "生产管理系统中，未处理告警可执行的操作有（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "转工作票"
+      },
+      {
+        "label": "B",
+        "text": "直接报废设备"
+      },
+      {
+        "label": "C",
+        "text": "转缺陷"
+      },
+      {
+        "label": "D",
+        "text": "清除告警"
+      }
+    ],
+    "answer": "ACD",
+    "analysis": "审核备注：未处理告警操作是否允许“清除告警”取决于系统规则；暂保留 A/C/D。",
+    "sourceIndex": "122",
+    "sourceId": "PV-122",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-M0123",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 123,
+    "index": 122,
+    "type": "multiple",
+    "stem": "影响光伏电站系统效率 PR 值的关键因素包括（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "组件灰尘遮挡"
+      },
+      {
+        "label": "B",
+        "text": "温度损耗"
+      },
+      {
+        "label": "C",
+        "text": "组件不匹配损耗"
+      },
+      {
+        "label": "D",
+        "text": "运维人员数量"
+      }
+    ],
+    "answer": "ABC",
+    "analysis": "",
+    "sourceIndex": "123",
+    "sourceId": "PV-123",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-M0124",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 124,
+    "index": 123,
+    "type": "multiple",
+    "stem": "下列哪些因素可能导致光伏组件电池片隐裂( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "运输过程中的剧烈振动"
+      },
+      {
+        "label": "B",
+        "text": "组件受力不均匀"
+      },
+      {
+        "label": "C",
+        "text": "组件表面积灰"
+      },
+      {
+        "label": "D",
+        "text": "雪压过大"
+      }
+    ],
+    "answer": "ABD",
+    "analysis": "",
+    "sourceIndex": "124",
+    "sourceId": "PV-124",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-M0125",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 125,
+    "index": 124,
+    "type": "multiple",
+    "stem": "以下哪些属于光伏组件烧坏故障的表现( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "互联条接头处烧坏"
+      },
+      {
+        "label": "B",
+        "text": "正面电极被烧坏"
+      },
+      {
+        "label": "C",
+        "text": "背面被烧穿"
+      },
+      {
+        "label": "D",
+        "text": "接线盒密封圈老化"
+      }
+    ],
+    "answer": "ABC",
+    "analysis": "",
+    "sourceIndex": "125",
+    "sourceId": "PV-125",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-M0126",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 126,
+    "index": 125,
+    "type": "multiple",
+    "stem": "关于光伏组件接线盒的质量改进建议，下列哪些是正确的( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "盒体、盒盖采用压接一体式密封处理"
+      },
+      {
+        "label": "B",
+        "text": "预留扩展连接座以便更换不同规格二极管"
+      },
+      {
+        "label": "C",
+        "text": "盒盖设置导气阀或内部增加散热片"
+      },
+      {
+        "label": "D",
+        "text": "取消密封圈，完全使用灌封胶"
+      }
+    ],
+    "answer": "ABC",
+    "analysis": "",
+    "sourceIndex": "126",
+    "sourceId": "PV-126",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-M0127",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 127,
+    "index": 126,
+    "type": "multiple",
+    "stem": "以下哪些措施可以降低光伏组件PID现象的发生风险( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "减少水汽进入组件"
+      },
+      {
+        "label": "B",
+        "text": "提高EVA的抗水解能力"
+      },
+      {
+        "label": "C",
+        "text": "增加组件对地正偏压"
+      },
+      {
+        "label": "D",
+        "text": "使用抗PID的玻璃或封装材料"
+      }
+    ],
+    "answer": "ABD",
+    "analysis": "审核备注：PID 防范中‘组件对地正偏压’表述易混；本版按降低水汽、提高 EVA 抗水解、抗 PID 材料处理。",
+    "sourceIndex": "127",
+    "sourceId": "PV-127",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-M0128",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 128,
+    "index": 127,
+    "type": "multiple",
+    "stem": "逆变器不并网的可能原因包括?",
+    "options": [
+      {
+        "label": "A",
+        "text": "交流开关没有合上"
+      },
+      {
+        "label": "B",
+        "text": "逆变器交流输出端子接线松动"
+      },
+      {
+        "label": "C",
+        "text": "直流输入电压过低"
+      },
+      {
+        "label": "D",
+        "text": "漏电保护开关断开"
+      }
+    ],
+    "answer": "ABCD",
+    "analysis": "",
+    "sourceIndex": "128",
+    "sourceId": "PV-128",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-M0129",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 129,
+    "index": 128,
+    "type": "multiple",
+    "stem": "孤岛保护故障可能由下列哪些因素引起?",
+    "options": [
+      {
+        "label": "A",
+        "text": "箱变低压侧断路器跳闸"
+      },
+      {
+        "label": "B",
+        "text": "电压采样板故障"
+      },
+      {
+        "label": "C",
+        "text": "转接板故障"
+      },
+      {
+        "label": "D",
+        "text": "光伏组件被遮挡"
+      }
+    ],
+    "answer": "ABC",
+    "analysis": "",
+    "sourceIndex": "129",
+    "sourceId": "PV-129",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-M0130",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 130,
+    "index": 129,
+    "type": "multiple",
+    "stem": "万能断路器不能合闸的常见原因包括?",
+    "options": [
+      {
+        "label": "A",
+        "text": "控制回路故障"
+      },
+      {
+        "label": "B",
+        "text": "智能脱扣器动作后红色按钮未复位"
+      },
+      {
+        "label": "C",
+        "text": "储能机构未储能"
+      },
+      {
+        "label": "D",
+        "text": "储能机构储能未到位"
+      }
+    ],
+    "answer": "ABCD",
+    "analysis": "",
+    "sourceIndex": "130",
+    "sourceId": "PV-130",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-M0131",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 131,
+    "index": 130,
+    "type": "multiple",
+    "stem": "变压器绕组故障中，可能引发的原因有?",
+    "options": [
+      {
+        "label": "A",
+        "text": "匝绝缘损坏"
+      },
+      {
+        "label": "B",
+        "text": "操作过电压使绕组变形"
+      },
+      {
+        "label": "C",
+        "text": "导线内部焊接不良"
+      },
+      {
+        "label": "D",
+        "text": "变压器油位过高"
+      }
+    ],
+    "answer": "ABC",
+    "analysis": "",
+    "sourceIndex": "131",
+    "sourceId": "PV-131",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-M0132",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 132,
+    "index": 131,
+    "type": "multiple",
+    "stem": "关于变压器分接开关故障，下列说法正确的有?",
+    "options": [
+      {
+        "label": "A",
+        "text": "油箱上有放电声，电流表摆动"
+      },
+      {
+        "label": "B",
+        "text": "接触电阻增大会烧伤分接头"
+      },
+      {
+        "label": "C",
+        "text": "分接位置切换错误会导致三相电压不平衡"
+      },
+      {
+        "label": "D",
+        "text": "分接开关故障不会影响瓦斯保护"
+      }
+    ],
+    "answer": "ABC",
+    "analysis": "",
+    "sourceIndex": "132",
+    "sourceId": "PV-132",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-M0133",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 133,
+    "index": 132,
+    "type": "multiple",
+    "stem": "变压器声音异常的可能原因包括?",
+    "options": [
+      {
+        "label": "A",
+        "text": "电网发生中性点不接地单相接地"
+      },
+      {
+        "label": "B",
+        "text": "变压器过载运行"
+      },
+      {
+        "label": "C",
+        "text": "内部夹件或螺钉松动"
+      },
+      {
+        "label": "D",
+        "text": "油位正常但油温降低"
+      }
+    ],
+    "answer": "ABC",
+    "analysis": "",
+    "sourceIndex": "133",
+    "sourceId": "PV-133",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-M0134",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 134,
+    "index": 133,
+    "type": "multiple",
+    "stem": "关于线路接地故障，下列说法正确的有?",
+    "options": [
+      {
+        "label": "A",
+        "text": "金属性接地时故障相电压为零"
+      },
+      {
+        "label": "B",
+        "text": "非金属性接地时电压表显示不停摆动"
+      },
+      {
+        "label": "C",
+        "text": "单相接地分为金属性和非金属性两种"
+      },
+      {
+        "label": "D",
+        "text": "线路一相断线并单相接地时，三相电压不变"
+      }
+    ],
+    "answer": "ABC",
+    "analysis": "",
+    "sourceIndex": "134",
+    "sourceId": "PV-134",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-M0135",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 135,
+    "index": 134,
+    "type": "multiple",
+    "stem": "电缆故障中外力损坏的类型包括?",
+    "options": [
+      {
+        "label": "A",
+        "text": "施工机械牵引力过大拉断电缆"
+      },
+      {
+        "label": "B",
+        "text": "电缆过度弯曲损坏绝缘层"
+      },
+      {
+        "label": "C",
+        "text": "电缆切剥时刀痕太深"
+      },
+      {
+        "label": "D",
+        "text": "电缆长期过负荷运行"
+      }
+    ],
+    "answer": "ABC",
+    "analysis": "",
+    "sourceIndex": "135",
+    "sourceId": "PV-135",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-M0136",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 136,
+    "index": 135,
+    "type": "multiple",
+    "stem": "关于电缆三相芯线短路故障，下列说法正确的有?",
+    "options": [
+      {
+        "label": "A",
+        "text": "接地电阻低于1000Ω为低阻短路故障"
+      },
+      {
+        "label": "B",
+        "text": "接地电阻高于1000Ω为高阻短路故障"
+      },
+      {
+        "label": "C",
+        "text": "高阻短路故障比低阻故障更常见"
+      },
+      {
+        "label": "D",
+        "text": "短路故障只有低阻一种类型"
+      }
+    ],
+    "answer": "AB",
+    "analysis": "",
+    "sourceIndex": "136",
+    "sourceId": "PV-136",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-M0137",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 137,
+    "index": 136,
+    "type": "multiple",
+    "stem": "针对光伏电站电缆故障，日常巡视检查可采用的方法有（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "红外热成像测温"
+      },
+      {
+        "label": "B",
+        "text": "超声波局部放电测试"
+      },
+      {
+        "label": "C",
+        "text": "夜间熄灯检查"
+      },
+      {
+        "label": "D",
+        "text": "绝缘电阻测试"
+      }
+    ],
+    "answer": "ABCD",
+    "analysis": "审核备注：电缆故障巡视检测方法题将绝缘电阻测试也纳入，需按课程口径确认。",
+    "sourceIndex": "137",
+    "sourceId": "PV-137",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-J0138",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 138,
+    "index": 137,
+    "type": "judge",
+    "stem": "离网光伏电站必须与电网连接才能运行。",
+    "options": [],
+    "answer": "错误",
+    "analysis": "",
+    "sourceIndex": "138",
+    "sourceId": "PV-138",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-J0139",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 139,
+    "index": 138,
+    "type": "judge",
+    "stem": "光伏组件的寿命较长，可以长期使用。",
+    "options": [],
+    "answer": "正确",
+    "analysis": "",
+    "sourceIndex": "139",
+    "sourceId": "PV-139",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-J0140",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 140,
+    "index": 139,
+    "type": "judge",
+    "stem": "分布式光伏电站优先将电能输送给电网，再供本地使用。",
+    "options": [],
+    "answer": "错误",
+    "analysis": "",
+    "sourceIndex": "140",
+    "sourceId": "PV-140",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-J0141",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 141,
+    "index": 140,
+    "type": "judge",
+    "stem": "大型荒漠光伏电站多采用集中式逆变器。",
+    "options": [],
+    "answer": "正确",
+    "analysis": "",
+    "sourceIndex": "141",
+    "sourceId": "PV-141",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-J0142",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 142,
+    "index": 141,
+    "type": "judge",
+    "stem": "山丘光伏电站的组件朝向必须完全一致。",
+    "options": [],
+    "answer": "错误",
+    "analysis": "",
+    "sourceIndex": "142",
+    "sourceId": "PV-142",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-J0143",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 143,
+    "index": 142,
+    "type": "judge",
+    "stem": "MPPT技术可以有效解决光伏组件的朝向不一致问题。",
+    "options": [],
+    "answer": "正确",
+    "analysis": "",
+    "sourceIndex": "143",
+    "sourceId": "PV-143",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-J0144",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 144,
+    "index": 143,
+    "type": "judge",
+    "stem": "光伏电站的智能监控系统可以远程监测设备状态。",
+    "options": [],
+    "answer": "正确",
+    "analysis": "",
+    "sourceIndex": "144",
+    "sourceId": "PV-144",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-J0145",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 145,
+    "index": 144,
+    "type": "judge",
+    "stem": "光伏电站接入电网的电压等级越高，规模通常越大。",
+    "options": [],
+    "answer": "正确",
+    "analysis": "",
+    "sourceIndex": "145",
+    "sourceId": "PV-145",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-J0146",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 146,
+    "index": 145,
+    "type": "judge",
+    "stem": "离网光伏电站不需要蓄电池。",
+    "options": [],
+    "answer": "错误",
+    "analysis": "",
+    "sourceIndex": "146",
+    "sourceId": "PV-146",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-J0147",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 147,
+    "index": 146,
+    "type": "judge",
+    "stem": "光伏电站的升压变压器用于提高电压等级以便并网。",
+    "options": [],
+    "answer": "正确",
+    "analysis": "",
+    "sourceIndex": "147",
+    "sourceId": "PV-147",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-J0148",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 148,
+    "index": 147,
+    "type": "judge",
+    "stem": "电击是指电流的热效应、化学效应对人体外部造成的伤害。",
+    "options": [],
+    "answer": "错误",
+    "analysis": "",
+    "sourceIndex": "148",
+    "sourceId": "PV-148",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-J0149",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 149,
+    "index": 148,
+    "type": "judge",
+    "stem": "在装设临时接地线时，应先接接地端，再接设备端。",
+    "options": [],
+    "answer": "正确",
+    "analysis": "",
+    "sourceIndex": "149",
+    "sourceId": "PV-149",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-J0150",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 150,
+    "index": 149,
+    "type": "judge",
+    "stem": "在带电检修时，应先接相线，后接地线。",
+    "options": [],
+    "answer": "错误",
+    "analysis": "",
+    "sourceIndex": "150",
+    "sourceId": "PV-150",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-J0151",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 151,
+    "index": 150,
+    "type": "judge",
+    "stem": "悬挂“禁止合闸、线路有人工作”的警告牌是停电工作中的一项安全技术措施。",
+    "options": [],
+    "answer": "正确",
+    "analysis": "",
+    "sourceIndex": "151",
+    "sourceId": "PV-151",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-J0152",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 152,
+    "index": 151,
+    "type": "judge",
+    "stem": "安全用电的组织措施包括建立健全规章制度和加强安全教育。",
+    "options": [],
+    "answer": "正确",
+    "analysis": "",
+    "sourceIndex": "152",
+    "sourceId": "PV-152",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-J0153",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 153,
+    "index": 152,
+    "type": "judge",
+    "stem": "单体太阳能电池片可以直接作为电源使用。",
+    "options": [],
+    "answer": "正确",
+    "analysis": "审核备注：单体电池片是否可直接作为电源使用存在工程语境差异；暂取正确。",
+    "sourceIndex": "153",
+    "sourceId": "PV-153",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-J0154",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 154,
+    "index": 153,
+    "type": "judge",
+    "stem": "光伏组件的输出功率随日照强度增强而增大。",
+    "options": [],
+    "answer": "正确",
+    "analysis": "",
+    "sourceIndex": "154",
+    "sourceId": "PV-154",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-J0155",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 155,
+    "index": 154,
+    "type": "judge",
+    "stem": "多晶硅光伏组件的使用寿命比单晶硅更长。",
+    "options": [],
+    "answer": "错误",
+    "analysis": "",
+    "sourceIndex": "155",
+    "sourceId": "PV-155",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-J0156",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 156,
+    "index": 155,
+    "type": "judge",
+    "stem": "光伏组件的电流温度系数一般为正值。",
+    "options": [],
+    "answer": "正确",
+    "analysis": "",
+    "sourceIndex": "156",
+    "sourceId": "PV-156",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-J0157",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 157,
+    "index": 156,
+    "type": "judge",
+    "stem": "热斑效应会使光伏组件的输出功率提高。",
+    "options": [],
+    "answer": "错误",
+    "analysis": "",
+    "sourceIndex": "157",
+    "sourceId": "PV-157",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-J0158",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 158,
+    "index": 157,
+    "type": "judge",
+    "stem": "在光伏组件并联时，需要为每条并联线路串联防反充二极管。",
+    "options": [],
+    "answer": "正确",
+    "analysis": "",
+    "sourceIndex": "158",
+    "sourceId": "PV-158",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-J0159",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 159,
+    "index": 158,
+    "type": "judge",
+    "stem": "双轴跟踪系统的太阳辐射接收效果优于固定式系统。",
+    "options": [],
+    "answer": "正确",
+    "analysis": "",
+    "sourceIndex": "159",
+    "sourceId": "PV-159",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-J0160",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 160,
+    "index": 159,
+    "type": "judge",
+    "stem": "光伏组件的填充因子（FF）是衡量其输出性能的重要参数之一。",
+    "options": [],
+    "answer": "正确",
+    "analysis": "",
+    "sourceIndex": "160",
+    "sourceId": "PV-160",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-J0161",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 161,
+    "index": 160,
+    "type": "judge",
+    "stem": "工作票填写可以任意涂改，只要内容清晰即可。( )",
+    "options": [],
+    "answer": "错误",
+    "analysis": "",
+    "sourceIndex": "161",
+    "sourceId": "PV-161",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-J0162",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 162,
+    "index": 161,
+    "type": "judge",
+    "stem": "事故处理、拉合断路器的单一操作可以不使用操作票。( )",
+    "options": [],
+    "answer": "正确",
+    "analysis": "",
+    "sourceIndex": "162",
+    "sourceId": "PV-162",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-J0163",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 163,
+    "index": 162,
+    "type": "judge",
+    "stem": "巡检人员可以随意更改巡视路线和项目。( )",
+    "options": [],
+    "answer": "错误",
+    "analysis": "",
+    "sourceIndex": "163",
+    "sourceId": "PV-163",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-J0164",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 164,
+    "index": 163,
+    "type": "judge",
+    "stem": "雷雨天气检查室外高压设备时，应穿绝缘靴，不得靠近避雷器和避雷针。( )",
+    "options": [],
+    "answer": "正确",
+    "analysis": "",
+    "sourceIndex": "164",
+    "sourceId": "PV-164",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-J0165",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 165,
+    "index": 164,
+    "type": "judge",
+    "stem": "中控室值班人员可以在中控室内用餐、睡觉。( )",
+    "options": [],
+    "answer": "错误",
+    "analysis": "",
+    "sourceIndex": "165",
+    "sourceId": "PV-165",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-J0166",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 166,
+    "index": 165,
+    "type": "judge",
+    "stem": "光伏电站必须服从电网调度机构的统一安排，执行调度指令。( )",
+    "options": [],
+    "answer": "正确",
+    "analysis": "",
+    "sourceIndex": "166",
+    "sourceId": "PV-166",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-J0167",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 167,
+    "index": 166,
+    "type": "judge",
+    "stem": "设备定期检查时间间隔可以根据现场情况随意延长。( )",
+    "options": [],
+    "answer": "错误",
+    "analysis": "",
+    "sourceIndex": "167",
+    "sourceId": "PV-167",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-J0168",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 168,
+    "index": 167,
+    "type": "judge",
+    "stem": "工作票填写可以涂改，只要内容正确即可。( )",
+    "options": [],
+    "answer": "错误",
+    "analysis": "",
+    "sourceIndex": "168",
+    "sourceId": "PV-168",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-J0169",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 169,
+    "index": 168,
+    "type": "judge",
+    "stem": "拉合断路器的单一操作可以不使用操作票。（）",
+    "options": [],
+    "answer": "正确",
+    "analysis": "",
+    "sourceIndex": "169",
+    "sourceId": "PV-169",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-J0170",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 170,
+    "index": 169,
+    "type": "judge",
+    "stem": "巡检人员可根据现场情况随意更改巡视路线。（）",
+    "options": [],
+    "answer": "错误",
+    "analysis": "",
+    "sourceIndex": "170",
+    "sourceId": "PV-170",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-J0171",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 171,
+    "index": 170,
+    "type": "judge",
+    "stem": "雷雨天气检查室外高压设备应穿绝缘靴，不得靠近避雷器。（）",
+    "options": [],
+    "answer": "正确",
+    "analysis": "",
+    "sourceIndex": "171",
+    "sourceId": "PV-171",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-J0172",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 172,
+    "index": 171,
+    "type": "judge",
+    "stem": "中控室值班人员可随时离岗，只要有人替班即可。（）",
+    "options": [],
+    "answer": "错误",
+    "analysis": "",
+    "sourceIndex": "172",
+    "sourceId": "PV-172",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-J0173",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 173,
+    "index": 172,
+    "type": "judge",
+    "stem": "光伏组件表面清洁维护周期为 1 个月。（）",
+    "options": [],
+    "answer": "正确",
+    "analysis": "审核备注：清洁维护周期受环境影响大；题库若按固定 1 个月则取正确。",
+    "sourceIndex": "173",
+    "sourceId": "PV-173",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-J0174",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 174,
+    "index": 173,
+    "type": "judge",
+    "stem": "支架接地只需连接牢固，无需测量接地电阻。（）",
+    "options": [],
+    "answer": "错误",
+    "analysis": "",
+    "sourceIndex": "174",
+    "sourceId": "PV-174",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-J0175",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 175,
+    "index": 174,
+    "type": "judge",
+    "stem": "安全生产检查应贯彻 “边查边改” 原则。（）",
+    "options": [],
+    "answer": "正确",
+    "analysis": "",
+    "sourceIndex": "175",
+    "sourceId": "PV-175",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-J0176",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 176,
+    "index": 175,
+    "type": "judge",
+    "stem": "逆变器带电运行时可直接打开柜门除尘。（）",
+    "options": [],
+    "answer": "错误",
+    "analysis": "",
+    "sourceIndex": "176",
+    "sourceId": "PV-176",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-J0177",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 177,
+    "index": 176,
+    "type": "judge",
+    "stem": "每次定检后需将检查情况汇总至故障记录簿。（）",
+    "options": [],
+    "answer": "错误",
+    "analysis": "审核备注：定检后记录去向可能是定检/缺陷/故障记录；暂取错误，建议核对课件。",
+    "sourceIndex": "177",
+    "sourceId": "PV-177",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-J0178",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 178,
+    "index": 177,
+    "type": "judge",
+    "stem": "复杂作业工作票需附带危险点分析及控制单。（）",
+    "options": [],
+    "answer": "正确",
+    "analysis": "",
+    "sourceIndex": "178",
+    "sourceId": "PV-178",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-J0179",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 179,
+    "index": 178,
+    "type": "judge",
+    "stem": "单人值班场所所有倒闸操作都必须两人执行。（）",
+    "options": [],
+    "answer": "错误",
+    "analysis": "审核备注：单人值班场所倒闸操作是否必须两人执行取决于站内规程；暂取错误。",
+    "sourceIndex": "179",
+    "sourceId": "PV-179",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-J0180",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 180,
+    "index": 179,
+    "type": "judge",
+    "stem": "设备缺陷处理完毕后无需验收即可投入运行。（）",
+    "options": [],
+    "answer": "错误",
+    "analysis": "",
+    "sourceIndex": "180",
+    "sourceId": "PV-180",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-J0181",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 181,
+    "index": 180,
+    "type": "judge",
+    "stem": "应急组织机构必须明确应急总指挥、通讯员等岗位。（）",
+    "options": [],
+    "answer": "正确",
+    "analysis": "",
+    "sourceIndex": "181",
+    "sourceId": "PV-181",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-J0182",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 182,
+    "index": 181,
+    "type": "judge",
+    "stem": "智能营维分析系统的损耗分析只能按日统计，不支持按月 / 年统计。（）",
+    "options": [],
+    "answer": "错误",
+    "analysis": "",
+    "sourceIndex": "182",
+    "sourceId": "PV-182",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-J0183",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 183,
+    "index": 182,
+    "type": "judge",
+    "stem": "工作票主要用于规范倒闸操作，操作票主要用于检修作业安全许可。（）",
+    "options": [],
+    "answer": "错误",
+    "analysis": "",
+    "sourceIndex": "183",
+    "sourceId": "PV-183",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-J0184",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 184,
+    "index": 183,
+    "type": "judge",
+    "stem": "组串离散率过高，说明该逆变器下挂的组串存在故障、遮挡或异常。（）",
+    "options": [],
+    "answer": "正确",
+    "analysis": "",
+    "sourceIndex": "184",
+    "sourceId": "PV-184",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-J0185",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 185,
+    "index": 184,
+    "type": "judge",
+    "stem": "智能光伏电站监控系统仅能监控本厂家设备，无法对接第三方箱变、汇集站。（）",
+    "options": [],
+    "answer": "错误",
+    "analysis": "",
+    "sourceIndex": "185",
+    "sourceId": "PV-185",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-J0186",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 186,
+    "index": 185,
+    "type": "judge",
+    "stem": "生产管理系统中，交接班记录必须在系统内电子化留存，便于追溯。（）",
+    "options": [],
+    "answer": "正确",
+    "analysis": "",
+    "sourceIndex": "186",
+    "sourceId": "PV-186",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-J0187",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 187,
+    "index": 186,
+    "type": "judge",
+    "stem": "逆变器转换效率经验值约 98%，过高或过低均说明设备可能存在异常。（）",
+    "options": [],
+    "answer": "正确",
+    "analysis": "",
+    "sourceIndex": "187",
+    "sourceId": "PV-187",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-J0188",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 188,
+    "index": 187,
+    "type": "judge",
+    "stem": "光伏组件的热斑效应只能由外部遮挡引起，积灰不会导致热斑。",
+    "options": [],
+    "answer": "错误",
+    "analysis": "",
+    "sourceIndex": "188",
+    "sourceId": "PV-188",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-J0189",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 189,
+    "index": 188,
+    "type": "judge",
+    "stem": "光伏组件发生隐裂后，在EL成像中可以看到明显的暗区或黑线。",
+    "options": [],
+    "answer": "正确",
+    "analysis": "",
+    "sourceIndex": "189",
+    "sourceId": "PV-189",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-J0190",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 190,
+    "index": 189,
+    "type": "judge",
+    "stem": "接线盒湿热试验后，如果盒体与背板脱落，说明试验失败。",
+    "options": [],
+    "answer": "正确",
+    "analysis": "",
+    "sourceIndex": "190",
+    "sourceId": "PV-190",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-J0191",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 191,
+    "index": 190,
+    "type": "judge",
+    "stem": "光伏组件蜗牛纹的出现一定伴随着电池片隐裂。",
+    "options": [],
+    "answer": "错误",
+    "analysis": "",
+    "sourceIndex": "191",
+    "sourceId": "PV-191",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-J0192",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 192,
+    "index": 191,
+    "type": "judge",
+    "stem": "逆变器的孤岛保护功能是指当电网停电时，逆变器应继续给本地负载供电，以保障重要负荷运行。",
+    "options": [],
+    "answer": "错误",
+    "analysis": "",
+    "sourceIndex": "192",
+    "sourceId": "PV-192",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-J0193",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 193,
+    "index": 192,
+    "type": "judge",
+    "stem": "直流过电压故障可以通过减少光伏组件的串联数量或调整组件倾角来缓解。",
+    "options": [],
+    "answer": "正确",
+    "analysis": "审核备注：直流过电压可通过减少串联数量处理；‘调整倾角’作为缓解措施保留为正确但建议核对。",
+    "sourceIndex": "193",
+    "sourceId": "PV-193",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-J0194",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 194,
+    "index": 193,
+    "type": "judge",
+    "stem": "IGBT模块烧毁的整改措施包括对驱动板重新做三防处理、更换防尘棉和封堵风道空隙。",
+    "options": [],
+    "answer": "正确",
+    "analysis": "",
+    "sourceIndex": "194",
+    "sourceId": "PV-194",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-J0195",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 195,
+    "index": 194,
+    "type": "judge",
+    "stem": "漏电流故障一旦发生，只需要更换低质量的光伏组件即可彻底解决。",
+    "options": [],
+    "answer": "错误",
+    "analysis": "",
+    "sourceIndex": "195",
+    "sourceId": "PV-195",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-J0196",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 196,
+    "index": 195,
+    "type": "judge",
+    "stem": "断路器一合闸就跳闸，可能是出线回路有短路现象，可以反复多次合闸以确认故障点。",
+    "options": [],
+    "answer": "错误",
+    "analysis": "",
+    "sourceIndex": "196",
+    "sourceId": "PV-196",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-J0197",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 197,
+    "index": 196,
+    "type": "judge",
+    "stem": "变压器铁心两点接地会导致环流引起局部发热，严重时可能烧毁铁心。",
+    "options": [],
+    "answer": "正确",
+    "analysis": "",
+    "sourceIndex": "197",
+    "sourceId": "PV-197",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-J0198",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 198,
+    "index": 197,
+    "type": "judge",
+    "stem": "变压器在正常运行时发出的“嗡嗡”声不均匀，说明运行正常，无需检查。",
+    "options": [],
+    "answer": "错误",
+    "analysis": "",
+    "sourceIndex": "198",
+    "sourceId": "PV-198",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-J0199",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 199,
+    "index": 198,
+    "type": "judge",
+    "stem": "变压器过电压引起的故障很少发生，因为高压侧一般装有避雷器保护装置。",
+    "options": [],
+    "answer": "正确",
+    "analysis": "审核备注：变压器过电压故障是否‘很少发生’为课件口径题；暂取正确，建议核对。",
+    "sourceIndex": "199",
+    "sourceId": "PV-199",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-J0200",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 200,
+    "index": 199,
+    "type": "judge",
+    "stem": "当电压互感器低压保险熔断时，中央信号会报警“电压互感器断线”，且熔断相电压为零，另两相电压正常，不会出现零序电压。",
+    "options": [],
+    "answer": "正确",
+    "analysis": "",
+    "sourceIndex": "200",
+    "sourceId": "PV-200",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-J0201",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 201,
+    "index": 200,
+    "type": "judge",
+    "stem": "非金属性接地故障中，故障相电压会升高到线电压。",
+    "options": [],
+    "answer": "错误",
+    "analysis": "",
+    "sourceIndex": "201",
+    "sourceId": "PV-201",
+    "sourceGroup": "选择判断题"
+  },
+  {
+    "id": "PVOPS-B0202",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 202,
+    "index": 201,
+    "type": "blank",
+    "stem": "热斑效应的危害有哪些？",
+    "options": [],
+    "answer": "热斑可能会使光伏组件焊点熔化、封装材料损坏，降低输出功率，甚至会烧毁光伏组件，使整个光伏组件失效。",
+    "analysis": "",
+    "sourceIndex": "SA-01",
+    "sourceId": "PV-SA-01",
+    "sourceGroup": "简答题"
+  },
+  {
+    "id": "PVOPS-B0203",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 203,
+    "index": 202,
+    "type": "blank",
+    "stem": "光伏电站的生产管理内容主要有哪些？",
+    "options": [],
+    "answer": "工作票管理、操作票管理、倒闸操作管理、交接班管理、巡检管理、设备定期检查管理、调度联系管理制度、运行分析管理制度、设备缺点管理制度、中控室值班管理、文档与信息管理、人员培训管理。",
+    "analysis": "",
+    "sourceIndex": "SA-02",
+    "sourceId": "PV-SA-02",
+    "sourceGroup": "简答题"
+  },
+  {
+    "id": "PVOPS-B0204",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 204,
+    "index": 203,
+    "type": "blank",
+    "stem": "在光伏电站中，旁路二极管和防反充（防逆流）二极管的作用分别是什么？",
+    "options": [],
+    "answer": "旁路二极管：\n\n作用： 主要用于防止热斑效应。当光伏组件中的某个电池片或某串电池片被遮挡、损坏或出现故障时，它会产生高阻抗，阻碍电流通过。此时，旁路二极管（并联在该电池串两端）会提供一个低阻抗的旁路通道，让整串组件的电流绕过故障部分，从而保护该电池串不被反向电压击穿或过热烧毁，同时保证了整个组串的电流通路。\n\n防反充（防逆流）二极管：\n\n作用： 主要用于防止在夜间或光照不足时，蓄电池或电网的电流反向流回光伏组件。因为光伏组件在无光照时相当于一个电阻负载，电流反向流过会消耗蓄电池电能，甚至可能损坏组件。该二极管串联在光伏组件的正极输出线路上，利用其单向导电性，只允许电流从组件流向负载（蓄电池或逆变器），阻止了反向电流。",
+    "analysis": "",
+    "sourceIndex": "SA-03",
+    "sourceId": "PV-SA-03",
+    "sourceGroup": "简答题"
+  },
+  {
+    "id": "PVOPS-B0205",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 205,
+    "index": 204,
+    "type": "blank",
+    "stem": "光伏组件电气连接时需要考虑的原则有哪些？",
+    "options": [],
+    "answer": "1)串联时需要工作电流相同的光伏组件，并为每个光伏组件并联旁路二极管。\n\n2)并联时需要工作电压相同的光伏组件，并在每一条并联线路中串联防反充二极管。\n\n3)尽量使光伏组件的连接线路最短，并用较粗的导线。\n\n4)严格防止个别性能变坏的光伏组件混入光伏方阵。",
+    "analysis": "",
+    "sourceIndex": "SA-04",
+    "sourceId": "PV-SA-04",
+    "sourceGroup": "简答题"
+  },
+  {
+    "id": "PVOPS-B0206",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 206,
+    "index": 205,
+    "type": "blank",
+    "stem": "光伏组件的常见故障有哪些？",
+    "options": [],
+    "answer": "光伏组件的常见故障主要有光伏组件的破裂，如隐裂、光伏组件外力机械损坏等，热斑，接线盒故障以及其他故障，比如光伏组件PID现场，光伏组件的闪电纹现场，太阳能电池片与EVA胶膜脱层、光伏组件的连接线或连接头断裂等。",
+    "analysis": "",
+    "sourceIndex": "SA-05",
+    "sourceId": "PV-SA-05",
+    "sourceGroup": "简答题"
+  },
+  {
+    "id": "PVOPS-B0207",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 207,
+    "index": 206,
+    "type": "blank",
+    "stem": "请阐述开关柜防护要求中的电气五防的定义？",
+    "options": [],
+    "answer": "开关柜防护要求中的“五防\"是:防止误分误合断路器、防止带电分合隔离开关、防止带电合接地刀闸、防止带接地刀闸分合断路器、防止误入带电间隔。开关柜具有一定的操作程序及机械或电气联锁机构。实践证明，无“五防”功能或“五防”功能不全是造成电力事故的主要原因。",
+    "analysis": "",
+    "sourceIndex": "SA-06",
+    "sourceId": "PV-SA-06",
+    "sourceGroup": "简答题"
+  },
+  {
+    "id": "PVOPS-B0208",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 208,
+    "index": 207,
+    "type": "blank",
+    "stem": "如何通过五点四段RP分析，实现电站的损耗定位？",
+    "options": [],
+    "answer": "电站侧设备众多，为了量化、评估电站每个环节的损耗情况，建立五点四段损耗模型。通过理论发电量、逆变器输入电量、逆变器输出电量、箱变输出电量、上网电量五个采集点，把电站损耗模型分为组串环境及失配损耗、逆变器损耗、线缆损耗和并网损耗四段。通过多电站各损耗段间横向、纵向和时间维度对比，找出电站损耗较大的损耗段。",
+    "analysis": "",
+    "sourceIndex": "SA-07",
+    "sourceId": "PV-SA-07",
+    "sourceGroup": "简答题"
+  },
+  {
+    "id": "PVOPS-B0209",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 209,
+    "index": 208,
+    "type": "blank",
+    "stem": "光伏电站主要包含哪些设备？",
+    "options": [],
+    "answer": "（1）光伏组件（光伏阵列）\n\n光伏电站的最核心部件，将太阳能转换为直流电能。\n\n常见类型：单晶硅、多晶硅、薄膜组件。\n\n关键参数：开路电压、短路电流、峰值功率、转换效率等。\n\n（2）汇流箱\n\n将多路光伏组串的直流电汇集成一路或多路输出。\n\n内部包含直流熔断器、防反二极管、防雷器（SPD）、监测模块等。\n\n有智能汇流箱和普通汇流箱之分，智能汇流箱具备监测组串电流、电压、功率及通讯功能。\n\n（3）交直流配电柜\n\n（4）逆变器\n\n将光伏组件产生的直流电转换为符合电网要求的交流电。\n\n是光伏电站的核心设备，兼具MPPT跟踪、孤岛保护、有功/无功调节等功能。\n\n类型：集中式逆变器（用于大型地面电站）、组串式逆变器（用于分布式或复杂地形）、微型逆变器。\n\n（5）箱式变压器（箱变）\n\n将逆变器输出的低压交流电（如0.48kV/0.8kV）升压至中高压（如10kV/35kV）并入电网。\n\n包含高压熔断器、负荷开关、变压器本体、低压侧断路器等。\n\n（6）开关柜（高压开关柜）\n\n用于控制和保护输配电线路，实现电能的分配和通断。\n\n具备\"电气五防\"功能，保障操作安全。\n\n内部包含断路器、隔离开关、电流互感器（CT）、电压互感器（PT）、避雷器等。\n\n（7）静止无功发生器\n\n（8）电缆（直流电缆 + 交流电缆）\n\n（9）防雷接地系统\n\n（10）监控系统",
+    "analysis": "",
+    "sourceIndex": "SA-08",
+    "sourceId": "PV-SA-08",
+    "sourceGroup": "简答题"
+  },
+  {
+    "id": "PVOPS-B0210",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 210,
+    "index": 209,
+    "type": "blank",
+    "stem": "两票三制分别是什么？",
+    "options": [],
+    "answer": "两票：\n\n工作票： 在电力生产设备上工作，进行检修、试验、安装等作业时，为保障安全而使用的书面命令和许可凭证。\n\n操作票： 在进行电气设备的倒闸操作时，为保障操作正确性、防止误操作而填写的操作步骤和顺序的书面依据。\n\n三制：\n\n交接班制度： 运行人员交接班时，必须将设备运行状况、操作任务、注意事项等全面交接清楚。\n\n巡回检查制度： 运行值班人员按规定的时间、路线、内容对设备进行定期巡视检查，及时发现设备异常。\n\n设备定期试验轮换制度： 对备用设备和某些辅助设备按规定周期进行启动、切换试验，确保其处于良好备用状态。",
+    "analysis": "",
+    "sourceIndex": "SA-09",
+    "sourceId": "PV-SA-09",
+    "sourceGroup": "简答题"
+  },
+  {
+    "id": "PVOPS-B0211",
+    "courseId": "photovoltaic-operations",
+    "paperId": "PVOPS-BANK",
+    "paperIndex": 211,
+    "index": 210,
+    "type": "blank",
+    "stem": "热斑效应的防范措施有哪些？",
+    "options": [],
+    "answer": "为了防止出现热斑，应该在生产阶段控制太阳能电池内部的杂质，在太阳电池组件的正负极间并联一个旁路二极管，以避免光照组件所产生的能量被受遮蔽的光伏组件消耗。\n\n在应用中需要注意的事项如下所述。\n\n按要求对光伏组件进行检测，确定其承受热斑效应的能力。\n\n采用性能一致性好的太阳能电池或光伏组件。\n\n安装位置应保证光伏组件尽量不被遮挡。\n\n及时清理维护，除去光伏组件表面污染物。",
+    "analysis": "",
+    "sourceIndex": "SA-10",
+    "sourceId": "PV-SA-10",
+    "sourceGroup": "简答题"
+  }
+]

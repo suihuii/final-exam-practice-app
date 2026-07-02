@@ -681,7 +681,7 @@ function isRecord(value: unknown): value is Record<string, unknown> {
 }
 
 function isQuestionId(value: unknown): value is string {
-  return typeof value === "string" && /^(Q\d{4}|PS-Q\d{4}|AE-P\d+-Q\d{4}|PP-Q\d{4})$/.test(value);
+  return typeof value === "string" && /^(Q\d{4}|PS-Q\d{4}|AE-P\d+-Q\d{4}|PP-Q\d{4}|PVOPS-[SMJB]\d{4})$/.test(value);
 }
 
 function mapPowerSupplyId(questionId: string): string {

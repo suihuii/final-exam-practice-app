@@ -26,5 +26,12 @@
     "shortName": "建工管理",
     "description": "建设工程项目管理期末复习题库",
     "questionFile": "questions/construction-management.json"
+  },
+  {
+    "id": "photovoltaic-operations",
+    "name": "光伏电站运行与维护",
+    "shortName": "光伏运维",
+    "description": "学习通光伏电站运行、生产管理、设备故障与安全运维题库。",
+    "questionFile": "questions/photovoltaic-operations.json"
   }
 ]
